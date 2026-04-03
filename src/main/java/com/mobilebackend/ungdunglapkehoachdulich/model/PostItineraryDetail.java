@@ -20,7 +20,7 @@ public class PostItineraryDetail {
     @Column(name = "itinerary_detail_id")
     private Integer itineraryDetailId;
 
-    private String status;
+    private String status; // 0: chua di, 1: da di
 
     @Column(name = "user_id")
     private Integer userId;

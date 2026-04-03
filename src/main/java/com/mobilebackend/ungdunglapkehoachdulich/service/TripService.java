@@ -77,7 +77,7 @@ public class TripService {
                         PostItineraryDetail postItineraryDetail = PostItineraryDetail.builder()
                                 .itineraryDetailId(itineraryDetail.getId())
                                 .postId(entry.getValue())
-                                .status("1")
+                                .status("0")
                                 .userId(userId)
                                 .build();
                         postItineraryDetailRepo.save(postItineraryDetail);

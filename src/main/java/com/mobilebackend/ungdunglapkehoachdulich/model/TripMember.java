@@ -23,5 +23,5 @@ public class TripMember {
     @Column(name = "user_id")
     private Integer userId;
 
-    private Integer status;
+    private Integer status; // 0: khong tham gia, 1: tham gia
 }

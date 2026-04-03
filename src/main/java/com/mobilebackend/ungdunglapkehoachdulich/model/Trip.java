@@ -27,7 +27,7 @@ public class Trip {
     @Column(name = "end_date")
     private LocalDate endDate;
 
-    private String status;
+    private String status; // 1:tao chuyen di thanh cong, 0: tao chuyen di that bai
 
     @Column(name = "user_id")
     private Integer userId;
