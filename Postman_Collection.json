@@ -1,0 +1,342 @@
+{
+  "info": {
+    "name": "Travel Booking & Finance API",
+    "description": "Test suite cho Huy's booking và finance APIs",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "🧪 Setup: Create Trip",
+      "item": [
+        {
+          "name": "1. Create Trip (for booking/finance)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userId\": 1,\n  \"tripName\": \"HCM Trip 2026\",\n  \"destination\": \"Ho Chi Minh City\",\n  \"startDate\": \"2026-04-05\",\n  \"endDate\": \"2026-04-10\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/v1/trips",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["api", "v1", "trips"]
+            }
+          }
+        },
+        {
+          "name": "2. Create Trip (optional)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userId\": 2,\n  \"tripName\": \"Da Nang Trip 2026\",\n  \"destination\": \"Da Nang\",\n  \"startDate\": \"2026-05-01\",\n  \"endDate\": \"2026-05-03\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/v1/trips",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["api", "v1", "trips"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "✈️ BOOKING APIs",
+      "item": [
+        {
+          "name": "Create Flight Booking",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userId\": 1,\n  \"totalAmount\": 2500000,\n  \"paymentStatus\": \"PENDING\",\n  \"pnrCode\": \"ABCD12\",\n  \"flightNumber\": \"VN123\",\n  \"departureAirport\": \"HAN\",\n  \"arrivalAirport\": \"SGN\",\n  \"departureTime\": \"09:30:00\",\n  \"arrivalTime\": \"11:40:00\",\n  \"payment\": {\n    \"transactionNo\": \"TXN-FLIGHT-001\",\n    \"amount\": 2500000,\n    \"paymentDate\": \"2026-03-30\"\n  }\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/v1/trips/1/bookings/flights",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["api", "v1", "trips", "1", "bookings", "flights"]
+            }
+          }
+        },
+        {
+          "name": "Create Hotel Booking",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userId\": 1,\n  \"totalAmount\": 2500000,\n  \"paymentStatus\": \"PENDING\",\n  \"roomType\": \"Deluxe Double\",\n  \"checkInDate\": \"2026-04-05\",\n  \"checkOutDate\": \"2026-04-07\",\n  \"payment\": {\n    \"transactionNo\": \"TXN-HOTEL-001\",\n    \"amount\": 2500000,\n    \"paymentDate\": \"2026-03-30\"\n  }\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/v1/trips/1/bookings/hotels",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["api", "v1", "trips", "1", "bookings", "hotels"]
+            }
+          }
+        },
+        {
+          "name": "Create Coach Booking (Vé xe liên tỉnh)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userId\": 1,\n  \"totalAmount\": 450000,\n  \"paymentStatus\": \"PENDING\",\n  \"name\": \"Tuyến Hà Nội - TP.HCM\",\n  \"seat\": \"A12\",\n  \"pickUp\": \"Bến xe Mỹ Đình\",\n  \"dropOff\": \"Bến xe Miền Đông\",\n  \"plateNumber\": \"29A-123.45\",\n  \"departureDate\": \"2026-04-05\",\n  \"departureTime\": \"18:00:00\",\n  \"payment\": {\n    \"transactionNo\": \"TXN-XE-001\",\n    \"amount\": 450000,\n    \"paymentDate\": \"2026-03-30\"\n  }\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/v1/trips/1/bookings/coaches",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["api", "v1", "trips", "1", "bookings", "coaches"]
+            }
+          }
+        },
+        {
+          "name": "Create Restaurant Booking",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userId\": 1,\n  \"totalAmount\": 500000,\n  \"paymentStatus\": \"PENDING\",\n  \"address\": \"Nhà hàng Tiệp Khắc, Q1, HCM\",\n  \"reservationTime\": \"19:00:00\",\n  \"numberOfGuests\": 4,\n  \"payment\": {\n    \"transactionNo\": \"TXN-REST-001\",\n    \"amount\": 500000,\n    \"paymentDate\": \"2026-03-30\"\n  }\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/v1/trips/1/bookings/restaurants",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["api", "v1", "trips", "1", "bookings", "restaurants"]
+            }
+          }
+        },
+        {
+          "name": "Get All Bookings",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/api/v1/trips/1/bookings",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["api", "v1", "trips", "1", "bookings"]
+            }
+          }
+        },
+        {
+          "name": "Update Payment Status",
+          "request": {
+            "method": "PATCH",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/api/v1/trips/1/bookings/1/payment-status?status=PAID",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["api", "v1", "trips", "1", "bookings", "1", "payment-status"],
+              "query": [
+                {
+                  "key": "status",
+                  "value": "PAID"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "💰 FINANCE APIs",
+      "item": [
+        {
+          "name": "Upsert Budget (Thêm/sửa ngân sách)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"category\": \"food\",\n  \"limitAmount\": 3000000\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/v1/trips/1/budget",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["api", "v1", "trips", "1", "budget"]
+            }
+          }
+        },
+        {
+          "name": "Get Trip Budgets",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/api/v1/trips/1/budget",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["api", "v1", "trips", "1", "budget"]
+            }
+          }
+        },
+        {
+          "name": "Create Expense (Ghi chi tiêu)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userId\": 1,\n  \"amount\": 250000,\n  \"category\": \"food\",\n  \"description\": \"Bua toi ngay 1\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/v1/trips/1/expenses",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["api", "v1", "trips", "1", "expenses"]
+            }
+          }
+        },
+        {
+          "name": "Get Trip Expenses",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/api/v1/trips/1/expenses",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["api", "v1", "trips", "1", "expenses"]
+            }
+          }
+        },
+        {
+          "name": "Add Expense Splits (Chia chi phí)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "[\n  { \"userId\": 1, \"owedAmount\": 125000, \"isSettled\": 1 },\n  { \"userId\": 2, \"owedAmount\": 125000, \"isSettled\": 0 }\n]"
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/v1/trips/1/expenses/1/splits",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["api", "v1", "trips", "1", "expenses", "1", "splits"]
+            }
+          }
+        },
+        {
+          "name": "Get Expense Splits",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/api/v1/trips/1/expenses/1/splits",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["api", "v1", "trips", "1", "expenses", "1", "splits"]
+            }
+          }
+        },
+        {
+          "name": "Get Trip Balance (Số dư còn lại)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/api/v1/trips/1/finance/balance",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["api", "v1", "trips", "1", "finance", "balance"]
+            }
+          }
+        },
+        {
+          "name": "Get Category Analytics (Biểu đồ chi tiêu)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/api/v1/trips/1/expenses/analytics?groupBy=category",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["api", "v1", "trips", "1", "expenses", "analytics"],
+              "query": [
+                {
+                  "key": "groupBy",
+                  "value": "category"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
+
