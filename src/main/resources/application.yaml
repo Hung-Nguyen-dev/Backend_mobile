@@ -1,6 +1,10 @@
 spring:
   application:
     name: ungdunglapkehoachdulich
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
 # Cấu hình kết nối db
   datasource:
     url: jdbc:mysql://localhost:3306/ung_dung_lap_ke_hoach_du_lich?useSSL=false&serverTimezone=Asia/Ho_Chi_Minh
