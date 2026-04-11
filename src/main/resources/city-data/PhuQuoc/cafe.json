@@ -1,0 +1,614 @@
+[
+  {
+    "title": "MIX BAKERY COFFEE & TEA",
+    "address": "An Giang",
+    "rating": 4.5,
+    "reviews": 591,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e119c2312bd00c902de/images/OMhUuPKOfebIRgFn0q24NIYKBzvJxp60j8Va2aGPs7I.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer6_HkgAxuD9jBK219q3estc6yVhmFcptFuAaAu9dCbZrE8e5SnxzXcoORwzDnytR58v6W4vB7kfYHmaWlCN6j4uyb84f-Jn9sgIY2QB_6Ng_ZgsC95MefRLCk8ws-uGpy9p1eU0A=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.216713,
+      "longitude": 103.969986
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán decor đẹp, phong cách cổ điển ... nơi đáng để thư giãn.\"",
+    "place_id": "2638049910742036866"
+  },
+  {
+    "title": "Zyzu Kafé",
+    "address": "An Giang",
+    "rating": 4.4,
+    "reviews": 323,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e119c2312bd00c902de/images/f2pI9e83DYEjuTnm59MmYpLIpv1hoW-tI6KtNOr4VSY.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq1g9Ox2vOJYljnu5gnh228T6ysJ34XYZ8IWsmDM_c2E9bm-tvjzFPDnswcUrgtdKIiuSaS8zS2gbUg4p7tR4IeA4pUIUdktLH3qQXBmJWsivcVIuJquH9uBOU5_bw9qfnYPAGN=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.208609,
+      "longitude": 103.96641
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"quán có view như đà lạt, giá ổn nhưng đồ uống chưa được tốt lắm\"",
+    "place_id": "11179669695891213855"
+  },
+  {
+    "title": "HD cafe",
+    "address": "An Giang",
+    "rating": 4.5,
+    "reviews": 308,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e119c2312bd00c902de/images/q9fbaERQSrLRZ1FYrTwdBAcj5QZsfrgVmJRwXbGABxc.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep07J3P-v2xfx1M8QBki7s3_p4-rqWkmvhs0CfgwnrWT4Gq7x3dx_eGQYAnJbn3KrCHvPGv9hYbQu4oE-upFuFYy8mDSBfm6yeKMLi9mPiEBCWyIIICcXzphq_zrFPpT2DoVaxOOq_Hogg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.215084,
+      "longitude": 103.96593
+    },
+    "hours": "Sắp đóng cửa · 22:30",
+    "price": "1-100.000 ₫",
+    "description": "\"Nuoc uống ngon,view đẹp nhiều gốc chup hình chill chill\"",
+    "place_id": "6439316928123035754"
+  },
+  {
+    "title": "Highlands Coffee 97 Trần Hưng Đạo PQ",
+    "address": "An Giang",
+    "rating": 3.9,
+    "reviews": 226,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e119c2312bd00c902de/images/slC6d0cX1um4Ye_9KaWuyeUbK-xSJ9a5Qw0Re7IHtkY.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweonRkzulvM-B3AzVFv4O1lIGPj0miE9spkuj-MXvXb79drPZl0RAwtNicKFdtm96edhn-Lvv_aOVm3Lv13bRsqz6biJi7tPRcQ3JyCGRwXpNkm2NbMFhSw1EiOZp0Pxf4wyhfuD=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.20514,
+      "longitude": 103.96398
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Menu và các món cũng tương tự như các chi nhánh Highlands khác.\"",
+    "place_id": "17406783065666366617"
+  },
+  {
+    "title": "Hoa Đảo Viên Coffee - Phú Quốc",
+    "address": "An Giang",
+    "rating": 4.6,
+    "reviews": 216,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e119c2312bd00c902de/images/HC3UeHMDLN-lMVte0nTrJQvRp7R0GTejRmz-Ty9S4jY.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo6qgcivXehti0Cd_CqD3KeyFXFDqV8jcGUT72lIJ0HfGyjOt78HwyMhfOMtxWgFXFv6RXgjWsKVMXZ8odGZAtDh6657LObkZ6naWTENbFhvpjVw6NjrQLhv2KnHDn8YGPA7NFD=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.234982,
+      "longitude": 103.965096
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": "1-100.000 ₫",
+    "description": "\"Ba mẹ trẻ có thể vừa nhâm nhi đồ uống vừa trông con rất nhàn.\"",
+    "place_id": "8016299271424709044"
+  },
+  {
+    "title": "Cung Cafe.",
+    "address": "An Giang",
+    "rating": 4.2,
+    "reviews": 200,
+    "type": "Quán cà phê",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo5Rm1I9nbsLYrM8JhbUaFIBhzAJvj_7Fz1hrUdeclo3ckUI6L9WAY3gO1lT3XdaZ6Ip9j7XBuOTshY-PXKjwWjiF6A7dOYAdjIlIfP89B8gWCMibhTMDna6WC2R1CT7yHl8Kw9Eg=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo5Rm1I9nbsLYrM8JhbUaFIBhzAJvj_7Fz1hrUdeclo3ckUI6L9WAY3gO1lT3XdaZ6Ip9j7XBuOTshY-PXKjwWjiF6A7dOYAdjIlIfP89B8gWCMibhTMDna6WC2R1CT7yHl8Kw9Eg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.216514,
+      "longitude": 103.960976
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán có view sông đẹp, yên tĩnh, chill chill...\"",
+    "place_id": "12525412228426460676"
+  },
+  {
+    "title": "Soul Match - Matcha, Coffee & More",
+    "address": "An Giang",
+    "rating": 5,
+    "reviews": 191,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e119c2312bd00c902de/images/3DPpzTAZ6Msp_ShQ9rEeqymbYcOOl19nBsFddykT6r0.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweornfJ7f8hxHJPblbxKfwOGWm9Ty3x7gTUWWA-P_JUSK0hAhoJbV___o7huzcakv9VWaEJMW8A9Bf1TobSsjY0heBDIWfuz7H2_nLjRqjULd4Ep2kaHoCZBsmZngmt2M4BvnK3HYRPKLS4=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.224663,
+      "longitude": 103.97134
+    },
+    "hours": "Sắp đóng cửa · 22:30",
+    "price": "1-100.000 ₫",
+    "description": "\"Quán chill yên tĩnh, nhân viên thân thiện, hòa đồng, thiết kế quán đẹp.\"",
+    "place_id": "9004740525240202798"
+  },
+  {
+    "title": "Cà Phê Bàng",
+    "address": "An Giang",
+    "rating": 4.5,
+    "reviews": 186,
+    "type": "Quán cà phê",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoA_jOv7BuNA36zbcLpGUs-s7obBcLdMPN-e1TwtMfa4FMc6NAebrrnN8w1HltXXGAuZF78oP9-e_Ce5RXsNNNHcjAGC0YC4YonM268Bn8eodn0NhlQbNeVLSbsn7CJa29giH4djinRVTAX=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoA_jOv7BuNA36zbcLpGUs-s7obBcLdMPN-e1TwtMfa4FMc6NAebrrnN8w1HltXXGAuZF78oP9-e_Ce5RXsNNNHcjAGC0YC4YonM268Bn8eodn0NhlQbNeVLSbsn7CJa29giH4djinRVTAX=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.231898,
+      "longitude": 103.95238
+    },
+    "hours": "Sắp đóng cửa · 22:30",
+    "price": "1-100.000 ₫",
+    "description": "\"đồ uống ngon,view bao đẹp\"",
+    "place_id": "5492233009510054443"
+  },
+  {
+    "title": "HighLands Coffee",
+    "address": "An Giang",
+    "rating": 3.8,
+    "reviews": 180,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e119c2312bd00c902de/images/T0-3tcJsFEwJB3CGOT8v3tPIjAhhlLYkmTqiFkSV4rE.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq7kmE8VKGIG4bvqUdeAmzbkxZedx7F_L25YBORv9iu9tbecPC52m-A9WoNoVilFNxlQqh4xPz67eIcD-fYqC9mTmC3Hvmm34hq2neaYmDR5fRaPSgcn-4-U9OCE9QOGQqiHpA_YQ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.2139845,
+      "longitude": 103.963
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Cafe hợp với người ko uống đường như mình\"",
+    "place_id": "9581606065210991558"
+  },
+  {
+    "title": "3 Ngon restaurant Seafood",
+    "address": "An Giang",
+    "rating": 4.6,
+    "reviews": 158,
+    "type": "Đồ hải sản",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwertUTELBfNqFESddsTkT_ij63Wv8pJ7v_96sKH9PNnGTa3w1zL2LIndnHR7dWfCMAwdnplhvUtRp0skUhOFCIz28UYkFhVfXtAr2z3WRKN-2axNwQ_ndX_as9y0xuc1a4xGBNBUGw=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwertUTELBfNqFESddsTkT_ij63Wv8pJ7v_96sKH9PNnGTa3w1zL2LIndnHR7dWfCMAwdnplhvUtRp0skUhOFCIz28UYkFhVfXtAr2z3WRKN-2axNwQ_ndX_as9y0xuc1a4xGBNBUGw=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.216316,
+      "longitude": 103.961296
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Beefsteak các món còn lạnh chưa nóng hẳn.\"",
+    "place_id": "10437002416764029924"
+  },
+  {
+    "title": "Đồi Trăng Beer Garden",
+    "address": "An Giang",
+    "rating": 4.8,
+    "reviews": 153,
+    "type": "Văn phòng công ty",
+    "thumbnail": "https://serpapi.com/searches/69d91945abe7ec04069ddaaf/images/HFEAFopU-V-IljGrea7JPztzcS4vFHntBfIyrafq4oA.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqB4Va0EP9FdNQ4cuhXfotvQZ5HOfgo57t8p68aIPCeQDBdrbQDjKp2xMUpdjCRlmFzLpE6HGVFQugt5RNlxJUMSRpxjPJ_MSLVa8eRx90sUsM7CptNsRcYSedohs3mapKSFJ4nvg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.216175,
+      "longitude": 103.972275
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Café đang sửa chữa, một tháng nữa sẽ thay đổi toàn bộ, mô hình đa dạng.\"",
+    "place_id": "9757666463612020105"
+  },
+  {
+    "title": "Sofi",
+    "address": "An Giang",
+    "rating": 3.9,
+    "reviews": 133,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d91945abe7ec04069ddaaf/images/NWZyG-V5pGoE6sGcIcAnJS9uYwV9JF5VTpTDMZ7G4f8.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqKfUB84vN257BYzH7_DmdPCIVmbFrKYJOVN3Yaz7ilfcRnexbidzqnXT3EARPd2Z1QRcpEDuKqcPKB1lDAmD1lMukxsNMWHhPZ_4LioGxlugnxZV8FmX7bRAwN5pEfaMZfkuTLlg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.219652,
+      "longitude": 103.958755
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Mình chỉ dừng chân uống một ly cafe nhưng thật sự rất thích!\"",
+    "place_id": "7717437980323566903"
+  },
+  {
+    "title": "Cà phê muối TiTan Coffee & Tea",
+    "address": "An Giang",
+    "rating": 4.9,
+    "reviews": 120,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e119c2312bd00c902de/images/d2nTbsOYo9DJ5DcuqzcyGke2pxJxscayCnwutEy3egg.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqwWgvXo-szQIDPozATJQTMO_CLrGXkI2w6W0m6qx-cO2ehqfE5bTP26cjydiRHAgG9xKENlBzd-27tNYZodai5ZmjBjOvn-hQ0OV4JMNAh7mfMtIjbZv6vdLXNM46R1J7EXZGX=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.213601,
+      "longitude": 103.96493
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": "1-100.000 ₫",
+    "description": "\"Nước uống ngon bổ rẽ, có chỗ đậu xe hơi\"",
+    "place_id": "17296644736407873421"
+  },
+  {
+    "title": "58 CAFÉ",
+    "address": "An Giang",
+    "rating": 4.6,
+    "reviews": 116,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e119c2312bd00c902de/images/Y8heBVDIwQOogRSugcYgUGnb86de8mXDNdFtnNGCznA.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep2xDaYR_efrwAMfPgQXlmi6LABRb_NzaOY2ABjAwKNz9B1rKeaLkhrPOGIRvR7cW3_BdXoIJkQqFgi_aJR1vLw07ceLjhA0xD6EH48_YTYTR85FOS4sBs2ALSapGAG5EeGWe7zmg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.224396,
+      "longitude": 103.96937
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": "1-100.000 ₫",
+    "description": "\"Quán thoát mát, nhân viên nhiệt tình , dễ thương, nước uống ngon\"",
+    "place_id": "7648931050559736589"
+  },
+  {
+    "title": "Good Cafe and Tea express",
+    "address": "An Giang",
+    "rating": 4.7,
+    "reviews": 106,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d91945abe7ec04069ddaaf/images/PzkwF4Qv4o9bsx5oKzJ0HRWyPz_IL7cu6I1Lh3v1ZN0.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoaeE3inj_VI33_jz5MrTaA33MlLmitKoZYyEEGVclWwcPRl2sGVoqDKdHaj3RmdD7-tA9xhoc7CxpHF4WtsRPRamTTPfSAovZxwhc1J5hpOB_n1s_ggYsdgAsSaZJYXBZCHQoR=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.222612,
+      "longitude": 103.97313
+    },
+    "hours": "Sắp đóng cửa · 23:00",
+    "price": "1-100.000 ₫",
+    "description": "\"Đồ uống trang trí đẹp mắt, chất lượng, giá thành học sinh, sinh viên nha.\"",
+    "place_id": "2176623547428144333"
+  },
+  {
+    "title": "Highlands Coffee Nguyễn Trung Trực - Phú Quốc",
+    "address": "An Giang",
+    "rating": 4.1,
+    "reviews": 98,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d91945abe7ec04069ddaaf/images/6a128oMVzeMhrNxFuGkQ31u7q3euJcyzwhGYz3JuVNg.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwermueGDsYCXBDPZ-P3fCLpcr26MMSlELyt6kAE55Sjm004kRqk4cOz35wbvjq2Dv-IzUI98AI-KuBIcGwk4WLIDeNcc_aqnACM_MZ8qro6-ZVepe30y6FxovRRRppvBgF4mLcc=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.222567,
+      "longitude": 103.96265
+    },
+    "hours": "Sắp đóng cửa · 23:00",
+    "price": "1-100.000 ₫",
+    "description": "\"Thức uống đa dạng, ngon, không gian yên tĩnh, sang trọng\"",
+    "place_id": "279326173220491176"
+  },
+  {
+    "title": "Ola coffee shop",
+    "address": "An Giang",
+    "rating": 4.5,
+    "reviews": 84,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e119c2312bd00c902de/images/CQSwAeHkiFg6PxkB8qUOWG7PHhnqS6ptxbNRTZYDYdU.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqxOdbJULDh5L8rFVENZPt9qc2Da3E-KIKEACJjbY9mePuTSi5V1lKCftcuCGZkvyrO9X9b137BHAecJ1t4oKbJIVpCV_eXyfiVKdXLO0HszJwYx68gdRu1PiJiqGarQytR2Kfx=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.212004,
+      "longitude": 103.959335
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": "1-100.000 ₫",
+    "description": "\"Quán đẹp giá tốt Khách đông Quán thoáng mát\"",
+    "place_id": "259225130330347936"
+  },
+  {
+    "title": "Cafe ảo thuật",
+    "address": "An Giang",
+    "rating": 5,
+    "reviews": 58,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e119c2312bd00c902de/images/9pd1HyFQ6O2DBtWu1JfqH3mnRW0WbESZl_X-HmTJXhA.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq0dUGRLZ2gAYnByNSclyQVJhwR0FxUUMtH7FICFfldN8yEZKmLGyudR8fnwv8u6eXmEhTHkcuKpcKuUJfMASEYU55IAE7f-8OlG3rCUbmulo7Xx-KsFd62O0R_GttFym3jlvFPhQ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.21401,
+      "longitude": 103.9665
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán đẹp, nước uống ngon, giá hạt dẻ ,chủ quán nhiệt tình.\"",
+    "place_id": "15784428337510904263"
+  },
+  {
+    "title": "Shan - Trà Cổ Thụ Phú Quốc",
+    "address": "An Giang",
+    "rating": 4.3,
+    "reviews": 57,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d91945abe7ec04069ddaaf/images/X4kNVOMn5SB1v93rT887MhidZH_-arKZVjBg-tfyq3U.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepSy6QWn9w424wEa2qF_gXDo3i23ySpWlpx_DS-5iGOaJ3KT1BJJGEJfk5cCfRYsVEowUSgk-u7oRInga5ClOyTYdsz3kQVpXuLSbY9J75Bok61mNe4sjMAU4sUsaqHxcsWDtfFqOdFRcxp=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.222931,
+      "longitude": 103.97122
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Không khí ồn Cần phục vụ dọn bàn Nước làm lâu, được cái nước ngon\"",
+    "place_id": "13300700808437132033"
+  },
+  {
+    "title": "An Nhiên Coffee | Местная кофейня | 동네 카페 안연",
+    "address": "An Giang",
+    "rating": 5,
+    "reviews": 42,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d91945abe7ec04069ddaaf/images/FdMpJCDClZ_tVBlZ_CPBBssL1jCLtADIxNz6soP9ESQ.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepwYlmnEHsUMtF2JGOxw3bH9NEtFrTd9ULc7aVzRXnfQqQS2NPs4rSrK05950zcsXvjE4Ju1zHFaOtS8nRz_vlHZikFyNLS0uKkpod58Z13zK_788xwl_NMj1YmIaKQfLF8M_l9_2rPTDE=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.2170725,
+      "longitude": 103.97081
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 6:00 Thứ 7",
+    "price": "1-100.000 ₫",
+    "description": "\"Đồ uống ngon, nhân viên nhiệt tình, không gian thoáng mát.\"",
+    "place_id": "14446014222561523823"
+  },
+  {
+    "title": "Coffee pho bien",
+    "address": "2 Đường Bạch Đằng",
+    "rating": 4.6,
+    "reviews": 38,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e119c2312bd00c902de/images/V0LUOVEnHC-VZvhftf1VOFqpK84IcaeN034nRjtTw5E.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerjSPIQN-61XJCJC4X4M6tzsCUlIiZCbqqR5abgsV29LJ_uvjvU9hQavve-rPYSGhRPNjYUsjYKOt80oqC6p7dDM2VbER-4nfYzNbcaeLithn2kZUO1ZoInfpUNE3l3A_Pl9Tw=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.216721,
+      "longitude": 103.957146
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Nước uống ko có gì đặc biệt tuy nhiên giá cả hợp lý và view thì miễn chê.\"",
+    "place_id": "15553999657948706536"
+  },
+  {
+    "title": "CHUYỆN CHÚNG MÌNH Coffee",
+    "address": "An Giang",
+    "rating": 5,
+    "reviews": 34,
+    "type": "Quán cà phê espresso",
+    "thumbnail": "https://serpapi.com/searches/69d91945abe7ec04069ddaaf/images/zTAFfS3AidrUvcZGH8XUI_4lMnRYupr4S3oc7vKSDqo.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoSuRzcx7zgc7lGRiEha9G5PUPBHsygjKF0pvKrGP-KRhk2pyNRxk1cefhh3HWD3SC4ZpSoR4Z-TJH9iTa3H6l5s1BRzK4KO8bzS42iC3Xp6YGr_ajC5sQND1Z0ObdY8bCf25fJ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.22889,
+      "longitude": 103.95467
+    },
+    "hours": "Sắp đóng cửa · 23:00",
+    "price": "1-100.000 ₫",
+    "description": "\"Đồ uống thì ngon, không gian thì chill\"",
+    "place_id": "14943814719277185558"
+  },
+  {
+    "title": "Tiệm Cà Phê Đồng Giao",
+    "address": "An Giang",
+    "rating": 4.9,
+    "reviews": 31,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e119c2312bd00c902de/images/Iigqq6-5tpznieGDY_otbOsE9S3ATuYu8Iw6RQuP5KA.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoJrK8Y_4YGUU_kuaViu543Rg6jCE5PeXMEZfecOGQ3JZDMmLuddwiizTkfRxL6oNXyqSc45EcunwYVIcWkW20_sb4TgiymnLLRDaM_aF64szvt9PbKzG31zNNLEZTLHi3MF-EC=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.2261095,
+      "longitude": 103.9732
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán đẹp, yên tĩnh, nhiều đồ cổ.\"",
+    "place_id": "13299371108064006016"
+  },
+  {
+    "title": "Trà sữa Ơi",
+    "address": "An Giang",
+    "rating": 5,
+    "reviews": 31,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d91945abe7ec04069ddaaf/images/iakcuR0xjTy-Y-BJQnabRzduIuXeN-PoCVdJlc8r7ds.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqyY0fn6CJVTdtThqGEuWo2URLRRL0sQDDdfsJDHJz3jhHlEWR76B4qbDzSoLImCoMl4Pa7WJxgtq-VyPjujrFApamceD_9bNd0ElSyjzFAUSl-mc5Jll_dPA5G3V-KHbdI0KavBkNtSAU=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.219443,
+      "longitude": 103.97178
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"nước ngon nhân viên nhiệt tình\"",
+    "place_id": "2994772929377012022"
+  },
+  {
+    "title": "Hồ Bơi Cafe Nam Anh",
+    "address": "An Giang",
+    "rating": 4.8,
+    "reviews": 30,
+    "type": "Quán cà phê động vật",
+    "thumbnail": "https://serpapi.com/searches/69d90e119c2312bd00c902de/images/1nR0ScIH8a4PrnAZnyShk5qExvDcLPTdif2C8FQ3Q9U.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer2XTh4zCERz40u5UW2tQIkNP8b8q2boyyLaxqsZcmA048nexrG3QjT4bClENi8ShyYrluTj8SNXI2L5fAaNzc_edGc0CqHuT_tLtkrTIGOT_hVKp-Tj5TStRM98IullCWurOwMBQ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.241554,
+      "longitude": 103.95983
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Cảnh quan đẹp, nhiều cây xanh, có không gian cà phê rộng rãi, sang trọng.\"",
+    "place_id": "10925234334965979605"
+  },
+  {
+    "title": "Biển Nhớ",
+    "address": "gần dinh cậu",
+    "rating": 4.8,
+    "reviews": 29,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d91945abe7ec04069ddaaf/images/pBtt76ehgSbZe9joP_ZamIJQkJblFp2iWcf3OzRD8_4.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqmG_-GlIpmPWdXDzVsG_0RB8P8DNm48qg_vVKPX8sj_in5qgo7UZClE8AaneffqibEdjvg8S9Kaey_ZYIKoNjSiwx1u66xTqztmXw3ieDaWmWAWjFX2Z0BrXSYYpncVptDBnjRVu9zZPgK=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.216567,
+      "longitude": 103.9572
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 6:00 Thứ 7",
+    "price": "1-100.000 ₫",
+    "description": "\"Nước uống ngon giá cả hợp lý Cảnh quan thoáng mát cảnh biển Hoàng hôn\"",
+    "place_id": "14337462430639682228"
+  },
+  {
+    "title": "Coffee Mít Tơ Phú",
+    "address": "An Giang",
+    "rating": 5,
+    "reviews": 23,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e119c2312bd00c902de/images/nBjSH_YybCnFM0uad14tG79nYnQNlbBrtn4dWgH-ZsU.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoloUVwMiuJ2krLUJthgfBTgDw28WWqWYwJhvDdE3WSwK_aOKzSUU5h86FrisyhPRcVeY--3znbfIBwCuMZAdnAbok3jMXnf0C_0blychKCiMIq7-DQUHY0hvhjIJTYQpz2DMus=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.200348,
+      "longitude": 103.966606
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Nước ép nguyên chất giá rẻ 30k nhưng rất ngon.\"",
+    "place_id": "13501758181611220676"
+  },
+  {
+    "title": "CoCo-PQ Coffee",
+    "address": "An Giang",
+    "rating": 4.5,
+    "reviews": 16,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e119c2312bd00c902de/images/__puCxrQ4b2ufyfSr_1X-AQ1YryrrWRoXKIFzmNsBLw.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweokASdDRrPK4hNPCtLbP1gBGJ6im7t_jz80UjinsmL0nv6xqjbWPJ70H4384t9BTn0bbiKNZVlQv5RFxWZ-DW-dLBdhiIKowojOPQyfEk_Lqy6M-bzxcATJoL2YW9pK8kHVt1Ws=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.215847,
+      "longitude": 103.968346
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Coffe này đã đóng cửa, chỗ này bây giờ là nhà hàng hải sản rất ngon.\"",
+    "place_id": "15732798973767468891"
+  },
+  {
+    "title": "99Problems Coffee",
+    "address": "An Giang",
+    "rating": 5,
+    "reviews": 14,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d91945abe7ec04069ddaaf/images/9hnODSDNL9MWlgR4v215gLopT05ZHp1yp8vyXqObc-Y.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqL76rTxOybiK58FbmzhI8m5IjfiM0tMmkKJ_SeEa4Jx6jZK3ZatdFj85T8Gca0yv0014UCQCgOcnzW69ZpN3Zkrw9RqBtoQy3z36ECVZ6pzHtOInS7F7EhWyr7AvI-Hc-BR9tHuBjZ2bc=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.21662,
+      "longitude": 103.973366
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": null,
+    "description": "\"Nước uống vừa vị, có thể điều chỉnh độ ngọt.\"",
+    "place_id": "5759821427598799131"
+  },
+  {
+    "title": "CAFE BẠCH ĐẰNG",
+    "address": "An Giang",
+    "rating": 4.4,
+    "reviews": 12,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e119c2312bd00c902de/images/AWX_c7NYabrk5UQ5OPqkJie07DYoE2MfKNtOLMh8oDM.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweohiaqrd8JZC50_lLQ3s6MPCtkMcjLIH4hj5TOvXK7R34ER_QIQV90pLtehHA-VVF838MJc6C35xyov9TI18X5qVxgvwaddPCM2cS4vS7xIL2Sy0FibS3TpLqZ8Ot68KsGUJ3Sc1A=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.219413,
+      "longitude": 103.95833
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Các bạn nên đến đây trải nghiệm 👍👍👍👍👍\"",
+    "place_id": "10329525396308964219"
+  },
+  {
+    "title": "Quán nước ngắm hoàng hôn đẹp",
+    "address": "An Giang",
+    "rating": 4.3,
+    "reviews": 9,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d91945abe7ec04069ddaaf/images/L5AfHn73eQqv_Yi1eU2w2JnvS4isK7Rt8LABfm6RtzY.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepFB992kJfvoVOTgsZikc-pr8qqyKGwysxd0HY8HM64_qFfIkd2GwOzwXin5BCszLkFgoIxCN13jNKHySZGhu2ZuRY7L27rVuVGaVjLW2RROi1D-rEX7rw3FcTsKXgvjKfMkXHX=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.210227,
+      "longitude": 103.959984
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán có nước ok, giá vừa phải (ép thơm 30k), view hoàng hôn bao đẹp.\"",
+    "place_id": "15199640351494932691"
+  },
+  {
+    "title": "Góc Mộc",
+    "address": "An Giang",
+    "rating": 4.5,
+    "reviews": 8,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d91945abe7ec04069ddaaf/images/J5-BwUO2I_IcP3_9fhRg4mg50ewZRsw98D5Li5D1du8.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepuAr2hjuIjGXtLX0ZWIQy-6flCoK-Bp0xURa0hbbbts62I7fVFsDcDHCBOS7cjifuT_fCvHo2T-w5EXF76Xa0K__C4NfwItBO3EHHHeaSogARSMdei6hewR550Fr0btZ49ZKmeFmdFNpdZ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.219452,
+      "longitude": 103.97209
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Nước ngon nhân viên nhiệt tình đẹp zai đẹp gái\"",
+    "place_id": "18438613021681442774"
+  },
+  {
+    "title": "Win Cafe & Tea",
+    "address": "An Giang",
+    "rating": 5,
+    "reviews": 4,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d91945abe7ec04069ddaaf/images/I3HumP7ZWqW7fA2plW5X1I-bD3M4oemB9r7hKx40bdc.webp",
+    "thumbnail_large": null,
+    "gps_coordinates": {
+      "latitude": 10.222828,
+      "longitude": 103.97271
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "17548939698621288575"
+  },
+  {
+    "title": "Đen coffee",
+    "address": "An Giang",
+    "rating": 4.3,
+    "reviews": 3,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d91945abe7ec04069ddaaf/images/EktoYVK9BEe3IUkEKPun_YBpzghn3roFY5BbAtYnHDo.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerJsRG9SbF9ktaCwV9SmzvSosdLizQVcRTh9zZ4Mg1wvYbj5bdKbSKembHOMI9SW5HjVMSgKEMPWx2pC-rgtJH4OSnz0BppHVu3I-VQkwIMFs8xFoxs_e1t61XiZtuvKrj6QYBs=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.222073,
+      "longitude": 103.972466
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Sữa chua việt quất thì tạm được.\"",
+    "place_id": "4324480837487005412"
+  },
+  {
+    "title": "TQ Just Chill",
+    "address": "An Giang",
+    "rating": 5,
+    "reviews": 2,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d91945abe7ec04069ddaaf/images/7Ta831ExKUcNem2PGfC3XOQIJN04fbeYuMl5lR7oTwY.webp",
+    "thumbnail_large": null,
+    "gps_coordinates": {
+      "latitude": 10.221936,
+      "longitude": 103.965355
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Nước ngon, nhạc hay, quá đỉnh luôn shop ơi.\"",
+    "place_id": "14578252159571161401"
+  },
+  {
+    "title": "Tiệm nước Thanh Xuân",
+    "address": "An Giang",
+    "rating": 5,
+    "reviews": 1,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d91945abe7ec04069ddaaf/images/ozGp4Nlkj2XTFlNPodLVboocE_Mh8nIfEU8-C9Ebr_Y.webp",
+    "thumbnail_large": null,
+    "gps_coordinates": {
+      "latitude": 10.216252,
+      "longitude": 103.96893
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "9454659221098120187"
+  }
+]

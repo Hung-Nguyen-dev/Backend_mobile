@@ -1,0 +1,475 @@
+[
+  {
+    "title": "Văn Miếu – Quốc Tử Giám",
+    "address": "58 Quốc Tử Giám",
+    "rating": 4.6,
+    "reviews": 23000,
+    "type": "Nơi thờ cúng",
+    "thumbnail": "https://serpapi.com/searches/69d90c5a31a6017f1f1c40e1/images/LDx7QbFfOWV3ue6y8XRNd5ngJQXacws1jzWsQnlLqNM.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqkxRhmDB2Cu1bTx6mUfEOAnhdeOj2-UAgW5T6JNs97E7915Ojmen-AfqVx8iomBzfUfMiDTOLH2ohSqZSmu5WqPdlwTS4rIlL9ruwfLvb2H9suqLi4W8N4odSLANXzck4P0M5kgA=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 21.028118,
+      "longitude": 105.83567
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": null,
+    "description": "\"yên tâm cho con đi tham quan tại đây, thật sự đẹp và có nhiều kỉ niệm\"",
+    "place_id": "6345017207668727582"
+  },
+  {
+    "title": "Di tích Nhà tù Hỏa Lò",
+    "address": "1 P. Hoả Lò",
+    "rating": 4.5,
+    "reviews": 22000,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90c5a31a6017f1f1c40e1/images/Em782O4u7gF518efsHLixDSkTyOUcmk72G_hQV13Flk.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerubJKN8Pn4JLA4gHseOO4WZ5iavHXRtiQOzW8Mwz8lq2ajpZbNUVeByuLps4yQXm2wRnpnQq5CQlQK-xELfgjbgWFIm-YMhb0WJR7gmzeC1qbP_OJh0pusRDsSKVckA3SaTUbp=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 21.025312,
+      "longitude": 105.846535
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": null,
+    "description": "\"Điểm cần đến khi ghé thăm Hà Nội để hiểu thêm về lịch sử thành phố.\"",
+    "place_id": "10881225616060952404"
+  },
+  {
+    "title": "Lăng Chủ tịch Hồ Chí Minh",
+    "address": "1 Hùng Vương",
+    "rating": 4.5,
+    "reviews": 20000,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90c5a31a6017f1f1c40e1/images/u3joSpa9GAY1auDR6J0jotzBVWBJvq4FvNTJ2MwWrv0.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqCHmJWqvgJugffOIYjj-08mxEK4SXEshQfx-iVzTsa9d0Md9kaUqMlxwa564JTjhkHLS-Zwhf4pU9pcFxkYIWKtbE0kEZ_IxpMtPTf1ytnSvAuKjevWvKhC4iMyEpeGSqRCoW8Dw=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 21.036898,
+      "longitude": 105.83466
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:30 Thứ 7",
+    "price": null,
+    "description": "\"Lăng Chủ Tịch rất đẹp và là 1 nơi nên đến tham quan khi đến Hà Nội!\"",
+    "place_id": "7065731937148685644"
+  },
+  {
+    "title": "Hoàng Thành Thăng Long",
+    "address": "19c Hoàng Diệu",
+    "rating": 4.4,
+    "reviews": 19000,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90c5a31a6017f1f1c40e1/images/038rn9YV6c-izm_YudpcLM5QoLmoj8UP-qagA1XVe7s.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepWFWlrrdg8lTYmcWSXfWeNnINLItJzwvR7UnfGzOb4Dvd221J_Jnz-MUSlH5lvXc90Sz9Xrb7eMBtVm07_57JZfX3E7cLJji5A-yki46ZyYMILYFlnP0nw2fWvyonKlqVq7k-4=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 21.035223,
+      "longitude": 105.840256
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": null,
+    "description": "\"Địa điểm rộng lớn,đẹp,đậm chất lịch sử,có chỗ gửi xe\"",
+    "place_id": "13051897747951069495"
+  },
+  {
+    "title": "Bảo tàng Dân tộc học Việt Nam",
+    "address": "Đ. Nguyễn Văn Huyên",
+    "rating": 4.6,
+    "reviews": 15000,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d9178c16a5a8ffb7234858/images/GxutOvAzyfN5LtxcdqgQuDl0zVtItOipaMdKw2MtM_Q.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqLATux_DqEUMos53n9HrTF7jtq-k1xbJi1j2dVu3Mpcgsu7T23IQVr_OAip86-ajN5BVi6BF2GqMbgzOvb6ai-ww3XwOYKKU6waCtBQ8dXrt4L1iUCxBhkJczTTCZzIE_dTxpz=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 21.040342,
+      "longitude": 105.79874
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:30 Thứ 7",
+    "price": null,
+    "description": "\"Bọn mình vừa tham quan vừa làm bài tập SHTT khá vui.\"",
+    "place_id": "5172754411353020956"
+  },
+  {
+    "title": "Bảo tàng Hồ Chí Minh",
+    "address": "19 P. Ngọc Hà",
+    "rating": 4.2,
+    "reviews": 11000,
+    "type": "Điểm mốc lịch sử",
+    "thumbnail": "https://serpapi.com/searches/69d90c5a31a6017f1f1c40e1/images/otyHCF7gWhIwfyj4jqpRvvO3FjS1CIvkOJ1xRdaEmXk.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoHtNRA4y3qQRLfaOlyAjGoGHYV4BkOjOkMwRzBd9Wjx3659iZ9pYitYd-S1z9BjOa-8sRRcMSFCQNc6zGO98IYZVd2rFK2amb6DrBhZJqFAjuVgNoKSAYLOC2kXqfvkFsuszj_k16GpQ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 21.03564,
+      "longitude": 105.832664
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": null,
+    "description": "\"Đi hôm qua, rất đông và cũng rất vui, ý nghĩa, đẹp Đáng để đi lắm ạ\"",
+    "place_id": "10708866392700701137"
+  },
+  {
+    "title": "VinKE & Thủy cung Times City",
+    "address": "458 P. Minh Khai",
+    "rating": 4.7,
+    "reviews": 11000,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90c5a31a6017f1f1c40e1/images/NoEKi1tWCK1YG9cmSsRDkEql3EoIm2IsrMZczdksJ-M.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqZmrk-t72UIq7i8ymdaDitJaOdii7lPPXeeQo5QCuFxJNPpd9TlqWlAq7sjhhJh_N5d-Gbr8OSqhPbWeXVg5xblPvE9VyvnnAQ79QyYv-VRdXSfIaCyJ5Y7qwI8DTggkPkKd69eg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.996342,
+      "longitude": 105.868004
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": null,
+    "description": "\"Điểm ăn chơi cho mọi người, sạch, đẹp , văn minh, lịch sự, ăn toàn.\"",
+    "place_id": "9657551901848695056"
+  },
+  {
+    "title": "Chùa Một Cột",
+    "address": "P. Chùa Một Cột",
+    "rating": 4.3,
+    "reviews": 10000,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90c5a31a6017f1f1c40e1/images/iQzkOxhwQBq7gzSBJIC5gb32liY6sqmw1L2wM-EaomY.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerEHLbEZkkp_TVNLqFRIDRSMK0Yb5NzfhAqTogOYQTrkLavkUUnODzmIKF2rG6Nd8SXpP7gL8af5aJ1WUmRRX98m1eIC1cUHvfmaKT6itIa3mzBVNhO0pH2MLTydfk-Dt2dxeu69w=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 21.035688,
+      "longitude": 105.833435
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": null,
+    "description": "\"... vào cuối tuần nên hơi đông Cảnh đẹp , nhưng hơi ít chỗ tham quan\"",
+    "place_id": "15845693668219404974"
+  },
+  {
+    "title": "Đền Quán Thánh",
+    "address": "190 P. Quán Thánh",
+    "rating": 4.5,
+    "reviews": 5000,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90c5a31a6017f1f1c40e1/images/NhjNOlzpGn2RP9dODt0yko4oA3SY1WEIZOlao6B_Kb4.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep__9gA82KDoSfiGgEYcUbnqxyRM1fgdLIsvWDSm-LBqKQiwIxiuVQgO20MYruqP1vjfH9cLKvuM4MNUDKloFbe4Suhilr12KZc-z6SxQMx0TwLpr2Ossg0sMukF3owAvENkeDT=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 21.043018,
+      "longitude": 105.83655
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": null,
+    "description": "\"Điểm tham quan nên ghé qua và đặc biệt vào đầu xuân năm mới.\"",
+    "place_id": "3545068150970821615"
+  },
+  {
+    "title": "Bảo tàng Mỹ thuật Việt Nam",
+    "address": "66 P. Nguyễn Thái Học",
+    "rating": 4.5,
+    "reviews": 4700,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90c5a31a6017f1f1c40e1/images/SRUryrAfR_Ay0dNlD4AXRiTbyFi_f5oL_Bhk9loprOU.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepnagqX2StnS8RR8bBi28lTyQaPBB7hkKj4ahskDzMpMO4SFBkXz78mCicXEnWHea4eRxCpnWYuq64NBVPFSHubnKZzMN12NSIbYm3XsTtkhCrumshJuLauKTadppfSzRXTSc_wyw=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 21.030655,
+      "longitude": 105.83707
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:30 Thứ 7",
+    "price": null,
+    "description": "\"Một nơi nên nằm trong danh sách địa điểm tham quan khi đến Hà Nội\"",
+    "place_id": "18249183290323938382"
+  },
+  {
+    "title": "Cột cờ Hà Nội",
+    "address": "28A Điện Biên Phủ",
+    "rating": 4.5,
+    "reviews": 2400,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90c5a31a6017f1f1c40e1/images/mdvSPlTs9L68pbd92Um8MQgiQHo5tE1Lj8tUfQX0lLE.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqAySN-1Bq1TcDFrzMakFNL3V24yGcBEEmsjbL4Z-jKgymi6fd7yh0xLhV5cyynITiYejIrWo8W9eZ73KWWRXd_Fp16F8pNCdYaTvXDOAxKM-CKvrLY8ie5fo14qzQ0NHyMvgQxjA=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 21.032557,
+      "longitude": 105.839806
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": null,
+    "description": "\"Địa điểm thăm quan, du lịch cho những ai muốn khám phá Hà Nội!\"",
+    "place_id": "13289261682784701920"
+  },
+  {
+    "title": "Nhà sàn Bác Hồ",
+    "address": "1 Đ. Hoàng Hoa Thám",
+    "rating": 4.5,
+    "reviews": 1600,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90c5a31a6017f1f1c40e1/images/uzDD3k19dx_aptK-vQP9CUOU0rmzMFlYEkl0QClTyf8.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerU8S_h4cBUCfFP5DyLKFIu5jnOtHf0limk4jF6WG61A5Zi5cZ5r6bwiF1m8Xt91RDPXfui4Ss0uma9MAJUOIbk3EGP3y74fLvEMXKue4I-XRORQBfWDynugfdMeoJcdkM_lPY1=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 21.038158,
+      "longitude": 105.83317
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:30 Thứ 7",
+    "price": null,
+    "description": "\"Là một địa điểm thăm quan nhất định phải ghé khi đến với Hà Nội :)\"",
+    "place_id": "1572036078615223355"
+  },
+  {
+    "title": "Đền Bạch Mã",
+    "address": "76 P. Hàng Buồm",
+    "rating": 4.5,
+    "reviews": 1300,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90c5a31a6017f1f1c40e1/images/qMubVe1kLnmDEzxhKJbquqvozxGAbbER3kkiEhkJfwk.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepTeJL29DKwL8N_g4XAlIF5cQAXQWuOdQC-lepwYdJRKd5fTR4ccRQRD2JCo6I7Na7A6e4O5v_QbZ8I6HkKrhGmatS4jKbU6W6a2IjFKsEfALHnkzsl0UeMJ9VgAOY9Z_Biv1UkPoim1vk=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 21.0358,
+      "longitude": 105.851006
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 9:00 Thứ 7",
+    "price": null,
+    "description": "\"Một trong những địa điểm tuyệt vời nên ghế qua mỗi dịp thăm Hà Nội.\"",
+    "place_id": "64862257157964907"
+  },
+  {
+    "title": "Phủ Chủ tịch",
+    "address": "2 Hùng Vương",
+    "rating": 4.3,
+    "reviews": 976,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90c5a31a6017f1f1c40e1/images/hBsfc0GjqVq9cqjZswfXl3fDn8yBdrCNSO9BVKqd0pE.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepqBdj9tRVBrRdkxTknA7vagTkDjL44PFP_upAsQz32RJlR4Rf5aiVaiUUamm3r2cm2utrlXPlqhNadj41Qkfz4Zz2yoI_4F1RXXD-pf41x26Ijfd5n9aouLNdJivTaxklgVGJfCA=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 21.039291,
+      "longitude": 105.83456
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 2",
+    "price": null,
+    "description": "\"Là người con đất Việt, đây sẽ là địa điểm rất đáng để ghé thăm\"",
+    "place_id": "3835411855639801935"
+  },
+  {
+    "title": "Tượng đài Lenin",
+    "address": "28A Điện Biên Phủ",
+    "rating": 4.5,
+    "reviews": 807,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90c5a31a6017f1f1c40e1/images/GBGRJDDS0slA_Zaxuo1CEef_Gi5e5UP34b_W-bBl5fY.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqIDolvt4XFkrLvrcefUoh0uVC5ie06l5y8a2fmBOfyDRm5X6Vi9nC2QRjJ9-KFnVw1MBtxjfjmEOSwBKhd6excB7Xvunp7kqF-PiBjhHfi3ejAXnud7RWMg-b7ePZ_7S84QxMs=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 21.031683,
+      "longitude": 105.83941
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"thật là 1 nơi đẹp và trang trọng để tưởng nhớ Bác LeNin\"",
+    "place_id": "2815429278793763380"
+  },
+  {
+    "title": "Con Đường Gốm Sứ",
+    "address": "11 P. Hàng Vôi",
+    "rating": 4.2,
+    "reviews": 776,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90c5a31a6017f1f1c40e1/images/iV1EjSn53x3UW6tJXvX1EXBivrlti31TruuAa7_MzgY.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepNcIPlbXVPggWJZ5zH0PXEUbpxBmf0UbrzWD180QZtogo0fRAilfyO-jk3zw-kT5aCFr2TcjHzX53KZIHNm3_X89biqF1NHk9Q_BEFGYEHYHQRXVPPlmWMs4RvPclXmaqyAl4a=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 21.030077,
+      "longitude": 105.85747
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Địa điểm đẹp đáng trải nghiệm ạ 🥰🥰\"",
+    "place_id": "7367469056265379727"
+  },
+  {
+    "title": "Điện Kính Thiên",
+    "address": "9 Hoàng Diệu",
+    "rating": 4.4,
+    "reviews": 384,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90c5a31a6017f1f1c40e1/images/gyOf0zQjwH7oq-VZ-PCFSXiBGmQTNrYqd24oNkKhMwM.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepMzHfLN3vyp7kaZiLQPP-JQIRFAIIhSQWneFOYPJRgCe8aYchQnyAsMMbb-SXtulCBp_8qOeV8zNfAFCGL-L1fAL-8Q4AsbyAWi1ZXd20Et4MLM2WmvYnie8zPc0jA1RYVoyhyRA=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 21.036787,
+      "longitude": 105.840294
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": null,
+    "description": "\"là một địa điểm tham quan khi đến hà nội.\"",
+    "place_id": "4730514291784287313"
+  },
+  {
+    "title": "Khuê Văn Các",
+    "address": "2RHP+C8P, P.Tôn Đức Thắng",
+    "rating": 4.6,
+    "reviews": 383,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90c5a31a6017f1f1c40e1/images/CDNoHuYgrDjcH5Nh8_PNW9_8z5Ey6xiVudpZqpzJfL8.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoMxxp-Yk0-Xc42H3wI4EtV5ldHKKgz_xkmn0tka0v855f7T5LzZTidBCq5nv0ArqplzfPLHoaCYgm7ZQtDbxiPjaL6J9cxyVZS-kg5C2W2SwLCIiM4jAt08t55xI0VC3ZMqy2VWg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 21.028578,
+      "longitude": 105.835846
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:30 Thứ 7",
+    "price": null,
+    "description": "\"Là địa điểm tham quan xứng đáng để đi.\"",
+    "place_id": "2792908928058991944"
+  },
+  {
+    "title": "MAMA HAGIANG TOUR",
+    "address": "17A Mã Mây",
+    "rating": 4.5,
+    "reviews": 274,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90c5a31a6017f1f1c40e1/images/HoHmtCjRpEQaiMdu_cH7nAIINSWu3ai4mPRacJraIsA.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoqOk7tfc_sNU4JUfZLKlho80uMxXytL0Oc8ussHKgcbgN92dddomeVCaXEpCGnWFmml7fTa4kHGEUgqNIFP91zmJZXi054ufjVbhGzqlMfbIwdtbiS8F7R22vgz-vmz4f4dZc=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 21.035255,
+      "longitude": 105.85408
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Điểm check-in cho những người mới tới Hà giang lần đầu.\"",
+    "place_id": "11557433861802085954"
+  },
+  {
+    "title": "LuxuryTourVN",
+    "address": "P. Nguyễn Thái Học",
+    "rating": 4.7,
+    "reviews": 184,
+    "type": "Đại lý du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d9178c16a5a8ffb7234858/images/dzW6cyZ4ILse-diOdlk4Jl7CMsj_QuX4C5doTqRaHYI.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepoP4NJjMqfLJy0FVQLFq2zu0gFCHMNjHEm7Wxu0jHGpCoR2nCQ2XhDbkqWi__rSJpbb-wJAxuzl1eMERTRm3f0cwKdkYsPIeLHiRbekjZ6yrZj3NvraN4wby0BLP5LAPs3SCg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 21.03014,
+      "longitude": 105.83696
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "5834391910571718494"
+  },
+  {
+    "title": "Nhà Cổ Hà Nội",
+    "address": "87 Mã Mây",
+    "rating": 3.7,
+    "reviews": 82,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90c5a31a6017f1f1c40e1/images/lWjQ4jMODLN6BI4Wxr60S0_HlAaH-voEys1wHjpgfaE.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqF6iz_qGvFpNss-X85vRnRXQVJ8VWuGJ9pe1nkMrWYRP7_4DTuK-OZbPTZCMm5ii5b725FAZ99F-cv-n9k2fPFVn1hYVNm-moIjvsuNJ-2A-x0aufvxdxyZXspeiltxML13DM=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 21.0344,
+      "longitude": 105.85356
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": null,
+    "description": "\"Nhà nhỏ có 2 tầng, tầng 1 có mấy lọ hoa cúc họa mi to đẹp lắm\"",
+    "place_id": "17861324600405395327"
+  },
+  {
+    "title": "Trải nghiệm Đêm Văn Miếu",
+    "address": "58 Quốc Tử Giám",
+    "rating": 4.6,
+    "reviews": 33,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d9178c16a5a8ffb7234858/images/K1nv8V456OV6evsbMmBfvznO_TaKZ0TDKjB488TvMNc.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqBaGkjzYNzt-2Tm_Y2yIVM9Nj6kJ9cU2RzBgswol3PYxbwD8weZ6Mozw0iXIOhLAoCyVfev73uG3I0j-l0Kyh5hE-4Npdnk7zLfrsySaeK48L2QgKZj2owd7iEupIU69Cd7JlVrIBD_80=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 21.029589,
+      "longitude": 105.836235
+    },
+    "hours": "Sắp đóng cửa · 23:00",
+    "price": null,
+    "description": "\"Một nơi cần phải đến khi thăm Hà Nội.\"",
+    "place_id": "17137860190037430060"
+  },
+  {
+    "title": "Điểm Tham Quan Du Lịch",
+    "address": "444 Đ. Hoàng Hoa Thám",
+    "rating": 4.9,
+    "reviews": 16,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90c5a31a6017f1f1c40e1/images/gXLr-dBadfXgaGwQyOIpSCtpZIaqS5DUhWik5x1sMYo.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwera-vadCoKxEO2KEyrekYEqpmj7fRGUWGQveEFDTwhTP2xAZLPygaYNWbXsfE4IXCnnRt9_85p91Pe-cnseriq25-tndwMTc0a4vT1Fmr-5wyh6ZrOEk8bSDEj6kI43-BxvSitWMq4cvt0Q=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 21.044159,
+      "longitude": 105.813774
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Trang Web khá hay, rất đầy đủ thông tin các địa điểm du lịch\"",
+    "place_id": "1087800261733899304"
+  },
+  {
+    "title": "DuAnTravel - Tour Operator",
+    "address": "Ngõ 1051, Thôn 3/Số 3 Ngách 39",
+    "rating": null,
+    "reviews": null,
+    "type": "Đại lý du lịch bằng thuyền",
+    "thumbnail": "https://serpapi.com/searches/69d9178c16a5a8ffb7234858/images/9lizdlhaNKbYl_9XB6nvu7KDfuqFg6aK9fdUgDeCKnU.png",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepK2dH9ws1csy0nyK2SGOrbvRKAOj5GeQRQ2dXIR75Nf9AMZWEpCM6aQzsC6osZq5PanKd8lUBkTS0GZKnlC9DYW02iuqkarKA8Lz3GYwr2eiBnYKCBJLKVj7uZ9LXbtjFcG62Z=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 21.027765,
+      "longitude": 105.83416
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": null,
+    "description": null,
+    "place_id": "16533546206770302801"
+  },
+  {
+    "title": "Tour Du Lịch Châu Âu Cao Cấp",
+    "address": "Tòa MHDI, 60 Hoàng Quốc Việt",
+    "rating": null,
+    "reviews": null,
+    "type": "Đại lý du lịch tham quan",
+    "thumbnail": "https://serpapi.com/searches/69d9178c16a5a8ffb7234858/images/czCYGN3eX7ZARud2x7MKU9zTZQ6A-XsgaSHexm-m01Y.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq44gO_lCT56W8OLGzZbTMcwTjRHJVydfXr_vlWGHTsPsiLDw9yx4LbZLNj88O6FmKZ1Fh4d-L7SdjML4boZB8aLo_9lSb1FDPYLZWaaNUL-Xf86Il5DpMrXwT58erTqV1c8Vly=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 21.046524,
+      "longitude": 105.797104
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "1831020216190512023"
+  },
+  {
+    "title": "Đam mê Du Lịch",
+    "address": "Hà Nội",
+    "rating": null,
+    "reviews": null,
+    "type": "Đại lý du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d9178c16a5a8ffb7234858/images/xLVtC6eV1LpaPjHM4tdIAIsr3idSTAA3hKl17ffEZrU.webp",
+    "thumbnail_large": null,
+    "gps_coordinates": {
+      "latitude": 21.032726,
+      "longitude": 105.830986
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": null,
+    "description": null,
+    "place_id": "16599446699153840374"
+  },
+  {
+    "title": "Công Ty TNHH Thương Mại Du lịch Kỳ nghỉ Đỉnh cao Việt Nam",
+    "address": "",
+    "rating": null,
+    "reviews": null,
+    "type": "Đại lý du lịch tham quan",
+    "thumbnail": "https://serpapi.com/searches/69d9178c16a5a8ffb7234858/images/W27oOp1KbRjCL-99VKsAz-dlcIKLGnZrydJMdpFO3ik.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqS1EX_MDbd_C1O0SiP-ouEfIKalUI0VqePRWBdmNKhYvYpgxFUcZ8kBGXHfxaD9EDpFQ0rVpZ2lpKOub_3KLbGBDjnHtzLzPLj5xfhExdKYw604lQTiH_1LiaPcoo7OYQ4Pmap=w800-h800-n-k-no",
+    "gps_coordinates": null,
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "10941711019979693786"
+  },
+  {
+    "title": "Coca House",
+    "address": "Hà Nội",
+    "rating": null,
+    "reviews": null,
+    "type": "Đại lý du lịch tham quan",
+    "thumbnail": "https://serpapi.com/searches/69d9178c16a5a8ffb7234858/images/KiB9cQnRMkVtBjFb_FeCpSzxddeHNLhpoEP--GEUUxU.webp",
+    "thumbnail_large": null,
+    "gps_coordinates": {
+      "latitude": 21.031317,
+      "longitude": 105.83216
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": null,
+    "description": null,
+    "place_id": "18442146263591267057"
+  }
+]

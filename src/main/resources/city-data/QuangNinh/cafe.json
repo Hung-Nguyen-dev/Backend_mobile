@@ -1,0 +1,580 @@
+[
+  {
+    "title": "La Luna Coffee Hạ Long",
+    "address": "Quảng Ninh",
+    "rating": 4.4,
+    "reviews": 1900,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e7d919dfa8688933807/images/MC1jxiNNLhXNmOKcuHzvZxPZ12sRFKW63wxeewZg4qw.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoeH_a9jUN0IZkOdgFxWBjMo00fMAHGKnZdvunKq5hn4LLmqSrZXj-31xNK7zmZNaXOfVvuEHusVM8rPkc8kCYs_Hlbp7IfLHgIYHZqSxH8Ua1zvh3cgjjnDt--IRbCvfa7_X46=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.967,
+      "longitude": 107.0212
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": "1-100.000 ₫",
+    "description": "\"quán view đẹp nhưng nước loãng nhạt, từ cafe, bạc sỉu đến nước ép\"",
+    "place_id": "1431260428131056210"
+  },
+  {
+    "title": "Cộng Cà Phê",
+    "address": "Quảng Ninh",
+    "rating": 4.2,
+    "reviews": 984,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e7d919dfa8688933807/images/B20CKVCutk9t2PNxkmy_sl5b9EADe4ZTbocPvL7-F7g.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepCB2ERq4d8HhbYCs2j2_dEBHem8reqqmn-Nr5Glw7PBUJ-PNvkiazKmkMxD_W6pa2kzxyS5JS1K_oIu18UYza0s4o4BRzqWv2rrdogeAFTD7Rh1yvmYZslOatAX8_Egt7JdZH_Rg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.95344,
+      "longitude": 107.04591
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán khá xinh, rộng nên không gian thoáng k bị ngồi sát nhau.\"",
+    "place_id": "12715655008381246119"
+  },
+  {
+    "title": "Highlands Coffee Mường Thanh Quảng Ninh",
+    "address": "Quảng Ninh",
+    "rating": 4,
+    "reviews": 627,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e7d919dfa8688933807/images/NwBM8WpQn0Hm8A6MJi5P36xVYfzFt_pJkK6r40durXM.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqqN0bv8MIfPlbk4amYzFd6Y945tyahX-DK4R5qpyLmKAWpNC4_-xnVgg8VsI7jQSZNSWn8bNpTSkcAlT7dzUKgDZSXjvs-KkwcBIQD3qTcR42TD6S-qQmHuekkq47p1wvZABc=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.956688,
+      "longitude": 107.04969
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Menu đồ uống và đồ ăn giống các quán Highlands khác, chất lượng ổn định.\"",
+    "place_id": "3360311149222660146"
+  },
+  {
+    "title": "Hải Đăng Coffee",
+    "address": "Quảng Ninh",
+    "rating": 4.3,
+    "reviews": 621,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e7d919dfa8688933807/images/AEtu1LM98sozg2Kb7Tw9jGQXtCTX6IJ3JgQuKgE-2oA.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerxYSjqYnLidoA3lv9rfC36FSkFbWzoXcO2m4RB3brFiXCb3aUph1yVduhgPbT-_JbJraH6MdXBNcYqsCwHT2BH-7zLzyss6oFK_4ybTBS_tW9Oqps7ZG8USbDVgsHs2P0LNCM=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.955986,
+      "longitude": 107.06936
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán có view chill chill, phù hợp uống nước ngắm hoàng hôn rơi trên vịnh\"",
+    "place_id": "5878318689774439897"
+  },
+  {
+    "title": "Đồi Mặt Trời Hạ Long",
+    "address": "Quảng Ninh",
+    "rating": 4.2,
+    "reviews": 541,
+    "type": "Quán cà phê",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerQFIfVBhxdm8stgikNPVpausgBS3KPuExcrSRa17S5qPlvizlP-rVclqD_6lYneu1vraX7ZZUoCiyaIchqMbplx6ZqphmEYfxQn7AWMcfx0W76Fn7lIxSR0lFSevwkYW7N3dw=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerQFIfVBhxdm8stgikNPVpausgBS3KPuExcrSRa17S5qPlvizlP-rVclqD_6lYneu1vraX7ZZUoCiyaIchqMbplx6ZqphmEYfxQn7AWMcfx0W76Fn7lIxSR0lFSevwkYW7N3dw=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.955004,
+      "longitude": 107.0697
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán khá đẹp, có chỗ chơi cho con, đồ uống ở mức ổn.\"",
+    "place_id": "15999726659784166427"
+  },
+  {
+    "title": "Miam Signature",
+    "address": "Quảng Ninh",
+    "rating": 4.5,
+    "reviews": 428,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e7d919dfa8688933807/images/z8vdL1wb8z36t-9n9Ou5O6PE9XWsTQuvQCfp6KBE9uE.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweokxCi83_ngiB3nrz9RUd2ZqkBMTmNg22XHWUcRQAt1vtdUpisPLMEF0_PZhpwtj7qAx-wTU0U77MrOZxGCKcBB_s78VB-Z7RU1gXdmFevL1_ZcneAr6qxbsDpu_gTPB6U7wGtp=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.948433,
+      "longitude": 107.07186
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Không gian quán rộng rãi, view đẹp, decor đẹp, ghế ngồi thoải mái.\"",
+    "place_id": "10342189069526929250"
+  },
+  {
+    "title": "Wee. Sân Chill Giới Trẻ",
+    "address": "Quảng Ninh",
+    "rating": 4.2,
+    "reviews": 416,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e7d919dfa8688933807/images/501ezrYqH4lH9sTjPqsMZjUrKqGhP-8B-FwI0oxLNkY.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepomt0pCXhYrmUpNxPx_M3-gcwXBhKzhgVql_2JZCG0DuPn5R8lVmywt-0uGmW3JmnirFfMfV10VAUBiOUrlDfPoGBvFWnpOv6XawGe6ajkUzLvx7Ql_9ssktXv1D5iYAFADSFw=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.95648,
+      "longitude": 107.06903
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán view đẹp, decor đơn giản, đồ uống giá hợp lý.\"",
+    "place_id": "14214703843905155317"
+  },
+  {
+    "title": "Rock King Coffee Koi - Cafe cá Koi",
+    "address": "Quảng Ninh",
+    "rating": 4.4,
+    "reviews": 406,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e7d919dfa8688933807/images/wMdkUQMLN7HXLIesxDnSUEhT2Wpv6lC9YF-5QwGN4dE.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo_Uf5YxAuT_AfjP5RY_ofXNfDz6mLFPKKOAa-qSghyk7HyiPdiRWFz7MHZoNxnW7lFo73vwUFNG8OILBq7Y8uOOrnNqXRNXC3BcSpUcjQeeKLhTRR54QrxEldrxomhGmtFtHN2xw=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.966051,
+      "longitude": 107.01774
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán đẹp, gần trung tâm, view chill\"",
+    "place_id": "1503923826838542926"
+  },
+  {
+    "title": "Laika Cafe Hạ Long",
+    "address": "Quảng Ninh",
+    "rating": 4,
+    "reviews": 372,
+    "type": "Quán cà phê",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerX_KH3_UIeytgTOvzDnPOuGjBORKvOunn-kwTuzIgfixWuqtdsPJooyGC6GhQiaKZ2tlUt73dI5JMe5E6e7iqgURQ3HOFSqzL5IJf6sWjZuO3AuLWYybszP-nW2IhrmyS8r6Ku=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerX_KH3_UIeytgTOvzDnPOuGjBORKvOunn-kwTuzIgfixWuqtdsPJooyGC6GhQiaKZ2tlUt73dI5JMe5E6e7iqgURQ3HOFSqzL5IJf6sWjZuO3AuLWYybszP-nW2IhrmyS8r6Ku=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.942272,
+      "longitude": 107.033394
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"đồ uống ngon, quán thoáng mát , view đẹp\"",
+    "place_id": "7678899408547847064"
+  },
+  {
+    "title": "PHIÊU COFFEE & TEA",
+    "address": "Quảng Ninh",
+    "rating": 4.4,
+    "reviews": 253,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d9198888aca48914440b89/images/4b2JUBdEKIvtMRwuNEb1c8Ozq9XKUyODpOKW4_oEt5s.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqTGrsE-9vXJ_iLbn73GwAAkGMDj45dVQvoCCatgzp5bQJKPTrAuESzS-cMSUIoyzbBPU0EpXly0AK5hDllALJFkDB8f8kUaRuEjzlvIlkmIVcMTTUycGzTk4OeAQrnofdHu4kl=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.947535,
+      "longitude": 107.03373
+    },
+    "hours": "Sắp đóng cửa · 23:30",
+    "price": "1-100.000 ₫",
+    "description": "\"Đồ ăn ngon, menu nước uống đa dạng.\"",
+    "place_id": "6999604047022438717"
+  },
+  {
+    "title": "Ô Pal Coffee",
+    "address": "Quảng Ninh",
+    "rating": 4.9,
+    "reviews": 252,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e7d919dfa8688933807/images/QUjh7xIhKzXmEAefQ_CBylxHi0_dEZbpEajultWBflI.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqg_LBwbsPsF4FCMNRTa3U1S_Z1PQoDIONxn3KEmz0nuyfJQ_huCiGztO7eN1YyAdVNt-DuGo0JlHCbYIfxL1BZQSwD7fI0WaaADw8sbzwdASmcsL264b0ZB3fMZxoTc8nNjuJG4w=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.957344,
+      "longitude": 107.09412
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Order nhanh chóng, view đẹp, đồ uống ngon, nhân viên nhiệt tình\"",
+    "place_id": "17426323812171963279"
+  },
+  {
+    "title": "Essence Coffee & Bistro Ha Long",
+    "address": "Quảng Ninh",
+    "rating": 4.1,
+    "reviews": 190,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d9198888aca48914440b89/images/ERWkWugPOkhpdMLla7DWqVIxYWzOQPvmpZaTIoiGQS8.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwere6I9TDFhl41hJ-WngUZVZqhfF9ps4j7orPCPHBE5hDJC6CPWTAOpx0KEAe2QeSdZsIbelexP65Ay39rLNavu49GnGy9GCVCOJTEJmzBN9xd-9EdpHisDjeG9BCIKRvEdxY5p0-Q=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.950443,
+      "longitude": 107.04107
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": null,
+    "description": "\"Nhân viên cute 100đ đồ uống ngon nhiều view sống ảo đẹp\"",
+    "place_id": "3538385546840735489"
+  },
+  {
+    "title": "Vintage 198x",
+    "address": "Quảng Ninh",
+    "rating": 4.5,
+    "reviews": 187,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e7d919dfa8688933807/images/iJJMpvF8FYFxxT5Qq35QjWb1A3WWMc4gktqLfcrVYCY.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq_wpraiqoTGmEhDUdCuMaDv_K2-QB6C-Hh9MqwmOZo8LO4_M7SGlfjPIfHw2tX_snoxlpgQnyi6W1wqHpqio8nDVGoqLdGhvu1950HppvYsSNP6r_iqjTHTmbxFS0b-dvjebDC=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.953762,
+      "longitude": 107.02183
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán view đẹp, decor theo phong cách vintage.\"",
+    "place_id": "15867823985572427778"
+  },
+  {
+    "title": "Tiệm cà phê Dốc Nhài - Jasmin Hạ Long",
+    "address": "Quảng Ninh",
+    "rating": 4.8,
+    "reviews": 181,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d9198888aca48914440b89/images/px-EbwKphgLBlOLCpdoOEpYcRSHq3M4RO30uTEamLb0.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwergEsAG3DoLQ5AmIMqzF5tJNazeniPoNIMlJUr-zWCAio3cyIxvCVyAD43H8uaWALuDjiER8oyVFih8fcArTYz7c5lW13LxxxQzooFohhJOS-BgrQ5WTBN1WYrMJyLT7pLYkjRC6wRM9jFQ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.962273,
+      "longitude": 107.016754
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": "1-100.000 ₫",
+    "description": "\"Đồ ăn ngon, đồ uống ngon, view đẹp, chill chill\"",
+    "place_id": "1263621659457178074"
+  },
+  {
+    "title": "Cafe _ vegan banh mi 16A Anh Đào_ bãi cháy",
+    "address": "Quảng Ninh",
+    "rating": 5,
+    "reviews": 151,
+    "type": "Quán cà phê nghệ thuật",
+    "thumbnail": "https://serpapi.com/searches/69d90e7d919dfa8688933807/images/fSTwhokYjFL7TpaN4pJKzhNNwfWrP62amTnoWlZbLlg.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoZeyirvezbFfEYusk7zFVTE8CouhYR7HzrJdZZE9QNLp97WKLC-5Qm7CEwj2N3IEDPy9avjxYPTe0HbEt6-z9KSJQ8LYYwVnolmc8iT3jpG6FBUPcevQvjS4ExXui6Z7zMlfY=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.957325,
+      "longitude": 107.05102
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Bánh mì chay là ngon nhất thế giới!\"",
+    "place_id": "9915362294215447314"
+  },
+  {
+    "title": "Cafe ban mê - bánh mì -fast food -8 A anh đào bãi cháy hạ Long quảng ninh..",
+    "address": "Quảng Ninh",
+    "rating": 4.9,
+    "reviews": 131,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e7d919dfa8688933807/images/ZVgPwUs51iAY4gb7OuA1jIfCifYl5LE1EkAiUPeeX1M.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep-fs_PmdH2t64fMlIr7IsPLtedaUgI2VOHqT_Cy97YXjFS2LffHF-lv2lZ9C4VNioOkAiQDIsSwfSqyTW3YXNU9f8oe8LZ-li6z6ogdv6z422f0UssLaKxhqLXtRcbBslPGsLjBL1OpCsq=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.957207,
+      "longitude": 107.050964
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Chỗ ngồi thoải mái, ngoài ra còn phục vụ bánh mì\"",
+    "place_id": "12272331017605188054"
+  },
+  {
+    "title": "Pamela Coffee",
+    "address": "Quảng Ninh",
+    "rating": 4.5,
+    "reviews": 116,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e7d919dfa8688933807/images/4Yql17uqk6VKLxzu_EN5HRatKCSiinHntMZgZ8qBvAU.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepXQUez8QHKBGkLcWcDRvSZOx4xFXt4yYv-N0VnXbXOpR1AuCd2UbFffoCkxkVubuKtuAXtCuhxlZGM8lLwRGq1VR5dT_ZOCqBpw3Vj0slb_C6hxgNP82FqsgLqcsIrXjciNMZJ0w=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.956358,
+      "longitude": 107.05391
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"đồ uống ngon, bổ, rẻ... vieww đep nha\"",
+    "place_id": "7629077489292188428"
+  },
+  {
+    "title": "Cúc Chi - Coffee Áo Dài & Tour Hạ Long",
+    "address": "Quảng Ninh",
+    "rating": 4.7,
+    "reviews": 79,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e7d919dfa8688933807/images/WRLb3gR2IvgHfnvS7COl-VFx_qhn-O9pV8Vpb_W7nD0.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoZ0Qznwu-D7FWSR227molJ7_w-PWUPId1ciZkTXLJ5vov_ozsNFXu_Nzh6IsrZ-cnuf_vTERdjIC4hsxr6J2LzmuPU-lNi3FIx57gxTFSnGg-8EiLMvRgIOj7ypHmtNo39UtWA=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.955982,
+      "longitude": 107.01457
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Đồ uống ngon, không gian quán đẹp, chị chủ thân thiện.\"",
+    "place_id": "10605997044247583073"
+  },
+  {
+    "title": "Chou & Sim Coffee",
+    "address": "Quảng Ninh",
+    "rating": 4.9,
+    "reviews": 76,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e7d919dfa8688933807/images/OnAqhI9fy6RujVOIQesKuW8FPxj57MIaaUlnU-LKVU4.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoxys6-XeJqUNjWOePq1WAEH46RMv--F3Q_8fOz299aQ1K3Ak628y9yvF4D8yFa8G88RqiB7A-_BZUqO2SPzP4IDPqwM-MhPZfo6kLt_ClXmFQl_syh9EXD57EKTz82RTgx3ztw-tnzYfwC=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.957584,
+      "longitude": 107.01887
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"quán view đẹp, nhân viên nhiệt tình cute dễ thương, đồ uống đỉnh\"",
+    "place_id": "4853957560891046229"
+  },
+  {
+    "title": "Trung Nguyên Legend Café",
+    "address": "Quảng Ninh",
+    "rating": 4.4,
+    "reviews": 68,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e7d919dfa8688933807/images/FGtCK9lKHOj680P6Neob4KwhM2_MuvS-kgCWN6nxGgo.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweohzYb6cl-XMsVHs3CcqPubtlPhOcaj4IDEVrjXXkGuPfos2MjHCLQsTLJtfgkc4185TdjCw_QBHvhVj0Vt2Kjw8rBnpBfrN-VhvL_-dfy8Xwxpxgm73xL-mG2w-Ip1YKJOQLoUtg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.956625,
+      "longitude": 107.05577
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Cafe ngon, đồ ăn sáng cũng ngon, trang trí món ăn đẹp.\"",
+    "place_id": "10222336070460816493"
+  },
+  {
+    "title": "KON COFFEE",
+    "address": "Quảng Ninh",
+    "rating": 4.9,
+    "reviews": 60,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e7d919dfa8688933807/images/1ztUvGfNOJPGr5BiW02nRKsQTdCwJE9f6EW2Wx-rKME.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerh0aTSB8sNxY2zA8mMFVkYhbSOYp8ClfJe37wDIjCWwKxCmQ6ahWU6bFUsF_W4lE8BMYhwDPm4alFjh9Hb6rVbhhGWKdqFv6l9wINaL2n8MYUZC3DTWQAVwTr9SHdo1yg1GA3OzGID9RLd=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.958797,
+      "longitude": 107.01978
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán view siêu đẹp, nhân viên nhiệt tình, đồ uống ngon\"",
+    "place_id": "17974235117730437239"
+  },
+  {
+    "title": "NILA'S COFFEE CREAM",
+    "address": "Quảng Ninh",
+    "rating": 4.5,
+    "reviews": 46,
+    "type": "Quán cà phê",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo2u6wLhBHCu1ch9rxFt4t1tmZd4qlPYNCwY-j2ZRSxanVIwX0__e_E4szVfd27Mu9FGNQ4xXkPPFbo6zrWIyROCKPesFB2xYCKMiMwKeaubqc7AkEfnwaJts8rYQTt_NojQT39Rw=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo2u6wLhBHCu1ch9rxFt4t1tmZd4qlPYNCwY-j2ZRSxanVIwX0__e_E4szVfd27Mu9FGNQ4xXkPPFbo6zrWIyROCKPesFB2xYCKMiMwKeaubqc7AkEfnwaJts8rYQTt_NojQT39Rw=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.948696,
+      "longitude": 107.07163
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": "1-100.000 ₫",
+    "description": "\"Đồ uống khá phong phú, có set trà Ô Long cho 6 người uống thoải mái 150k.\"",
+    "place_id": "9573873199671754259"
+  },
+  {
+    "title": "Là Mơ coffee",
+    "address": "Quảng Ninh",
+    "rating": 4.7,
+    "reviews": 43,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e7d919dfa8688933807/images/3eb708t1MqlkdwuchWNA9g8CgXXEf6aD2_BNsy56tVA.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwercXOJ8sO6ZJmkJHvjmtZSJlZs7gmTiggOf1AN39O42ElVPg-92Yow8KQXbs-_f15Xczw6qK0ZoU2XD1GOZbiOFt-bHkCGTt1LGfmWFdviUgIab3p8RtWxtTOEfyZBwDgv8VSekcOyfV4Kn=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.960588,
+      "longitude": 107.070145
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"đồ uống ngon, sát bờ biển view đẹp, recommend uống thử trà sữa\"",
+    "place_id": "2068606064401108508"
+  },
+  {
+    "title": "Long Healthy",
+    "address": "Quảng Ninh",
+    "rating": 4.8,
+    "reviews": 33,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d9198888aca48914440b89/images/UX5w0MacB0wZXeuHy5fnuLp8GEkTC0cLJYDpeR0tZH8.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepUBzIrGzPKMaS8P9ilbpcAvVGjWFSXgdl_8ZWoamjszWK4Q2tf2WAxeipv_ItKLniayNg9cDdhQW56wyUgJ0po93FunbECbknYUOOfxGckNBc0o11HjGGHLOb5dg7E3WzO7ZPF=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.95503,
+      "longitude": 107.09699
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": "1-100.000 ₫",
+    "description": "\"Đồ uống healthy ngon, thanh mát vụ ngọt nhẹ của nguyên liệu không đường.\"",
+    "place_id": "5552096507429419146"
+  },
+  {
+    "title": "NHÔM Coffee",
+    "address": "Quảng Ninh",
+    "rating": 4.9,
+    "reviews": 31,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d9198888aca48914440b89/images/cBXWYQe9JjCXbU8lHKUVpVkigKzwAVhpIcERq-kH2Zc.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepsB3B6AqhDfBEGdhxsXyDlQeWLQkZQv9BXOt4o-X1jdaa-FRtq3zs3gGnBjZRqOAD7v6rvYKVq5niHpZUZT75o9zWTKG5nF-vLVuQWQKMPBya7PB7_iMM-W9eQVWE2ka7xO40zdw=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.950953,
+      "longitude": 107.08339
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": "1-100.000 ₫",
+    "description": null,
+    "place_id": "1441373174746643436"
+  },
+  {
+    "title": "CÀ PHÊ CÁT CÁT",
+    "address": "Quảng Ninh",
+    "rating": 5,
+    "reviews": 27,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d9198888aca48914440b89/images/DpflqpuDTCf2Pnw4NkoAJeTM_l0N6OzkThqC-KpNWS0.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepaQ_jqXVdbvCYc7Z4QU-p92BUSeYzdiDr09ZqmeFkMVHqmYxoD9uaYOpVf66-I9yJCMJifrXgYPAxfBBQh7ID8tcekZwSmoqVZ_bR7C3gkBV3pPrWoN9OPrvKuCbc0T2iTWE-NTwPAkPtH=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.941874,
+      "longitude": 107.0325
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Không gian thoáng mát hoa rất đẹp đồ uống ngon\"",
+    "place_id": "2710644076352446521"
+  },
+  {
+    "title": "Pop-Up coffee & tea",
+    "address": "Quảng Ninh",
+    "rating": 5,
+    "reviews": 20,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90e7d919dfa8688933807/images/_GwsdizuDf8DuaA2MGLuaEKFNMN-UTPYV67ZAhUk_xE.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweob-obEAinDF3Arib3aR3ag8OAeUthGilzk4RN46PdkwRjBzYDlz19ACwKe2IUUV-EGbC2gDBFaJ17USCLSdmLPwA-8iIi-s0fe8F1XWVA92xiWXNtWHqLuj8QfEwk1Wy9oKhVHmiw9Wimn=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.95843,
+      "longitude": 107.05912
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"matcha quán này uống thơm, không gian nhỏ nhưng đẹp lắm ạ\"",
+    "place_id": "17799577093786198109"
+  },
+  {
+    "title": "An Café",
+    "address": "Quảng Ninh",
+    "rating": 4.3,
+    "reviews": 16,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d9198888aca48914440b89/images/SE67uT3aLDq_witsbM7lFghhXhMSOHHgtV4vcSorlwA.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqUl01UrLYgWTS6fdL8rIpCIGaG8IwY6lpfLVDuCsq3xHxOMiIYzkDQ1B6mvfiwo4FKrDfngNNU3E_i8RZHCPXl46ktzi5tAlrhKUiGxf9yc64t0ZHC_hGAdc5NTTPNb-rTXdJ3zQ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.97501,
+      "longitude": 107.08248
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "15840183195850006634"
+  },
+  {
+    "title": "Tiệm Len Yêu Nước",
+    "address": "Quảng Ninh",
+    "rating": 5,
+    "reviews": 9,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d9198888aca48914440b89/images/rwFIR8lFUKfiWT5utJSx9EIUSBSy5AW4jwBSL8tqvSw.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqHL8W4Bnm8m8zLbj4wgJkInPRQQluk74hx2uZAXWi0RdntbNX5W4wEoC5GFZE7iTK2qG6ZBW7Ev4-ZRNcitJ1U1hu4qcTR-3d69Zw8HEqtH7RGihCtwoE2uoz--C9JhOq6_zA=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.948679,
+      "longitude": 107.07189
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"nước ngon dịch vụ tốt nhân viên thân thiện quán 10đ\"",
+    "place_id": "3150879795073851662"
+  },
+  {
+    "title": "Xôi - Bánh Cuốn Chả Mực",
+    "address": "Quảng Ninh",
+    "rating": 5,
+    "reviews": 4,
+    "type": "Món ăn nhanh",
+    "thumbnail": "https://serpapi.com/searches/69d9198888aca48914440b89/images/fXFqy0tT163k0h1GzVKbm2tycZYPHSTOPlF0xa0wFAo.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoZIQDjJUuMeAKUPU0QuY7EV9Sa-Uk7SnhZm82D2HliSZ_8drizt_NLEIfNZm9KaDIxwR8ZlCQsE3HTu-uKd6S8GIxTkkjD4ZRGel4SPd92hApeMuYyrSPNmGEjJtwW-G1Pik9-mfdIT_C8=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.947042,
+      "longitude": 107.04899
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Ngồi chill chill uống nước, ăn đặc sản Hạ Long quá tuyệt vời\"",
+    "place_id": "18108575789952130927"
+  },
+  {
+    "title": "Cafe - Sinh Tố - Nước Ép",
+    "address": "Quảng Ninh",
+    "rating": 5,
+    "reviews": 3,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d9198888aca48914440b89/images/pzh2gcTtHy3viOnAW_263hj-z3CpW4nX1cziqM0ztz8.webp",
+    "thumbnail_large": null,
+    "gps_coordinates": {
+      "latitude": 20.959208,
+      "longitude": 107.05079
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "6795976159786128287"
+  },
+  {
+    "title": "Nước Ép Bạch Đằng",
+    "address": "Quảng Ninh",
+    "rating": 5,
+    "reviews": 2,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d9198888aca48914440b89/images/cRfQ8OqpTuFTB8vY3TzQCYz-s9aU-lKtSYTiojvCRkg.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoNa7UMwuW1m9Yv6afrNkKIiRv9gyWBuHHab39ufGG2cHuoe-HEVpY6Udx9W_erNbG9_EacCUeUbK4PPruqtnH0NqL6mYqxPTKV9zFrLOwW_XkezaNpDjBa7bz5Ee5IbvalfcFrcg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.95083,
+      "longitude": 107.07931
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "2292936464847800424"
+  },
+  {
+    "title": "Quán Nước thu quý kênh liêm uống 5 cốc, khuyến mại 2 cốc.",
+    "address": "Quảng Ninh",
+    "rating": 5,
+    "reviews": 2,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d9198888aca48914440b89/images/84Rtotd8u4M70nwaUOQS2nba6vkhNAtLoFaQq0JvtAQ.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoIkIm8S18bHte4wy5m8qlTADAA7ukbUB0hHitujHX96wW_fzUcxe60sfT0qSBq1Xo806zTQ4uuA6bUlXOa9Rql3NfNvWwcTZSO9nQ8y5Gh9aawNzGv4WmJrFBR1stXa8rsQxqZdQ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.954752,
+      "longitude": 107.09521
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "8287509624155864400"
+  },
+  {
+    "title": "Nước ép nhà Hồng junice",
+    "address": "Quảng Ninh",
+    "rating": 5,
+    "reviews": 1,
+    "type": "Nước ép",
+    "thumbnail": "https://serpapi.com/searches/69d9198888aca48914440b89/images/KsNaIZSjzVpaiRP_2SWtsblRE6mLZwEQFdr7LTnzpXQ.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo8-xVE6aFxgMPN5wjGc5TsN5grANCxqzPBAAD7aNLUYG7CQ7a6u-uaY2htD_R4Ek3WFeSgW1tTsLKE3cnLltn3D-vqPewVTTX7QFh-hiLNR3qLyPjpoZELiv8-RuZnVUSakW21rtnuxR8=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.955488,
+      "longitude": 107.02538
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "5755138587917012898"
+  }
+]

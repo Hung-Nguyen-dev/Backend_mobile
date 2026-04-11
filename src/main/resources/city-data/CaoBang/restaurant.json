@@ -1,0 +1,500 @@
+[
+  {
+    "title": "Nhà hàng Ngon Cao Bằng",
+    "address": "Cao Bằng",
+    "rating": 4,
+    "reviews": 706,
+    "type": "Món ăn Việt Nam",
+    "thumbnail": "https://serpapi.com/searches/69d90a5c71a41db02a29fe1a/images/SOjyacPKWYM6miIQDsAZa2n9mWkAnsDr3OrAhPcDzeE.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerSAm9Dkv63lXAD1CaWuuMqnjE7dXxUaA74nbOX0FN4mADKmiM7wOw353iK914kuZ8PQdY9WauGU5yWgPAJ9JJgsp-TYR0hFcXmdTlGxSIVFXVZItUB5y6nJ2gZBtXmxDlGkYD0=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.664564,
+      "longitude": 106.25926
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": null,
+    "description": "\"Mới đầu tưởng đến nhầm vì khi vào trong nhìn như là nhà hàng tiệc cưới.\"",
+    "place_id": "5422517668711467860"
+  },
+  {
+    "title": "Pedro's Pizza",
+    "address": "Cao Bằng",
+    "rating": 4.7,
+    "reviews": 560,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90a5c71a41db02a29fe1a/images/I_ro33eQ3EOvxlwWTRLwEQFwxvThp2pyY11NNDWXOFA.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq7-goXaWy2kWNp2v7MkqP4-7cZ8I7wwvVHH3jLaQXmCz0joD2fKIO7qhhXmK2OXTAMVAdsaotuYXLgzpJ50h_jB5-doT5jqMF9gIp_rnu_-HF9owqhOHpT422qaw8EgB3ydQdmfcLMU64=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.66756,
+      "longitude": 106.26157
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": null,
+    "description": "\"Tầm giá 200k so với ăn pizza hut thì ăn ở đây chất lượng hơn nhiều\"",
+    "place_id": "15238072623081038550"
+  },
+  {
+    "title": "Hạt Dẻ Quán",
+    "address": "Cao Bằng",
+    "rating": 4.1,
+    "reviews": 419,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90a5c71a41db02a29fe1a/images/hUk74IPXyaGTxrm9njEApLEETsGk2RDl6Ik6_V9s44Q.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerOC0ZViEOTzrUTH3GKKwH9MU0x40IaDCwGT7DVgWSYtgVF-W8tRUaCFy8m-XhiVcmITGI8RosneH94aCo96OS4XRDekrjmlULgrXdlc__g6O0HmCjqQl2Q71o_b8_NiCP6w0dnBQ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.666876,
+      "longitude": 106.26082
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"đồ ăn ngon nhưng nhân viên thái độ và còn treo cờ ngược :))))\"",
+    "place_id": "6194326466405566020"
+  },
+  {
+    "title": "Yên - Ngon như mẹ nấu",
+    "address": "Cao Bằng",
+    "rating": 4.6,
+    "reviews": 389,
+    "type": "Dành cho gia đình",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer50QpKoUFgG42x3Dd1QRQiRUGtnMVGRtlDqQKkl1S5ifENfNuDF5cuR0FYwtyk6o-F7E426wW3foZB_4QHQtiNqbt45G2N10ERbFIQd4f0LDmbv22MHw6gRT3DhFxIf-MkTmxmsQ=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer50QpKoUFgG42x3Dd1QRQiRUGtnMVGRtlDqQKkl1S5ifENfNuDF5cuR0FYwtyk6o-F7E426wW3foZB_4QHQtiNqbt45G2N10ERbFIQd4f0LDmbv22MHw6gRT3DhFxIf-MkTmxmsQ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.66538,
+      "longitude": 106.25356
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 10:00 Thứ 7",
+    "price": null,
+    "description": "\"Quán ăn decor đẹp, đồ ăn ngon, nhân viên thân thiện\"",
+    "place_id": "533953230213242916"
+  },
+  {
+    "title": "Nhà hàng Giao tế (Restaurants)",
+    "address": "Cao Bằng",
+    "rating": 3.9,
+    "reviews": 371,
+    "type": "Cơ sở ăn uống lưu động",
+    "thumbnail": "https://serpapi.com/searches/69d90a5c71a41db02a29fe1a/images/yG2N-n_56tvIPN04md-iBB-GJm5AjovgSxBO77B7LbY.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweraA39_CwJm0_I9b0ajhx1H3LLmBpO-FOkBKo5sI0L6z5T_ZlmB3ctqfKFBaNhnuHkhaDeTekaf7FOLLNuUD8ZC6hDWtrHWKkdvGnLSzLoP71hI9lt6TYzvmDMtW1lv8BDQKKIf=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.664854,
+      "longitude": 106.26597
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Mình ko ăn ở đây mà chỉ ngủ, sáng hsau đi ăn phở vịt nên bỏ bữa sáng.\"",
+    "place_id": "1440424363192495129"
+  },
+  {
+    "title": "Nhà hàng Thu Tường",
+    "address": "Cao Bằng",
+    "rating": 3.9,
+    "reviews": 341,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90a5c71a41db02a29fe1a/images/IXkFafkRWnjWjwDEE-sunYQt_5M3QQC22sKLQcWml1s.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoNvC0v8AFdDBGVRpe1u0Qt0k3jkhb4BW8T4O6POJpMWjpFIBXVcYr0WoVT-a21-Ac2gTPWEwIcBPD9Fj5_H-3dysQiQ7KfqGc1ZpIAeSvG4wcDYFysc5G5xwoQboAFn_-BRJoN=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.66835,
+      "longitude": 106.25645
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Không gian kiểu nhà hàng tiệc chứ ko hẳn nhà hàng địa phương.\"",
+    "place_id": "9824158210534591537"
+  },
+  {
+    "title": "Nhà Hàng Vua Lẩu Nướng - Nhà Hàng Lá Cọ Xanh",
+    "address": "Cao Bằng",
+    "rating": 3.9,
+    "reviews": 315,
+    "type": "Nhà hàng",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep5i435ikpG8eelkbps4haZe-TSm3E7JO1ylcyVrAdk_xrYw2JKvFKtQgiMymshKE5wIHdBdYtof2CbQMDz7Qqxj_8oB8lhP5Ngte6XL1WKIDh8tMYcrdS2TVNBUDEG8D3K_2NXeA=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep5i435ikpG8eelkbps4haZe-TSm3E7JO1ylcyVrAdk_xrYw2JKvFKtQgiMymshKE5wIHdBdYtof2CbQMDz7Qqxj_8oB8lhP5Ngte6XL1WKIDh8tMYcrdS2TVNBUDEG8D3K_2NXeA=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.673046,
+      "longitude": 106.245605
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Nhà hàng sạch đẹp, đồ ăn ngon 😋\"",
+    "place_id": "15903205152575828823"
+  },
+  {
+    "title": "Bánh mỳ Thu Thắng",
+    "address": "Cao Bằng",
+    "rating": 4.8,
+    "reviews": 290,
+    "type": "Quán ăn nhỏ",
+    "thumbnail": "https://serpapi.com/searches/69d910e7f0114aa2b75c8d01/images/appxq4x9vVQCchjyuCrx3ho-pMVCRtd-irsjfPYWr-c.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweryivHDeptOeYNlCwDnKQcC3GlNXOI0CV3pfmYayUkhUHqBy0ly4w5b2ZDxLcjMgAEaTyU9ibF1eCCHW85-KhiQXXisWlbygGTIoKIW8HoUfWWYV_Q2Mi8MgGKzeEErP9IxU0wv8Mm-WT-g=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.662132,
+      "longitude": 106.25998
+    },
+    "hours": "Sắp đóng cửa · 23:00",
+    "price": "1-100.000 ₫",
+    "description": "\"Bánh mì ngon, quán nằm trong phố đi bộ có vị trí nhộn nhịp.\"",
+    "place_id": "10434019276902353016"
+  },
+  {
+    "title": "Nhà Hàng Ngã Ba Sông-Lẩu Thức Yến",
+    "address": "Cao Bằng",
+    "rating": 3.9,
+    "reviews": 269,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90a5c71a41db02a29fe1a/images/VoWbtwSHYCOlRKpKCsbaju0SP8n_58DdQIuZw-E3azk.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqOBkE5sgUAtKuMOOxRk1HLbjm27hfYQZwIfuxnMF53waMw2ckcqbYjKpsXUdhCWOooOn9xrxloiJr9Xc-Tf8r_7wei0krW_x3JrCwONU7ZY0LBFssYwpaCuLz6nTBYzyJFf_v1pA=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.673561,
+      "longitude": 106.25401
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": null,
+    "description": "\"Đoàn đánh giá đồ ăn ngon, view đẹp, chủ vui tính nhiệt tình\"",
+    "place_id": "10965107925264590350"
+  },
+  {
+    "title": "Chợ ẩm thực Cao Bằng",
+    "address": "Cao Bằng",
+    "rating": 4.2,
+    "reviews": 261,
+    "type": "Khu ăn uống",
+    "thumbnail": "https://serpapi.com/searches/69d910e7f0114aa2b75c8d01/images/6FAd3FuZ2Ylmu90-ynKyq52f3wTjGTVCjdSGGxdD3E0.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep_5PitvXM81813RrLS3IX7iFx1Fe-lJw4L63iAuZp5aXo5iCwnb3mXxhJu83GeLkduW7SHUl5FbFeKQBqmxJReY4JnHt9uoL0foeLNgeSJj6GPWyOuBmCFw8d0fira-rqZcb8i=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.664803,
+      "longitude": 106.26057
+    },
+    "hours": "Sắp đóng cửa · 23:00",
+    "price": null,
+    "description": "\"Nhược điểm là trong nhà nhiều quán ăn nên khi đông sẽ rất ồn và vọng.\"",
+    "place_id": "13868618134906311257"
+  },
+  {
+    "title": "Than Hoa BBQ",
+    "address": "Cao Bằng",
+    "rating": 4.1,
+    "reviews": 161,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90a5c71a41db02a29fe1a/images/_TXM5XzIb10nYh4oJn9AvzVHunVQdNb1qokaIpEtZ3s.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep3-PGAqguDi-3MFMsPC3--eLe0Y9UNTr9tvFsEapginIhODXddGOkqXY0_UlFn1O_bFwUXxpsvJKEWidzPe2tHfpVWxlzs3NV1S7TiweKe5c4DK7qf8zvggLkETJ-uq76ZUyexog=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.666372,
+      "longitude": 106.253716
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": null,
+    "description": "\"Nên ăn nha mng😋 recomend dẻ sườn bò mọng nước nhé😋\"",
+    "place_id": "5350096252877473421"
+  },
+  {
+    "title": "Cơm Phượt Quán Toan",
+    "address": "Cao Bằng",
+    "rating": 4,
+    "reviews": 126,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d910e7f0114aa2b75c8d01/images/bxHaWq3U39ejFjkAVjcxI9W-YPNkGAPEcXfLFVPBCAY.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqKJ3qc4mXm0vzadEd33_QBKP7x36OzRjDsxSkvyIzfS0XTWMUMPvViGg437jrZHAHnlN8qykZMtV7J3O6ZdwsBbla8eAk5Y3lrvUsNj3UmwXOJ6qvbQrgPTbERS4lxRYpFiKgAyl4t6KYg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.667404,
+      "longitude": 106.26074
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"M.n muốn ăn nhanh, đơn giản khi ở Cao Bằng nên ăn ở đây\"",
+    "place_id": "18157446868699220749"
+  },
+  {
+    "title": "Phở Vịt Dung Thịnh - Đặc Sản Cao Bằng - Cao Bang Specialties",
+    "address": "Cao Bằng",
+    "rating": 4.8,
+    "reviews": 89,
+    "type": "Phở",
+    "thumbnail": "https://serpapi.com/searches/69d90a5c71a41db02a29fe1a/images/dVknkqFAsTorWBf_NFRIyJI60_Nf4KHiPOVe-tYiQ2E.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoQlDogNLgechaGgQDhHZ-ZozAnt1LrqNZJge5aGwUg3oOre5fb_eoweqKSd1fRbHmWuWv-59m9sIg1oBfRnFDRHwP7ScB4ixictxhpUS1Up69J5cFCTaB8Iv5VuVt_ra50fD0s=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.664228,
+      "longitude": 106.265175
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Nước phở và bánh phở ăn nhạt, nêm theo khẩu vị cá nhân\"",
+    "place_id": "6511741775817325779"
+  },
+  {
+    "title": "Nhà Hàng Linh Hằng",
+    "address": "Cao Bằng",
+    "rating": 4.1,
+    "reviews": 74,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90a5c71a41db02a29fe1a/images/FCUj56V6WQDF04dezi4WrYAmh-j7eI9lDKaOLdWn5_s.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepdYKoKnLMjhLSe1IN-8xUkrfIonBFmKBwSRPXacOuSf6OJcZSSZ-TikIcWxJ9VqTJuJ-oef8cf5ip4WNB9BQz4Dlf8MRu13v_cUes76Mko9GBA61Pp1wZ2w9ZASlcOyNzJZW4P=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.661531,
+      "longitude": 106.2598
+    },
+    "hours": "Sắp đóng cửa · 21:45",
+    "price": null,
+    "description": "\"Gọi 2 đĩa sườn xào chua ngọt mà nhân viên mang lên 2 đĩa 70% là mỡ lợn.\"",
+    "place_id": "1110728193411690405"
+  },
+  {
+    "title": "Chiêm Cháo",
+    "address": "Cao Bằng",
+    "rating": 4.7,
+    "reviews": 51,
+    "type": "Quán ăn nhẹ",
+    "thumbnail": "https://serpapi.com/searches/69d910e7f0114aa2b75c8d01/images/L6m3ObQYcQa0j-WxNT7e-aK2Daq-T6fiDo8b4uLxos4.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoiI0v3KUAC3fP6FaZ9WVlB85msx1uYYO5uMEhdL5EC64DG5pU7BqnivFrpeoM10KjjwZjjCYsaz1se9CQhsePa6nfCpVJvmckmcyYmCR7JkoslxnXWp_oc2qs2uiJyiXSim1UKuliyF3xk=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.660225,
+      "longitude": 106.259415
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Được cái chủ quán nhiệt tình, nhưng ăn xong mới cảnh báo.\"",
+    "place_id": "2149213786439736930"
+  },
+  {
+    "title": "Cháo Lành Mạnh",
+    "address": "Cao Bằng",
+    "rating": 4.1,
+    "reviews": 47,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90a5c71a41db02a29fe1a/images/-wnrHvOfLdwY8vyhXrVrsMSzIryUhjtYFoJgZIlVPcQ.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoiRihH4yAWgg9FL3wxJ-3wNGosLTUptTW60ZIw9biBXUZKXY7J65J9Xpx84vlQvUElnpuUFhi_NeQg1w_UfwlSb1wA_coowxh8iFoUNTwAPyOFH_4GpGFqakM_pfyTU1m3wAp56oye8CFi=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.664566,
+      "longitude": 106.260864
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Ngon lắm ạ, lẩu cháo chim cực ngon.\"",
+    "place_id": "9553962223988968334"
+  },
+  {
+    "title": "Trang Nguyễn",
+    "address": "Cao Bằng",
+    "rating": 4,
+    "reviews": 41,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d910e7f0114aa2b75c8d01/images/1pfvh3d3qDXjd8lnw-z1_A3_NH7R9hfZyD2hqR1GzD4.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwequNOmLG1FqkoI_KXemkjA_IBZrKCXJCyKZFE9gvtUe3qOuU0URUAD6_wwlUjNT0dP6AbBRVN2hKTNrwuWLWQE-4HMH33oFx6ZNM1f-Pj4wEj3b9M6JfUcKtVAMvGNLeYsNBAA=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.659712,
+      "longitude": 106.26584
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Đồ ăn được, giá cả hợp lý, quán đông khách.\"",
+    "place_id": "8510607313168561224"
+  },
+  {
+    "title": "Nhà hàng Hải Sản ANH EM QUÁN",
+    "address": "Cao Bằng",
+    "rating": 4.3,
+    "reviews": 40,
+    "type": "Đồ hải sản",
+    "thumbnail": "https://serpapi.com/searches/69d90a5c71a41db02a29fe1a/images/--FoYv7sMqgXaEvr4vmc-LHEXOQdtImApGC8dV0vEhc.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoeYAeXBcHhGeKH1-kAE1I13eY4QL56uoekbxKnie_FkLgo4FQtaI1g-S5wlQbTQAh5x6De1KCtY3VpEFsYVWyrSSQq3jngtqs7IEJni0OM3gXKIEPASHA4IqQ5lWq5fKkdW92a=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.65496,
+      "longitude": 106.2696
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Chất lượng tốt\"",
+    "place_id": "9073254493368385283"
+  },
+  {
+    "title": "Chân cánh gà nướng Hồ Điệp",
+    "address": "Cao Bằng",
+    "rating": 4.3,
+    "reviews": 29,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d910e7f0114aa2b75c8d01/images/QUbmVqFb46PDC4ScNGzKo1epYd49oOYqMkOdEQiNyUo.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoAqvA7meejKSzbiYdlRl5BoocD72abXJl6KbeGBMcXYeQTdlVWs2L0rjqcc_g3UxIu2crB7KuCr3MZ8fbf_yS4cJvIcOHxTJ-qSL9YOkJsYK1tEXHaf-AMpEAIF-_nGQIJWwOS=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.666069,
+      "longitude": 106.26324
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Tổng hết 280k cho 2 người ăn no luôn, giá hợp lý.\"",
+    "place_id": "15905724146466930371"
+  },
+  {
+    "title": "Bánh cuốn- Nhà nghỉ Hoa Hồng",
+    "address": "Cao Bằng",
+    "rating": 4.6,
+    "reviews": 28,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90a5c71a41db02a29fe1a/images/JiuxTiLJzGelNycaqFhgy6csQtOArZRfa6eSOCaHjx4.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoqJkGjz-rN-0GNQSNkWNHBDqMr8-7BbTvaYjfGzBeIzPtgc6JRBiUw-eSwIjcq3UcqX2cSItrjOX7Vh9G5xUvtaB3qxnrH4K8r9g-4SpbHBAz7APfbz82A0HDa0Xfjw5HqDw45lRUmLYTt=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.664644,
+      "longitude": 106.260895
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"1 suất đầy đủ 4 bánh 2 giò 1 trứng như này 30k\"",
+    "place_id": "5437074465409632608"
+  },
+  {
+    "title": "N.A.T Bia - Lẩu - Đồ nhậu",
+    "address": "Cao Bằng",
+    "rating": 4.6,
+    "reviews": 22,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d910e7f0114aa2b75c8d01/images/d_ngvxI-406l9kpRwMhSj6xDEdgsNn6XznIeVUfRT1E.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoL9y4SPCsemV_NLjQzH2QUGHGkaBmJ8vvEEpbcO-HlRdRlI5X0f3g7TOGPQBCwlZuMAEPPHBEBkFMLYTRhJNa3KOU_0yuEzWA8lSvySx9hr_OSHCdneZOG2Luz9CAttwdYJwwJ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.671345,
+      "longitude": 106.25724
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Quán nhậu giá bình dân mà chất lượng đồ ăn rất xứng đáng 5*\"",
+    "place_id": "9029105673366535831"
+  },
+  {
+    "title": "11 Boonghay Project",
+    "address": "Cao Bằng",
+    "rating": 5,
+    "reviews": 20,
+    "type": "Món ăn Việt Nam",
+    "thumbnail": "https://serpapi.com/searches/69d90a5c71a41db02a29fe1a/images/Tmym-FFQsKRLPhEPqMNgDhiK4tQ3Am647fW0PAhFOrk.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwervG9hfbwgIXCSmmLnABB0SruKSrS4o28-9xMIYFTW8LKNS1ogQDQnHRTiCfiEQSvlrZFla60h5op5qd8pjitZwikbWsLildG7uUW5OIu_4g64oR6oeSrpdmRYmPbrTxiQYrIExPPk0Ut19=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.668516,
+      "longitude": 106.26095
+    },
+    "hours": "Sắp đóng cửa · 22:30",
+    "price": null,
+    "description": "\"Đồ ăn ngon, không gian đẹp, phục vụ nhiệt tình..\"",
+    "place_id": "16011893030251522044"
+  },
+  {
+    "title": "Nem nướng Happy",
+    "address": "Cao Bằng",
+    "rating": 5,
+    "reviews": 17,
+    "type": "Quán ăn nhỏ",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerM6TsGG6un2V-cS2VslfdjXT0c5pvTiQvqO1iLfF9lBVwhLIJHQRVtis5MJufAML6UkyF17EOquA1LPytz5XevnKfc9HdMg1smMyhLZCJGYaVfEOR3Y4UT1bR6lCxP4fxGZ66wwHXYqc4=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerM6TsGG6un2V-cS2VslfdjXT0c5pvTiQvqO1iLfF9lBVwhLIJHQRVtis5MJufAML6UkyF17EOquA1LPytz5XevnKfc9HdMg1smMyhLZCJGYaVfEOR3Y4UT1bR6lCxP4fxGZ66wwHXYqc4=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.665506,
+      "longitude": 106.261665
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Nem nướng rất ngon, nước chấm tuyệt vời.\"",
+    "place_id": "15232429520903854121"
+  },
+  {
+    "title": "Quán NGỌC CHÁO",
+    "address": "Cao Bằng",
+    "rating": 4.8,
+    "reviews": 16,
+    "type": "Dành cho gia đình",
+    "thumbnail": "https://serpapi.com/searches/69d90a5c71a41db02a29fe1a/images/5wOaCSq5xMfSGa14eH01Dxj5uc46ZbUWhiQe6pTNwwc.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqLmGtX8bBm3TUwpkdDZwT3Y18B1UaOy_AMg2LiRjed09qRbDBk6g67FAbxg3sPNy5OI0qYhv73_EC-Z05Q-jUWwcwnOMSA55HMdKG-zEeF2solpy0LuBGF-yvpVDfyirl7kcEm=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.664818,
+      "longitude": 106.260414
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Đồ ăn ngon lắm ạ, rau rất tươi xanh mà lại còn nhiều nữa.\"",
+    "place_id": "10701818000259837841"
+  },
+  {
+    "title": "Bếp nhà Phương",
+    "address": "Cao Bằng",
+    "rating": 5,
+    "reviews": 15,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90a5c71a41db02a29fe1a/images/2vxUj246l29CUW_tzgH8R64SaNrKwsaqg09R1DS8x1w.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep8A6YFOTneIfBTGKzraa_QcYeSL85LkS893Zube55m_f3GKJw-hhzzQzhC9E8O8fOS7n2ogJ0R8Bko02mCqo14XXrAdPe3uSmDExgdZ1YqMWschZlo8-_ERTmCUhn-wbzqqXNIxOkBEas=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.655338,
+      "longitude": 106.264565
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Nên thử nhé ❤️ Must try nha ❤️\"",
+    "place_id": "12142543350317611628"
+  },
+  {
+    "title": "Lẩu Nướng BMC Cao Bằng -Tầng 2 Chợ Ẩm Thực",
+    "address": "Cao Bằng",
+    "rating": 4.9,
+    "reviews": 15,
+    "type": "Quán bia",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep0TJm7mvnc9gA-kyIMSSn545YB_ov69QVnZJDnFFMkKVfQspHwNkck3t0fwXL2NR_H9dK_AU-byoXQBEFSoR4uRTjtN1_dLuxKpx_z9Pl4GbcNASZ_A3Xogw5VUZRhafsYqa3T=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep0TJm7mvnc9gA-kyIMSSn545YB_ov69QVnZJDnFFMkKVfQspHwNkck3t0fwXL2NR_H9dK_AU-byoXQBEFSoR4uRTjtN1_dLuxKpx_z9Pl4GbcNASZ_A3Xogw5VUZRhafsYqa3T=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.664978,
+      "longitude": 106.26054
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"View đẹp, đồ ngon, pvu tốt\"",
+    "place_id": "170492330257791661"
+  },
+  {
+    "title": "Lẩu Nướng Trung Hoa Kình Ngư",
+    "address": "Cao Bằng",
+    "rating": 4.5,
+    "reviews": 10,
+    "type": "Món lẩu",
+    "thumbnail": "https://serpapi.com/searches/69d90a5c71a41db02a29fe1a/images/eD_94pECSSDzljvMhZ3Dk4w3wALlBFEc181d-IE0TE0.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweprZt5wBrfqh1PEnEe29-qO3qb291G6Tn-dW_8eTlbBn1iqVqxjoBN3YS5SB_5dXalezMJPR0_AW88Zg1kt6KvfZFIECW0eG7M-nNXz-g7hlLCrIZxOM2j15kByHyZe-x3TounAng=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.664677,
+      "longitude": 106.26054
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Đem đồ hơi chậm, nhưng bù lại đồ ăn ổn với giá thành vừa phải.\"",
+    "place_id": "13065304095825245835"
+  },
+  {
+    "title": "NHÀ HÀNG ĐỘC LẬP restaurant",
+    "address": "Cao Bằng",
+    "rating": 4.8,
+    "reviews": 4,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90a5c71a41db02a29fe1a/images/bjUb3HUBX9Rflif69QnFTwbKffdICGwwByJjOwnCiEI.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepF142URt9fColYuUUJRVplTzJQPyX5ZExEmOE3ZByLL64UV2aBdlR3utCjJf8vX6CvxiPHPVOLoDuSyTIIabVXhmopgG-Z1d4jpPjiJyTafDp6v66BiXT0He3liH2yHsT5GbQ6WXKtri-S=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.659206,
+      "longitude": 106.26585
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Chúc nhà hàng luôn đông khách.\"",
+    "place_id": "894158850585718597"
+  },
+  {
+    "title": "Phở Vịt Duy Thuận",
+    "address": "Phố Thầu, Cao Bằng",
+    "rating": 4.5,
+    "reviews": 1200,
+    "type": "Đặc sản vùng cao",
+    "thumbnail": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=800&auto=format&fit=crop",
+    "price": "35.000 - 50.000 VNĐ",
+    "description": "Quán phở vịt quay nổi tiếng nhất Cao Bằng, vịt quay mắc mật thơm nức, da giòn sần sật và nước dùng đậm đà đặc trưng vùng núi.",
+    "place_id": "ChIJT_96-fS-NTERpYq_Z6oT-U8"
+  },
+  {
+    "title": "Bánh Cuốn Cao Bằng - Chợ Ẩm Thực",
+    "address": "Chợ ẩm thực Cao Bằng, TP. Cao Bằng",
+    "rating": 4.6,
+    "reviews": 900,
+    "type": "Món ăn sáng bình dân",
+    "thumbnail": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?q=80&w=800&auto=format&fit=crop",
+    "price": "20.000 - 35.000 VNĐ",
+    "description": "Món bánh cuốn nước xương đặc trưng của Cao Bằng, bánh nóng hổi ăn kèm bát nước dùng hầm xương ngọt lịm và giò nấm thơm phức.",
+    "place_id": "ChIJT_97-fS-NTERpYq_Z6oT-U8"
+  }
+]

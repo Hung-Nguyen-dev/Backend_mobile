@@ -1,0 +1,529 @@
+[
+  {
+    "title": "Khu du lịch Thác Datanla",
+    "address": "Lâm Đồng",
+    "rating": 4.4,
+    "reviews": 25000,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90adab9fc5f74ef909127/images/KfL9zWB3whRU-P90lf5X7a0BedkVxqm72IfUN06mXFc.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepYp2Xezj6iJr8p8XQnKglB6BSnUCrYZeXVx9tHf6zFz_qC1S_jMJy35nGrk2sYJHLgcNcLlf3viOhSl2Jo5D4Aqs89uNFj73LohOMWbLhR4EEoTsULMg229l1JgfOl594KO1Lq=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.903433,
+      "longitude": 108.4497
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:30 Thứ 7",
+    "price": null,
+    "description": "\"địa điểm đẹp, thích hợp cho việc đi du lịch, tham quan.\"",
+    "place_id": "17928424083927973989"
+  },
+  {
+    "title": "Thung lũng Tình Yêu",
+    "address": "Lâm Đồng",
+    "rating": 4.4,
+    "reviews": 19000,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90adab9fc5f74ef909127/images/wxv_DkqyisfPa5odO9lFRDNmFF4R8uujS-8zq5SnNXY.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweogRStJBNJfwrwZnGDWRrPb8pOUR3UgK6-4ocEcm7HT2w0191O0o2RNdRE5SeiMFglS39W7ovkV8ZD1UJFZvxIekCEXWsyyrDyulmVXOyg5e7rWaIqfVinS1yy4raYVJzrEh70x=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.978809,
+      "longitude": 108.44831
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:30 Thứ 7",
+    "price": null,
+    "description": "\"Địa điểm tham quan đẹp, nhân viên khá nhiệt tình.\"",
+    "place_id": "13350656737474802166"
+  },
+  {
+    "title": "Đường Hầm Điêu Khắc",
+    "address": "Lâm Đồng",
+    "rating": 4.2,
+    "reviews": 16000,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90adab9fc5f74ef909127/images/PlFiFOYJmdsAsX43KTDf7W6kaRnm7UFdWRTi5GPWgnU.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepiQwbaXONqYiVFyXumtb-tlWV0CrBcNeXuDoYQwcpjvUi7hTFONX9cjwsL2vPjO_zpWPWvhhMK42uCZqSo8Dv_uREE-eYPMndMxgUtHnhS0T6wypq0NAY7tB7z2hhVWhC2_z4=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.882505,
+      "longitude": 108.41157
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": null,
+    "description": "\"Điểm tham quan đẹp, như ĐL thu nhỏ, nhân viên thân thiện, dễ thuơg\"",
+    "place_id": "4438438102778886233"
+  },
+  {
+    "title": "Quảng trường Lâm Viên",
+    "address": "Lâm Đồng",
+    "rating": 4.5,
+    "reviews": 14000,
+    "type": "Quảng trường",
+    "thumbnail": "https://serpapi.com/searches/69d90adab9fc5f74ef909127/images/VxpaACEfyVE1tSO_eJ8fGzMYLNw5ZCVeb7SQIbQnWP4.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq0Y2D-vBfnl4rm5qS_gqT7jRAKTN8WcjCt0_oNiofCjQ5LPE4xy5qLWEzSSoWemHIR_TIcvss-nSKyeoPTLfuuldSvrImzfDz9FqQvYimhUrgxT3RyNOQPBKPmCdfEXY9eBtA=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.939363,
+      "longitude": 108.445206
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Quảng trường rộng, đẹp, quan sát được góc thành phố quá đẹp\"",
+    "place_id": "7416178250348386697"
+  },
+  {
+    "title": "DINH BẢO ĐẠI III",
+    "address": "Lâm Đồng",
+    "rating": 4.2,
+    "reviews": 9200,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90adab9fc5f74ef909127/images/h8a9PoeqPNveAE28OuF14571Sax7qCf11nEiRtz432U.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerLWGJPHEIsyIATjv4Q03tA_dzaue8YzemIHRzH_QXxhEjPK7naD-yBkxSFfsvpxEAKDbjCS54xSXA3-DUWzaSw-MRHuXlmVmzOPqlIbD7n8RGBfBR17LRrITkiaWUv1A5yaNo=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.929957,
+      "longitude": 108.429634
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": null,
+    "description": "\"💛 Cảnh đẹp, địa điểm đáng để đến thăm quan tại Đà Lạt\"",
+    "place_id": "15754062462248307279"
+  },
+  {
+    "title": "Khu Du Lịch Lang Biang",
+    "address": "Lâm Đồng",
+    "rating": 4.1,
+    "reviews": 8500,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d915fccfa230678faacb52/images/_NNMpnzbh4eOIL2nc-hoLk7UYMA_JbkrVYFItFAhgKE.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerN7F8RZf_Jqp2nCTJhimRXD9-8bk6wfC5diA6lt-cYtiIjgbKzhAFYb2uVpVeQ5FmkKSIJhSdRDpaZ-c92A91_XCyg_BIFJLGyDDjCY7SxpDD5SjW3aQAJDZJ_ds_AI9pqvAKD=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.0193205,
+      "longitude": 108.424385
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:30 Thứ 7",
+    "price": null,
+    "description": "\"Khu du lịch rất tiềm năng nhưng chưa biết khai thác đúng mức.\"",
+    "place_id": "288633811461070287"
+  },
+  {
+    "title": "Khu Du Lịch Cáp Treo Đà Lạt",
+    "address": "Lâm Đồng",
+    "rating": 4.4,
+    "reviews": 5000,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90adab9fc5f74ef909127/images/tLVGUBkUHgPQ6-qQnEoxhExD73RNs0dZcD9-StbL8j8.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqOlIXgQYyH7LSJxCHEUs6WqUGgUrajKxJOxI0hze5DBPRNS6LGkQvw62_CrCXp2uyLFBWcrLySocsWFSYf9GKVM8DNHYQoraUaf1ul0cOLL6y9zRfq2tpcXHdw-qBz2HCmV-4YTg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.923194,
+      "longitude": 108.44379
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:30 Thứ 7",
+    "price": null,
+    "description": "\"View đẹp , yên tỉnh đáng để nghỉ dưỡng vào những ngày cuối tuần\"",
+    "place_id": "13584580655396373767"
+  },
+  {
+    "title": "Vườn hoa thành phố Đà Lạt",
+    "address": "Lâm Đồng",
+    "rating": 4.2,
+    "reviews": 3900,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90adab9fc5f74ef909127/images/gWrdoEf9_0CyDg3HBaULDjKUK69JlvHd4C-iLWQ5KKo.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweogclue8IEhFlcuQ5yJ_QOENeyVQywnagaANGF6VsB_B5N51I0Ii2lmJ_0S5RfKAfGsVPh9cCIqW6xYp9c9Bz_iP_4w_c-z7d3bvRei5Xum-QJcV8SuBtq0imk5HKe8i8mapFrv=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.950248,
+      "longitude": 108.44983
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 6:30 Thứ 7",
+    "price": null,
+    "description": "\"Điểm trung tâm tươi đẹp của Thành phố hoa Đà Lạt\"",
+    "place_id": "7108760654706798290"
+  },
+  {
+    "title": "Khu Du Lịch Sinh Thái Hoa Sơn Điền Trang",
+    "address": "Lâm Đồng",
+    "rating": 3.9,
+    "reviews": 3700,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d915fccfa230678faacb52/images/q3DIM5kV3Fd43lY-7er5QUDBNFWufs2W9KQo-jntXBc.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqfzbMrTHl-_2xJr52s-vA2Un9CeQDhrZaSoa0GtY3s1YbpWaQ2fcSIvm5sz1YPj8HzbQuMskrAw3WK9UIYy6V065ExtiYYrbJBuWzke4db2B-0O99iMbikwsdaIljtfvuxwfm2jw=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.933854,
+      "longitude": 108.37615
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": null,
+    "description": "\"Bình thường, ko phải mùa du lịch nên ko sạch sẽ lắm, cảnh sống ảo ok\"",
+    "place_id": "2762253960309042758"
+  },
+  {
+    "title": "Khu du lịch Fresh Garden Dalat",
+    "address": "Lâm Đồng",
+    "rating": 4.2,
+    "reviews": 3400,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d915fccfa230678faacb52/images/pqcNthZRf4w-xuMCUA43QpZFJ936EAoMTE7EGxIFg78.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepXdi4FP8mOhf-vW8XHWhJ1ydf_NdjqX4-LzQauBOwN0YL0bixOk-omq_1gHlYuk6o56C391wRaTaqZb0BInjxGeoRZk7gQH4d8Uh65b3St5PfqIniDmFFOzap2GpOKcnX7qDtbYg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.947693,
+      "longitude": 108.40907
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:30 Thứ 7",
+    "price": null,
+    "description": "\"Khu Du Lịch Đẹp Rộng Rãi view đẹp Nhiều góc chụp hình\"",
+    "place_id": "4050295607137020464"
+  },
+  {
+    "title": "Khu du lịch Lá Phong",
+    "address": "Lâm Đồng",
+    "rating": 4.1,
+    "reviews": 3200,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90adab9fc5f74ef909127/images/Q3WQrJTnWkiM9FTc-KYCGMQ-iQKbpRVRcnNJwutFLiM.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoV3lW8AmNkL72XEzW_BmJ807C0ZifONA8nCGsV9mKx8aSh7a1mat7fMyb8iK4nfNscD3SsV-89Gh7QWgqvSpwR2iyL-oLiq2FGl9GO0TgUnDfmdcKNyJqfmIzZMsxK5wNUky8=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.9285755,
+      "longitude": 108.45165
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:30 Thứ 7",
+    "price": null,
+    "description": "\"Vị trí gần trung tâm thành phố, đường vào hơi khó đi, giá vé vừa phải.\"",
+    "place_id": "3162938822105498960"
+  },
+  {
+    "title": "Đồi Mộng Mơ Đà Lạt",
+    "address": "Lâm Đồng",
+    "rating": 4.3,
+    "reviews": 3100,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepoajyTwLJgDqDwz5yHkiFXKnSGrvpFSsbLTVqYqR1yYVCSLCLfbokV29eUpT1wAkobZ4z3GWos6OqmI02-kJ1_mikGRg7PUlcRfTV9BLC8idk3hS0hwhJviniSonD5cxhocep6=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepoajyTwLJgDqDwz5yHkiFXKnSGrvpFSsbLTVqYqR1yYVCSLCLfbokV29eUpT1wAkobZ4z3GWos6OqmI02-kJ1_mikGRg7PUlcRfTV9BLC8idk3hS0hwhJviniSonD5cxhocep6=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.977873,
+      "longitude": 108.44515
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:30 Thứ 7",
+    "price": null,
+    "description": "\"Không gian thoáng mát là nơi lý tưởng cho khách tham quan khi đến đà lạt\"",
+    "place_id": "2556882152207176419"
+  },
+  {
+    "title": "Thác Cam Ly",
+    "address": "Lâm Đồng",
+    "rating": 3.1,
+    "reviews": 2900,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90adab9fc5f74ef909127/images/Sgy5XjGFHVhCvO4ybJbYUIbsaVKjdIwCls-xDd9eBs4.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqz309w8UdXNoiYwHwKZuDcQYg0XpfJcD0IgHS4_JtDXxhYoUl7eaDSUPmQ7n8Rbfa3lQQOQMVcSk2OgRY3xjQ2Hnam4-oa_XRDFJP8Dheoltj9RZHvkJiTFJKuo-CmqnAbluGL=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.941805,
+      "longitude": 108.420845
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": null,
+    "description": "\"Xin cho người bảo trì và dọn rác lại để dòng nước xanh và đẹp hơn đi ạ.\"",
+    "place_id": "3717547526993202889"
+  },
+  {
+    "title": "Vườn Hoa Cẩm Tú Cầu",
+    "address": "Lâm Đồng",
+    "rating": 4.3,
+    "reviews": 1900,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90adab9fc5f74ef909127/images/L3a0jz5bxeltxPxXy5MKqleOULh8xVv8bP4mghB_FE4.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer11pX1HdJ06rvxPRJN5pjyNgISoKG6uDf0Ngrc_BAyd9a8cgPkDVlz2jhpmRPSkl9rTWcsOCKsMyUqMkY5O8RUhKHKbFZWzGMSIDAs1vQqldHfKToVUTmao2Ww5NgKr-ARYpdAbw=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.9459915,
+      "longitude": 108.51308
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": null,
+    "description": "\"Địa điểm rất đẹp để ngắm hoa Cẩm tú cầu, hoa raat đẹp và đc trồng nhiều.\"",
+    "place_id": "11691918963213791597"
+  },
+  {
+    "title": "Làng hoa Vạn Thành - Khu du lịch VẠN HOA ĐÀ LẠT",
+    "address": "Lâm Đồng",
+    "rating": 4.4,
+    "reviews": 1600,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90adab9fc5f74ef909127/images/yzegYNKgwxyWOtECXxL6TCFGBu1KL448EU6XwjH4c1A.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerolk4EjeBOvOPlDsIJCycSsE9JxOUj0kwXzxlhiRzq2DIeYtgyFBgo5Fs_MEZShKoAsCxAu4ocPJDb3YUZ9IU2upWQbgq7LimPbRwsV2KN7sarKS90l23ulCXOBHiivrFjUHwd=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.947042,
+      "longitude": 108.413155
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": null,
+    "description": "\"Đẹp, rộng nhưng điểm nổi bật chưa rõ ràng\"",
+    "place_id": "15528743316674814661"
+  },
+  {
+    "title": "Đồi Thiên Phúc Đức",
+    "address": "Lâm Đồng",
+    "rating": 4.3,
+    "reviews": 1500,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90adab9fc5f74ef909127/images/nWax0eoZqLil_ZtB7SIMh5B0U4Fc5OtP0GUZzx7B0Yk.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo-oC8XgAr3xYgeIGJHVbVBoVqD7fsuMTOoWNOE5mCABVSD2XLgSjYa1p2PVrevHN1kI-N2p_PyDfGQTPWeHg24jr13kw1disqZC-Xr4IouytMpglkjm8alSmrolNr--bs39ky3Sg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.994606,
+      "longitude": 108.428566
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Nên đi vào buổi sáng sớm hoặc chiều muộn để được ngắm cảnh đẹp nhất\"",
+    "place_id": "18226080706872373889"
+  },
+  {
+    "title": "Rừng Giao Hưởng",
+    "address": "Lâm Đồng",
+    "rating": 4.7,
+    "reviews": 469,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d915fccfa230678faacb52/images/j6lW8U7CtoymljNJZhAnLu6dnfDq-fkX0LUlwL5kV1s.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep8RWPewXK3CGa22HnmaniZeHFprltvnyEy4xrP26FAzw_7kSDm64kwLcEz9WoLScK1HFciCdh1vgek6HqbY5AbHE3cNR1D2GRh77C78sX5Dkolb4BVzuAgvY4fOgpq5d0MuHcgSA=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.941282,
+      "longitude": 108.4064
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": null,
+    "description": "\"Chuyển đi tham quan du lịch đã lạt vô đến đây phong cảnh đẹp ok\"",
+    "place_id": "18213457501268207889"
+  },
+  {
+    "title": "Khu du lịch Quỷ Núi",
+    "address": "Lâm Đồng",
+    "rating": 4.5,
+    "reviews": 413,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d915fccfa230678faacb52/images/X85lh2KDuIlQD1HchdDlkG2aCd8VulUeU2F1J2H_g3Q.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoSXbZ1Fsl8hmOhcJTymLg5i3uA-EeOk2P5WnlCea5PEofJaY0s4ohC7-IJpVyRTB7ZxDkBdERp2YCdO8TwRT17lWwiXLhgrDtxqo72rB02EDUS0DgNHer4Ozvs8y5dpI4NJXx7=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.002243,
+      "longitude": 108.35
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": null,
+    "description": "\"Khu du lịch đáng để trải nghiệm , hướng dẫn viên nhiệt tình ❤️\"",
+    "place_id": "16304764907999979620"
+  },
+  {
+    "title": "Nhà lao thiếu nhi Đà Lạt",
+    "address": "Lâm Đồng",
+    "rating": 4.5,
+    "reviews": 408,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90adab9fc5f74ef909127/images/DCCAs0KMxfpgQ133_liDtDwJorO9jsD2_VoHi9LJ7lQ.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoLXTpZxYt7th1Bs8pRHGf88Km2Lt4LoAGdnS8KaKhbwiuIsbRp1hups6Md3uiHMhHQEmOQ8m4HfWh0ZtvoiVjSMBZVhCzSdA4mad8YJzGJ78JvYoJt3sNRCSIAoD9-SO5AVYAh=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.952542,
+      "longitude": 108.470665
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:15 Thứ 7",
+    "price": null,
+    "description": "\"Một địa điểm tham quan, trải nghiệm cho các đoàn rất ý nghĩa và bổ ích\"",
+    "place_id": "1077363387316484296"
+  },
+  {
+    "title": "Cung Nam Phương Hoàng Hậu",
+    "address": "Lâm Đồng",
+    "rating": 4.6,
+    "reviews": 358,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90adab9fc5f74ef909127/images/Vi0sG21K1ikBlsBDKkSUPGWEHEluJ-LZ3bYPvqLr7u4.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwermmeZVlIIWy6nS1u4sK4m70tq3daZnR-XFWyFsBHqt0V3qVurAubcUZyA_QeYpqUxDbg3UlG63IUhZc_PTbKMIT5-7YheYAVZbe_RyNGoUAFIR1Mo3nWLlXTI62gGlBMRZ0ix9=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.939936,
+      "longitude": 108.46047
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:30 Thứ 7",
+    "price": null,
+    "description": "\"Xứng đáng đi tham quan, khá yên tĩnh\"",
+    "place_id": "1716379789342440300"
+  },
+  {
+    "title": "Điểm tham quan du lịch Nhà máy Trà Atisô & Rượu Vang Vĩnh Tiến",
+    "address": "Lâm Đồng",
+    "rating": 4.3,
+    "reviews": 263,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90adab9fc5f74ef909127/images/dRyxRsCC3OcQm8EHlkYhMde9Oi4hd2X1UwQo4j176_Q.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerPyrOigy17GJJfFvWcxxCRikTF6QtHKPw0ulWSUV3Est__pMjvn9iXhqaK6yYPyvoMv_Dum55IR9bH7Ko_UuhXsPkpPiY8T0HVDGg7Scj5I0GeWxhJGwt9szLnsc7wS1mB8gGenA=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.948441,
+      "longitude": 108.403015
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:30 Thứ 7",
+    "price": null,
+    "description": "\"Trải nghiệm thú vị, học hỏi thêm được nhiều điều, rất relax ạ\"",
+    "place_id": "8588729386771083766"
+  },
+  {
+    "title": "Công Ty CP Du Lịch Giao Hưởng Xanh - Rừng Giao Hưởng",
+    "address": "Lâm Đồng",
+    "rating": 4.2,
+    "reviews": 224,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d915fccfa230678faacb52/images/1C7pDSj5oU7vLwhPpj1ESy1ldYMuwVoytqAyfhn70q0.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepdDUXKwBhred2vvwcYqnC6U5om2r7s7F7QPXVAOdhpgdkXJbqW409L4C66mFOxrqJbrUVMeN4Nukifs8pzB9Jk2nWma8t69_06tVmCGQ_w7AsmoVdSuNE7p-BfnicZM3CFsdGi=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.942042,
+      "longitude": 108.40676
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": null,
+    "description": "\"Điểm du lịch mới tạm ổn nhưng còn sơ sài quá , vào tham quan 1 vé 150k\"",
+    "place_id": "13199003303459994069"
+  },
+  {
+    "title": "Biệt thự Hoa Hồng",
+    "address": "Lâm Đồng",
+    "rating": 4.6,
+    "reviews": 219,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90adab9fc5f74ef909127/images/gNkNeRqkqlDJQI6OrjvKV1u5R-QAE_kLAS5ZHc1Vj50.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqcU6BlnqCSqHUJzWoWDqJ7kIrERo7SQU6mzidNe-W8h8BlBMumMErS-fHX20aitNoUW9846kbhqQAytZdWmrZatBsugLpzA5TyPlU6H-ZYzeFpem7fbJzsMntI4Y0FVsbay9nzCjFZkXc=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.947342,
+      "longitude": 108.45787
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"nhà cổ lên hình rất đẹp nên đi vào sáng hoặc chiều, trưa rất nắng và nóng\"",
+    "place_id": "17312036825947396919"
+  },
+  {
+    "title": "Dinh 2",
+    "address": "Lâm Đồng",
+    "rating": 4.1,
+    "reviews": 114,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerLA0W38UsKfW8bRU7ZOYScObo3EwyX4U9DbGGBNQm5TEpND8hiz1ShJ4V5S42srse7Fvxb0H5xu2GVrHd7LRd3Fs6mOMHcjOl5Owf84-hweIKN8uD7CgYD2v_lb5eXDuwAWcuk94uZZ_Yi=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerLA0W38UsKfW8bRU7ZOYScObo3EwyX4U9DbGGBNQm5TEpND8hiz1ShJ4V5S42srse7Fvxb0H5xu2GVrHd7LRd3Fs6mOMHcjOl5Owf84-hweIKN8uD7CgYD2v_lb5eXDuwAWcuk94uZZ_Yi=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.935623,
+      "longitude": 108.448
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:30 Thứ 7",
+    "price": null,
+    "description": "\"Khung cảnh đẹp, phòng chưa được đẹp\"",
+    "place_id": "1787790875174235839"
+  },
+  {
+    "title": "Khu Du Lịch Sinh Thái Hiệp Lực",
+    "address": "Lâm Đồng",
+    "rating": 4,
+    "reviews": 114,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d915fccfa230678faacb52/images/a5J-N5T9uuMvoO5dRXdBymO9HS44LfjCUvN8A-IwLRw.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweotDzvFuODEczp94zefrzrqG8hrS32iZwsNm8F7ZhZ0l9RGPwgYb-FMfR4kbUKDbu7Cwt-2nshSgplm0QcRQL-noHKiCh3wrX6UYtuFI0RaTPzyyAQNPBhheVGxoFvLPQ6MXvfl=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.9798355,
+      "longitude": 108.45652
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:30 Thứ 7",
+    "price": null,
+    "description": "\"Rất đáng để trãi nghiệm.\"",
+    "place_id": "9980224919928934837"
+  },
+  {
+    "title": "Khu du lịch Minh Tâm",
+    "address": "Lâm Đồng",
+    "rating": 4.3,
+    "reviews": 64,
+    "type": "Khách sạn",
+    "thumbnail": "https://serpapi.com/searches/69d915fccfa230678faacb52/images/PgTCfEtljMpVoa5xcZO_vOXTXm58uVeJDtU9iCgEOjA.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepZbDgKHTGjHL67uIkQwNvESkxWcPqQPJRCyHAJ6LEkmZv3cn890tNVR_aWTH-Yf3ipUH_vqZySJbBq7o7FOGjL50-EJEA2PTtqa9Sji6flaM8oQSX4miQ1Uyd1R6RKh7fN9tIJ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.9398155,
+      "longitude": 108.458855
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Sạch sẽ tiện nghi, thức ăn ngon, nhân viên lịch sự dễ thương\"",
+    "place_id": "5258443916285162997"
+  },
+  {
+    "title": "Biểu tượng Hoa Dã Quỳ (Cúc Quỳ)",
+    "address": "Lâm Đồng",
+    "rating": 4.5,
+    "reviews": 44,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90adab9fc5f74ef909127/images/OYD_wJ2giGUxig9WiZ6jpDMVgQqzmFkolSNRXx_E2XM.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo-fosH25MiWOdADFJQUY8LVzE42caJ6ZZbe0mChMw4mYUXh2eYJV8dZ10TiNSg172lO436Q9iywP9Z5HqxhVdQNONzWh81-ReWCyVSfAg44uUvH-gYfL7uploNgaW6sMgh6wJSmA=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.938549,
+      "longitude": 108.445435
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Địa điểm tuyệt vời cho người dân và khách du lịch dạo bộ\"",
+    "place_id": "15095723745073208783"
+  },
+  {
+    "title": "KHU DU LỊCH LĂNG NGUYỄN HỮU HÀO",
+    "address": "Lâm Đồng",
+    "rating": 4.8,
+    "reviews": 29,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d915fccfa230678faacb52/images/U4hWpuAgJPpUG6bP_vi1pGd26T87qZxG1zmhpaO_Mu8.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepoKwmL37v2cqHJ38R4RmabY-gS4-IxzTw8mFAtME0zHz79o6Bq0SfekgpZYqkjONxuD_625ijEFoPfVeqQQx32ttiAKNxYvr5-bMTVmsynr2xuNH7rrDaF3vhac34tmAeuYmmIig=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.940951,
+      "longitude": 108.41752
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Đang được bảo tồn và đưa vào khu du lịch\"",
+    "place_id": "3812324782411027910"
+  },
+  {
+    "title": "Khu Du Lịch Lan Anh",
+    "address": "Lâm Đồng",
+    "rating": 4.4,
+    "reviews": 26,
+    "type": "Đại lý du lịch tham quan",
+    "thumbnail": "https://serpapi.com/searches/69d915fccfa230678faacb52/images/RSFhDXLf3V4ffO9avujCM5Pe3fLDzjbSo_6-29iNmuc.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerDhs2V5WPV0wPxr-tntXQbHTsVeqnLGjx0W_thrugZYCcNlTf7PIalBF_c614CZNYzjpRUGD6HCtmkuslFsGb0l_Rul947YeT5J4ZX4GF6883Is_sEIpAYV9U4USFoWY4pOQR7=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.90665,
+      "longitude": 108.43419
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Môt khu nghĩ dưỡng tuyệt vời với khí hậu lạnh se sẽ.\"",
+    "place_id": "978157631547062191"
+  },
+  {
+    "title": "Du lịch Đà Lạt toàn cảnh (trú Minh Tâm hotel)",
+    "address": "Lâm Đồng",
+    "rating": null,
+    "reviews": null,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d915fccfa230678faacb52/images/cO3kp5tR_mtxC3HUozkLFhaVWITy8Kwn2dtvF88-ElU.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoL656uLZWXtiIeSOtcwbobwRBaBDEb1KsDpLAaPu1ZFMb9SmUluGhtaWIzviSi9RFfq1RexowysPEEIHaW41HtgEHn1B1ztU8ZnBvjKgU1MFxIYJQMean4KTBiT7wKXgWGOl9gsg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.940419,
+      "longitude": 108.45831
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "9250087654927898293"
+  },
+  {
+    "title": "Khu du lịch sinh thái An Tâm",
+    "address": "Lâm Đồng",
+    "rating": null,
+    "reviews": null,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d915fccfa230678faacb52/images/4UUidZF2JkFOqDkskoLgVwaNtI2CGPBS7KwCvf0yLDA.webp",
+    "thumbnail_large": null,
+    "gps_coordinates": {
+      "latitude": 11.916187,
+      "longitude": 108.46619
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "14159590302619062618"
+  }
+]

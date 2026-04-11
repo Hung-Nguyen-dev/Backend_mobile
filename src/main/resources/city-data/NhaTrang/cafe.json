@@ -1,0 +1,563 @@
+[
+  {
+    "title": "P2 Café",
+    "address": "Khánh Hòa",
+    "rating": 4.8,
+    "reviews": 1800,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90d04f735810db746fb81/images/CimCbCX_DA-h6iI7vC68sRG1tIkjUio4ZAkVmns7T6w.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo-rjA8bNHgSxoJ1UdwsOeHvwy7Qg4NiTCuVkHGjfus4jO4t-lQeyu6H1xdAbmMxgAtm7j3nGKylWnwrBfBLbJfwPMLI58trgodJ2n4B1B2h94A1dSvw5Z4VYSeO8kZfSDT865OhFyF3oE=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.24121,
+      "longitude": 109.19492
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": "1-100.000 ₫",
+    "description": "\"Quán không gian đẹp , ánh sáng đẹp , view chụp hình đẹp\"",
+    "place_id": "4145582158223857724"
+  },
+  {
+    "title": "CAFE DEP",
+    "address": "Khánh Hòa",
+    "rating": 4.8,
+    "reviews": 1000,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90d04f735810db746fb81/images/h9DxsX41sf5VlRqYCxQBUZjMuaUwAltR5JjM8FupQzg.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer9-7VpPhYPAgamioq0mOEIZB-kDUJdPuhQCK_bbmLTCxEPhGt0MWBbeIBfTd8mKG_EhNi9FTIcDtNMemcE1I1wIEINgTAJdZpYfaWueNK4XaJs-IGyFsTZnoqcr2XTZ9C9iOkolsWThmam=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.238404,
+      "longitude": 109.193726
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"View đẹp chất lượng nước oki bánh ngon nhân viên thân thiện vô cùng 🌸🌸\"",
+    "place_id": "17817008434573681567"
+  },
+  {
+    "title": "Chốn Bình Yên Coffee - Nha Trang",
+    "address": "Khánh Hòa",
+    "rating": 4.6,
+    "reviews": 869,
+    "type": "Quán cà phê",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqmBQrwMYkSKg6QcwtbGbI3g00BTViqzQYU6BIuKyXzmQYqclKqy28h1wyZY-4IbgqMjNbFe2mnGPT_ns0kJIsEBPBk8Y_RShks3Va9Sc7YS5rlfj0pQY9Boqor88nFrZ6Bpdjv=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqmBQrwMYkSKg6QcwtbGbI3g00BTViqzQYU6BIuKyXzmQYqclKqy28h1wyZY-4IbgqMjNbFe2mnGPT_ns0kJIsEBPBk8Y_RShks3Va9Sc7YS5rlfj0pQY9Boqor88nFrZ6Bpdjv=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.238538,
+      "longitude": 109.19598
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán mở 24h, mình đi chơi đêm về ghé ngang uống ly cacao nóng.\"",
+    "place_id": "3524527891616884405"
+  },
+  {
+    "title": "CÀ PHÊ HOÀNG TUÂN SỐ 1 NGUYỄN TRÃI",
+    "address": "Khánh Hòa",
+    "rating": 3.7,
+    "reviews": 703,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90d04f735810db746fb81/images/U0RG0l1WuCRoVxqjOkp08d99-AbXkSNqC29Mhfu1GSU.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq4jKiEqdq0Xs0MIkPJ6L6-hlveqiimlPNQg4JthbPC2CCr6xhE1ObUcQKjIrFQRsM7121jxtxpAA2SZnXPM9j6SxnO3D9wNxtWzgjReLACVW7zPYbuZjH2eMceM2A6MteA3GzhgA=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.246693,
+      "longitude": 109.188965
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Vị trí đẹp, vừa uống cà phê vừa ngắm xe cộ\"",
+    "place_id": "5332414811342763676"
+  },
+  {
+    "title": "Alam Coffee Roastery",
+    "address": "Khánh Hòa",
+    "rating": 4.8,
+    "reviews": 568,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90d04f735810db746fb81/images/cFsfAoDmzmSLH6NyLwq29Tqen2iGZHNlWYZcKErOVEI.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepf9FW0UvfTJLgy6mIWvrkVXSmZTw4ihBgVsXbeF7uSo4j9xZW6gR8A5kAyCbUO0ioaLQv22awxwpHj6m_CrIec2DTOs3PoKfM1OdOD0xIlzM5PrmTa_B--V3zbWU2-j5415khXjQ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.252759,
+      "longitude": 109.19138
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": "1-100.000 ₫",
+    "description": "\"Quán vibe đẹp, chụp được nhiều kiểu ảnh, không gian thoáng không bị ngộp.\"",
+    "place_id": "12867962016801925596"
+  },
+  {
+    "title": "Jungle Lounge",
+    "address": "Khánh Hòa",
+    "rating": 4.9,
+    "reviews": 342,
+    "type": "Quán bar Hookah",
+    "thumbnail": "https://serpapi.com/searches/69d90d04f735810db746fb81/images/I--ExmmZZJH44luaVQc0z6LLa0cAfuvU9rV0TednCyA.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerZnYsNjUfG0zGF8rCdmFTTK5ezsdehG64tAIDXHhz_yTjVR1-wKZ5rJ0KqxA5NTdt7gG75TANwznI5n70na_U8YpBbObqAjp-qg1hZp6ZV3q6AFWhbHP-3QLrYVUMe0aeK4Cpy-TLck5XX=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.241686,
+      "longitude": 109.19285
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"... ở đây bạn được chơi cùng với những chú pEt đáng yêu của quán\"",
+    "place_id": "17190542045185279379"
+  },
+  {
+    "title": "Vịnh Cafe",
+    "address": "Khánh Hòa",
+    "rating": 4.8,
+    "reviews": 336,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90d04f735810db746fb81/images/JDWuueGs9HLJejXxknHBLvUx1JQZZC0DEzkjmP6WTwM.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerfXYHDFT5_8bZaZZ3txsOReyouK-bV6b_ff8wyolNez4wjehDoWcr6siXYwW5nKp9EaF57IB7w9x14Gb8_uuwZCVhqjrnXJV8gp2OOpMV5JFAcLa9HoLODJ1a1gfy2tB8483fIRmzJzbI_=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.243548,
+      "longitude": 109.18774
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán vintage, nước ngon, thoáng mát, ngắm đường phố chill chill 10đ\"",
+    "place_id": "2095439773904691003"
+  },
+  {
+    "title": "Cedruss Coffee",
+    "address": "Khánh Hòa",
+    "rating": 4.6,
+    "reviews": 309,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90d04f735810db746fb81/images/HRvXqVYF8Lj4zjwUvu04G1LLJmp-P35mc-BWoiEiSpk.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqpiMpARGR_0oGnNWy9tlhjLCowoy3dCUPkWFrU1RJHhhgcUF6BmoRaJrNfwIYehRGRIi1mqWyeUd9JGXoHLRUUZMBzW5Zv7A0iI8dXesb4ysNaEStq4HTIRyFT297mVsbzJZ6P=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.278462,
+      "longitude": 109.19969
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"menu nước ít, ko đa dạng món, pha hơi ngọt, quán thiết kế đẹp\"",
+    "place_id": "13961723739531655661"
+  },
+  {
+    "title": "Rùa Cafe",
+    "address": "Khánh Hòa",
+    "rating": 4.6,
+    "reviews": 274,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90d04f735810db746fb81/images/Bc0vGJt1s76uds2Hput8yVN2dtsgW8DF7RwVDj712oc.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep2J9yQV6Gx84Oq8qZ8u8yGeeoyQlb0DOHCYB6p3S0mHtHD7mYWM2kViuCTCljxNzXw3FHKS3nVaCvxUM2t50ZdKo8VB4yoA-5Yqzkq7AW9lbxjafs4X2_suU31OL9nS3hAjyfLK0ZvALSu=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.243578,
+      "longitude": 109.186
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán chill đẹp ,nước ngon , nhân viên nhiệt tình\"",
+    "place_id": "9459047596256668532"
+  },
+  {
+    "title": "Vocuppa Dessert & Café",
+    "address": "Khánh Hòa",
+    "rating": 4.9,
+    "reviews": 258,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90d04f735810db746fb81/images/CiZ1mCp96XY402c64kOK_2UMrhuIuUu2OICNoY_Q4yc.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepyf0SeFCE9JxGvNjcVOxJlZkUzKHuhearxB8CoJn33qT7C2P4ZzfaGnq1JbeGV27KJRL14FYtkwvqktXv-W_ddJtfb7LLrv5N6m6_d8tcevb4qgdkuzVVWfq6GDUQHpDAfg4vFJZA_Vnse=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.247745,
+      "longitude": 109.19279
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán đẹp, nước ngon, uống còn được quà nữa.\"",
+    "place_id": "4579907794049361416"
+  },
+  {
+    "title": "The Son Coffee",
+    "address": "Khánh Hòa",
+    "rating": 4.3,
+    "reviews": 248,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90d04f735810db746fb81/images/aci1GS1okmpmB-0FVHsWF12fBJlJxVNlzkFfVDYxMYA.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep_upBKAYic6NH7cebeV9AdfLdiScGQNzUxD1gL3j0mGFQFZwhxy_p7VatbnaXftxx-SDemuKnOcKctR6KLSWEUgrs7UT4S_3JGjxPQ_yJsgf_CiO000PpqwgGoo1zcw5feCIu0=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.251239,
+      "longitude": 109.19146
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": "1-100.000 ₫",
+    "description": "\"Quán có ổ điện đầy đủ cho khách làm việc, wifi mạnh và ổn định cả ngày.\"",
+    "place_id": "623656754476041632"
+  },
+  {
+    "title": "ĐẦM cà phê",
+    "address": "Khánh Hòa",
+    "rating": 4.9,
+    "reviews": 222,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90d04f735810db746fb81/images/-Y_pVfVu8748F1XyR9owGjBBQ33BqvQXFoT0T6xmm1s.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweozjKsjIT5VIJ8JTSPqRRnta_dzMrDZgLLI86GneffWOhuxlr8rpqH2JIBxxUgr5pjTbHcevlaLFvnjxhbK1kJJIFZEg99uktLpGaO__NbCNDfFBajad117tqFa3sNn9DvazJ1W-e6TP7gu=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.255681,
+      "longitude": 109.192894
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": "1-100.000 ₫",
+    "description": "\"Nước uống ngon, quán yên tĩnh, nhân viên dễ thương, quán đẹp\"",
+    "place_id": "3416062678243882564"
+  },
+  {
+    "title": "CHU Cafe - Coffee Roasters",
+    "address": "Khánh Hòa",
+    "rating": 4.9,
+    "reviews": 220,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90d04f735810db746fb81/images/Q66uolWMcT14uIBu6eB5mD_7qcEKckGmfIUjFcMz1Gc.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq1bQoSpAZ5VuikNO0p6zu2IIkw0U6mX4n0XDyOhdMHn-C3MYnWwf8O15A7_KhFAjCNAkseTAAnFEjTHu2sDLPdmRJwEcOx8BXk_5WJ8lWIvN7PEiAYvwIb6e3M7ZeUi1WvopI8n_c12mP-=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.246686,
+      "longitude": 109.193855
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": "1-100.000 ₫",
+    "description": "\"Matcha latte pha tạm ổn, chưa giống mong đợi của mình lắm.\"",
+    "place_id": "1050662577059520473"
+  },
+  {
+    "title": "A.N Cà phê",
+    "address": "Khánh Hòa",
+    "rating": 4.9,
+    "reviews": 190,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d918aa80c963961ed21587/images/I8xLx52glEoqjnUBBAwCuP3Vs72cZA5GwkUmdo82jBg.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweofeC2LYEIt4HqI-yW5-mTgPZFXMKJq_M1FrSW78W7lHCYmkfLDBWjMYp3REuttkNH-wT5c6Ahpd37i6eJ70S1GDqin5RMtvdisRsXJc7JOJVnvaXsyPoOcsuTNRq4VkDGtlCvFS1j_1NIq=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.253164,
+      "longitude": 109.19324
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 6:00 Thứ 7",
+    "price": "1-100.000 ₫",
+    "description": "\"Nước uống khá được\"",
+    "place_id": "10809708636233594278"
+  },
+  {
+    "title": "Nâu Vàng Coffee",
+    "address": "Khánh Hòa",
+    "rating": 4.2,
+    "reviews": 168,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d918aa80c963961ed21587/images/wdWVHX_4b8jP6kA3CwbcDCaeHUTYWRwVDTl2RuEL0og.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepW4ga4LugaN8I5ppeVIWezKF8HDPedoGqdCgGt14vnoPnAzbE2JRRHqLAEWrzKH1yvAjXwHZETGOZOH0cYcD78Jp9nQ8EV2XdnR8kxpokh6dwSqiluVwnx4oh9Yg-4k9UEuaoI=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.256666,
+      "longitude": 109.16681
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Cafe ngon, phục vụ tốt, không gian thoáng mát và dễ chịu\"",
+    "place_id": "12254448968449230289"
+  },
+  {
+    "title": "Anza Café&Bar",
+    "address": "Khánh Hòa",
+    "rating": 4.7,
+    "reviews": 164,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90d04f735810db746fb81/images/KShrVruFd162L3p0x7YQkuiCcFx8SAa9hlXX48BzLs8.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoGPTrO1TDryur-el4H_CGHuZ7HEFJPfsXLQhK69_lOjbQzNmSjiIMcSroECOr4APu9gQ90dX_gYqYeWjRbl66yAHl1rXisFXsTdLTc1seGb5vHFMTO34lE3akR7jy5OawbFpielnb5L1qE=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.245141,
+      "longitude": 109.18973
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"quán cafe xinh, khu ngồi trên lầu yên tĩnh, có bàn dài để ngồi làm việc.\"",
+    "place_id": "6369933919741508360"
+  },
+  {
+    "title": "BIRMINGHAM COFFEE",
+    "address": "Khánh Hòa",
+    "rating": 4.9,
+    "reviews": 139,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90d04f735810db746fb81/images/fD7UXnLe5SkAU5Kf6iG9ofVh5K40gcdJ5AKwKgMywac.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep1J8p6PQyyIgKjeZTFwN2g6qoqW0ahDWgom3AICqEhq_IfdCUsNV-wziGW_leKVKoABbz9V6a0BIgfvDePxcH40-BGQE_lXzU834DvJ0aYJJ3B7djqLuuq15jI2ICk2V4-rWxKSKiTQ8DW=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.249563,
+      "longitude": 109.18644
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": "1-100.000 ₫",
+    "description": "\"Quán nước ngon, không gian phù hợp với nhóm, yên tĩnh ngồi làm việc.\"",
+    "place_id": "11843952933723790674"
+  },
+  {
+    "title": "Cafe Hoa Nắng",
+    "address": "Khánh Hòa",
+    "rating": 3.5,
+    "reviews": 130,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d918aa80c963961ed21587/images/6Lr6kXFXPWNREftkXI2aM3u6ln2f7EoeozxiEnhUFY8.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoqLwXfeQ8H5dN-Ia5Tblmit4vyxBWUt_Gkv3fxAR-tnDEvM2aUVICbBWUGEqDA-GRxbKgCAUvoVQTYnZq0VXlLdZdOdSzymhCBKTzXuNbBXJEYNIvCfEBiiJ4pRX3IkpQcoSu6=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.248627,
+      "longitude": 109.185425
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán rộng rãi thoáng mát, đồ uống ngon, nhân viên thân thiện\"",
+    "place_id": "13922961818082036964"
+  },
+  {
+    "title": "Đầm by Ola",
+    "address": "Khánh Hòa",
+    "rating": 4.7,
+    "reviews": 97,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90d04f735810db746fb81/images/09PrWILSmXLtvP5waU1idQrukpCIga7LQ5oG9UZhaUU.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep60PN0iVJUt3p_vZy4oMYAft7Wx6DcxYZubOwRn72fY5BPcqDh_H1tFVzcFvpbE8bot_v0htE1DisIbn7rq90Idqmyz1Kjr49vA0u_axwa7FwVv2Wh7B_V1F8JG4X6yUje2RaJIqV6NSY=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.253403,
+      "longitude": 109.19281
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán có view khá chill và đẹp, đồ uống cũng khá ok\"",
+    "place_id": "7841913951862020865"
+  },
+  {
+    "title": "N Coffee",
+    "address": "Khánh Hòa",
+    "rating": 4.8,
+    "reviews": 61,
+    "type": "Quán cà phê",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoCR2s_RdKZScaPHPOrimhzFEUX8-z07_IAJ0fBrYXmPzeUaKxzS0HMPKRb7bNnKUBptV8De1Q4nbiNv0Qcs4r429yEfkmfHYSNuaSfDqF5uYIj5kUrQdA3aDuYDRYIyXQ8U43R=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoCR2s_RdKZScaPHPOrimhzFEUX8-z07_IAJ0fBrYXmPzeUaKxzS0HMPKRb7bNnKUBptV8De1Q4nbiNv0Qcs4r429yEfkmfHYSNuaSfDqF5uYIj5kUrQdA3aDuYDRYIyXQ8U43R=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.239434,
+      "longitude": 109.18934
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Nước uốn ở đây pha rất ngon.\"",
+    "place_id": "7433026365146115181"
+  },
+  {
+    "title": "Núp Coffee & Tea",
+    "address": "Khánh Hòa",
+    "rating": 4.6,
+    "reviews": 52,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d918aa80c963961ed21587/images/aS91ZTIOwps6fKVD_3IL8NYSTCnfyLeqaylLiln9Fhs.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoJa4Xr8RqCL6J1qtXLWupiX-EygOhThOjxGG-b4zbY64a7XNii2NiQFW4eBLPeeIFzHoHl7GX20VCgDG7IhhDbo5rzw7oJRWEbRo8rxC5q7bXwQKxYjXqYnmyX_dL4k3m6ThJR=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.240418,
+      "longitude": 109.18906
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 6:00 Thứ 7",
+    "price": "1-100.000 ₫",
+    "description": "\"Nước uống khá OK Trà trái cây thì Ngon Buổi sáng hơi đông\"",
+    "place_id": "2073177945346385761"
+  },
+  {
+    "title": "Hạt Coffee",
+    "address": "Khánh Hòa",
+    "rating": 4.5,
+    "reviews": 49,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90d04f735810db746fb81/images/o4KJIajKQYvRgsxme7EuHF-URq9psU-5Lqw79iVe3Cs.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq_Cv6CRWG1sq0SLjNTXbyzMu2K_lGbb12UEHw55mxwbQzIt5YbE_k4eCpTyC-EBQM07bpU7EYG9XKK3HXAkQVHpQObPzTLQ3KfV9LfsC1q7KTCvTJTe10VN8J-VhbFB4FnQcW65HoZYHxF=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.250496,
+      "longitude": 109.189026
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Không gian quán nhiều cây xanh, cafe ở đây pha cũng khá ngon.\"",
+    "place_id": "5265355092702726437"
+  },
+  {
+    "title": "Nguyễn Coffee",
+    "address": "Khánh Hòa",
+    "rating": 4.2,
+    "reviews": 45,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d918aa80c963961ed21587/images/H3svb6p9u-B4iMVjD6gZMmyezDrxYU23NnPTg-OL2L4.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerxfbCSCIFKuLbUwo1g-8ziztjY1HdgbfAzNq6KyrxHTWIhyk8E-vUpDwGhK-_DgVVfW6aclobhUhzgdW9uRNRKbHVEAOe-Do76Ts0J1i289Fa_tuBppled0Rj2pFJ4mehmreQ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.252978,
+      "longitude": 109.193596
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Quán nhiều cây, cổ kín, mát mẻ\"",
+    "place_id": "10890128196732922385"
+  },
+  {
+    "title": "Olivia Cafe",
+    "address": "Khánh Hòa",
+    "rating": 4.8,
+    "reviews": 43,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90d04f735810db746fb81/images/fkvy3rZROUqrmDeTke7uT0DqpZeWO6vQuw4DLXJjBUM.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer3CsfvfmPWf8ckclkr6w4h73zw0_VceR4H5W5umwdS2JR9XNAYZ6ENmjCc_-ahbeDhlQ3zankUw1mvD5M46-Fys8LSv5yAJ2OjF82_di9AiKoeAA5TyThFZISyKuZ78xEng3-0jw=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.256381,
+      "longitude": 109.19313
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": "1-100.000 ₫",
+    "description": "\"Nước khá rẻ và chất lượng so với các quán tương tự mình từng uống.\"",
+    "place_id": "4377702328629902172"
+  },
+  {
+    "title": "Tiệm Coffee & Pizza Dạ Lê (Tiệm Coffee Ven Sông)",
+    "address": "Khánh Hòa",
+    "rating": 4.7,
+    "reviews": 40,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90d04f735810db746fb81/images/v3i_zxy0drZ5nwnz0dUaORmOrrmN4S2UpnY1yhYd-E8.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoQ_qW9MMmQzfnBUKO1vEuvWmnkEn1tSKAvSTTRuX56OoNJ5Txo_qIb-uvgStm8kQGEC-FoUrEzlDIZBSccQMKsQdggg7IbiFOn2w4uueWZik4tEDVmfvF74CMDMrFz2_tPN3usfhlZu8eP=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.260483,
+      "longitude": 109.18933
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": "1-100.000 ₫",
+    "description": "\"Không gian quán đẹp,đồ ăn nước uống ngon,rất đáng để đến và thưởng thức\"",
+    "place_id": "12019405911310933600"
+  },
+  {
+    "title": "NIN Tea and Coffee",
+    "address": "Khánh Hòa",
+    "rating": 4.8,
+    "reviews": 31,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d918aa80c963961ed21587/images/F6gyoUm8Z-nwT6xdmmCYDtX79y-0NgbnMDPoxxKtsc4.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep7ApkaNbeQRcL04uEgFHJxQUDmc6SVgQ5s_TNt87SOUTBOQp72EhjCGHqXKxb0v93akX1_-n5_q4qeRAvXCuzf5KI9JJwi6oXFpaQrnWNJqob47PKZYgfizTPQwhSL6jwJTJJKgA=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.250995,
+      "longitude": 109.186066
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": "1-100.000 ₫",
+    "description": "\"Nước uống ngon, không gian khá mát mẻ\"",
+    "place_id": "1411397321651708341"
+  },
+  {
+    "title": "Radiant da.uc",
+    "address": "Khánh Hòa",
+    "rating": 4.9,
+    "reviews": 26,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d918aa80c963961ed21587/images/dUDfiYP7qWiRYcDxDkSPfHGgl6z90pZUtJYhP_vcjhk.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepZASx_B2JRuvmS7brJyzTJ_sHd1lDEdx9zjuu6CQLA1AEJZryB2nK45w323Gdl10JTkje7algfleJfrqueNXCDPt6aP7B3J2XOTl9EjNx2PIpdn7EBYxhqGpe9hhK2SLnyPWa4Y_n67TXU=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.253472,
+      "longitude": 109.1931
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": "1-100.000 ₫",
+    "description": "\"Nước uống ngon, dịch vụ nhiệt tình và chu đáo\"",
+    "place_id": "3909769067094066233"
+  },
+  {
+    "title": "24h On - Cafe giường nằm Nha Trang",
+    "address": "Khánh Hòa",
+    "rating": 4.3,
+    "reviews": 23,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d918aa80c963961ed21587/images/S1zZ35Y5nCoQL9rlC3kG0KqqTpD6FcqS8o_8gICW3hE.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepJcuU1sg8Ua0hyd2wL_sXAdw2crvwD7gKLCaCqLjJJbuGz4RaCkYmR5EYe9Ec5--OriGRoP-Sf8D1MryKqwO3OqQGrYli218MULxrkUqgQ8yJmzeeKkE1ZwP76TnLKTMgJ5ck0HG7VFITc=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.25024,
+      "longitude": 109.18867
+    },
+    "hours": "Sắp đóng cửa · 23:00",
+    "price": null,
+    "description": "\"Gửi đồ xong - nghi ngoi dc 2 tiếng- lam thêm phần bánh waffle rồi đi choi\"",
+    "place_id": "13625071496656388177"
+  },
+  {
+    "title": "Minh Lan- Sữa chua muối, cà phê - trà- Cơm nắm",
+    "address": "Khánh Hòa",
+    "rating": 4.8,
+    "reviews": 23,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d918aa80c963961ed21587/images/hLMJDwBuE1yKjbR5P8_peWzHXE3LMkBuV1Dgq9k5ePM.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepesuCcUl0gnImH_xZ3BONMEP8JWr7VxGBvAUWbvfCAujI9uG58etFcZDpMPro_zB_7KP-azl9vcPAgCLDet1aGE3-2j_VkYlu3GCaoYuEMI1uHKZRbkasFSKQp_JtmZfBXujBGi_BV3zOp=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.244647,
+      "longitude": 109.18893
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Các loại nước cực ngon nha.\"",
+    "place_id": "3107225863790056142"
+  },
+  {
+    "title": "Coffee An Linh",
+    "address": "Khánh Hòa",
+    "rating": 4.8,
+    "reviews": 22,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d918aa80c963961ed21587/images/Y2w3TvLWnzGSxpnm9q8W6OJFmExSkXdRLrVQVN7zVx4.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoFv1M1yH3HM4c4AILyaRkQLjrGPcNcpW-U0p_LYksF4D6F190elS-BZrq4ZCbmQlN9J0q5pAd4PTMWd7fxDURgKyeERthzm9wG1Vc3rf2Jlp7rYP_KG9RcEMeijumuUuujPDQC=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.2702875,
+      "longitude": 109.20157
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "8685410024845716952"
+  },
+  {
+    "title": "G79",
+    "address": "Khánh Hòa",
+    "rating": 5,
+    "reviews": 19,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d918aa80c963961ed21587/images/15GnQCCy5vHGNoGtQJwkaIZwvQisN598Ns6hrhXWIdw.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq_ydpC0-ej1BI9mFygGA5Kke3g7SifEsfREMcWxKD3UHnH6Sv5ortGKBifVGx8IRZFbmU7I3u6u-UzhA-hvS_v4m3YTskAdDxxk-xbyTRYAw5tqskmX8QV7XVJdKDH19BZclU=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.256285,
+      "longitude": 109.18902
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Cafe ngon, view đẹp, nhân viên dễ thương nhiệt tình 💜\"",
+    "place_id": "4158568992432698940"
+  },
+  {
+    "title": "Quán cafe-nước mía-sinh tố—nước ép trái cây chợ Đầm",
+    "address": "Khánh Hòa",
+    "rating": 4.7,
+    "reviews": 16,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d918aa80c963961ed21587/images/EIOkPRnTwai9fjwVQN7hOFSx1SHYW-Zs2lW9l3aIfTQ.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqjopkmyu3tV8zPelpwK51uTzuECHZUbKoNuryTNWwDivNkfNQIXzkZ3nwF7K8vPL2KJnasR07WnVZKy68DMa954IjBFMfx1YzsaY29WBuALfCSBjlpU0nsNJMNx3ETf5Smh2GTAg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.254413,
+      "longitude": 109.19199
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 6:00 Thứ 7",
+    "price": "1-100.000 ₫",
+    "description": "\"Cô chú dễ thương, nước ngon, giá hợp lí MỌI NGƯỜI GHÉ ỦNG HỘ NHA\"",
+    "place_id": "12559136564482438646"
+  },
+  {
+    "title": "AI Coffee & Fruits",
+    "address": "Khánh Hòa",
+    "rating": 5,
+    "reviews": 7,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d918aa80c963961ed21587/images/a4QYyxcf27nZ6PXPvkNjrILdGrVxgU20W1sqlP7QU3k.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerxT2ZT0eIeQlGrSDoxX2nxQYzRy60B8X1EmNfoegUQJThQAz86iC3X--_F5u1TTpPpovxBuc-RjPtsc4yntdERMkCLWDoWqDHqEqbrSIje_5uadJxAZOQ3jWh3PJlunXerxbEZQacyMsYe=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 12.254139,
+      "longitude": 109.19258
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "12397067557963488803"
+  }
+]

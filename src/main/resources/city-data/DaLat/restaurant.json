@@ -1,0 +1,585 @@
+[
+  {
+    "title": "TIỆM NƯỚNG MÀU VÀNG",
+    "address": "Lâm Đồng",
+    "rating": 4.7,
+    "reviews": 3200,
+    "type": "Thịt nướng",
+    "thumbnail": "https://serpapi.com/searches/69d915d032f11d0864d9a354/images/kiXGpwvJao3sA2sRdYrQyDVydBnwsCSt1uGQy4VdAUI.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweorbWEcYIXBhLAOwsy2g9pFtl-Y6Zr3zERfyDv27AcgI_0UIrW9tEQ46Qb61WsIfA0yr8I_gWPhKHIYCnN-bJqhcWGHcQDlhJ0z7WQcvJVBav_2mLXVQx0KXv0Kmv1_W_bygMZ5pQ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.9382305,
+      "longitude": 108.460106
+    },
+    "hours": "Sắp đóng cửa · 23:00",
+    "price": null,
+    "description": "\"Quán ngon, đồ ăn vừa miệng, 3 ng ăn combo vừa đủ no ❤️ sẽ ghé lại lần tới\"",
+    "place_id": "13893128037151218054"
+  },
+  {
+    "title": "Nhà hàng Túi Mơ To Garden Restaurant",
+    "address": "Lâm Đồng",
+    "rating": 4.7,
+    "reviews": 2400,
+    "type": "Thịt nướng",
+    "thumbnail": "https://serpapi.com/searches/69d90b0432f11dfd916fe33f/images/UAfkRiHjJflJvjICg5gnqUxAF63eiRjVMyPym9e4q34.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerGl3MiQ6M52qLIftXlWIDKMf3pkS01SqRH_1So1UqQTZc7wZc3U-j8UhxbRow0MejJ96Jp_cqJXEJGGl_0j3NxmU6jpFQSsKVSt_vqrXbabuhCCHdlWv4G_HDT18ANXEyG04l4=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.941053,
+      "longitude": 108.483696
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": null,
+    "description": "\"Nhà hàng view đẹp, đồ ăn ngon, phục vụ tốt xinh trai đẹp gái\"",
+    "place_id": "15454092518088732264"
+  },
+  {
+    "title": "Nhà Hàng Thủy Tạ",
+    "address": "Lâm Đồng",
+    "rating": 4,
+    "reviews": 2400,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90b0432f11dfd916fe33f/images/N6xIdrIfwc-4cjGj04Y-tiFm148w_gzApF3OEgEjD9Q.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqckMYr6LYXnFvDR__JQ7nxUNi8sGdn2x7rXqWTfZJa0ZDS6YkkZ1PQ0bRxHWXlEN1MDnA9m14p6EPsIcP34lj8y55sNCVeBTfTnEELtS1la4NukrKPKSATQKU-xMqtcz-NkQY=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.939997,
+      "longitude": 108.44211
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": "1-100.000 ₫",
+    "description": "\"thái độ nhân viên rất tốt , đáng khen ngợi, không như các đánh giá 1 sao\"",
+    "place_id": "6241963391250151496"
+  },
+  {
+    "title": "Cửa hàng nướng Mậu Dịch",
+    "address": "Lâm Đồng",
+    "rating": 4.3,
+    "reviews": 1800,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90b0432f11dfd916fe33f/images/HEbzzIq6kMWxznNKCtwi2FTyQn4-iokZOSxxcAojnGI.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepL9eWUz0msXrHWMD5nPLU4NbJMpIqRfg3MBPPhUMShVUjU0yXfrKYVGIjWw39SDHRrdXxkv9OJGIKhYEBiJ_D77RNUzeqRvfp7iHAbHE98BIH_VWmkNtn1U4nXysx7mggAv0dlHw=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.939608,
+      "longitude": 108.45775
+    },
+    "hours": "Sắp đóng cửa · 22:30",
+    "price": null,
+    "description": "\"Nhà hàng đẹp, nhân viên dễ thương, món ngon tuyệt vời.\"",
+    "place_id": "15610227905049581132"
+  },
+  {
+    "title": "Quán cơm Linh Đà Lạt",
+    "address": "Lâm Đồng",
+    "rating": 4.7,
+    "reviews": 1800,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90b0432f11dfd916fe33f/images/-VpHBofd3s9SGYN_j0gfCxgG3ZK_YoWDx6O0ED685qk.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer6e0_OFfmlANQQrFsY0deSBqAtoFW3d2BojPPxxhT1MQgjvPzTHACn9t9aIZd9mfWhcD3vmchNI9Te2YPrygy34VAbgwnMVzmuLYUsP43VnnIkGWzXX042Nx9X4yDE4UrDCS-LoA=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.938197,
+      "longitude": 108.45555
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 10:30 Thứ 7",
+    "price": null,
+    "description": "\"Còn về chất lượng món ăn thì hương vị cũng khá đông đều ăn ngon.\"",
+    "place_id": "14295723504869134471"
+  },
+  {
+    "title": "Nhà hàng hấp thuỷ nhiệt - Bina Bina",
+    "address": "Lâm Đồng",
+    "rating": 4.9,
+    "reviews": 1400,
+    "type": "Món ăn Việt Nam",
+    "thumbnail": "https://serpapi.com/searches/69d90b0432f11dfd916fe33f/images/X19KN8uhwiEAo7LGJY7vAmAjeOV6okbp6Q9NVcyODXU.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoA5VDZjrP2hIaYgrxgyFXIzDUTWtNyFX0zR2luwX430i4-EHCoEMY49ta8Pc_SRZnhNPkXBCRddNyjyQP4hf2OiR3eZ_CG-Uz9xcui13yRcxNYHPfn2Yy81NC02-hNSP_qUk01lHYTY8M=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.935267,
+      "longitude": 108.42813
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": null,
+    "description": "\"Nhà hàng sang trọng, đồ ăn ngon, rcm mọi người khi đến với đà lạt nhé\"",
+    "place_id": "12962764122960811201"
+  },
+  {
+    "title": "Quán cơm Linh Đà Lạt - Trần Hưng Đạo",
+    "address": "Lâm Đồng",
+    "rating": 4.9,
+    "reviews": 1400,
+    "type": "Nhà hàng cơm",
+    "thumbnail": "https://serpapi.com/searches/69d915d032f11d0864d9a354/images/7h0cgq577JIjjPnk1dYgBEs5iFqtoMNm5owF0kKMyEo.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqgA2Mew7pAA856oyyMa8Ww7erdMTtDgOlZw97lkOTMqxJHU_5C_r5JMOakMbqL_uLPdzw1mqZJ2oohSp_0m7Hv4VrWg60iOBbSzpMyqtA7VnABjViJp2VK5b-WzNjrMZnkINAV69VDHUMP=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.938497,
+      "longitude": 108.452286
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 10:30 Thứ 7",
+    "price": "1-100.000 ₫",
+    "description": null,
+    "place_id": "12853501181633091001"
+  },
+  {
+    "title": "OM Nướng - Đà Lạt",
+    "address": "Lâm Đồng",
+    "rating": 4.8,
+    "reviews": 929,
+    "type": "Món ăn Việt Nam",
+    "thumbnail": "https://serpapi.com/searches/69d90b0432f11dfd916fe33f/images/5TCS2HTyOfb2e5gdvsYhwICvCNnhrhGrSH2HS5Y01MA.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq-G6hA3YiBHXJdNLsvvcyaz7zUOjwqtP-CdigjM9M5PG5mULUAymskoGE9N--GOd9l8_HtoTCq98DpkL8bYIOhKB96EkrwEtaiOmJEnz0LDS1vxk1Yxx662kJH5AR8aUTDMDQfLeSy-hfq=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.939633,
+      "longitude": 108.45759
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Các bạn staff rất thân thiện, đồ ăn ngon & phần tương đối nhiều.\"",
+    "place_id": "12844971284143781699"
+  },
+  {
+    "title": "Nhà Hàng Đà Lạt House",
+    "address": "Lâm Đồng",
+    "rating": 4.1,
+    "reviews": 795,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90b0432f11dfd916fe33f/images/pM-VGh9FDesT9e4G2_M5fFcPK8XjiU4SOeuLSpbsMjg.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepCSrxk47IgZnMdNfpGTiIRrninalLXfYSRb5W0HXGRq-ZDl7muV8VOzkGtJFH8s1UhKWkgJAX55UJ5-4xzH5G8thqoaJCbXQf5UoByPtwWfnrSvY1OS3Kpxq3JYIfDdcPEXiVE=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.947749,
+      "longitude": 108.46351
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": null,
+    "description": "\"nhà hàng đồ ăn ngon, thái độ phục vụ chất lượng, sẽ ghé lâu dài.\"",
+    "place_id": "12726372525061687080"
+  },
+  {
+    "title": "Nhà hàng Sơn Phát",
+    "address": "Lâm Đồng",
+    "rating": 4.8,
+    "reviews": 682,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90b0432f11dfd916fe33f/images/bxBVxqqtQxk56awIrm68H3GAgyou-_dvIQ-6yuGJRd8.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerJ8gcs3gnsMZl67C8Jiz6_0ODIf1aVFDniENv5-PkbXw1d4XqUQk0j4m1hozbI9dozmT85msmIWX-GY5AOXMx7_8bOGnejjiookxswZbEKyMQyObXLv9YFBo3A1p0C6WUlxm68hQ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.943064,
+      "longitude": 108.44951
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": null,
+    "description": "\"Sushi ngon nhất Đà Lạt, View trung tâm ngay hồ về đêm bao chill.\"",
+    "place_id": "18419971403354850202"
+  },
+  {
+    "title": "Hilly Garden Đà Lạt",
+    "address": "Lâm Đồng",
+    "rating": 4.9,
+    "reviews": 585,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90b0432f11dfd916fe33f/images/urUF4abFyd-1aDIE79qdKFcklgeiB_3Lo4Gm9Kb35us.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepFo_l4JX04RjPYN0SMMjwLGpSneNcrNlf3ifJ-qhph6WbEYR5qlpwTIqRH1E51b6Z9v68u-xkfLTcIdu-l80A6VjV2t6nGJF3bqf6pFvvzqXoUx-DTB0rEZaxCD1jydS0aOmUvcg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.935753,
+      "longitude": 108.46203
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 17:00 Thứ 7",
+    "price": null,
+    "description": "\"Quán đẹp, nhân viên thân thiện, đồ ăn ngon 10/10\"",
+    "place_id": "15783757388970871063"
+  },
+  {
+    "title": "Tiệm nướng Chiếc Rương",
+    "address": "Lâm Đồng",
+    "rating": 4.4,
+    "reviews": 523,
+    "type": "Thịt nướng",
+    "thumbnail": "https://serpapi.com/searches/69d90b0432f11dfd916fe33f/images/xaPd2icZWYMXKt57-_OmVs0z9n6QjvH1syUEUDO05Ec.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepdZiYPJdy2LKbZ9ndrnDImwu9sv-ceTr0qkpWhEpCJ55lYitRLsEYnQpGAZ-0RRWLQSLirwrzjaffukNyyXMHxRwclefAaSu_EVFAS0_lNktLLwCZri_AvWu812RHklFmZzxfxEQ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.939058,
+      "longitude": 108.45811
+    },
+    "hours": "Sắp đóng cửa · 22:30",
+    "price": null,
+    "description": "\"Nướng bằng chảo đá tại bàn nóng lâu, không bị khét hay văng.\"",
+    "place_id": "5821763539911686733"
+  },
+  {
+    "title": "Quán ăn Buôn Kơ Lang - Ẩm thực đại ngàn",
+    "address": "Lâm Đồng",
+    "rating": 4.5,
+    "reviews": 461,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d915d032f11d0864d9a354/images/ukkH3UJuq-N0nwxRXW1a4De5N5SmeWv3KNzRKfjp9-I.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoKn3RWQpFGD_cC2M4ogSCheZb4DMdu3lwF7nULCmUeA5Mzm71qbVzC9XPulKJ-ikFYkSVPwUfdnGxEntfvvd7JEw4PGCG0bDdyEwsrMTU1KIYc9sbEIDruGuWu1kxWQxLWDTfaV06sVurt=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.942699,
+      "longitude": 108.463455
+    },
+    "hours": "Sắp đóng cửa · 23:00",
+    "price": null,
+    "description": null,
+    "place_id": "17585626317190179389"
+  },
+  {
+    "title": "Quán heo bản địa - Đà Lạt",
+    "address": "Lâm Đồng",
+    "rating": 4.9,
+    "reviews": 387,
+    "type": "Quán ăn nhỏ",
+    "thumbnail": "https://serpapi.com/searches/69d915d032f11d0864d9a354/images/YlNZf3Mi9t-E_yHyht2-KoYto8PKgr9mrfACom3yWNc.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqczVXB2M1OfLLzGYjyxTEAt-iB6IjZHoF5YYpAwG85UrmmTPxOVQRcpGdRWazNM0i_4GCazV2vFsX5By8zUubIL6YNFkAr3y-M4Ff-oVdi2A0G-I-Di726XKy8S5RYX66lRbuRRm5oi38b=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.940079,
+      "longitude": 108.452545
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 10:00 Thứ 7",
+    "price": null,
+    "description": null,
+    "place_id": "14404854418542832543"
+  },
+  {
+    "title": "DALHA (Don Ha) Complex Khu phức hợp nghỉ dưỡng, ẩm thực & mua sắm 24/7",
+    "address": "Lâm Đồng",
+    "rating": 4.8,
+    "reviews": 326,
+    "type": "Cửa hàng tiện lợi",
+    "thumbnail": "https://serpapi.com/searches/69d90b0432f11dfd916fe33f/images/IZVMnkfXo-IDTWzuYqH8mKI4M3dezmWlUmsXWAfIWXk.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoADDcxHhUS5DVquAnS_EbFLXg1wqvzeoWpjshaKJMm3gtEf2GSzQyojA4LcB_eGauhBLX67lUs-5OC9wpIYd3O-nIpU2qYJHO-6hRszv9QWfqYau6AmtdzN3ZDjb6qzpWuE1dnAA=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.940198,
+      "longitude": 108.46319
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Nhà hàng món ăn ngon , view đẹp , dịch vụ tốt.\"",
+    "place_id": "2497174285926890898"
+  },
+  {
+    "title": "Quán ăn gia đình Thảo Hiền (Hải sản Thảo Hiền)",
+    "address": "Lâm Đồng",
+    "rating": 4.2,
+    "reviews": 323,
+    "type": "Dành cho gia đình",
+    "thumbnail": "https://serpapi.com/searches/69d915d032f11d0864d9a354/images/FJM29dBYYEH9LXxj24qnlR5vsognnCmqSF81oFBDuFQ.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerWfbZPUI4vPODR6HysQJl0zjmmZyVVzBVZba71iw58cc3d2Kl568ZOGWpOL9UNd3-eEsvBDULQI1J1SxHdu8MUBERC2X8gYS60WG0AvqGXCz6waP7km8cZG8KX-6MYbyeBEu87ovAEnfs=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.950807,
+      "longitude": 108.45754
+    },
+    "hours": "Sắp đóng cửa · 23:00",
+    "price": null,
+    "description": null,
+    "place_id": "14399334354070617220"
+  },
+  {
+    "title": "Tiệm lẩu Thương 10 khe sanh",
+    "address": "Lâm Đồng",
+    "rating": 4.5,
+    "reviews": 297,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90b0432f11dfd916fe33f/images/eEVH8KFCqka2s2fI5PsPEmdswZ017ahnEfMk1xm-jFg.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqtWrrWjs_S1OUUDxiOnx1aCyRYo8UMU3_Ih1U6WWfrYIBFthPGnU8jATISCrvz7M70xOghzoUVPFkPDpiCz4qrAkKquJQEss134REVEMkVmNPVCyKyDxvshnEyVMF2hGevaad2rA=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.937533,
+      "longitude": 108.460464
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Nguyên liệu ăn lẩu tươi ngon, chất lượng Buffet rau ngon.\"",
+    "place_id": "13617095564793736334"
+  },
+  {
+    "title": "Mận",
+    "address": "Lâm Đồng",
+    "rating": 4.9,
+    "reviews": 276,
+    "type": "Quán ăn nhỏ",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqVodXdC3-A3jZmAikUPyAg3QoBTBgYj90Rg1zKw39jkyQn32Scsxt7KfITP9vG7fFJWAr5oDYN5HBdsxCw1b7nJXsDVo3DumZ9qcrmIV7v8TNcJKPYtdd_b9LZRGscjcOkIGQ=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqVodXdC3-A3jZmAikUPyAg3QoBTBgYj90Rg1zKw39jkyQn32Scsxt7KfITP9vG7fFJWAr5oDYN5HBdsxCw1b7nJXsDVo3DumZ9qcrmIV7v8TNcJKPYtdd_b9LZRGscjcOkIGQ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.938284,
+      "longitude": 108.45602
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": null,
+    "description": null,
+    "place_id": "10640226034192826468"
+  },
+  {
+    "title": "Quán Mái Lá",
+    "address": "Lâm Đồng",
+    "rating": 4,
+    "reviews": 235,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d915d032f11d0864d9a354/images/-YSIC-mdVcGYnPKuUiPbILDbP-eyUSp0jpz6OBM-IAk.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerVVlq3_u9myj_er7qwjaTkZ9F3-BFvNvdBtOxCqyVZylBvebICZU_vBficwIAi-qFwCjhDJFDOJYxaDaIm6YH3PU9cvnpfuvpBrZBlvIiqsaXJwqyXrSUlmwu9fW1lZqaz9vQgOw=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.945974,
+      "longitude": 108.4618
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "6477311713759426471"
+  },
+  {
+    "title": "Tiệm Cơm Bếp Nhà Gỗ",
+    "address": "Lâm Đồng",
+    "rating": 4.8,
+    "reviews": 227,
+    "type": "Dành cho gia đình",
+    "thumbnail": "https://serpapi.com/searches/69d90b0432f11dfd916fe33f/images/m_cw8fLEfl4XSMKWw9jP_N76QupZ1S93qB2tqn8oBNw.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerE_ct3xtzlc8gdFvHhaEj5KLmmjm_ldlbDX540QPtoM4Pz0Gh4rQSJufhM8lBKED0B6H_BTkVbdeXGL-rTCXUU77tkQ9Q4hXV9cq9Kw28mSLsyJoNPnwTZZVAdB1RPozNH0blDd3h318ZN=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.935489,
+      "longitude": 108.464516
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 9:00 Thứ 7",
+    "price": "1-100.000 ₫",
+    "description": "\"Chủ quán dễ thương, nhiệt tình, đồ ăn đúng chất cơm nhà, tươi ngon\"",
+    "place_id": "11237044423695417606"
+  },
+  {
+    "title": "Quán cơm Linh Đà Lạt - nhà hàng gia đình",
+    "address": "Lâm Đồng",
+    "rating": 4.9,
+    "reviews": 193,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90b0432f11dfd916fe33f/images/2nCPm_blCpE2VoSYnUx53V5f05jXCKYQpr380-9AAJg.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepWNOvt4MWoBxutAwte6xS04HiYcxvtsqfdEPXl29YCDz3IymVe1uvQy3d5YBahOCDPtWM9QFR8Y-xuwchY02NyOwDnp-_Ud3Bbp8uSa_G75r1tRzqEFGM4G20Fe1gFQnpQw8HQdx9ofHjw=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.949928,
+      "longitude": 108.45548
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 10:30 Thứ 7",
+    "price": null,
+    "description": "\"Ngon, khẩu phần vừa đủ ăn.\"",
+    "place_id": "5774431614251216427"
+  },
+  {
+    "title": "Sân vườn Quán 1 - Gà hầm ớt xiêm - Quán ăn ngon uy tín tại Đà Lạt",
+    "address": "Lâm Đồng",
+    "rating": 4.1,
+    "reviews": 169,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90b0432f11dfd916fe33f/images/3YEJdkfpArbb3ilpRszZ43kFTzLkZBk040F4xmrKkuU.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepOvYVM5-NDXMJwCxzHwEBRO0UIN-dpcp1pWM7GDiSfA9RaRJ-C7jEphgz6ywIiLH3kt3xLWFXduzNAPkNuvzdJMjurZXsiSJ30sT4QxK0w0dALl_OTpaIfj0nGg7JEgQzykdOv=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.944653,
+      "longitude": 108.453026
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Đồ ăn ngonnnnnn gà hầm ớt hiểm ngon số 1 đà lạt.\"",
+    "place_id": "8034015994578478799"
+  },
+  {
+    "title": "Nhà Hàng Phù Đổng Đà Lạt",
+    "address": "Lâm Đồng",
+    "rating": 4.1,
+    "reviews": 147,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90b0432f11dfd916fe33f/images/_VZD1Vi1e1KxAOSoe-1gVMlUxrGTmexfhiPgLswUDyk.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerBcZACi3jd1xClrGmjEggmVAsVhFKyHzw4uqV689LgkWj7Y0phBUxAKaadm7Eg1aiCh1udElb2-wjckh5SR0Cp8xpZ5p6WSunw8SnpUkcPiHN9Zn1WjbPv2OX7n2AGq68N-7ZH=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.944263,
+      "longitude": 108.45658
+    },
+    "hours": "Sắp đóng cửa · 22:30",
+    "price": "1-100.000 ₫",
+    "description": "\"Nhà hàng đẹp, hơi vắng khách buổi trưa nên ngồi thoải mái, yên tĩnh.\"",
+    "place_id": "6759392710912363005"
+  },
+  {
+    "title": "Nhà Hàng Khói Rừng",
+    "address": "Lâm Đồng",
+    "rating": 4.6,
+    "reviews": 110,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90b0432f11dfd916fe33f/images/bfg5iEDYkuSa9HmBOvB2JB8_LxlIFso8xR9MfNWVI3o.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqwfkWXnk3AlzuQAn9u94Zf7U34swjL7BHpEKdd_EtjWGF-ijNMq8dtnK4iR4T9fZS5FeO_eYwb6ybq-D_fHL0LYGi8iMGMFbg3QwBXPmlQvboM83mrvximqRSvGOYqIktOFUuRMYR-F8yk=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.938567,
+      "longitude": 108.46345
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Đồ ăn ngon, view đẹp, nhân viên thân thiện.\"",
+    "place_id": "7332946801544262515"
+  },
+  {
+    "title": "Nhà hàng Đà Lạt Xóm",
+    "address": "Lâm Đồng",
+    "rating": 4.7,
+    "reviews": 102,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90b0432f11dfd916fe33f/images/BqB9LStUSCluoH4PN9_xNJ-N3C01spqgLw3tlWXYL9A.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq4q-W-Z8MBGPugLBa5ir5Gr-1Gug_GBMEiQfQFF1iFkL1lDeokkFgwnamcej7UpjEcFMYGu_Z89CYmqxU5LoVbtMCn1bniTPxFe9DAsBO24RMWIZaf1a3W29NXcV51asP8AIlO8Q=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.944846,
+      "longitude": 108.46412
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"View đẹp, đồ ăn ngon, nhân viên nhiệt tình, sẽ quay lại nữa.\"",
+    "place_id": "14401383957220984638"
+  },
+  {
+    "title": "Nem Nướng cô Mỹ",
+    "address": "Lâm Đồng",
+    "rating": 4.9,
+    "reviews": 93,
+    "type": "Quán ăn nhỏ",
+    "thumbnail": "https://serpapi.com/searches/69d915d032f11d0864d9a354/images/dExJXyHx__1hK-lOeULf9hVVF0D20YdCPdeeTQAWJrU.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoMtGfRZIDPGZH6gtiSABK75p31oAYLRZTwU-JiWKl4N5N4P-sYzMxvGcy8MsIUEMzWwnLBkJTHTxK29Ux_FetFvTIcMXZJ39JkyzwmGd7JDRFj9n2lWOXGYN_ioQwk__hfCrFDXwc-1i1R=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.938585,
+      "longitude": 108.456955
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Đồ ăn ngon vừa miệng, nhân viên thì tẻn tẻn như mùa thu Hà Nội 😝😝\"",
+    "place_id": "10649101221353692198"
+  },
+  {
+    "title": "Nhà hàng Hoa Phượng",
+    "address": "Lâm Đồng",
+    "rating": 4.5,
+    "reviews": 73,
+    "type": "Món ăn Châu Á",
+    "thumbnail": "https://serpapi.com/searches/69d90b0432f11dfd916fe33f/images/PpVVTQcZ8v7y_LqhFDZe0skkU5mOTVG3plJ1gTLmDjA.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqnhIdDn006eks6rVticJSuvin7tlf1kLaPPVHoRgG70PS1knFXzaoaaFZHuZXmE1WO8Upcwhdb_ZdVDZMShvakn7JyraqQJWbD1wRdOfNDGcUGa4WtalCfZWEDtP9ShA78l204=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.948643,
+      "longitude": 108.46668
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 9:00 Thứ 7",
+    "price": null,
+    "description": "\"Nhà hàng sang trọng, đồ ăn ngon, nhân viên nhiệt tình và chuyên nghiệp.\"",
+    "place_id": "13025438904843912440"
+  },
+  {
+    "title": "Quán cơm giađình - Nắng Hoa Niên",
+    "address": "Lâm Đồng",
+    "rating": 5,
+    "reviews": 59,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d915d032f11d0864d9a354/images/sw1ZoegBBzZz1v6HrGUOeYYPewZbrxfJxfzU0ONt54Y.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoPrBZJulAAyfQeRiIMDnraNkZgEH412GXXUiECd-wHj-1kRZpIWfh0WsFh5PzzrHAOYK_nu1D2fFlxBAFQ7-yq5b5WMEDhlRHjCcqyT2CJ2WeuBkPdTMKyPspcPKRPLhPqIecHL3PAB_-g=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.937695,
+      "longitude": 108.4555
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 6:00 Thứ 7",
+    "price": null,
+    "description": null,
+    "place_id": "6493018339947186132"
+  },
+  {
+    "title": "Bao Asian Cuisine",
+    "address": "Lâm Đồng",
+    "rating": 4.9,
+    "reviews": 56,
+    "type": "Món ăn Trung Quốc",
+    "thumbnail": "https://serpapi.com/searches/69d90b0432f11dfd916fe33f/images/j5Noxe9cqyiH4hpm_otr38HNtJ7v_WqaODica97ulBM.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep7KAoURokJch0fBQbY85wiaEZ9xFfTsQzotYt_vEBmGKqWsfrm2iJfkN5ncPdq9iYvo4RCdOlMgAWXboCtT3roqK36rjwPplSWXaOwBvpL_Inysj3RkWGLCCnZuPoKznBL7ViBkqHSIv_Z=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.945179,
+      "longitude": 108.45871
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": null,
+    "description": "\"Nhà hàng đẹp, món ăn ngon,... Bạn Trúc nhân viên nhiệt tình, dễ ...\"",
+    "place_id": "13973915566233596252"
+  },
+  {
+    "title": "Cây Cau Quán",
+    "address": "Lâm Đồng",
+    "rating": 4.9,
+    "reviews": 29,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d915d032f11d0864d9a354/images/2_heN-BEDfcUcPd-nXxgiy2bUVUtyKKoYPmOYsIgufc.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoYQhV1KhTvoiEie45tdoMTUClvd23WxMpRisZc68ho3WPiDGa_s6hnnDiWg3r4Uv5M3oe6u50-n1wi07B4g5yX7HLMNj9CVFiuKAhkWqkwr2YVGdxzsZmKi_4HK1--p0AjeH0Q=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.941168,
+      "longitude": 108.452354
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Là quán an nhưng chất lượng như nhà hàng và thức ăn giá cả đều rất rẻ.\"",
+    "place_id": "890583947986131336"
+  },
+  {
+    "title": "Lẩu Gà Lá É TAO NGỘ - 02 Phạm hồng thái ( Quán Nhi)",
+    "address": "Lâm Đồng",
+    "rating": 5,
+    "reviews": 26,
+    "type": "Quán ăn nhỏ",
+    "thumbnail": "https://serpapi.com/searches/69d915d032f11d0864d9a354/images/MPWmjqPnlDUchOEP4Xv4K_5PiZuQVsgGkjA22eYGRcU.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqWP0zYCi7RbjXIW76mnOUy1UZJDNupTAgWObFg4C2XeMkyJ5xzRfCwHLYCJB05Ixc4e5g1F6ZeI_whxAco_mWpksaDp349oq4BIVtGw4vKA1mljuDeephwP24ZY_BoDAAW7CSz8vJWOmG4=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.939799,
+      "longitude": 108.45088
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "3555174864074585200"
+  },
+  {
+    "title": "Lẩu, Tiềm - Đỗ Gia Quán",
+    "address": "Lâm Đồng",
+    "rating": 4.8,
+    "reviews": 18,
+    "type": "Món gà",
+    "thumbnail": "https://serpapi.com/searches/69d915d032f11d0864d9a354/images/x98ZxNh1XF2wBGBUGFhCG16-w01d4Iy_eZdNubEL9Mk.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepDrilClxk6mLn80ywX6goyFJPpzjosM-hWzaoBi8k73wJVWMAjbU5XzorP2K3PsXq562TRhPTsH3uSJT34bjvXASFeC1S9A9-FVe5muPNH-2B6tIwAdlV75e3hmtTObwv0JIxj=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.939839,
+      "longitude": 108.458885
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "13018947946240302768"
+  },
+  {
+    "title": "Quán ăn gia đình Thuần Việt",
+    "address": "Lâm Đồng",
+    "rating": 5,
+    "reviews": 5,
+    "type": "Quán ăn nhỏ",
+    "thumbnail": "https://serpapi.com/searches/69d915d032f11d0864d9a354/images/1m_K_pX395tTsZMKSkAPZXBPOy4F5SWgMPDsfCiN8vs.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoPXcoT0vPo-HKg09F3GPDwcb01k6xVDt8DMyNy6JByiTWbnPg7mi4Q1RoREBjnR0F8aUygCdQrEbMhLkHI8b49VnO94QEa8qFBT1zVokyPm-AAgeyOLtcGP5ejhCEUewdU2REO=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.950534,
+      "longitude": 108.461716
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "12773464772990419517"
+  },
+  {
+    "title": "Bánh Ướt Lòng Gà Long",
+    "address": "Hẻm 202 Phan Đình Phùng, Đà Lạt",
+    "rating": 4.1,
+    "reviews": 3500,
+    "type": "Đặc sản Đà Lạt",
+    "thumbnail": "https://images.unsplash.com/photo-1546539782-6fc531453083?q=80&w=800&auto=format&fit=crop",
+    "price": "35.000 - 60.000 VNĐ",
+    "description": "Quán bánh ướt lòng gà nổi tiếng nhất Đà Lạt với hương vị nước mắm chua ngọt đặc trưng, lòng gà tươi sạch và bánh ướt mềm mướt.",
+    "place_id": "ChIJT_9R-fS-NTERpYq_Z6oT-U8"
+  },
+  {
+    "title": "Nem Nướng Bà Hùng",
+    "address": "328 Phan Đình Phùng, Đà Lạt",
+    "rating": 4.0,
+    "reviews": 4200,
+    "type": "Nem nướng đặc sản",
+    "thumbnail": "https://images.unsplash.com/photo-1512058564366-18510be2db19?q=80&w=800&auto=format&fit=crop",
+    "price": "50.000 - 80.000 VNĐ",
+    "description": "Thương hiệu nem nướng lâu đời và uy tín tại Đà Lạt, nổi tiếng với nước chấm tương đậu nóng hổi và bánh tráng phơi sương cuốn kèm rau sống cực tươi.",
+    "place_id": "ChIJT_9S-fS-NTERpYq_Z6oT-U8"
+  }
+]

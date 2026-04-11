@@ -7,6 +7,4 @@ import java.util.List;
 
 public interface PostRepo extends JpaRepository<Post, Integer> {
     List<Post> findByLocation(String location);
-
-    List<Post> findByUserIdOrderByIdDesc(Integer userId);
 }

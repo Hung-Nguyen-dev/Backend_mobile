@@ -1,0 +1,580 @@
+[
+  {
+    "title": "Thác Bản Giốc",
+    "address": "Cao Bằng",
+    "rating": 4.6,
+    "reviews": 11000,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90a901cff1901aff80bbb/images/9Dg41oNdivJ7qKRORgcXPZZr_BKHfDv56VcZqb2Wod8.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoqzafRPUxy5PwyvQIifxhjfqWcCyeABdHq-0bTbHZ3fXrr1Aj13faX5qwdm3K7p79ahqYU8h3HVXVJ_kgSNh_0SXGk81MoM01jBAMURISMxMSUNxh4ambBuzJdJfpiEzDXZ21gsQ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.85436,
+      "longitude": 106.724266
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Hùng vĩ nơi địa đầu Tổ quốc, Địa điểm phải đến để Trải nghiệm, khám phá\"",
+    "place_id": "14991357722061573943"
+  },
+  {
+    "title": "Vườn Quốc gia Ba Bể",
+    "address": "Thái Nguyên",
+    "rating": 4.4,
+    "reviews": 2100,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90a901cff1901aff80bbb/images/Iv1CZCpSyKiQ8tJ7S5OjkL6eP9rIUweYysD8_pFMERs.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerfaVuxGb0YrXIo21zNwAVWVgZWR3feNEYf0hSZ39p8mlCvyMhZ6oC5rcot3y6YYwmlPfi_MsJ_VFAjAD3F7T3DZYYWXWLGwGON70g4BQIGERxGgaNl0N8ccQ3rgdKsOK6wHk4=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.396301,
+      "longitude": 105.615746
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Cảnh đẹp , con người thân thiện , điểm du lịch nên đến !\"",
+    "place_id": "3090315882455631135"
+  },
+  {
+    "title": "Núi Các Mác",
+    "address": "Cao Bằng",
+    "rating": 4.6,
+    "reviews": 1900,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90a901cff1901aff80bbb/images/ooKIwXzNvQQOUwkDMRIV837bbYLl8aj4CnF8QLixYu4.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqKudNsqhDS6WgarDljcGP8-YBeZMNugIT8qq6xY1ZDU44Eei3pcOSqdgbHVrbRjSVW4QGihZ4FLiDe2jkJFEnkIDgDmSLosBoO9o4barWdfXjpKzFRlIIKD9ZGq3Dp9Nt9LZTw=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.984207,
+      "longitude": 106.04879
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": null,
+    "description": "\"Một địa điểm tuyệt đẹp, xứng đáng dành thời gian nửa ngày để tham quan\"",
+    "place_id": "8016887684964273115"
+  },
+  {
+    "title": "Núi Mắt Thần",
+    "address": "Cao Bằng",
+    "rating": 4.7,
+    "reviews": 1200,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90a901cff1901aff80bbb/images/_PFDYyK6vDeQuUYpqLbmaKA0OrICu1eSIqAwRPmSnyE.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoqB0kqazNG6-XY1s43Mqi8tAYughqAh_IoSNC7dSeGbSXgZ79AuBmguejWBFzMaK7wcwWA1maQAY_Li8sFqsqgk3gKaHVWjbHuyiR_tuVBfMnlf2hsRPhs9v1jCvXltfGQKrs=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.77421,
+      "longitude": 106.31766
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 5:30 Thứ 7",
+    "price": null,
+    "description": "\"Đẹp, mình đi vào hôm trước mưa, đường trơn khó đi\"",
+    "place_id": "3698131746668695392"
+  },
+  {
+    "title": "Hang Cốc Bó",
+    "address": "Cao Bằng",
+    "rating": 4.6,
+    "reviews": 1200,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90a901cff1901aff80bbb/images/cS9kFQvhL-83S4UJibbBJU9FM25dxNxJ9hTQjJp3rf4.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweos9E5Z2trzibVYVToEhKv_oFjbsDxTFM-mQHmVsbsrHLV6H7_fV0xs6qKl8Pn8Dg_u47RJ0PzvEJMLrXZPXGwa5kWQcqlFDv6clG18P955v6380aeL3CrjjjLrcvSJsHnX5yRg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.98708,
+      "longitude": 106.0504
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Địa điểm đẹp, có ý nghĩa lịch sử lớn nhưng chưa được chăm chút quảng bá.\"",
+    "place_id": "17824905291525964256"
+  },
+  {
+    "title": "Khu du lịch Suối Mỏ Mắm",
+    "address": "Lạng Sơn",
+    "rating": 4.1,
+    "reviews": 846,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90a901cff1901aff80bbb/images/C6RVJr5E2WQn__wL4E-54Wu09_OFpfYLF-kblzCOu8Y.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqrXWNrBlSBZpOhjPb9d4yeGsST2R9fcMeAsLSYl-Bx2pw0vchfQ6PStw6ykbVEc2FhKMytOIEAxYb1XAQ9qbaqd7bWb7x5NnlaBECxnk1ji92Uj8ifrJe-k_SePMTo6KV4rNWhyA=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 21.81873,
+      "longitude": 106.18502
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Mình đi cuối tuần nên rất đông, di chuyển dễ phù hợp đi 1 ngày\"",
+    "place_id": "13545549217760371944"
+  },
+  {
+    "title": "Khu du lịch Pác Bó",
+    "address": "Cao Bằng",
+    "rating": 4.7,
+    "reviews": 812,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d9152da973c4a0c30dca0e/images/lNCNJGY55qs9Cix5DeQG7Kzc2EQZ5K6rttq1LlHh5Kc.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoMWiDEUpQ22ehxqTLsnVwbwE8GhpMKYmvhWg7bIRMHmqd90SWMP04cyLM5rgsr9iTU7JuLrtv6N-kfCO3jCHOyyra24CA8CFV0_xbx4jIEbVhNa21kLVCkmXujPtuF4pFyQBt3wQ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.97786,
+      "longitude": 106.050354
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": null,
+    "description": "\"Khu di tích lịch sử nhiều cảnh đẹp, rất đáng để đi khi đến cao bằng.\"",
+    "place_id": "7118909877507921133"
+  },
+  {
+    "title": "Phố Đi Bộ Kim Đồng",
+    "address": "Cao Bằng",
+    "rating": 4.5,
+    "reviews": 457,
+    "type": "Công viên giải trí",
+    "thumbnail": "https://serpapi.com/searches/69d90a901cff1901aff80bbb/images/tucEtjL6no5vEQwkWB3ltbPNCzdGJA0yIDQTOYsvSK4.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoSCelKxb5vlWqIPGZsMphV5L2UOigfKHltRmlNTOfR3GAK9EU9_EsIaAPjW7-_U3EhprG_G9S25fmm9_Kx2c47CxfouCYwJRGkMZZij8vufF2TEmOX63jMprCzF3KrFqlDsquP=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.664097,
+      "longitude": 106.260506
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Tuyến phố đi bộ Kim Đồng là tuyến phố đẹp.\"",
+    "place_id": "17864410752854006888"
+  },
+  {
+    "title": "Khu Du Lịch Sinh Thái Hồ Thang Hen",
+    "address": "Cao Bằng",
+    "rating": 3.8,
+    "reviews": 373,
+    "type": "Khách sạn nghỉ dưỡng",
+    "thumbnail": "https://serpapi.com/searches/69d9152da973c4a0c30dca0e/images/ICAYJeCYX-TXFhfI6rSv0BmP3v42APLng4FoUOh9vGI.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq5HdAINqs873DnL5Qq8UFizvhUDZiqLPkW_xnx_hqRN9H-gg7Y2WicqP0pOMsBM__bClIej2mZphudka33W5T3trw59-DuzZKbq3YxFQ2qK98POuN0L5nCiXe5etZlIi9UKlc=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.758997,
+      "longitude": 106.297195
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Khu du lịch vẫn chưa được đầu tư nên vẫn còn hoang sơ và hơi nghèo nàn.\"",
+    "place_id": "3315166889341789235"
+  },
+  {
+    "title": "Suối Lê Nin",
+    "address": "Cao Bằng",
+    "rating": 4.7,
+    "reviews": 291,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90a901cff1901aff80bbb/images/-YgRCtOPhQIteC6OC_vLLvHQ_6ailIG8wmknxzBH2fs.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepZb0LhizmluEZHV1ULFURuKpqdO4xIENDW31_hdHEgpvZ5zlTXuPwEfAt-rdGh3vdsL73K4DZSgFdBG3iv3ItkQ2XV9N-CGHvyPE8BknYVGlvwcTxBDqnPWsWO7wZUX3aAhMM=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.98618,
+      "longitude": 106.04755
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Địa điểm di tích nằm trong cột mốc KM0 đường HCM điểm đầu\"",
+    "place_id": "3711448126319091930"
+  },
+  {
+    "title": "Minh Tuấn guide Cao Bằng",
+    "address": "Cao Bằng",
+    "rating": 5,
+    "reviews": 230,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90a901cff1901aff80bbb/images/fCaoVkEduJjUwQaZ1zZJf7LzMacT0zXSAhKBkRVeO-U.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerKqFUvTu__cnx0_5-1I5b_HITP_mCq_-HSLYR_2d9MyWtm6Ww5eG75clpF9Ucy4fV1-__c2flPKtu9Ag7KWJHNZL8m9OmTDAPRf9vb1HEmnMLbaP38Blv75ARoaD_ThHd27YIz6mwyv4nq=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.675968,
+      "longitude": 106.24232
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"2 anh Hướng dẫn viên siêu nhiệt tình và siêu quan tâm tới khách đi.\"",
+    "place_id": "5570598729737883762"
+  },
+  {
+    "title": "Cổng trời Cao Bằng",
+    "address": "Cao Bằng",
+    "rating": 4.2,
+    "reviews": 174,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90a901cff1901aff80bbb/images/e--69avODflWyWSgsxXKVu0q5ZtWKQTqkd49Nno-t20.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer-G82D5UrbiwgffiKtqtiZ5qEOqSVYlidNxbhW5iK8sX2iAsok-6Jb9O1D5yI_sIHvXwLex7r4P6w5EsQIDu0emMSIOK5G6NZeNFA9X8YK6uAkHnOomsjtIB23eWQnrTV78BMc=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.831762,
+      "longitude": 106.320206
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Địa điểm này được khá nhiều người đến vào ngày mùng 1 và 15 hàng tháng.\"",
+    "place_id": "13902304575214854518"
+  },
+  {
+    "title": "Hồ Bản Viết",
+    "address": "Cao Bằng",
+    "rating": 4.4,
+    "reviews": 170,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90a901cff1901aff80bbb/images/UVB4XAjixTpyd7anPsWBo6nW2kkfvHXY8hOQGyx3Nlw.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqShla21aMf9uksGX8ivkad0sWi3-44kksYvE50BPyuog5QajnUc05GsdzteKAp5o1vzmXqlz2PPpehhxluVBldfZJ81kqAAHL8q9qnxAbXaq8Uix1QPFiGWYnQparHAVrk7Qpp=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.80194,
+      "longitude": 106.60016
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Một địa điểm du lịch khá đẹp, yên tĩnh , không khí trong lành...\"",
+    "place_id": "776622115951813920"
+  },
+  {
+    "title": "Thảo Nguyên Slam Chiêm",
+    "address": "Thái Nguyên",
+    "rating": 4.6,
+    "reviews": 155,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90a901cff1901aff80bbb/images/BIID3eFE6Ox5SA87Ywrznb-1OqZ2U1N7XlzMncyT5Do.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoc7xteKza_gqbK6bjkqRrqm8pyS84JqaoZ6u7RXFg8y3KUmJhS6O1BNFGOsVYDNh1moC0GWG5e9gsxYEGa-u7QItXDDENJUG2iNsA7piZA2ZVnWElcEGRls0Q7uPzrD-CJMag=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.36105,
+      "longitude": 105.93238
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"1 nơi đẹp để đi,oto lên tận nơi, thích hợp camping vào mùa thu\"",
+    "place_id": "4607920130862679200"
+  },
+  {
+    "title": "Quảng trường Tượng đài Chủ tịch Hồ Chí Minh",
+    "address": "Cao Bằng",
+    "rating": 4.5,
+    "reviews": 135,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d9152da973c4a0c30dca0e/images/qnL0ON7HyGCjAmsxhKO8PQoYCv8fDBtd6P-8LctiOcg.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepGzN7YR9A4LCZNgfQ1xQQyevo9NFDXDQkbRrNtnn9bVeQwiNcuxgmAIamcLpfLQN_-Tf7F7lJHScrJNpGnq_7ClgOhyo_IBWa4-Tatoxt95e7XWtjPAHkLWRSXI2iBH3oPo3Sw=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.665812,
+      "longitude": 106.25877
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"khu vui chơi giải trí ngoài trời cho trẻ em\"",
+    "place_id": "7520269438972831659"
+  },
+  {
+    "title": "Đền Kỳ Sầm",
+    "address": "Cao Bằng",
+    "rating": 4.7,
+    "reviews": 104,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90a901cff1901aff80bbb/images/AJlqybD75YtcqQ3zPGGhaH8zG_BXHEdqLp0-jfZAfpw.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweokjcawiBOYmqZsJZZTdParzWZzX4CTI5dpDoNQlyX0GkFjxxVfIikvu1w_k2uzAC7vjYLkJXAed5BeoHoeWOxZ7vwk9YD4JMQh42AJavA4v5QrMuiC2y6fd9nc0eXgSIhUsF1U=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.693636,
+      "longitude": 106.2357
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Trước đền có 3 cây di sản rất đặc biệt, tạo thành thế vững chãi.\"",
+    "place_id": "1363343127734439699"
+  },
+  {
+    "title": "Rừng trúc Nguyên Bình",
+    "address": "Cao Bằng",
+    "rating": 4.3,
+    "reviews": 100,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90a901cff1901aff80bbb/images/Z5g3xsML1nQgBwtzACftg3O5OgsQVhEwmYqv6QiYE2E.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerfo_3Cu37E8tsFOibTM7h59Invw8oRm1LfUZrKTIcsxXMZmbuFZdcECjqq5eW6PrzhbmhTUeU8bzSjNMom1AeWHGQWGwPzqnrWNQs86x73FX2bdCHoL0kvZp-qAhyen7HxNs8=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.68268,
+      "longitude": 105.844086
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Một địa điểm hoang sơ và khá đẹp, đường đèo đi cũng rất đẹp và thơ mộng.\"",
+    "place_id": "13522062995665334255"
+  },
+  {
+    "title": "Thác Thoong Dào",
+    "address": "Cao Bằng",
+    "rating": 4.6,
+    "reviews": 51,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90a901cff1901aff80bbb/images/zXHglLJLLXDf4Y3KzVr68nKEDYqBxEDs6JDVRTiTjyQ.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepoUGnZiVAOBELYkdBDu1QT6JEnaA0Eh2PiNBuHICcbgm74aN1xFfj4RIheP74XBX-kHxW14l1hBe_xbbZMnqHkez6S_252kiQpfAGMUNgLSHQsgEVTHmPCzHyHoflsWXjVwwYF=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.900194,
+      "longitude": 106.51278
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Hàng bánh mì bán sáng, ngon rẻ, rất đông dân địa phương mua.\"",
+    "place_id": "16540474722483142257"
+  },
+  {
+    "title": "Du lịch sinh thái Nặm Ngùa",
+    "address": "Cao Bằng",
+    "rating": 4.4,
+    "reviews": 42,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d9152da973c4a0c30dca0e/images/x67yIa5J3XeFDXwNtcAt5khj9Q7M4SQ_CkaBsYy-VsU.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqICDQMeruqQI585wz-NJoxSuNrGqZGelHU8SnARmj-bSSKWAPMnGpMquXIb3bodUXixcWJl8OIG9Oyn2eKnJEgqM5LQkDaPmoJLhSCH8A4nOKsDFwO2qwHvlqQov8Qss7PZcCo=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.79226,
+      "longitude": 105.91629
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Góc view, góc check in khá đẹp, nước sạch\"",
+    "place_id": "14060740530653497838"
+  },
+  {
+    "title": "Du Lịch XUÂN HOÀ SƠN",
+    "address": "Cao Bằng",
+    "rating": 3.8,
+    "reviews": 34,
+    "type": "Đại lý du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d9152da973c4a0c30dca0e/images/mApXKUmL8l5uuTEIcpc9T69dF5sGwyQFGCpjzW3Cny4.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo5ADesUAVV-9bpQwAwbZxqRZa_80W0NktaZrJ628WGwyXYXdfueLvefJRlm0Gz3XuqN29gdUzxj5V262SgVJ-1J5USPh1XadqbIHzB1EzuonqbAEBBjrPOn0wUYYtWUvp3wWqW=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.658556,
+      "longitude": 106.19618
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"khu du lịch lớn nhất CB\"",
+    "place_id": "11118049667872022951"
+  },
+  {
+    "title": "Di Tích Lịch Sử Bác Hồ Với Ngành Xe, Máy Quân Đội",
+    "address": "Cao Bằng",
+    "rating": 4.1,
+    "reviews": 20,
+    "type": "Điểm mốc lịch sử",
+    "thumbnail": "https://serpapi.com/searches/69d90a901cff1901aff80bbb/images/49DVlmzphjPa00U1hH0T8-Xsssxd5UMCgZX4urDCSmc.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoJ9j3ymLiFBXBzsiVFHOILw5Lx-oKLApXVvwpHndLSzN_xbt_cLvFeN_HSVry71k3bTs914tL576Y7-stDVtn-TQKdnYq8cCddRQcGX1iN-q1c9QM4N2DpmD7gU2IBjSCMOz_OKc2ssbg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.661966,
+      "longitude": 106.19779
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Điểm tham quan khi đến Thành phố Cao Bằng\"",
+    "place_id": "5231074638975717057"
+  },
+  {
+    "title": "Hồ Nà Tấu",
+    "address": "Cao Bằng",
+    "rating": 3.8,
+    "reviews": 17,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d9152da973c4a0c30dca0e/images/ffeihDBnATkWlUYgypKY2CK-PUSaO2pC0vHzQOOmsys.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweod2YaYAMxKX05xwp-1FHBMwC3NdfrmvE9ePFDumv7RShETBsTumt7NTIBhm2RVkAmDmQ-xbj0UT084Ta1XZXRJJ55PRQ-WDkHgKgHxLEtkGCnkKXv-Lv1DUyADtw_xJd1b46ZN=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.732527,
+      "longitude": 106.188354
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"hồ đẹp, con người thân thiện, câu cá khá vui\"",
+    "place_id": "1480742335707618290"
+  },
+  {
+    "title": "Camping Núi Thủng - Khu Du Lịch Cao Bằng",
+    "address": "Cao Bằng",
+    "rating": 4.8,
+    "reviews": 16,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d9152da973c4a0c30dca0e/images/ksiUFGtBs903lPK72TtutzqaMFoQacOsPkTfNeHmJxg.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepyfX7NiLsTgQOOgc7o1nbjdBCK1iOAzsXKSJV2iK_K2b0ashFr4HkO78Ly3hOKtSr1a6vp-Bgo8mOlR8FbjC6wITHwVbfBQ5kAG45sWdkrS-hJ-D2GRyAPVRrKeX-mvWdQO1Cs0A=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.774174,
+      "longitude": 106.31475
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Nhân viên thân thiện, nhiệt tình, chăm sóc khách rất cẩn thận.\"",
+    "place_id": "13013395050237564430"
+  },
+  {
+    "title": "Khu di tích lịch sử Nặm Lìn",
+    "address": "Cao Bằng",
+    "rating": 4.9,
+    "reviews": 13,
+    "type": "Bảo tàng lịch sử tự nhiên",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweovLTc0xh9WXKjRxDNDYW0_WQMpPgQ6tQLGjQESS8nSBJtqfEHomIrkEPcaf1QHYS2tPamFR2tb_ZPPAExD0VJc70mGzmBRM1s3A5wVD6N4Cpkzptg5Ria1r3qsOCBNAhPN9TAi=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweovLTc0xh9WXKjRxDNDYW0_WQMpPgQ6tQLGjQESS8nSBJtqfEHomIrkEPcaf1QHYS2tPamFR2tb_ZPPAExD0VJc70mGzmBRM1s3A5wVD6N4Cpkzptg5Ria1r3qsOCBNAhPN9TAi=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.701033,
+      "longitude": 106.15538
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Tham quan học tập rất Ok\"",
+    "place_id": "18324133291429665142"
+  },
+  {
+    "title": "Du lịch sinh thái Lùng Tố (Lũng Tó) Văng Tố",
+    "address": "Cao Bằng",
+    "rating": 4.5,
+    "reviews": 13,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d9152da973c4a0c30dca0e/images/EVvQRbHgcOBrxY487TrKYIPJA3ze_4uYNd1IpuKbo2s.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoRauGzlVFjwn6UpXONCjF5oPZTWRjeGnV3QUPXZHOPTb714c8mfObm8xVAGYhx2twJu1WEj8zXToi51mI9a5ZcGB6NcQ1X4wxFVrbF239wmFK-iPDS5BR7L8uqLEYuyxjTt3bS=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.794678,
+      "longitude": 105.947075
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Hiện tại ở đây chưa có ai đứng ra làm khu du lịch.\"",
+    "place_id": "9724435089030325792"
+  },
+  {
+    "title": "Lán Khuổi Nặm",
+    "address": "Cao Bằng",
+    "rating": 4.8,
+    "reviews": 12,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d9152da973c4a0c30dca0e/images/lEulXgY4_iOwvUNQ8pPU36yJ67ECxfYFLFt2oPHB9cQ.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweracvQcENdbB2Njcu2kCksd4IMOI0tiG5qtXsHFhRJjYdm4MVvV-lXebLq_fEsUKWWUgPd-qszvswDlWDVxEpV6a_H8zFPCiqCqXs68GXLXezNxf1O0u_Z6fgCC5UVlKPiCZ0GIHD-n4i4C=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.983435,
+      "longitude": 106.0443
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "3807072482094524402"
+  },
+  {
+    "title": "Khu du lịch Suối Nặm Thoong",
+    "address": "Cao Bằng",
+    "rating": 4.6,
+    "reviews": 10,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d9152da973c4a0c30dca0e/images/lNe7iXImNv63MrcRD50Xa4OzEE3B_ON6Jqq7O19eN4s.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweov_PU9SEKEKeclsvCl38izLyPr6l9hYDzAMU825v5gUREe6nG09lVUengU8y2QEzqEmYZwwONHtZXxebNJFhShNSACdpM29D4QJSYWExKh-GM0lMqoAgBqceHFKnlWMBZ5vlRCCGZVRJYU=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.776882,
+      "longitude": 106.12208
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"1 bên nước sâu nên trong sạch hơn, 1 bên nước nông.\"",
+    "place_id": "17265674648248752457"
+  },
+  {
+    "title": "Khu Du lịch Sinh thái Thác Vàng Bo",
+    "address": "Tuyên Quang",
+    "rating": 4.4,
+    "reviews": 9,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d9152da973c4a0c30dca0e/images/ukR_qwBMTZwbUeyaT0BewL4QlrMjiXlrb_Ejf3lAsFU.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqQJOTh6JMDd35BLUQvAMPojrJbmh2yvM6Q_9ybfa7dz4p1dk8ue0B8tb2yPIF-pgueYfGmBoymaDw2kwR-zQLI3Ucd67NhbzpIZ0ebTwCt-CPsiBxRkZDfS2pINXg1E7RTFKEKHw=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.379992,
+      "longitude": 105.50224
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "5738065570935319427"
+  },
+  {
+    "title": "Điểm quan sát",
+    "address": "Cao Bằng",
+    "rating": 4.8,
+    "reviews": 5,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90a901cff1901aff80bbb/images/rxOkMOzpkqa40fpC-jnmRzAtEgbzBSLGovmgW8OtiIE.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoP5UflYLdYmUAZ54S9S-YyrlDSpKRElZSGUQe8Mgt-BgxkcotpiUsoYb-STJLa8qjaMkq_mvvXdlbhadCpVPAOQaq-4PR1lU5qdpd3e2TCwvLRZagA-Z6iEfHj4mmHXICbf4N5BHV7Yt5k=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.629665,
+      "longitude": 105.91304
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"View rộng rãi rất đẹp, là lối rẽ từ QL34 đi vào Phia Oắc, ĐT212\"",
+    "place_id": "15991726027786394510"
+  },
+  {
+    "title": "Khu du lịch Nà Chèn",
+    "address": "Lạng Sơn",
+    "rating": 5,
+    "reviews": 3,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d9152da973c4a0c30dca0e/images/JJYu9QWeLC6o8XrDEnCy0dq5ncyZxH5dLDRMlLQBA4A.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo0IYWOobeSORa3x9yj6pr8El6cUipIdfqZFkYnFGkzl-rY2QVKPx-AfdtwqXWQv3iBSv1Q11nnWkorvKyhRMZFK0_4MTOeM9v2v0QEJl3JFnTSD2DOhcq1hP6ZovZNQ4MUuOKx0pkLrREb=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.075045,
+      "longitude": 106.63253
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "1512012604209492647"
+  },
+  {
+    "title": "Khu Du Lịch Thác Bản Giốc",
+    "address": "Cao Bằng",
+    "rating": 5,
+    "reviews": 1,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d9152da973c4a0c30dca0e/images/4tnOKGj5Ob5RPn4yGBdCk3O4HGYolS-c0oT31YDaDR4.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwereFkSc8Zbtg2u0Qt9VOwa22bV42n44cl8R0YhcCMG9qkwsEcISn95o2tohuDy2XE6LN9ytVZuKfTGjPTtuDl8jgwnN9UIFIeoStocgvj9ltbTzeRm1TZwA352pYbtckqIra-LRmQ4NLl_E=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.850101,
+      "longitude": 106.7277
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "642531796922152901"
+  },
+  {
+    "title": "Khu Du Lịch Sinh Thái Thác Nặm Tốc",
+    "address": "Thái Nguyên",
+    "rating": 5,
+    "reviews": 1,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d9152da973c4a0c30dca0e/images/UU0cTUrdU9iugvYcmjcgzEuY6du5ZroZkK8duDbDzrs.webp",
+    "thumbnail_large": null,
+    "gps_coordinates": {
+      "latitude": 22.314741,
+      "longitude": 105.80237
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "16299406380223380896"
+  },
+  {
+    "title": "Hướng dẫn đi khu du lịch mắt thần",
+    "address": "Cao Bằng",
+    "rating": 1,
+    "reviews": 1,
+    "type": "Đại lý du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d9152da973c4a0c30dca0e/images/KPF61O0pdZdv2XynQnL6ag-oZNs5A7syamb0gr1ACUo.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer9253Z67WCznv7yQQipa1Bw5n4nBpFtiqmmMBbCG5TW8HuIxAkSFYfsAc_Pw0gUHH162ZkLd8H7S6q_SHEN04EPqa9yqjPyELi88TUmaYtcVsW4IT8sPh1CDgPnh0afzYW01eS=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.811739,
+      "longitude": 106.322876
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "16054608452720295277"
+  },
+  {
+    "title": "CÔNG TY TNHH VÀ TM DU LỊCH HOÀNG NGỌC",
+    "address": "Cao Bằng",
+    "rating": null,
+    "reviews": null,
+    "type": "Đại lý du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d9152da973c4a0c30dca0e/images/Wv6YzsqUrGMbyLS-Mi71GLWlEsOUfs804_QJjub_67o.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerK1w0qGya7gD-O7o9acTuUcY54CrF9jSWZkr4iEBQQ4z3EJrItv4gcVZBrz6LKWrCzmKxBzsJZhelwmSk0T3kXg_BFqiRSV-yyyNQnohgrwb10KFXabJzeARH-yXBphEve3XJ5qVWpzEY=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 22.67287,
+      "longitude": 106.225494
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": null,
+    "description": null,
+    "place_id": "4584045712815700632"
+  }
+]

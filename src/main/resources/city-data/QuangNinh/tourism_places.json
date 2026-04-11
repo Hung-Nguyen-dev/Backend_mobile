@@ -1,0 +1,376 @@
+[
+  {
+    "title": "Bãi Biển Sun World Hạ Long",
+    "address": "Quảng Ninh",
+    "rating": 4.3,
+    "reviews": 4100,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqgm9X5vuzwYFWVgPPLcueG59rNQtVWQlBiDAnyi5JgzC36-EFSs9Rte77v1aK-F9JSaoY4D2hSBQ89zV9IdInihYmMOXI0Dc17B9_n5kPYWL4nWqljpTJ1MJJx-rYpR3hgHhQ=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqgm9X5vuzwYFWVgPPLcueG59rNQtVWQlBiDAnyi5JgzC36-EFSs9Rte77v1aK-F9JSaoY4D2hSBQ89zV9IdInihYmMOXI0Dc17B9_n5kPYWL4nWqljpTJ1MJJx-rYpR3hgHhQ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.942944,
+      "longitude": 107.02862
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 0:00 Thứ 7",
+    "price": null,
+    "description": "\"Bãi biển đẹp , không khí trong lành , thích hợp cho đi du lịch.\"",
+    "place_id": "15942890890552264317"
+  },
+  {
+    "title": "Công viên Sunworld Hạ Long",
+    "address": "Quảng Ninh",
+    "rating": 4.4,
+    "reviews": 3600,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90ee365f701d1b500ed90/images/83QqibhZzse8g9_U1WNiWx6Lt4wO-E-GZZkkaS4xpD8.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoA8J4PR8AnvwOKQ-IDKnuFkCwtK8E-QGjs4UqytjPLzw1QodU_DKYTz_b5I8ib2iDmk7izf6pEhZngp6p2Ife9pu3P3xMV0znobV9QJxF7_zK30UiPVY5GYoSlFQ1Qf5vbxzIIVg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.955587,
+      "longitude": 107.049324
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 9:00 Thứ 7",
+    "price": null,
+    "description": "\"Địa điểm vui chơi giải trí chất lượng, giá vé phải chăng\"",
+    "place_id": "3423317716782636598"
+  },
+  {
+    "title": "Hang Đầu Gỗ",
+    "address": "Hải Phòng",
+    "rating": 4.5,
+    "reviews": 1500,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d919c7d45a38bd9368b4d1/images/ocjphB52B-hbDbu-KqZZBfMWGEw37yUF7HYtPLfjlpI.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo7Y2dfJGo539ZWcu7TEDrG_jQi_exZMTESwDSVJb3BBtbUTbEAVfk15EA6FlSpOAwwFfLVt3021YDHslZdLtMt0sgGspDjbKUjm5moRDXZFvbXcq_C_SYFrFbVrYQM0G-JafE=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.911158,
+      "longitude": 107.01866
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Khu du lịch thăm quan lý tưởng\"",
+    "place_id": "3799611895781522982"
+  },
+  {
+    "title": "Công viên Đại Dương Hạ Long Complex",
+    "address": "Quảng Ninh",
+    "rating": 4.4,
+    "reviews": 545,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoisf1H4uJe8hEcv7bbPOORjYy_4yk9cLghvwpl29xQn1wxeu2oOIHJ9ln9QVfcjsDBtW5no7opp5wwMxUf77EzEjdi86KxTDerwdXKKU4yjIuhiS5h4Cvj7ixAijp9F6UwSAbf=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoisf1H4uJe8hEcv7bbPOORjYy_4yk9cLghvwpl29xQn1wxeu2oOIHJ9ln9QVfcjsDBtW5no7opp5wwMxUf77EzEjdi86KxTDerwdXKKU4yjIuhiS5h4Cvj7ixAijp9F6UwSAbf=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.950384,
+      "longitude": 107.04074
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 9:00 Thứ 7",
+    "price": null,
+    "description": "\"Công viên rộng, view đẹp, có trải nghiệm tốt ở đây phù hợp cho gia đình\"",
+    "place_id": "2676200302560348406"
+  },
+  {
+    "title": "Hải đăng Bãi Cháy",
+    "address": "Quảng Ninh",
+    "rating": 4.4,
+    "reviews": 416,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90ee365f701d1b500ed90/images/dI1h1YdANu40MAqYfGgPr_K9s7E3dkfFUrjvkLQleag.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoS_8w6EDNuE0Fh7wqoe05XzwJlW0LnV2IZ2VTraVgDNP3Yabt0aV0fUnDFTmwyPdM8ZjVOvAyzypyTe87nHsllRtdLJuPm4M4sP440iA3EniyTQ7Vp1rtP9HmPODzdnHADqY4=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.958519,
+      "longitude": 107.0602
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Địa điểm lịch sử bên bờ biển dưới chân cầu Bãi Cháy rất đẹp.\"",
+    "place_id": "4419503278209179792"
+  },
+  {
+    "title": "Bai Chay Lighthouse",
+    "address": "Quảng Ninh",
+    "rating": 4.4,
+    "reviews": 141,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90ee365f701d1b500ed90/images/bHqvAKLQV_3-pXhD_AI3XBwUFMRymbsCgAvIZ4nsLYs.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep2x4FMcW79mVbaG8HmOV2oESRqrD-8orJLH43hg1Txnh6Km2OL7eIYQOFBbQ1hHuvLBKnKJOlbSsdDRAZLEi7D3HINEwpUZ-rD9ESTngdrToTZSrB-KzeZxg90drV6TBFygzG4IAEAvHn_=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.947334,
+      "longitude": 107.05542
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 0:00 CN",
+    "price": null,
+    "description": "\"Ngọn hải đăng là điểm đến thuận tiện nhờ vị trí gần biển và ga tàu thủy.\"",
+    "place_id": "12143051972274105182"
+  },
+  {
+    "title": "Khu vườn Nhật Bản",
+    "address": "Quảng Ninh",
+    "rating": 4.4,
+    "reviews": 138,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90ee365f701d1b500ed90/images/ErvHFbbJP3edf7B6fUsda77BLa0EmjHoA2y_ZxKUBwk.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqEhKglIaNFN9Aq5BaPwHmaAyXHiwjzfaefsBt_WDuwPBK-b9XgbFbmpD9Eu0kV68nZPKE_r9fdgVB_J6xeaJ0bk8CcnND34q2n22bGXkb8CsNLY3Ul8Ja768X813FrDzM__FPKuA=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.956076,
+      "longitude": 107.07192
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 9:00 Thứ 7",
+    "price": null,
+    "description": "\"Nơi đây là một địa điểm ấn tượng trong tổ hợp Sun World Hạ Long\"",
+    "place_id": "12091249560134287798"
+  },
+  {
+    "title": "HA BINH CRUISE - HA LONG BAY TOUR",
+    "address": "Quảng Ninh",
+    "rating": 3.7,
+    "reviews": 93,
+    "type": "Đại lý du lịch bằng thuyền",
+    "thumbnail": "https://serpapi.com/searches/69d919c7d45a38bd9368b4d1/images/xLKssANwcn8S58rWNliTPNa7oNQ22eBfjU_nAGUomKA.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepsN8H119HZCT8Iy5hsD7gMKeq73j-ZBPeoQpDcetd-wqmOwCK9PT6LWN4vkV5wFQ9EK59BsyOIHdgwcke8KmHAuX0V2cC_jiIStebYqsAYKhSfGIWMGpPwyVg6qBuJuDuUJiUX9Q=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.95723,
+      "longitude": 107.05005
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": null,
+    "description": "\"Nhân viên nhiệt tình, chu đáo, vui vẻ.\"",
+    "place_id": "2933252876177572589"
+  },
+  {
+    "title": "Dragon Cruise - A Luxury Day Cruise In Halong Bay",
+    "address": "Quảng Ninh",
+    "rating": 4.9,
+    "reviews": 72,
+    "type": "Đại lý du lịch bằng thuyền",
+    "thumbnail": "https://serpapi.com/searches/69d919c7d45a38bd9368b4d1/images/n_by3i2dBsmit5AEAjgQfxfXijuYKKtaJAdngynBbhg.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepF7nXFlwH-7CAKnE9qRySwCBG5LC_95CMinB4yL4EgP22gmglVd7-QZEQgqyOr1nc_3UE6CPIOf0dQASTYVWXXz0HLkaw7XIwIyQQU9np-Ox-HvKsWzRK_d8fa7D7BkLJfjKNLmVnY0Y17=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.953438,
+      "longitude": 107.05594
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": null,
+    "description": "\"Quá tuyệt vời\"",
+    "place_id": "17561240823554759906"
+  },
+  {
+    "title": "ĐIỂM THAM QUAN CON ĐƯỜNG TƠ LỤA",
+    "address": "Quảng Ninh",
+    "rating": 4.2,
+    "reviews": 56,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90ee365f701d1b500ed90/images/kKyBJRVcwRkRA6GDnKhhiJyK1EFm5I1yx4cGbaa9W5c.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerwgyX1BOWH3_rv3Qd539QD0700rr51u3j_mmgyQx6IjEUuiaXwrOLTsv0cDsuZT1InSUx0ILmfv4uGRaYBX1io9xmrL7vLzjE73NSmRL5e7R5XyrWlzPp5Ch8W00DcHIesYVIe0-Pakii_=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.954565,
+      "longitude": 107.01336
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:30 Thứ 7",
+    "price": null,
+    "description": "\"Điểm tham quan & trải nghiệm sp lụa tơ tằm, nhiều món đồ lưu niệm\"",
+    "place_id": "4470484707559511059"
+  },
+  {
+    "title": "CÔNG TY DU LỊCH VỊNH HẠ LONG",
+    "address": "Quảng Ninh",
+    "rating": 4.4,
+    "reviews": 54,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqVfMpAwlWMTwXRaBt1JnVhwR1kcVW9RmVcTf6lVYYd72DD_XwksxEPsRcwg5BKjRllyc8Mlwf9Ck6C0nwDSVuI5MkYR9XureJXuLXEHky1yCtAdhzsFaVFTfL1SpJpoTsQ9B3uRw=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqVfMpAwlWMTwXRaBt1JnVhwR1kcVW9RmVcTf6lVYYd72DD_XwksxEPsRcwg5BKjRllyc8Mlwf9Ck6C0nwDSVuI5MkYR9XureJXuLXEHky1yCtAdhzsFaVFTfL1SpJpoTsQ9B3uRw=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.958473,
+      "longitude": 107.049965
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Điểm du lịch hấp dẫn đẹp v\"",
+    "place_id": "12615253298842462736"
+  },
+  {
+    "title": "Tàu Thăm Vịnh Hạ Long",
+    "address": "Quảng Ninh",
+    "rating": 4.5,
+    "reviews": 53,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d919c7d45a38bd9368b4d1/images/Tw-ZB2oyiLB-xg23VM1O9_27G1dJim7WG_q3GxgcqPs.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerihj7ardVdI9eRT1EyoYzqj5yg9_WfdXJwzngb-VN9UKdc3KWABcnvido5sK_mT_P4NYJHUItCpIt9HCM23J4kC686BIZLwLTHN4UX_WUqogguVEzQO-rZPD77AwG0Sgxpr8CjXQ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.948118,
+      "longitude": 107.02633
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 6:30 Thứ 7",
+    "price": null,
+    "description": "\"Mình recommend cho mọi người nên đi trải nghiệm nhaaa.\"",
+    "place_id": "1477054702975933011"
+  },
+  {
+    "title": "Tháp quan sát",
+    "address": "Quảng Ninh",
+    "rating": 4.2,
+    "reviews": 49,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d919c7d45a38bd9368b4d1/images/0T2OwmGcyoZH51zJslex-rfHa5v_XiZ-1KJh4IugSm4.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq6E0xiZRcofN11c9WjNnDmVpt_XzoBZZes0_hU0CiqoD7otUJtUtJkFheDMVr624qmW3ZcnI_UymeC1SZShBvTx6MCU7sYJxlQpu37cUGt3RIkdC6Njq3GJ5cIOmjuaa-jF0Ka=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.961435,
+      "longitude": 107.0437
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 9:00 Thứ 7",
+    "price": null,
+    "description": "\"Một không khí trong lành ở trên rừng thông, hướng xuống là vịnh Hạ Long.\"",
+    "place_id": "2655071880691591056"
+  },
+  {
+    "title": "Sun Marina Hạ Long",
+    "address": "Quảng Ninh",
+    "rating": 4.7,
+    "reviews": 47,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90ee365f701d1b500ed90/images/Uxd4vJgyHtyQBRHkaAnh5i5n_GqkpDQ_LUEAGa-3x24.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqE6cccI90qFDS2JuR088Ds64Gkw3hNCPHkeR2quZVIYF5XTo-nAHcDVBwlvtM8aYLE7Ftmx_NTNWOFGyTNqAQ7kc9EzCzn_qDVSYgVX_-PliWHQ79hdX61YPY2g96Vej8gHKqA398eUjuq=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.95128,
+      "longitude": 107.05397
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"1 khu phức hợp ngay biển, tiện lợi để nghỉ dưỡng\"",
+    "place_id": "355121101920698342"
+  },
+  {
+    "title": "Aurora Halong Cruises",
+    "address": "Quảng Ninh",
+    "rating": 4.9,
+    "reviews": 34,
+    "type": "Đại lý du lịch bằng thuyền",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerWqnDcwe6vScS423KNIkqQyVuXByEPTdoqJ8Iu_V9Gvos_IWp1h5LTBjFiPUngU2ZiHN5WPyYFCYj1w91U9A7gSTop3t3C_0ORc4E-KfPyj9W3a1icTr4mVWi3mL-qjKHTeITicymVqLmP=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerWqnDcwe6vScS423KNIkqQyVuXByEPTdoqJ8Iu_V9Gvos_IWp1h5LTBjFiPUngU2ZiHN5WPyYFCYj1w91U9A7gSTop3t3C_0ORc4E-KfPyj9W3a1icTr4mVWi3mL-qjKHTeITicymVqLmP=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.953083,
+      "longitude": 107.055786
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": null,
+    "description": "\"du thuyền đẹp rộng rãi, đồ ăn ngon lắm mọi người ạ.\"",
+    "place_id": "7087245261457889750"
+  },
+  {
+    "title": "Du Lịch Thăm Quan Vịnh Hạ Long",
+    "address": "Quảng Ninh",
+    "rating": 3.5,
+    "reviews": 31,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90ee365f701d1b500ed90/images/MCxnGm_A945_XjDwDoMhBR8b_N8goS0ut2hDaTjl0Sw.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqSEUi0rsNvJMo4dp9sUBqmVIJeZ3dnr9-W9qDbZfwAxqzdxGShLKB099U5mmK4NLSr1RGAdrHMVF6g7XX48Ic7Sa5hZyzJ1h7lAehYV0ewoUSJy4KAJ8yG733SDJV8o9XgINMI=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.955336,
+      "longitude": 107.04483
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Đi để biết chứ mỗi tuyế n tua đều có góc khuất.\"",
+    "place_id": "5487858388878910537"
+  },
+  {
+    "title": "Điểm Bán Vé Đi Vịnh Tại Cảng Tàu Khách Quốc Tế Tuần Châu - Bến Duy Thuyền",
+    "address": "Quảng Ninh",
+    "rating": 3.9,
+    "reviews": 28,
+    "type": "Đại lý du lịch bằng thuyền",
+    "thumbnail": "https://serpapi.com/searches/69d919c7d45a38bd9368b4d1/images/IP8vSw_coNSowERJ9nCk6oCJoJs7hEz7leLfl-bQFss.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep7PlM7UpV_3VSblgTK-2s7wBZlmOlMVBzsAAcA48xKM0bNSHa4O_vlXkzVzz-Jo7EtrB38uZvPpbRwYbDdn-QROcxAL4h6uwanacqZKQW8Cbfjn11FWURpjAQUEdkt_kxEoXXm=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.923164,
+      "longitude": 106.99067
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 0:00 Thứ 7",
+    "price": null,
+    "description": "\"Diện tích lớn, để xe oto thoải mái, cơ sở vật chất tốt\"",
+    "place_id": "11171872451406745194"
+  },
+  {
+    "title": "Chill Cruise",
+    "address": "Quảng Ninh",
+    "rating": 5,
+    "reviews": 6,
+    "type": "Đại lý du lịch bằng thuyền",
+    "thumbnail": "https://serpapi.com/searches/69d919c7d45a38bd9368b4d1/images/L9URYOFRucGLSqXGNg1OWDEZU4EC1Y95tfoNtsqZNs4.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoTvL5dkgy1_295sgJFce76xot04_OW1czpaY6_KeF287CxpfoJxp3InJAuNKEd1kNJhpkYYLTu2SdHM8VxAFs8Eq1tlwJyxis2ne6K2rVg0xMZptBHO5O9HgLpWG1f-RDhjzUobA=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.954096,
+      "longitude": 107.05554
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 9:00 Thứ 7",
+    "price": null,
+    "description": "\"Tôi và gia đình khá hài lòng về dịch vụ\"",
+    "place_id": "12455468448474920476"
+  },
+  {
+    "title": "Du lịch Quảng Ninh",
+    "address": "Quảng Ninh",
+    "rating": 4.5,
+    "reviews": 4,
+    "type": "Đại lý du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d919c7d45a38bd9368b4d1/images/3pd2JuUJHBuORX1wvt06o6wnkWmrMJhmQjiwR9wXyGM.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoBe-FTDJ0LgqKi4vHqoRRSapncjr1Sl4FKepJm8cXw6XQVSlUe-cZz8QOxjFC5H9k8pbDpU-xXiYnXFzGFnh9N43TkHG83sFIs5dYE7ufzZ0j5kExiFPwrf4AlLfpJ8t4yyMqhCg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.952951,
+      "longitude": 107.0246
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "4745804774652318069"
+  },
+  {
+    "title": "Thuê tàu thăm Vịnh Hạ Long |VDS Travel",
+    "address": "Quảng Ninh",
+    "rating": 5,
+    "reviews": 3,
+    "type": "Đại lý du lịch bằng thuyền",
+    "thumbnail": "https://serpapi.com/searches/69d919c7d45a38bd9368b4d1/images/co9DpCgy1aJDtDsPpl61dikkNU8JIUEn7wbVSUUf58Q.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqhHzRdDqLIARMOQ5hmKLb9S9sBXQN5_CzcnVRgOTir9RQn1yvd8L0MwA9fvWGmf8GPJggCQF9qNvMTUC60J4ohMoxg0Aj9bIjORBCS2m7B0iVwOWwWt8Dyw0gmZF7BRbCnuSGnnPncPpA=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 20.953701,
+      "longitude": 107.055855
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": null,
+    "description": null,
+    "place_id": "7381245784847364148"
+  },
+  {
+    "title": "Tuấn Hiếu VLOG",
+    "address": "Quảng Ninh",
+    "rating": null,
+    "reviews": null,
+    "type": "Đại lý du lịch tham quan",
+    "thumbnail": "https://serpapi.com/searches/69d919c7d45a38bd9368b4d1/images/yxb9o6HXIH-CDMh4jTBfu7Otr01v42G_pLV50O-N3mU.webp",
+    "thumbnail_large": null,
+    "gps_coordinates": {
+      "latitude": 20.971197,
+      "longitude": 107.04481
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "12432774892067358909"
+  },
+  {
+    "title": "Dịch vụ xe du lịch Trường Tâm",
+    "address": "Quảng Ninh",
+    "rating": null,
+    "reviews": null,
+    "type": "Đại lý du lịch tham quan",
+    "thumbnail": "https://serpapi.com/searches/69d919c7d45a38bd9368b4d1/images/O4XlfzA7wvm6GaOax2NS0ubEB5Nd1-LnmW4lqHQDanA.webp",
+    "thumbnail_large": null,
+    "gps_coordinates": {
+      "latitude": 20.957336,
+      "longitude": 107.02341
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "11425826828615338610"
+  }
+]

@@ -19,12 +19,6 @@ public class Payment {
     @Column(name = "transaction_no")
     private String transactionNo;
 
-    @Column(name = "provider")
-    private String provider;
-
-    @Column(name = "status")
-    private String status;
-
     private Float amount;
 
     @Column(name = "payment_date")

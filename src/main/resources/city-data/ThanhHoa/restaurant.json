@@ -1,0 +1,630 @@
+[
+  {
+    "title": "Sun buffet : Hải sản & Dimsum",
+    "address": "Thanh Hóa",
+    "rating": 4.8,
+    "reviews": 2000,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d919f6bcd927bb149bc635/images/PdT-7kbIVN4L-BgTDlmJPUHhZeAaXxygppt485Ozs2c.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepXmBOF_fsjl9jcyhzn5FNg3249SbE43QgQNn6kcAnHNJSY6Q8iWQn3iAMPLaa25HQMA_RegIwQEF_hZKxTEyDT0sbH2-GVEaXsMj2sqk6Zfn_IeZYyGC0NeT-5jD20oE_E59xH=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.806307,
+      "longitude": 105.79524
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 11:00 Thứ 7",
+    "price": null,
+    "description": "\"Service của quán rất oke, các bạn nhân viên thân thiện, nhiệt tình.\"",
+    "place_id": "17823253148058488204"
+  },
+  {
+    "title": "Nhà hàng Hải sản Kando 2",
+    "address": "Thanh Hóa",
+    "rating": 4.3,
+    "reviews": 1100,
+    "type": "Đồ hải sản",
+    "thumbnail": "https://serpapi.com/searches/69d90f2c4fa3ba28f5be06d6/images/fqX51xk12u4dBRclB2ZeFf9grbXb_F9BNRsPPkRa5Yk.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoADrHUAq4cEQJIVV846w_j5DJzDrqPbB4uhEMiJ55PABjvI_rWZpr6t9IG72OTHOr_6-f7ufiCUGxaG0sjlM79jwV58a8gYGc9UAGZ7r6lGU90uLaTxw6i0veDrFqTH7avPdhI=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.804153,
+      "longitude": 105.79057
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": null,
+    "description": "\"Đồ ăn ngon, tươi, chỗ ngồi đẹp sang trọng, không gian thoải mái.\"",
+    "place_id": "12384273288650812392"
+  },
+  {
+    "title": "Nhà Hàng Dê Thành Đạt",
+    "address": "Thanh Hóa",
+    "rating": 4,
+    "reviews": 470,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90f2c4fa3ba28f5be06d6/images/Blx550xcBpVyCnE8I-a0knz2a4j2KyEuLpBSw_XRTxo.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepLdBJAOoV_5TS05-RoyJlnF2CkFBpCl0613NFjfjzv6WIbBGQovCojdPDd0vMIb5gG6_ouZiuBASPlBilqhFyDALW2FI3VqN45kAfW5nD6ldlxn4WxdSthCht8GryMYOCYTf0eww=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.832779,
+      "longitude": 105.78302
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Nhân viên nhiệt tình, đồ ăn ngon, nhà hàng khá sạch sẽ.\"",
+    "place_id": "7492219791299317542"
+  },
+  {
+    "title": "Nhà hàng Vũ Gia Viên",
+    "address": "Thanh Hóa",
+    "rating": 4.1,
+    "reviews": 458,
+    "type": "Nhà hàng",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo98EjVRjv-5a7bKQOIGiULjHdxlFm8LZtfaWX0MAUDCMB5szMiFh9pXLXQOyyHfvVWmNVhDGuM4mYWo6uaFUVmqdxPINFcZxf2krquJT2xLfCoEAOZj_HQaa73K8UnoT9Ueam6Jg=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo98EjVRjv-5a7bKQOIGiULjHdxlFm8LZtfaWX0MAUDCMB5szMiFh9pXLXQOyyHfvVWmNVhDGuM4mYWo6uaFUVmqdxPINFcZxf2krquJT2xLfCoEAOZj_HQaa73K8UnoT9Ueam6Jg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.784983,
+      "longitude": 105.7782
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Món ăn ngon , nhà hàng đẹp\"",
+    "place_id": "9983247602654962516"
+  },
+  {
+    "title": "Nhà Hàng Thắm Hùng",
+    "address": "Thanh Hóa",
+    "rating": 4,
+    "reviews": 341,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90f2c4fa3ba28f5be06d6/images/UPw7WW7khUquG0f8neGLSpzP3KS29PJ8-W68cEyGZOo.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoBjBx4uZnDuXxnStq2olHZxF-MuOOAuQLtnywfbDpE1Ax5ZmKER_s2B2GlWmbXFHtS-5x2kb6NqGJyu2C8KNhZXn0e_FxMiHbnVxcIVIwerm2ry73fygRnQnfHUWAMoQV5ednn=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.809559,
+      "longitude": 105.77546
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": null,
+    "description": "\"Đồ ăn ngon, khá đa dạng, lên món rất nhanh.\"",
+    "place_id": "1654013726448727355"
+  },
+  {
+    "title": "Phố Thái restaurant",
+    "address": "Thanh Hóa",
+    "rating": 4.3,
+    "reviews": 192,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d919f6bcd927bb149bc635/images/k1djgtNSIEhOgxx9dQ3XXHV7AB3jHfoSgk2MmJUSx0Y.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepUUUgyNBDlSTXBx417y0On1bA4W8TaAaeoCI46p5NEtWqvG7-zc1EAcKJEtLnJG5aQGPTr7h5x32E1pGADPnQtlmiRwzeNMNyWMgnyyhyrAUlKl48tTv3Zp5eA6rk2Vvn0EU8M=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.801085,
+      "longitude": 105.77584
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"ngon , nhân viên nhiệt tình nhất bạn Ly và Hoàng Anh 10đ\"",
+    "place_id": "3381071781742631923"
+  },
+  {
+    "title": "Cơm Tấm Sài Gòn 36",
+    "address": "Thanh Hóa",
+    "rating": 3.8,
+    "reviews": 180,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d919f6bcd927bb149bc635/images/QHYBOIF9b55Q9Q4g9KCQBrWSyXYdBqrOVlQsmYeao7g.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepS8siOl__cPZ9a98bDM8rZMFSg264uv6yzkNjjC8y7sGRMns8__BugagliZD3iAHJmPM2VkUbOP8K8LbbyNjb5ut9JBxi7Cnal365Iuuq6Np2xidGe7q001sN8SdnQWLcENVcn=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.810745,
+      "longitude": 105.77515
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Tốt, quán rộng vừa phải, khu phố đỗ được ô tô, cũng tương đối tấp nập,...\"",
+    "place_id": "17616420689000703090"
+  },
+  {
+    "title": "Chợ Hải Sản, Nhà Hàng Biển Đông 36",
+    "address": "Thanh Hóa",
+    "rating": 3.9,
+    "reviews": 173,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90f2c4fa3ba28f5be06d6/images/5EVfmE5DqbNVGebQrDy5rxi21w4pq1CMO2mLQ6xcBe8.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo7y2SZsVtjYChuqQWka3CwB9ist5B7GJ6ownEr0-ZB43fpKTh1xtWFb_402O-PcTzP_99N9WpGRVMpfrwoPNGwkm7lrEAF7DswjiKebX9cfAX7VrEQoPF2bzM5Kp2LZ5nZ5qpq=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.799923,
+      "longitude": 105.79356
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Đồ ăn tươi ngon nhưng khách quá đông k kịp lên đồ và nhầm lẫn.\"",
+    "place_id": "15789801722488889894"
+  },
+  {
+    "title": "Nhà Hàng Biển Đông 36 (cơ sở 2)",
+    "address": "Thanh Hóa",
+    "rating": 4.9,
+    "reviews": 136,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90f2c4fa3ba28f5be06d6/images/55XkDu0-8rIlzmHdwpEAmw4hZKlzuyHrsFHfe0ZTvpg.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqPLj4fHuWGs7JNvzfpjC3B0mKGdPs67dzmR4qDAf9BOY-TaskFO7zjMjKTKZ8jp_PVDjxsUrxYcYoHXDk9NuanzKtAiemojlY7xRgIU2byzlxyvJOobwotPq7MMwmy5zVkMBGdsDbw-kU=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.807468,
+      "longitude": 105.793045
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Deco đẹp, không gian sang trọng đồ ăn khá là ngon vừa trong tầm giá\"",
+    "place_id": "12998407146189792915"
+  },
+  {
+    "title": "Nhà hàng Hương Cảng",
+    "address": "Thanh Hóa",
+    "rating": 4.3,
+    "reviews": 111,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90f2c4fa3ba28f5be06d6/images/4kZ4ubJqVIytqMjJwY3vUSpxsJ1Knv3i_Zc_H6JpP7g.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo7G08gRWx3RFAFLp44DCIvTqbmJl0cf-2RaFwpgucjvlsHa2YxRqOxHSRp6wywwQWULZ2eD92Zb4QQiP7pySWJpB_IlYNAbZpPyZ9-j5PC7dolA5Hd3wx5XTUk0_fzIsG9J6-M=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.792362,
+      "longitude": 105.78686
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Quán ăn ngon, đồ ngọt.\"",
+    "place_id": "11732984528139225072"
+  },
+  {
+    "title": "Nhà hàng Cafe Moonlight",
+    "address": "Thanh Hóa",
+    "rating": 4.6,
+    "reviews": 85,
+    "type": "Món ăn miền Tây",
+    "thumbnail": "https://serpapi.com/searches/69d90f2c4fa3ba28f5be06d6/images/7ZIRnNKocOLx43G__zjt0h9HuIvRx-fZiU_92jsxo4M.png",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqG3zDVPPHNXpH1R_0AnSVVSuDMP5pB4kyBTjilHlV04RVFD3_V8hXrqtl-TjOrMOTTJMSVYd_NgomPlYZgYV0Afp9r87NBFqUXG9vdeis1Ee8LzluPBGogG7zv89F_oAHOyVnNbg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.81203,
+      "longitude": 105.77288
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Nhân viên 10 điểm , nhà hàng đồ ăn ngon , đẹp\"",
+    "place_id": "3283379929605031153"
+  },
+  {
+    "title": "Nhà hàng Vua gà sạch",
+    "address": "Thanh Hóa",
+    "rating": 4,
+    "reviews": 82,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90f2c4fa3ba28f5be06d6/images/dgvYF0tuASXIukB4B66pcQ2zgu-Gqzwh8-nA43BRChQ.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo6MRQdhrkw8eBWARN8dfeHp8nqLfz1wQyhER3D1XJ4CHjblBKrjRR9FwvF0bUZMTDx5SI_UtPZdQ0yIv5zeYqiaoInw7X-YcwbLpOmOaxE8yq6c8Vzg2iO5t2fXaezf4yD0Fk=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.806728,
+      "longitude": 105.78703
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Gà ở đây rất ngon\"",
+    "place_id": "15302070923049273250"
+  },
+  {
+    "title": "Hạc Thành Garden (Vườn Bia Hạc Thành)",
+    "address": "Thanh Hóa",
+    "rating": 4.3,
+    "reviews": 69,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90f2c4fa3ba28f5be06d6/images/NLS-0d3UO3HSIYZTgKofY-Q2ZRFafSyTtk6ldiy-0Fc.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerDLQm6uxsanElOORrfmngRBycAiTat5E-vbp37EZHxlApZRrKc-WXc-0-4JdXKUM15oktESOiXA1dpD7UugEFku3WsS5r0Qp3UnEJoCYekNkd8LjGOT2byhBbvFQlVyKEv8ZTB=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.809938,
+      "longitude": 105.7721
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Đồ ăn ngon rẻ, nhân viên xinh và nhiệt tình cho 5 sao\"",
+    "place_id": "3664982490216224047"
+  },
+  {
+    "title": "Nhà hàng Vị Xưa - Thanh Hoá",
+    "address": "Thanh Hóa",
+    "rating": 4.5,
+    "reviews": 65,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90f2c4fa3ba28f5be06d6/images/puLQ1zVqZUF6Ah1POWuyr_gKyoHecYTAyeK0656xQ5M.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepr14QjYr17eR2wmoUICxnnZxmZwJx5Slq2-9r-s_0pyUmRC3TgU4NRKGEyz1U13cViJ3ItKNWCUcX_eJf1SiPe25wbStgUmfEJJjpn8rvtL2Z-vRrdHqXC-KB4ZUqyFW3IaL_SdAo-6zl3=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.807365,
+      "longitude": 105.77726
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Nhà hàng đẹp, đồ ăn ngon, phục vụ chu đáo, đông và hơi ồn.\"",
+    "place_id": "9242267519793280742"
+  },
+  {
+    "title": "Cháo Lòng HÀ ĐẠT",
+    "address": "Thanh Hóa",
+    "rating": 4.4,
+    "reviews": 55,
+    "type": "Bữa sáng",
+    "thumbnail": "https://serpapi.com/searches/69d919f6bcd927bb149bc635/images/EcIS1Z7lzw2qGdE2s-_MPEHhTUk0NnbfF2WzwdxgiME.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqI839sL6v2vKLT71v88bKkVg2fKUT2D3VxhEGJlVSjtD5FTCHCzSF0irEiV0RFkyRK8o2qxu1mV3yG2RtZGoB9iPTuyS89GfaKgODgqZ32I1kV2SQHcNFfmeXH6bFshxebREY=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.80575,
+      "longitude": 105.78239
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Lòng dai dai, giòn giòn, beo béo... Đúng món khoái khẩu.\"",
+    "place_id": "10395009163658781168"
+  },
+  {
+    "title": "Nhà Hàng Cốm",
+    "address": "Thanh Hóa",
+    "rating": 3.6,
+    "reviews": 47,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90f2c4fa3ba28f5be06d6/images/FFvl27KKDr424ZCKORcBQFHQP8lyQad_bjSPGpQfjf8.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerQkyexfjob6xGNTJnejvAMdUzCraxiOga1gbwFeMO9Jn3YYIcyMkmU4zVTsU-RzgvST_KK_siGUyrXFp6NQ5d5k04ZnCdNmYgPRNTKdLMO2FQ_PnSKTmxu_1YaOfv5oEmac_mSNQ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.804628,
+      "longitude": 105.78031
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"... thấy đây là một nơi ăn uống rất tuyệt vời các bạn nên đến và thử nha\"",
+    "place_id": "5847052470306085100"
+  },
+  {
+    "title": "Kaffir Lime Thanh Hóa - Nhà hàng Thái hiện đại",
+    "address": "Thanh Hóa",
+    "rating": 3.5,
+    "reviews": 43,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90f2c4fa3ba28f5be06d6/images/sZ3-VXQ1PgiTD4IaIq-la4vbTiU9ml1wWt_yb3t25i0.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerjMQzTEX0Le3CoUnzuBWc_3wyWm-9ca5AYXzszh7ajPscg08cBadvHbxIbDzctSm0_bmsHyQOHuhZ70HrnANShmV27NQZvPaEzCNTXLL78I2gIJWJLfQvhC4M7Lot_nHHlS7Fbkg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.804651,
+      "longitude": 105.78008
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": null,
+    "description": "\"Nhân viên cần quan sát xem khách cần gọi thêm đồ.\"",
+    "place_id": "14333087884540132799"
+  },
+  {
+    "title": "Tom Yum Kung Lẩu Hải Sản - Lẩu Thập Cẩm",
+    "address": "Thanh Hóa",
+    "rating": 4.2,
+    "reviews": 40,
+    "type": "Nhà hàng",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweozYnvkSrin3Nj5JDM0M-UfyoZ2uWkYwjTyxrGnwc8LBEhKv9i4xMQwDk1n8sFGwB_I0vaYjiVptUnQGXYk0vziPVTGs3CNNfOMPK3odK0OmnVEQ4m-v2WrdQk4_Svu3yEFg2FuQEnjhZPt=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweozYnvkSrin3Nj5JDM0M-UfyoZ2uWkYwjTyxrGnwc8LBEhKv9i4xMQwDk1n8sFGwB_I0vaYjiVptUnQGXYk0vziPVTGs3CNNfOMPK3odK0OmnVEQ4m-v2WrdQk4_Svu3yEFg2FuQEnjhZPt=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.80607,
+      "longitude": 105.7854
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Đồ ăn quán này ngon giá cả hợp lý nha quán đẹp sạch sẽ Nv nhiệt tình\"",
+    "place_id": "6860971199982389288"
+  },
+  {
+    "title": "Ốc Ba Sài Gòn 12B Bến Ngự",
+    "address": "Thanh Hóa",
+    "rating": 4.7,
+    "reviews": 30,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d919f6bcd927bb149bc635/images/U43MqpllP4fB0954vo5O3_GKmD52I61KIIFGB-udS4o.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweppZkpDUliB05lEqq7rIPLGV8UT7l3wu15YVvoyKf60rr5MRittdHtLpbfpD58cW0IJog3YjoIgA_qiKvkgJDnsRczCg0zXR5dqbAknPP8DhRaAP8UUZeCkODPoWDGqHI8Mm-Bh1Q=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.813972,
+      "longitude": 105.78282
+    },
+    "hours": "Sắp đóng cửa · 23:00",
+    "price": null,
+    "description": "\"Mình rất thích ăn món cháo hàu , đi cũng nhiều quán để trải nghiệm rồi.\"",
+    "place_id": "8457820823066318617"
+  },
+  {
+    "title": "Nhà Sàn Đức Anh",
+    "address": "Thanh Hóa",
+    "rating": 4.4,
+    "reviews": 28,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90f2c4fa3ba28f5be06d6/images/LEzNnDC9-6bDZIbI8pEs3ZCNg6qvCvWvUxUOJvuhmlA.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepuAenmJkI2kxRAMIuqCN3cVxdI5ELJB1UawVs8RmUnHYCfz_4xv3YTu25cf-6qTd1Uki9RDlT5tK7IeDHvWPhKihqPk1F6_PNKggRKJ5Ymcpe3PzVlDltXZhajnkBl3KxGdsSC_AXnR3U=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.80401,
+      "longitude": 105.78885
+    },
+    "hours": "Sắp đóng cửa · 22:30",
+    "price": null,
+    "description": "\"Đồ ăn ngon đẹp mắt\"",
+    "place_id": "7169867248180138263"
+  },
+  {
+    "title": "NHÀ HÀNG 36A",
+    "address": "Thanh Hóa",
+    "rating": 5,
+    "reviews": 27,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90f2c4fa3ba28f5be06d6/images/qTDlFa4L5oIrhJ2vnibsxO30BkHx1Wy8GZ-Z7_8Zeio.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerFiCW5E5vcfckamakFBtiGDZgZzzFMmxhxEwicBVUXrj1h87Q1f2uOu_kwqz7LNaCoQf-rbqIR_VW4gORyuZAoCOMwsFfxAbKUZ9eg5nLvhAJEk29mjijUf8JCgzC2afQVxj02lg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.796165,
+      "longitude": 105.78451
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Ngon - bổ- rẻ Nhân viên nhiệt tình Chủ quán đẹp trai\"",
+    "place_id": "2774426276581870534"
+  },
+  {
+    "title": "Quán Nga",
+    "address": "Thanh Hóa",
+    "rating": 4.8,
+    "reviews": 27,
+    "type": "Món ăn nhanh",
+    "thumbnail": "https://serpapi.com/searches/69d919f6bcd927bb149bc635/images/KXrnF1M70P0fIJ65N9ZFgkuq5NHzfrIK7sR5-sRrwHE.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoDNtX6X0TxcJZWxuI_P8oVvDCTKLfNMulz2WvbrCjweu5zYTVQFOvbK_dD09xWidVNp1R78mbtFT7bC8puwVnepvWmALqHEK9Nv_8TpKJNmLvd-h_mxhonOuOJkaOEuJuLqfki=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.80672,
+      "longitude": 105.78814
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Phở ngon, bò tươi, nước lèo chuẩn vị, quán sạch sẽ\"",
+    "place_id": "15428760848720343090"
+  },
+  {
+    "title": "Bún Chả Tiến Phượng",
+    "address": "Thanh Hóa",
+    "rating": 4.2,
+    "reviews": 26,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d919f6bcd927bb149bc635/images/1uRqipHiSKTMW7O-O-MZSYzNyaKZpiTsPdhHeoEp2PU.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqBxCFtIoLIrMH2WPmZ-sJjn-f_svZfWYcZ1TqbE1pBucverUR0cm9zs25J9XyF5IzdLBNbVy6rUCnOd7drh0yRLQckp4igjcVZ1u6zFw1f32354UdyA-Seqm-y8ZigqU3yM3SV3A=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.806408,
+      "longitude": 105.78997
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán không cầu kỳ nhưng ăn ngon, rẻ.\"",
+    "place_id": "10984646248863590145"
+  },
+  {
+    "title": "Nam Hùng Quán",
+    "address": "Thanh Hóa",
+    "rating": 4.4,
+    "reviews": 21,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d919f6bcd927bb149bc635/images/i6EifkhHilrwDeZzYI7cwKNqTU3Hpx5uYSy5B-eYzew.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqV01XzMigJaKFZCDuM1zigrUYZEAGfjpxLCpSFcIWPy9olE7IN2ajhiy7NYD8jdhUMvkXaOBSoglkFhwEKOWT3_rz2prdCkKX0bCjuhfl8FglEsxzjhP0NHh1juV39zFniGBLm=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.807362,
+      "longitude": 105.79589
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Đồ nhậu đa dạng, chất lượng, không gian rộng, thoáng.\"",
+    "place_id": "6119887685409395430"
+  },
+  {
+    "title": "Nhà hàng CAO SƠN Tửu Lầu",
+    "address": "Thanh Hóa",
+    "rating": 5,
+    "reviews": 20,
+    "type": "Nhà hàng",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepEjpDOcCF12UeM3EEBxshWJqiOx8PVeNeruKyfQKu2eWLf6kjm1r8KDP-NRfqv2KsvEVTnLpxlPEovS1UIIHnr5DgpqNy0P3HCiJh95mYb-bnYpvUirXd40PkWF58z51XDJB8=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepEjpDOcCF12UeM3EEBxshWJqiOx8PVeNeruKyfQKu2eWLf6kjm1r8KDP-NRfqv2KsvEVTnLpxlPEovS1UIIHnr5DgpqNy0P3HCiJh95mYb-bnYpvUirXd40PkWF58z51XDJB8=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.796577,
+      "longitude": 105.7866
+    },
+    "hours": "Sắp đóng cửa · 22:30",
+    "price": null,
+    "description": "\"Đồ ăn sạch sẽ ngon, rượu ngon đồ rừng đặc biệt.\"",
+    "place_id": "17738265240565268874"
+  },
+  {
+    "title": "NHÀ HÀNG HOA MAI - WINE PLAZA",
+    "address": "Thanh Hóa",
+    "rating": 4.3,
+    "reviews": 19,
+    "type": "Đồ hải sản",
+    "thumbnail": "https://serpapi.com/searches/69d90f2c4fa3ba28f5be06d6/images/dlKNtgjOXSdTqnPedh_7gsN5kg-3g0otdDFpJA2faQg.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqsmn2zYwbcAH21m7lFuMdzjLBeDrxwxExnmj55Uz9bMc2neR9TsNBXmalSMmUy-s-ll073Krfx35_EuCFDvoTYZ-VzjPq6nvGT71PSZ9nbG3DvKmkownSgL7oaAucWKkMCgGxp1A=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.80876,
+      "longitude": 105.77829
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Món ăn ngon, Phục vụ chu đáo, nhà hàng sạch sẽ lịch sự.\"",
+    "place_id": "5506743391357353099"
+  },
+  {
+    "title": "Quán cơm gia đình",
+    "address": "Thanh Hóa",
+    "rating": 4.5,
+    "reviews": 18,
+    "type": "Dành cho gia đình",
+    "thumbnail": "https://serpapi.com/searches/69d919f6bcd927bb149bc635/images/h_DPHj9nx5BpIaGY0jDeILc8_VtViBtmrCY0YJx_tVE.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweppOrMymYAudxG6UAbyMfuafl_b80QjgO29wItMZ0yU-RMxgG9yM5QHGPCjl7z_ueXr8CyhX-xKq5Xs1YDGGcyVlMxnTr5eb25BujqpOGCkVpamNa1_a4GLqh9FA-kThJJa9Is7=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.80822,
+      "longitude": 105.795
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán rộng rãi, điều hoà mát rượi.\"",
+    "place_id": "16268324809861586132"
+  },
+  {
+    "title": "Nhà Hàng Hương Việt",
+    "address": "Thanh Hóa",
+    "rating": 4.2,
+    "reviews": 17,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90f2c4fa3ba28f5be06d6/images/l5CIhhXYFV0tkJVU8UngGWcJwJG-hU5dbXdfcirsF2U.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweovCYvwigrkF8cT5gv71z9xuTH7K9y3RGbyljvTNr1Z3dR5Tj0pNDcyOnJBjPRxNirAAw-ZLBwjGbtBYgv15huYvtDflmseifr5UqVlHQ0k54Hfqg3i3jv5GjzNPhB1-B-ORGg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.80819,
+      "longitude": 105.79679
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Quán ăn ngon, nhưng hơi chật nếu ăn từ 5 bàn trở lên\"",
+    "place_id": "6493836454609603631"
+  },
+  {
+    "title": "Mộc Quán",
+    "address": "Thanh Hóa",
+    "rating": 4.3,
+    "reviews": 16,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d919f6bcd927bb149bc635/images/O9Ml4bjSu20jvRhMgQa9vZgcGTDHLj_t0DqNqsqwc_U.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepwKM87yilXh5NGz6xVRo-vcLt68kyoWlIRB4zEHpVrWF8NWabSo4Zg82dGkiLMoeKmjh7CbpNTDPOyqHJDHpQwTlihwDEpo8kLQ18ljDz7Aak7h7qx6vBNPV19PjWbsPf9yfnB=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.806438,
+      "longitude": 105.78983
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Đồ ăn ngon , phục vụ tốt\"",
+    "place_id": "1046202785828434733"
+  },
+  {
+    "title": "Trạm Lẩu Nướng, Lòng Ngon Nam Em",
+    "address": "Thanh Hóa",
+    "rating": 4.9,
+    "reviews": 15,
+    "type": "Quán ăn nhỏ",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoLQN3FOK-OwFAqGoKRNQi71KmqLD_aV5_x-923NX18422Q4Fcaxu3AQe-iXyaIUS0rSNg-bMIKPB5vXkI923BK5zUbz6y0MLfd_va0c9_52XrkmFsEUCd5pMOK5_mjQtnLlOtKNQ=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoLQN3FOK-OwFAqGoKRNQi71KmqLD_aV5_x-923NX18422Q4Fcaxu3AQe-iXyaIUS0rSNg-bMIKPB5vXkI923BK5zUbz6y0MLfd_va0c9_52XrkmFsEUCd5pMOK5_mjQtnLlOtKNQ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.806562,
+      "longitude": 105.78794
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": null,
+    "description": "\"chủ quán thân thiện mà đồ ăn thì ngon quá trời, 5 sao cho shop nhé\"",
+    "place_id": "10779871747905555717"
+  },
+  {
+    "title": "Nhà Hàng Sơn Lan",
+    "address": "Thanh Hóa",
+    "rating": 4.9,
+    "reviews": 7,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d919f6bcd927bb149bc635/images/2kUHsQTrH28w7pMmCRIJNhCKUY4KQCdsgNcDjZR6ya8.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer9xPsupVWyxANQSw3rVr4ORBWeAwxmoKg1p-HHtG-mkl3W_jETLuh8eNPo_1kXfQv0h72KqcZL-OAOYQL1yh3t-UiA0LOc35FvBdwicMRtdZzDu6aW_UVA0tffwhcAxeUAGivzag=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.804775,
+      "longitude": 105.776566
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Bánh bao ngon Nước dụng đậm vị Không gian thoáng Sẽ tiếp tục ủng hộ\"",
+    "place_id": "8499543073889488283"
+  },
+  {
+    "title": "panday - tiệm ăn vặt Hàn Quốc",
+    "address": "Thanh Hóa",
+    "rating": 5,
+    "reviews": 6,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d919f6bcd927bb149bc635/images/o_q78fBV2i0GN3oN1wswrYtUEinwLwcLUorRGRuSHsc.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqk2M-Uw4ym3zH0NkpGUcqyfUUHT2bpdcNzb_-spnka8rhWWpKPbiCqhzbxoQCPkXNaPUk0R-nBTN2aNzOE11kA2OrFEyYYM-Celtig8ERc2MHJpUiSTIU4Ov0v-aXl6HNCkmZV=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.800316,
+      "longitude": 105.779045
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Món gà cay với bánh gạo thực sự là must-try luôn.\"",
+    "place_id": "12189996441602127947"
+  },
+  {
+    "title": "Nhà Hàng Biển Xanh 92",
+    "address": "Thanh Hóa",
+    "rating": 5,
+    "reviews": 4,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90f2c4fa3ba28f5be06d6/images/7byH971_I5Z_h93mEewGhLk56iQd8YpG0jyJSWbcNkw.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq5rJCaMOpBcBuGdvnOsmiCvHM9-HDQ0j8jmIV2TpWIuNPE6p-zcjsfzJd6InjefYynQBooAs-MT1Hc8AkeWp_Z09YDfdNH4RsaG1aT2LvwzXBnZdLZnhGPpEVUJe8G--cJ_xG4=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.799345,
+      "longitude": 105.782425
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Đồ ăn ngon, nhân viên nhanh nhẹn, chủ quán vui vẻ\"",
+    "place_id": "15452292483410171470"
+  },
+  {
+    "title": "Quán Ăn Thanh Hồng",
+    "address": "Thanh Hóa",
+    "rating": 5,
+    "reviews": 2,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d919f6bcd927bb149bc635/images/m6axuEOg1ylYJZ0r2JAwIilQdvKeaKVSprzgG6wix0Q.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqfn_AUNTBIDBbKR9i_-fNf7wipAW36aZUFBYqoC9asx6zGO1j5E6gWOJdk8EIbdXXjI1ZgI99YJG6nEdKLhA2TD5Ta1CzXR-1N01nopFHA6fMxhdbnT9nTXngonV36RphkYms=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 19.810583,
+      "longitude": 105.776955
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "5957126224826990071"
+  },
+  {
+    "title": "BÚN CUA ỐC - BÁNH CUỐN - BÁNH XÈO",
+    "address": "Thanh Hóa",
+    "rating": null,
+    "reviews": null,
+    "type": "Quán ăn nhỏ",
+    "thumbnail": "https://serpapi.com/searches/69d919f6bcd927bb149bc635/images/3spMZmGhiUrDA1gaL2R0AuNeo9eVWguq06wjNdoksJg.webp",
+    "thumbnail_large": null,
+    "gps_coordinates": {
+      "latitude": 19.800993,
+      "longitude": 105.78828
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "17195896403515649475"
+  },
+  {
+    "title": "Nem Chua Thanh Hóa - Tuyến Nghĩa",
+    "address": "156 Đ. Lê Lai, Đông Sơn, TP. Thanh Hóa",
+    "rating": 4.5,
+    "reviews": 3500,
+    "type": "Đặc sản quà tặng",
+    "thumbnail": "https://images.unsplash.com/photo-1512058564366-18510be2db19?q=80&w=800&auto=format&fit=crop",
+    "price": "30.000 - 100.000 VNĐ",
+    "description": "Địa chỉ nem chua nổi tiếng nhất nhì Thanh Hóa, nem giòn, vị chua thanh, cay nồng của tỏi ớt, rất thích hợp làm quà hoặc nhâm nhi.",
+    "place_id": "ChIJT_93-fS-NTERpYq_Z6oT-U8"
+  },
+  {
+    "title": "Bánh Khoái Tép Thanh Hóa",
+    "address": "Chợ Vườn Hoa, TP. Thanh Hóa",
+    "rating": 4.4,
+    "reviews": 1200,
+    "type": "Món ăn vặt bình dân",
+    "thumbnail": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?q=80&w=800&auto=format&fit=crop",
+    "price": "10.000 - 30.000 VNĐ",
+    "description": "Món bánh khoái tép đặc sản chỉ có ở Thanh Hóa, vỏ bánh giòn rụm, nhân tép tươi và rau cần thơm nức, ăn kèm nước mắm chua ngọt.",
+    "place_id": "ChIJT_94-fS-NTERpYq_Z6oT-U8"
+  },
+  {
+    "title": "Chả Tôm Thanh Hóa",
+    "address": "62 Lê Thị Hoa, TP. Thanh Hóa",
+    "rating": 4.5,
+    "reviews": 900,
+    "type": "Đặc sản nướng",
+    "thumbnail": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=800&auto=format&fit=crop",
+    "price": "30.000 - 50.000 VNĐ",
+    "description": "Quán chả tôm nướng than hoa thơm lừng, vỏ ngoài giòn bùi, nhân tôm béo ngậy, ăn cùng rau sống và đồ chua cực hấp dẫn.",
+    "place_id": "ChIJT_95-fS-NTERpYq_Z6oT-U8"
+  }
+]

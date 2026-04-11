@@ -86,11 +86,11 @@ public class BookingService {
                 .seat(req.getSeat())
                 .pickUp(req.getPickUp())
                 .dropOff(req.getDropOff())
-                .plateNumber(req.getPlateNumber())
                 .departureDate(req.getDepartureDate())
                 .departureTime(req.getDepartureTime())
                 .bookingMasterId(bookingMaster.getId())
                 .build();
+        bookingCoach.setPlateNumber(req.getPlateNumber());
         bookingCoachRepo.save(bookingCoach);
 
         savePaymentIfProvided(bookingMaster.getId(), req.getPayment(), req.getTotalAmount());
