@@ -159,6 +159,7 @@ public class PaymentService {
     private String buildVnpayPayUrl(String transactionNo, float amount, String orderInfo, String returnUrl, String clientIp) {
         PaymentGatewayProperties.Vnpay config = paymentGatewayProperties.getVnpay();
         ensureVnpayConfigured(config);
+        String hashSecret = vnpaySecret(config);
 
         String effectiveOrderInfo = isBlank(orderInfo) ? "Thanh toan booking " + transactionNo : orderInfo;
         String effectiveReturnUrl = isBlank(returnUrl) ? config.getReturnUrl() : returnUrl;
@@ -172,7 +173,7 @@ public class PaymentService {
         Map<String, String> params = new TreeMap<>();
         params.put("vnp_Version", "2.1.0");
         params.put("vnp_Command", "pay");
-        params.put("vnp_TmnCode", config.getTmnCode());
+        params.put("vnp_TmnCode", vnpayTmnCode(config));
         params.put("vnp_Amount", String.valueOf(toVndSubunit(amount)));
         params.put("vnp_CurrCode", "VND");
         params.put("vnp_TxnRef", transactionNo);
@@ -184,9 +185,9 @@ public class PaymentService {
         params.put("vnp_CreateDate", VNPAY_TIME_FORMAT.format(now));
         params.put("vnp_ExpireDate", VNPAY_TIME_FORMAT.format(expire));
 
-        String hashData = buildQuery(params, true);
-        String queryData = buildQuery(params, true);
-        String secureHash = hmac("HmacSHA512", config.getHashSecret(), hashData);
+        String hashData = buildVnpayQueryString(params, true);
+        String queryData = buildVnpayQueryString(params, true);
+        String secureHash = hmac("HmacSHA512", hashSecret, hashData);
 
         return trimTrailingSlash(config.getBaseUrl()) + "?" + queryData + "&vnp_SecureHash=" + secureHash;
     }
@@ -295,6 +296,7 @@ public class PaymentService {
     private boolean verifyVnpaySignature(Map<String, String> params) {
         PaymentGatewayProperties.Vnpay config = paymentGatewayProperties.getVnpay();
         ensureVnpayConfigured(config);
+        String hashSecret = vnpaySecret(config);
 
         String secureHash = params.get("vnp_SecureHash");
         if (isBlank(secureHash)) {
@@ -317,8 +319,8 @@ public class PaymentService {
             filtered.put(key, value);
         }
 
-        String hashData = buildQuery(filtered, true);
-        String computed = hmac("HmacSHA512", config.getHashSecret(), hashData);
+        String hashData = buildVnpayQueryString(filtered, true);
+        String computed = hmac("HmacSHA512", hashSecret, hashData);
         return secureHash.equalsIgnoreCase(computed);
     }
 
@@ -349,17 +351,33 @@ public class PaymentService {
         return providedSignature.equalsIgnoreCase(computedSignature);
     }
 
-    private String buildQuery(Map<String, String> params, boolean urlEncode) {
+    /**
+     * Chuỗi ký VNPAY v2.1.0 giống demo PHP: ksort, hashdata = urlencode(key)=urlencode(value)&..., HMAC-SHA512(hashdata, secret).
+     * Phải dùng {@link URLEncoder} (khoảng trắng → {@code +}) — không đổi sang %20 / chỉnh ~ (dễ lệch chữ ký so với cổng).
+     */
+    private String buildVnpayQueryString(Map<String, String> params, boolean encode) {
         return params.entrySet().stream()
                 .filter(entry -> !isBlank(entry.getKey()) && !isBlank(entry.getValue()))
                 .sorted(Map.Entry.comparingByKey())
                 .map(entry -> {
-                    String key = urlEncode ? urlEncode(entry.getKey()) : entry.getKey();
-                    String value = urlEncode ? urlEncode(entry.getValue()) : entry.getValue();
+                    String key = encode ? vnpPayUrlEncode(entry.getKey()) : entry.getKey();
+                    String value = encode ? vnpPayUrlEncode(entry.getValue()) : entry.getValue();
                     return key + "=" + value;
                 })
                 .reduce((left, right) -> left + "&" + right)
                 .orElse("");
+    }
+
+    private String vnpPayUrlEncode(String raw) {
+        return URLEncoder.encode(Objects.requireNonNullElse(raw, ""), StandardCharsets.UTF_8);
+    }
+
+    private String vnpaySecret(PaymentGatewayProperties.Vnpay config) {
+        return config.getHashSecret() == null ? "" : config.getHashSecret().trim();
+    }
+
+    private String vnpayTmnCode(PaymentGatewayProperties.Vnpay config) {
+        return config.getTmnCode() == null ? "" : config.getTmnCode().trim();
     }
 
     private Map<String, String> vnpayIpnResponse(String code, String message) {
@@ -420,7 +438,7 @@ public class PaymentService {
     }
 
     private void ensureVnpayConfigured(PaymentGatewayProperties.Vnpay config) {
-        if (config == null || isBlank(config.getTmnCode()) || isBlank(config.getHashSecret())) {
+        if (config == null || isBlank(vnpayTmnCode(config)) || isBlank(vnpaySecret(config))) {
             throw new IllegalStateException("Chua cau hinh travel.payment.vnpay.tmn-code/hash-secret");
         }
     }
@@ -457,10 +475,6 @@ public class PaymentService {
             return "";
         }
         return value.endsWith("/") ? value.substring(0, value.length() - 1) : value;
-    }
-
-    private String urlEncode(String value) {
-        return URLEncoder.encode(Objects.requireNonNullElse(value, ""), StandardCharsets.UTF_8);
     }
 
     private boolean isBlank(String value) {

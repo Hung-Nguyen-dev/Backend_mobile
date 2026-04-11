@@ -250,7 +250,8 @@ public class DuffelFlightService implements FlightService {
 
     private void ensureConfigured() {
         if (isBlank(routingProperties.getDuffel().getApiKey())) {
-            throw new IllegalStateException("Chua cau hinh travel.flight.duffel.api-key");
+            throw new IllegalStateException(
+                    "Chưa cấu hình Duffel API key. Đặt DUFFEL_API_KEY hoặc travel.flight.duffel.api-key trong application-local.yaml (chạy profile dev — dev tự kèm local) — xem application-local.example.yaml.");
         }
     }
 

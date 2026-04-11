@@ -26,4 +26,10 @@ public class Payment {
 
     @Column(name = "booking_master_id")
     private Integer bookingMasterId;
+
+    /** VNPAY, MOMO, ... */
+    private String provider;
+
+    /** PENDING, SUCCESS, FAILED, ... */
+    private String status;
 }

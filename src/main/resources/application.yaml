@@ -1,6 +1,11 @@
 spring:
   application:
     name: ungdunglapkehoachdulich
+  # Khi chạy profile dev, luôn nạp thêm local → đọc application-local.yaml (Duffel/VNPAY, đã .gitignore).
+  profiles:
+    group:
+      dev:
+        - local
   datasource:
     url: jdbc:h2:mem:ungdunglapkehoachdulich;MODE=MySQL;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
     username: sa
@@ -15,5 +20,13 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.H2Dialect
 
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 25MB
+
 server:
   port: 8081
+  tomcat:
+    max-http-form-post-size: 25MB
+    max-swallow-size: 25MB

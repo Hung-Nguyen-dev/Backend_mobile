@@ -16,12 +16,20 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
 
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 25MB
+
 server:
   port: 8080
+  tomcat:
+    max-http-form-post-size: 25MB
+    max-swallow-size: 25MB
 
 # Duffel / VNPAY: không đặt secret trong file commit (GitHub push protection).
 # Cách 1: biến môi trường DUFFEL_API_KEY, VNPAY_TMN_CODE, VNPAY_HASH_SECRET
-# Cách 2: copy application-local.example.yaml -> application-local.yaml (đã .gitignore) rồi profiles=dev,local
+# Cách 2: application-local.yaml (đã .gitignore) — chỉ cần profile dev (application.yaml đã group dev → local)
 travel:
   flight:
     provider: ${FLIGHT_PROVIDER:duffel}

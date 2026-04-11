@@ -1,8 +1,10 @@
 # GitHub không cho commit token trong application-dev.yaml — mỗi máy tự điền secret ở đây.
 # Sao chép thành application-local.yaml (file đó đã .gitignore, không push).
 #
-# Chạy có ghi đè local:
-#   mvn spring-boot:run -Dspring-boot.run.profiles=dev,local
+# Chạy (PowerShell: bắt buộc ngoặc kép quanh -D, nếu không Maven báo lỗi ".run.profiles=dev"):
+#   mvn spring-boot:run "-Dspring-boot.run.profiles=dev"
+# Hoặc: $env:SPRING_PROFILES_ACTIVE="dev"; mvn spring-boot:run
+# (profile dev tự kèm local — xem spring.profiles.group trong application.yaml)
 #
 travel:
   flight:
@@ -11,4 +13,5 @@ travel:
   payment:
     vnpay:
       tmn-code: YOUR_VNPAY_TMN
+      # Phải trùng đúng chuỗi VNPAY gửi (không thừa dấu cách/xuống dòng). Email có 2 mã khác nhau → chỉ một là đúng sandbox.
       hash-secret: YOUR_VNPAY_HASH_SECRET

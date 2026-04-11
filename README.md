@@ -170,6 +170,14 @@ Example request body (`/expenses/{expenseId}/splits`):
 .\mvnw.cmd spring-boot:run
 ```
 
+Profile **dev** (MySQL + Duffel/VNPAY qua `application-local.yaml`): trên **PowerShell** phải bọc `-D` trong ngoặc kép, nếu không Maven coi `.run.profiles=dev` là lifecycle phase:
+
+```powershell
+.\mvnw.cmd spring-boot:run "-Dspring-boot.run.profiles=dev"
+```
+
+Hoặc: `$env:SPRING_PROFILES_ACTIVE = "dev"; .\mvnw.cmd spring-boot:run`
+
 ## Verify compile
 
 ```powershell
