@@ -2,6 +2,8 @@ package com.mobilebackend.ungdunglapkehoachdulich.model;
 
 import jakarta.persistence.*;
 import lombok.*;
+import java.time.LocalDate;
+import java.time.LocalTime;
 
 @Entity
 @Table(name = "booking_coaches")
@@ -28,10 +30,10 @@ public class BookingCoach {
     private String plateNumber;
 
     @Column(name = "departure_date")
-    private java.time.LocalDate departureDate;
+    private LocalDate departureDate;
 
     @Column(name = "departure_time")
-    private java.time.LocalTime departureTime;
+    private LocalTime departureTime;
 
     @Column(name = "booking_master_id")
     private Integer bookingMasterId;
