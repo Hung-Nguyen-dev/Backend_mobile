@@ -15,3 +15,8 @@ travel:
       tmn-code: YOUR_VNPAY_TMN
       # Phải trùng đúng chuỗi VNPAY gửi (không thừa dấu cách/xuống dòng). Email có 2 mã khác nhau → chỉ một là đúng sandbox.
       hash-secret: YOUR_VNPAY_HASH_SECRET
+
+cloudinary:
+  cloud-name: YOUR_CLOUDINARY_CLOUD_NAME
+  api-key: YOUR_CLOUDINARY_API_KEY
+  api-secret: YOUR_CLOUDINARY_API_SECRET

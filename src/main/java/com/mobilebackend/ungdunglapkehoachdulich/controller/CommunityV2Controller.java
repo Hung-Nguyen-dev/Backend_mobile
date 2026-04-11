@@ -4,20 +4,15 @@ import com.mobilebackend.ungdunglapkehoachdulich.dto.community.CommunityPostCrea
 import com.mobilebackend.ungdunglapkehoachdulich.dto.community.CommunityPostRes;
 import com.mobilebackend.ungdunglapkehoachdulich.dto.community.CommunityPostUpdateReq;
 import com.mobilebackend.ungdunglapkehoachdulich.dto.community.CommunityToggleRes;
+import com.mobilebackend.ungdunglapkehoachdulich.service.CloudinaryStorageService;
 import com.mobilebackend.ungdunglapkehoachdulich.service.CommunityV2Service;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
-
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.Map;
 import java.util.List;
-import java.util.UUID;
 
 @RestController
 @RequestMapping("/api/v2/community")
@@ -25,6 +20,7 @@ import java.util.UUID;
 public class CommunityV2Controller {
 
     private final CommunityV2Service communityV2Service;
+    private final CloudinaryStorageService cloudinaryStorageService;
 
     @PostMapping(value = "/uploads/image", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     public ResponseEntity<Map<String, String>> uploadImage(
@@ -42,24 +38,7 @@ public class CommunityV2Controller {
             throw new IllegalArgumentException("File phai la anh");
         }
 
-        Path uploadDir = Paths.get("uploads", "community");
-        Files.createDirectories(uploadDir);
-
-        String originalName = image.getOriginalFilename() == null ? "image.jpg" : image.getOriginalFilename();
-        String ext = ".jpg";
-        int lastDot = originalName.lastIndexOf('.');
-        if (lastDot >= 0 && lastDot < originalName.length() - 1) {
-            ext = originalName.substring(lastDot);
-        }
-
-        String fileName = UUID.randomUUID() + ext;
-        Path filePath = uploadDir.resolve(fileName);
-        image.transferTo(filePath);
-
-        String imageUrl = ServletUriComponentsBuilder.fromCurrentContextPath()
-                .path("/uploads/community/")
-                .path(fileName)
-                .toUriString();
+        String imageUrl = cloudinaryStorageService.uploadImage(image, "community");
 
         return ResponseEntity.ok(Map.of("imageUrl", imageUrl));
     }

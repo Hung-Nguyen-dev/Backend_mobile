@@ -7,26 +7,31 @@ spring:
       dev:
         - local
   datasource:
-    url: jdbc:h2:mem:ungdunglapkehoachdulich;MODE=MySQL;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
-    username: sa
-    password:
-    driver-class-name: org.h2.Driver
+    url: jdbc:mysql://localhost:3306/ung_dung_lap_ke_hoach_du_lich?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Ho_Chi_Minh
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
     show-sql: true
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.H2Dialect
+        dialect: org.hibernate.dialect.MySQLDialect
 
   servlet:
     multipart:
       max-file-size: 20MB
       max-request-size: 25MB
 
+cloudinary:
+  cloud-name: ${CLOUDINARY_CLOUD_NAME:dc819mlg2}
+  api-key: ${CLOUDINARY_API_KEY:524732391566675}
+  api-secret: ${CLOUDINARY_API_SECRET:YZ8Cvxv36ado1URVH8azD3WJ-YQ}
+
 server:
-  port: 8081
+  port: 8080
   tomcat:
     max-http-form-post-size: 25MB
     max-swallow-size: 25MB

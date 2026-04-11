@@ -4,6 +4,7 @@ import lombok.Builder;
 import lombok.Data;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Data
 @Builder
@@ -15,9 +16,13 @@ public class CommunityPostRes {
     private String title;
     private String content;
     private String imageUrl;
+    private List<String> imageUrls;
     private String location;
     private Integer budget;
     private LocalDateTime createdAt;
+    private String authorUsername;
+    private String authorFullName;
+    private String authorAvatarUrl;
     private long likeCount;
     private long saveCount;
     private Integer isLiked;
