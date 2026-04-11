@@ -31,6 +31,9 @@ public class CommunityPost {
     @Column(name = "image_url", columnDefinition = "TEXT")
     private String imageUrl;
 
+    @Column(name = "image_urls", columnDefinition = "LONGTEXT")
+    private String imageUrls;
+
     private String location;
 
     private Integer budget;

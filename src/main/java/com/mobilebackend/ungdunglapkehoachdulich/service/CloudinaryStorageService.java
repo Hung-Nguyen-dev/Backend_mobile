@@ -1,9 +1,13 @@
 package com.mobilebackend.ungdunglapkehoachdulich.service;
 
+import com.cloudinary.Cloudinary;
+import com.cloudinary.utils.ObjectUtils;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
+import java.util.Map;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -19,6 +23,15 @@ public class CloudinaryStorageService {
 
     private static final String UPLOAD_DIR = "uploads";
 
+    @Value("${cloudinary.cloud-name:}")
+    private String cloudName;
+
+    @Value("${cloudinary.api-key:}")
+    private String apiKey;
+
+    @Value("${cloudinary.api-secret:}")
+    private String apiSecret;
+
     /**
      * Uploads an image file to the cloud storage (or local storage).
      *
@@ -30,6 +43,31 @@ public class CloudinaryStorageService {
     public String uploadImage(MultipartFile file, String folder) throws IOException {
         if (file == null || file.isEmpty()) {
             throw new IllegalArgumentException("File cannot be empty");
+        }
+
+        if (isCloudinaryConfigured()) {
+            try {
+                Cloudinary cloudinary = new Cloudinary(ObjectUtils.asMap(
+                        "cloud_name", cloudName,
+                        "api_key", apiKey,
+                        "api_secret", apiSecret
+                ));
+
+                Map<?, ?> uploadResult = cloudinary.uploader().upload(
+                        file.getBytes(),
+                        ObjectUtils.asMap(
+                                "folder", folder,
+                                "resource_type", "image"
+                        )
+                );
+
+                Object secureUrl = uploadResult.get("secure_url");
+                if (secureUrl != null) {
+                    return secureUrl.toString();
+                }
+            } catch (Exception ignored) {
+                // Fallback local storage when Cloudinary upload fails.
+            }
         }
 
         // Generate unique filename to avoid conflicts
@@ -55,6 +93,25 @@ public class CloudinaryStorageService {
      */
     public boolean deleteImage(String fileUrl) {
         try {
+            if (fileUrl != null && fileUrl.contains("res.cloudinary.com") && isCloudinaryConfigured()) {
+                Cloudinary cloudinary = new Cloudinary(ObjectUtils.asMap(
+                        "cloud_name", cloudName,
+                        "api_key", apiKey,
+                        "api_secret", apiSecret
+                ));
+
+                String marker = "/upload/";
+                int markerIndex = fileUrl.indexOf(marker);
+                if (markerIndex > -1) {
+                    String publicIdPart = fileUrl.substring(markerIndex + marker.length());
+                    publicIdPart = publicIdPart.replaceAll("^v\\d+/", "");
+                    int dotIndex = publicIdPart.lastIndexOf('.');
+                    String publicId = dotIndex > -1 ? publicIdPart.substring(0, dotIndex) : publicIdPart;
+                    cloudinary.uploader().destroy(publicId, ObjectUtils.emptyMap());
+                    return true;
+                }
+            }
+
             // Convert URL path back to file path
             String filePath = fileUrl.substring(1); // Remove leading '/'
             Path path = Paths.get(filePath);
@@ -68,5 +125,13 @@ public class CloudinaryStorageService {
             System.err.println("Error deleting file: " + e.getMessage());
             return false;
         }
+    }
+
+    private boolean isCloudinaryConfigured() {
+        return !isBlank(cloudName) && !isBlank(apiKey) && !isBlank(apiSecret);
+    }
+
+    private boolean isBlank(String value) {
+        return value == null || value.trim().isEmpty();
     }
 }

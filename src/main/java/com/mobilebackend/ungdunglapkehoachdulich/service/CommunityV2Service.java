@@ -15,7 +15,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 @Service
 @RequiredArgsConstructor
@@ -54,13 +56,16 @@ public class CommunityV2Service {
             isTripLinked = 1;
         }
 
+            List<String> normalizedImages = normalizeImageUrls(req.getImageUrls(), req.getImageUrl());
+
         CommunityPost saved = communityPostRepo.save(CommunityPost.builder()
                 .userId(currentUserId)
                 .tripId(tripId)
                 .isTripLinked(isTripLinked)
                 .title(req.getTitle().trim())
                 .content(req.getContent())
-            .imageUrl(req.getImageUrl())
+                .imageUrl(normalizedImages.isEmpty() ? null : normalizedImages.get(0))
+                .imageUrls(joinImageUrls(normalizedImages))
                 .location(req.getLocation())
                 .budget(req.getBudget())
                 .createdAt(LocalDateTime.now())
@@ -110,7 +115,7 @@ public class CommunityV2Service {
     @Transactional
     public CommunityPostRes updatePost(Integer currentUserId, Integer postId, CommunityPostUpdateReq req) {
         CommunityPost post = findPost(postId);
-        if (!post.getUserId().equals(currentUserId)) {
+        if (!canManagePost(currentUserId, post)) {
             throw new SecurityException("Chi tac gia moi duoc sua bai");
         }
         if (req == null || isBlank(req.getTitle())) {
@@ -119,7 +124,9 @@ public class CommunityV2Service {
 
         post.setTitle(req.getTitle().trim());
         post.setContent(req.getContent());
-        post.setImageUrl(req.getImageUrl());
+        List<String> normalizedImages = normalizeImageUrls(req.getImageUrls(), req.getImageUrl());
+        post.setImageUrl(normalizedImages.isEmpty() ? null : normalizedImages.get(0));
+        post.setImageUrls(joinImageUrls(normalizedImages));
         post.setLocation(req.getLocation());
         post.setBudget(req.getBudget());
         post = communityPostRepo.save(post);
@@ -130,7 +137,7 @@ public class CommunityV2Service {
     @Transactional
     public void deletePost(Integer currentUserId, Integer postId) {
         CommunityPost post = findPost(postId);
-        if (!post.getUserId().equals(currentUserId)) {
+        if (!canManagePost(currentUserId, post)) {
             throw new SecurityException("Chi tac gia moi duoc xoa bai");
         }
         communityPostRepo.delete(post);
@@ -236,6 +243,11 @@ public class CommunityV2Service {
     private CommunityPostRes toRes(CommunityPost post, Integer currentUserId) {
         long likeCount = communityPostInteractionRepo.countByPostIdAndActionType(post.getId(), ACTION_LIKE);
         long saveCount = communityPostInteractionRepo.countByPostIdAndActionType(post.getId(), ACTION_SAVE);
+        User author = userRepo.findById(post.getUserId()).orElse(null);
+        List<String> imageUrls = splitImageUrls(post.getImageUrls());
+        if (imageUrls.isEmpty() && !isBlank(post.getImageUrl())) {
+            imageUrls = List.of(post.getImageUrl().trim());
+        }
 
         int isLiked = 0;
         int isSaved = 0;
@@ -252,14 +264,68 @@ public class CommunityV2Service {
                 .isTripLinked(post.getIsTripLinked())
                 .title(post.getTitle())
                 .content(post.getContent())
-                .imageUrl(post.getImageUrl())
+                .imageUrl(imageUrls.isEmpty() ? null : imageUrls.get(0))
+                .imageUrls(imageUrls)
                 .location(post.getLocation())
                 .budget(post.getBudget())
                 .createdAt(post.getCreatedAt())
+                .authorUsername(author == null ? null : author.getUsername())
+                .authorFullName(author == null ? null : author.getFullName())
+                .authorAvatarUrl(author == null ? null : author.getAvatarUrl())
                 .likeCount(likeCount)
                 .saveCount(saveCount)
                 .isLiked(isLiked)
                 .isSaved(isSaved)
                 .build();
+    }
+
+    private boolean canManagePost(Integer currentUserId, CommunityPost post) {
+        if (currentUserId == null) {
+            return false;
+        }
+        if (post.getUserId().equals(currentUserId)) {
+            return true;
+        }
+        User user = userRepo.findById(currentUserId).orElse(null);
+        return user != null && "ADMIN".equalsIgnoreCase(user.getRole());
+    }
+
+    private String joinImageUrls(List<String> imageUrls) {
+        if (imageUrls == null || imageUrls.isEmpty()) {
+            return null;
+        }
+        return String.join(",", imageUrls);
+    }
+
+    private List<String> splitImageUrls(String value) {
+        if (isBlank(value)) {
+            return List.of();
+        }
+        if (!value.contains(",")) {
+            return List.of(value.trim());
+        }
+        return List.of(value.split(",")).stream()
+                .map(String::trim)
+                .filter(item -> !item.isEmpty())
+                .toList();
+    }
+
+    private List<String> normalizeImageUrls(List<String> imageUrls, String fallbackImageUrl) {
+        List<String> normalized = new ArrayList<>();
+
+        if (imageUrls != null && !imageUrls.isEmpty()) {
+            normalized = imageUrls.stream()
+                    .filter(Objects::nonNull)
+                    .map(String::trim)
+                    .filter(value -> !value.isEmpty())
+                    .distinct()
+                    .toList();
+        }
+
+        if (normalized.isEmpty() && !isBlank(fallbackImageUrl)) {
+            return List.of(fallbackImageUrl.trim());
+        }
+
+        return normalized;
     }
 }
