@@ -8,5 +8,6 @@ public class UpdateProfileReq {
     private String email;
     private String fullName;
     private String avatarUrl;
+    private String currentPassword;
     private String password;
 }
