@@ -6,10 +6,13 @@ import com.mobilebackend.ungdunglapkehoachdulich.model.Trip;
 import com.mobilebackend.ungdunglapkehoachdulich.model.User;
 import com.mobilebackend.ungdunglapkehoachdulich.service.UserService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/api/v1/users")
@@ -34,6 +37,14 @@ public class UserController {
             @PathVariable Integer userId,
             @RequestBody UpdateProfileReq req) {
         return ResponseEntity.ok(userService.updateProfile(currentUserId, userId, req));
+    }
+
+    @PostMapping(value = "/{userId}/avatar", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
+    public ResponseEntity<Map<String, String>> uploadAvatar(
+            @RequestHeader("X-User-Id") Integer currentUserId,
+            @PathVariable Integer userId,
+            @RequestPart("image") MultipartFile image) throws Exception {
+        return ResponseEntity.ok(Map.of("avatarUrl", userService.uploadAvatar(currentUserId, userId, image)));
     }
 
     @GetMapping("/{userId}/trips")

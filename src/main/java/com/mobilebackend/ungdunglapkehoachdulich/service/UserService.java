@@ -14,6 +14,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -27,6 +28,7 @@ public class UserService {
     private final PostRepo postRepo;
     private final UserInteractionRepo userInteractionRepo;
     private final PasswordEncoder passwordEncoder;
+    private final CloudinaryStorageService cloudinaryStorageService;
 
     public User getUser(Integer userId) {
         return userRepo.findById(userId)
@@ -64,10 +66,36 @@ public class UserService {
             user.setAvatarUrl(req.getAvatarUrl());
         }
         if (req.getPassword() != null && !req.getPassword().trim().isEmpty()) {
+            if (req.getCurrentPassword() == null || req.getCurrentPassword().trim().isEmpty()) {
+                throw new IllegalArgumentException("Vui long nhap mat khau hien tai");
+            }
+            if (!passwordEncoder.matches(req.getCurrentPassword(), user.getPassword())) {
+                throw new SecurityException("Mat khau hien tai khong dung");
+            }
             user.setPassword(passwordEncoder.encode(req.getPassword()));
         }
 
         return userRepo.save(user);
+    }
+
+    @Transactional
+    public String uploadAvatar(Integer currentUserId, Integer targetUserId, MultipartFile image) throws Exception {
+        authorizeSelfOrAdmin(currentUserId, targetUserId);
+
+        if (image == null || image.isEmpty()) {
+            throw new IllegalArgumentException("Anh khong hop le");
+        }
+
+        String contentType = image.getContentType() == null ? "" : image.getContentType();
+        if (!contentType.startsWith("image/")) {
+            throw new IllegalArgumentException("File phai la anh");
+        }
+
+        User user = getUser(targetUserId);
+        String avatarUrl = cloudinaryStorageService.uploadImage(image, "avatars");
+        user.setAvatarUrl(avatarUrl);
+        userRepo.save(user);
+        return avatarUrl;
     }
 
     public List<Trip> getTrips(Integer currentUserId, Integer targetUserId) {
