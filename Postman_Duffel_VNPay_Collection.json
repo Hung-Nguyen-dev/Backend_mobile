@@ -1,0 +1,291 @@
+{
+  "info": {
+    "name": "Backend Mobile - Duffel + VNPay Sandbox",
+    "description": "Collection de test luong tim chuyen bay Duffel va thanh toan VNPay qua backend /api/v1",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "baseUrl", "value": "http://localhost:8080" },
+    { "key": "tripId", "value": "1" },
+    { "key": "userId", "value": "1" },
+    { "key": "origin", "value": "HAN" },
+    { "key": "destination", "value": "SGN" },
+    { "key": "departureDate", "value": "2026-04-25" },
+    { "key": "adults", "value": "1" },
+    { "key": "currencyCode", "value": "VND" },
+    { "key": "offerId", "value": "" },
+    { "key": "orderId", "value": "" },
+    { "key": "bookingId", "value": "" },
+    { "key": "transactionNo", "value": "" },
+    { "key": "paymentUrl", "value": "" }
+  ],
+  "item": [
+    {
+      "name": "0. Setup",
+      "item": [
+        {
+          "name": "Create Trip (optional)",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userId\": {{userId}},\n  \"tripName\": \"Duffel Sandbox Trip\",\n  \"destination\": \"Ho Chi Minh City\",\n  \"startDate\": \"2026-04-25\",\n  \"endDate\": \"2026-04-28\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/trips",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "trips"]
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "let json = {};",
+                  "try { json = pm.response.json(); } catch (e) {}",
+                  "if (json && json.id) {",
+                  "  pm.collectionVariables.set('tripId', String(json.id));",
+                  "}"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1. Flights - Duffel",
+      "item": [
+        {
+          "name": "Search Flights",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/flights/search?originLocationCode={{origin}}&destinationLocationCode={{destination}}&departureDate={{departureDate}}&adults={{adults}}&currencyCode={{currencyCode}}",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "flights", "search"],
+              "query": [
+                { "key": "originLocationCode", "value": "{{origin}}" },
+                { "key": "destinationLocationCode", "value": "{{destination}}" },
+                { "key": "departureDate", "value": "{{departureDate}}" },
+                { "key": "adults", "value": "{{adults}}" },
+                { "key": "currencyCode", "value": "{{currencyCode}}" }
+              ]
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "let data = {};",
+                  "try { data = pm.response.json(); } catch (e) {}",
+                  "function firstOfferId(node) {",
+                  "  if (!node) return null;",
+                  "  if (Array.isArray(node)) {",
+                  "    for (const item of node) {",
+                  "      const nested = firstOfferId(item);",
+                  "      if (nested) return nested;",
+                  "    }",
+                  "    return null;",
+                  "  }",
+                  "  if (typeof node === 'object') {",
+                  "    if (node.id) return String(node.id);",
+                  "    if (Array.isArray(node.offers)) return firstOfferId(node.offers);",
+                  "    if (node.data) return firstOfferId(node.data);",
+                  "  }",
+                  "  return null;",
+                  "}",
+                  "let offerId = firstOfferId(data);",
+                  "if (offerId) {",
+                  "  pm.collectionVariables.set('offerId', String(offerId));",
+                  "}"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Price Flight Offer",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id\": \"{{offerId}}\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/flights/price",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "flights", "price"]
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "let data = {};",
+                  "try { data = pm.response.json(); } catch (e) {}",
+                  "let orderId = null;",
+                  "if (data && data.id) {",
+                  "  orderId = data.id;",
+                  "}",
+                  "if (data && data.data && data.data.id) {",
+                  "  orderId = data.data.id;",
+                  "}",
+                  "if (orderId) {",
+                  "  pm.collectionVariables.set('orderId', String(orderId));",
+                  "}"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Book Flight (check order by id)",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id\": \"{{orderId}}\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/flights/book",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "flights", "book"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "2. Create Local Booking",
+      "item": [
+        {
+          "name": "Create Flight Booking for Payment",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userId\": {{userId}},\n  \"totalAmount\": 2500000,\n  \"paymentStatus\": \"PENDING\",\n  \"pnrCode\": \"TESTPNR01\",\n  \"flightNumber\": \"VN123\",\n  \"departureAirport\": \"{{origin}}\",\n  \"arrivalAirport\": \"{{destination}}\",\n  \"departureTime\": \"09:30:00\",\n  \"arrivalTime\": \"11:40:00\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/trips/{{tripId}}/bookings/flights",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "trips", "{{tripId}}", "bookings", "flights"]
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "let json = {};",
+                  "try { json = pm.response.json(); } catch (e) {}",
+                  "if (json && json.id) {",
+                  "  pm.collectionVariables.set('bookingId', String(json.id));",
+                  "}"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "3. Payments - VNPay Sandbox",
+      "item": [
+        {
+          "name": "Initiate VNPay Payment",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"provider\": \"vnpay\",\n  \"amount\": 2500000,\n  \"orderInfo\": \"Thanh toan booking sandbox\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/trips/{{tripId}}/bookings/{{bookingId}}/payments/initiate",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "trips", "{{tripId}}", "bookings", "{{bookingId}}", "payments", "initiate"]
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "let json = {};",
+                  "try { json = pm.response.json(); } catch (e) {}",
+                  "if (json && json.transactionNo) {",
+                  "  pm.collectionVariables.set('transactionNo', String(json.transactionNo));",
+                  "}",
+                  "if (json && json.paymentUrl) {",
+                  "  pm.collectionVariables.set('paymentUrl', String(json.paymentUrl));",
+                  "}"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "VNPay Callback (manual test)",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/payments/vnpay/callback?vnp_TxnRef={{transactionNo}}&vnp_ResponseCode=00&vnp_TransactionStatus=00",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "payments", "vnpay", "callback"],
+              "query": [
+                { "key": "vnp_TxnRef", "value": "{{transactionNo}}" },
+                { "key": "vnp_ResponseCode", "value": "00" },
+                { "key": "vnp_TransactionStatus", "value": "00" }
+              ]
+            }
+          },
+          "description": "Request nay se bi INVALID_SIGNATURE neu goi tay khong co chu ky vnp_SecureHash hop le. Dung de check endpoint da mo va behavior loi."
+        },
+        {
+          "name": "VNPay IPN (manual test)",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/payments/vnpay/ipn?vnp_TxnRef={{transactionNo}}&vnp_ResponseCode=00&vnp_TransactionStatus=00",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "payments", "vnpay", "ipn"],
+              "query": [
+                { "key": "vnp_TxnRef", "value": "{{transactionNo}}" },
+                { "key": "vnp_ResponseCode", "value": "00" },
+                { "key": "vnp_TransactionStatus", "value": "00" }
+              ]
+            }
+          },
+          "description": "Can tham so chu ky vnp_SecureHash hop le de pass xac thuc signature."
+        }
+      ]
+    }
+  ]
+}
+
+
+

@@ -7,7 +7,7 @@ spring:
       max-request-size: 10MB
   # Cấu hình kết nối db
   datasource:
-    url: jdbc:mysql://localhost:3306/ung_dung_lap_ke_hoach_du_lich_test?useSSL=false&serverTimezone=Asia/Ho_Chi_Minh
+    url: jdbc:mysql://localhost:3306/ung_dung_lap_ke_hoach_du_lich_test?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Ho_Chi_Minh
     username: root
     password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -22,3 +22,29 @@ spring:
 
 server:
   port: 8080
+
+travel:
+  flight:
+    provider: ${FLIGHT_PROVIDER:duffel}
+    duffel:
+      api-key: ${DUFFEL_API_KEY:}
+      base-url: ${DUFFEL_BASE_URL:https://api.duffel.com}
+      timeout-seconds: ${DUFFEL_TIMEOUT_SECONDS:30}
+  payment:
+    vnpay:
+      base-url: ${VNPAY_BASE_URL:https://sandbox.vnpayment.vn/paymentv2/vpcpay.html}
+      tmn-code: ${VNPAY_TMN_CODE:}
+      hash-secret: ${VNPAY_HASH_SECRET:}
+      return-url: ${VNPAY_RETURN_URL:http://localhost:8080/api/v1/payments/vnpay/callback}
+      locale: ${VNPAY_LOCALE:vn}
+      order-type: ${VNPAY_ORDER_TYPE:other}
+    momo:
+      base-url: ${MOMO_BASE_URL:https://test-payment.momo.vn}
+      partner-code: ${MOMO_PARTNER_CODE:}
+      access-key: ${MOMO_ACCESS_KEY:}
+      secret-key: ${MOMO_SECRET_KEY:}
+      redirect-url: ${MOMO_REDIRECT_URL:http://localhost:8080/api/v1/payments/momo/redirect}
+      ipn-url: ${MOMO_IPN_URL:http://localhost:8080/api/v1/payments/momo/webhook}
+      request-type: ${MOMO_REQUEST_TYPE:captureWallet}
+      lang: ${MOMO_LANG:vi}
+
