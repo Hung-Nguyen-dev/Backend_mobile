@@ -34,3 +34,9 @@ build/
 
 ### agent ###
 .agent/
+
+### uploads ###
+uploads/
+
+### Local secrets (Duffel / VNPAY) — never commit ###
+src/main/resources/application-local.yaml

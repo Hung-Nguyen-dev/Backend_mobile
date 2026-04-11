@@ -1,0 +1,14 @@
+# GitHub không cho commit token trong application-dev.yaml — mỗi máy tự điền secret ở đây.
+# Sao chép thành application-local.yaml (file đó đã .gitignore, không push).
+#
+# Chạy có ghi đè local:
+#   mvn spring-boot:run -Dspring-boot.run.profiles=dev,local
+#
+travel:
+  flight:
+    duffel:
+      api-key: YOUR_DUFFEL_TEST_TOKEN
+  payment:
+    vnpay:
+      tmn-code: YOUR_VNPAY_TMN
+      hash-secret: YOUR_VNPAY_HASH_SECRET
