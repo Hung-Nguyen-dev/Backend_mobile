@@ -1,0 +1,647 @@
+[
+  {
+    "title": "Maison Trang",
+    "address": "26 Võ Thị Sáu",
+    "rating": 4.8,
+    "reviews": 4300,
+    "type": "Món ăn Việt Nam",
+    "thumbnail": "https://serpapi.com/searches/69d90cd6be918ae8e608079a/images/uEg-Ry5KrxWyK7WAjEJL12IgY_elGV6AiqfIcOyUBUQ.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweopDFjuAyZPvGBJ5_ur5JoDjhTXVadoKwL-yl17GUSu3G8rXG8ILLkdirOA5zXXJljbJpaR2AWsFtdLEJj11OHwf7avo8HtECifXmgKIq66dy_tYl7FEL4YKi31jyyTx6i84N__=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.470001,
+      "longitude": 107.59679
+    },
+    "hours": "Sắp đóng cửa · 22:30",
+    "price": "1-100.000 ₫",
+    "description": "\"Món ăn ngon , họ có nhà hàng mới đẹp mắt\"",
+    "place_id": "4463079858273222996"
+  },
+  {
+    "title": "Quán Hạnh",
+    "address": "11-15 Đường Phó Đức Chính",
+    "rating": 4.3,
+    "reviews": 4000,
+    "type": "Món ăn Việt Nam",
+    "thumbnail": "https://serpapi.com/searches/69d918493882c59631a3dc89/images/LRsNYGhZFYiNw1PjaK9d-5_ifw3fXrivrkMZwnXFlYM.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep4SDYI2Qen1q9Po5LGouq3U280740pmu4kVIUIYITxxZDXqxiiZIYPIPf_vrQIGGorrdICyk4CuVFJguo4DlGvhzyaPwIt-IEwR5v4LO716hdQDLHg0Nn_uK3cSuZUJLwcZaSS=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.466314,
+      "longitude": 107.59511
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 10:00 Thứ 7",
+    "price": null,
+    "description": "\"Quán đông ghê, thức ăn ngon, vừa miệng, nhân viên nhanh nhẹn.\"",
+    "place_id": "14716528706345973078"
+  },
+  {
+    "title": "Quán Nina Cafe",
+    "address": "16 Kiệt 34 Nguyễn Tri Phương",
+    "rating": 4.8,
+    "reviews": 3100,
+    "type": "Món ăn Việt Nam",
+    "thumbnail": "https://serpapi.com/searches/69d918493882c59631a3dc89/images/z2LDMtfH_u4NK3_a_W4dfanfGsS1gt-uqksoJI8WH4o.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepVhHucyDIhQ5UmZ7Pw7K7hxe_S-YD_jbttKPBaI5y8gKYSUMQkomIeYB1ZD6Jf86Pdt7dJp9YE4RA8gju0Bgr_52jo00EReaHyPvpdaqvYDX_c-zmommmg7ItYNXhctnYQF_c7mQ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.464119,
+      "longitude": 107.59273
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:30 Thứ 7",
+    "price": null,
+    "description": "\"Quán ăn nằm ở trong ngõ nhỏ ở Huế, rất yên tĩnh và không đông đúc.\"",
+    "place_id": "8452917281893991086"
+  },
+  {
+    "title": "Nhà Hàng Nhật Bản Shino Sushi - 22 Nguyễn Thái Học, Huế",
+    "address": "22 Nguyễn Thái Học",
+    "rating": 4.9,
+    "reviews": 2700,
+    "type": "Món ăn Nhật Bản",
+    "thumbnail": "https://serpapi.com/searches/69d90cd6be918ae8e608079a/images/_D6sNbtP45-cAzTbdLec-hTza_s6e0wacC7xnDm-tNw.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqpXe-6_QdQVT_3uaUk8grp5_p--T9lqE7iHTAeiyzWNIwqc6j9rwSq62bB4UtJWVc4rE8xj0x7sYP2LXuUXX8TGZxYvLwNtjv8NGzKpBnkF-HDxuR7lbwiWkiE7dy5Xun3e8I1=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.468035,
+      "longitude": 107.59599
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": null,
+    "description": "\"Nhà hàng đẹp, món rất ngon, nhân viên thân thiện\"",
+    "place_id": "8747908056927352966"
+  },
+  {
+    "title": "Nhà Hàng Cơm Niêu Khải Hoàn",
+    "address": "90 Lê Lợi",
+    "rating": 4.7,
+    "reviews": 2300,
+    "type": "Nhà hàng",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepCDpTGVritHx8MU0xZ9EA993Aho59T-HSfhMAu4mNHiaonJq3SJjQ8p6QEc7NzQmufVqXXmL3rSzdXO9U7OeNSgAjU9e65F7Q7-C2f1XiEb7_whw9AYMgriD3ha1-bntKyYn1V=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepCDpTGVritHx8MU0xZ9EA993Aho59T-HSfhMAu4mNHiaonJq3SJjQ8p6QEc7NzQmufVqXXmL3rSzdXO9U7OeNSgAjU9e65F7Q7-C2f1XiEb7_whw9AYMgriD3ha1-bntKyYn1V=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.47112,
+      "longitude": 107.59486
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": null,
+    "description": "\"Nhà hàng đẹp, nhân viên nhiệt tình, chu đáo, món ăn ngon hấp dẫn\"",
+    "place_id": "12513134757314478237"
+  },
+  {
+    "title": "Vị Huế Restaurant & Café",
+    "address": "61 Võ Thị Sáu",
+    "rating": 4.9,
+    "reviews": 2000,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90cd6be918ae8e608079a/images/Ft60FIKjU9Hi9QAobFh759Kc0LZpmvk8WDXtLcFPBVY.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepIusILrSrolKPH3AfdMhKJBjYGpeIpNHfsc9XYdUbYn8fSfTtspFZaNHGvti-aVjlwcNT4rUau40G_M-6XkVX190MjtsOFexFG7NhMc6SnAcJYn8HQhzA6Ys6bZZFjDSuXwUaqG2y0KJRr=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.47055,
+      "longitude": 107.59601
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Không gian nhà hàng rất đẹp đem lại cảm giác thoải mái.\"",
+    "place_id": "6945351816577028825"
+  },
+  {
+    "title": "Nhà hàng Bánh Gánh",
+    "address": "51A Võ Thị Sáu",
+    "rating": 4.8,
+    "reviews": 1800,
+    "type": "Món ăn Việt Nam",
+    "thumbnail": "https://serpapi.com/searches/69d90cd6be918ae8e608079a/images/0VeiB61aMqKmm1nKFxWBqs0NTSoyVHU1QdUhQvE3mOk.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepVcj3hiDGRqPdMhY8R0uKsegeHtWaD2m7vlpsYBvEsdURooZ2W4uiv7s-wDNMOjUZeTtYTF8ARxt-Gg6ew2bhdO3z0BmI1c9W2jlcM_pLKeAbxUlHt-s-_NGKthrPBuzZ7QMPc=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.4702,
+      "longitude": 107.59583
+    },
+    "hours": "Sắp đóng cửa · 22:30",
+    "price": null,
+    "description": "\"Chất lượng đồ ăn khá tốt, nhà hàng lịch sự, sạch sẽ\"",
+    "place_id": "16224791410965263777"
+  },
+  {
+    "title": "Little Italy Restaurant - Nhà hàng Ý",
+    "address": "10 Nguyễn Thái Học",
+    "rating": 4.1,
+    "reviews": 1400,
+    "type": "Món ăn Ý",
+    "thumbnail": "https://serpapi.com/searches/69d90cd6be918ae8e608079a/images/dbVV5FHHiXbrSKFOJw0829GFKqv1zvjSBc1uozfqDZc.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqBu7QcuWofPnc0zTjMSUf8XiSwv3WxhXAlu16WvHwIxgxl4fNXejSZ_PPLkZe7bZyl-Z9aE58kevSK8JabNu1Vn-jYcUM0C-lIIZYw4NHqhUaf3WXdEIEu4yns1oI3fQeHrK2D=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.46796,
+      "longitude": 107.59546
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Nhân viên tên Phước phục vụ nhiệt tình, nhà hàng đồ ăn ngon\"",
+    "place_id": "7921971679829782757"
+  },
+  {
+    "title": "Bánh Mì Trường Tiền O Tho",
+    "address": "14 Trần Cao Vân",
+    "rating": 4.4,
+    "reviews": 1400,
+    "type": "Bánh mì kẹp",
+    "thumbnail": "https://serpapi.com/searches/69d918493882c59631a3dc89/images/hpC7t4U8zvziV3kj9fW_cJ27pyhQiM0sOPwujE7SZyA.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqgaTfc2ZDeoo-quKq0XoCEx7nG4TLkM_gCkvDHOwPHK7N9RoNAikI9JSypPDF68E1ZdwzzR8ysx7UykzvRH46O4X7ZLKrvWTgBze-7rowsUAseD7UqXQ4dRFv2LAlhMM4_2QkI=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.465425,
+      "longitude": 107.59164
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Bánh nhỏ nhưng nhân đầy đặn đậm đà, gần phố đi bộ mua rất tiện.\"",
+    "place_id": "9511317447040086469"
+  },
+  {
+    "title": "Bún Bò Huế Mỹ Tâm",
+    "address": "3 Trần Cao Vân",
+    "rating": 3.6,
+    "reviews": 969,
+    "type": "Phở",
+    "thumbnail": "https://serpapi.com/searches/69d918493882c59631a3dc89/images/3CQNEQCRF3cihlB8-fM266whil6BUXviWeG7Vu_GTcM.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqxxkQSfoH8qg1qv-_sHzzr4vhyam0KGwkzEVqnTPc4wqT4wf6UMv0T24Ikz0Jw5C9e-8gj_k-lrG7lH5Gb5qecqsQDmDzFpGwsMwaMP46bN79LH9PXqjmmoszaoHndLX4Ocmne=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.464022,
+      "longitude": 107.58972
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán mặt đường lớn,buổi tối rất đông so với ban ngày,ăn cũng khá ngon.\"",
+    "place_id": "4582140607240555979"
+  },
+  {
+    "title": "Hít Hà - Thế Giới Đồ Cuốn",
+    "address": "",
+    "rating": 4.8,
+    "reviews": 824,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d918493882c59631a3dc89/images/vSETH15nm_AEUH8XtOrK07-PVtmoCAQtGAQikqLmb1Q.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerV83uxO2hw3D08IE5E9U6-9385fAJuCu-sWbTOq8bzy9TQ7THqj5prn4bhaRXW-R2AEXZA4QPdaQ6j2b2rkxIfdD41MZzhwKv0o8u51bSvDVKUb6PHvX-YN5g1WAXCJnC7xNP1=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.465528,
+      "longitude": 107.59179
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": null,
+    "description": "\"Quán nhỏ xinh nhưng đồ ăn ngon, nhân viên niềm nở lễ phép.\"",
+    "place_id": "11253852717790169998"
+  },
+  {
+    "title": "Quán ăn An Tâm",
+    "address": "Kiệt 33 Nguyễn Công Trứ",
+    "rating": 4.8,
+    "reviews": 823,
+    "type": "Món ăn Việt Nam",
+    "thumbnail": "https://serpapi.com/searches/69d918493882c59631a3dc89/images/iKHfKVJH05decT0S9bP_Kiw3OGXazaStUlX33D0KNiM.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqDOeUpnvFfs8NPo6Bk_gwjeLaVzvECUE7lankskbRBjbDmwR2_HNqkSlmT86_BtiVLFdXcPTP2EMDGD40i-JtlY-nk4AjOe3e7Dqq2m8Nf7He719_K8t4we0Scwh-V4GqlvoLK=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.472082,
+      "longitude": 107.59702
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 9:00 Thứ 7",
+    "price": "1-100.000 ₫",
+    "description": "\"Chủ quán và nhân viên đều dễ thương, nhiệt tình, highly recommendddd\"",
+    "place_id": "13335573110512834093"
+  },
+  {
+    "title": "Nhà Hàng Nổi Sông Hương",
+    "address": "Công Viên 3, 2 Lê Lợi",
+    "rating": 4.1,
+    "reviews": 821,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90cd6be918ae8e608079a/images/s4ry-uC934mhqWKunLbN4l8EaE3_BmSANGAssKm_5ck.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepo7wY4j3VqXbEP7N6QqKHN2YeCy-LiUFCwPmUa-4JxvJYVl8CHQfW6LLawDZsoO_0V4djCaZBkjcBX1V1sdm7oxL9vCQoSpkVh5haNS4BDeUIabazxV47ICtGYb3vHNTEABoQV=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.469086,
+      "longitude": 107.59094
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": null,
+    "description": "\"Nhà hàng view đẹp, đồ ăn ngon nhưng nhân viên gọi hơi lâu.\"",
+    "place_id": "6079889629281836870"
+  },
+  {
+    "title": "Cơm Niêu - Nhà Hàng SALA Huế",
+    "address": "50 Đ. Nguyễn Lương Bằng",
+    "rating": 4.7,
+    "reviews": 781,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90cd6be918ae8e608079a/images/PBpe9NJgwjCDieodm9z4GwNNRRJwTCgJ0j3DfTCL-UY.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweofCjUEckf5TkfrH_Y5LKVM0ckrwOjriF056YtByL99m_doApSXz3xpCJVnyt6pEsrkZR2-MwsgzS1yXxiRtXRzSnOt5T6K2LoVlqF1aYtohpbE_fWxz4qxuhqpL6kKAUTAG1sC=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.46458,
+      "longitude": 107.59875
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Nhà hàng đẹp, sang trọng, thức ăn đồ uống ngon tuyệt.\"",
+    "place_id": "15737247243655865192"
+  },
+  {
+    "title": "Nhà hàng Gecko",
+    "address": "9 Phạm Ngũ Lão",
+    "rating": 4.1,
+    "reviews": 635,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90cd6be918ae8e608079a/images/y6rOC7d-bFCGPYOOrxIIjEf8otIuSx6O5954p_DEs-U.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqmaH0P3OhzpPJGZZ52fkSfvNgFHKcueDwFJay-UuaDc6D_jOnmNzZHa_RXAX6AXc79gblbj-K4MUFMScq5BSV6G_HYxcnIZqneUH2oAiUoLhlhdJxmCG3e5pJpr6NtvA6YjcA=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.469397,
+      "longitude": 107.59452
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Món ăn ngon, view đẹp.\"",
+    "place_id": "11549452471120147708"
+  },
+  {
+    "title": "Nhà hàng Cơm niêu NGUỒN",
+    "address": "5 Trần Quang Khải",
+    "rating": 3.9,
+    "reviews": 519,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90cd6be918ae8e608079a/images/oWs0EnWXUYVwYIQYAiJo9H2EF3ZxJvxnTFgOMmk90sc.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwermJzH-GbADOOCpBz_BfInV1Pe8BEx5g7jH_fntBu5AAP9gylsXUij_RMFMt11rfVzRCXhI0KyWw2ikJrgKeQF48Ec8BAM56yK5XOPtWvcuCEf33wX1Wb2mMoPtQB79CScoQonHyw=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.467123,
+      "longitude": 107.59528
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"... đồ ăn ngon, đa dạng món ăn , nhân viên nhiệt tình nên ghé nha\"",
+    "place_id": "8318785124932725579"
+  },
+  {
+    "title": "Nhà Hàng Hoa Sơn Quán",
+    "address": "46 Đặng Thùy Trâm",
+    "rating": 4.2,
+    "reviews": 411,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90cd6be918ae8e608079a/images/Tyog0cHRjaEEZ0ZHgdItUhRLnuXCkfQxd6I_EqG67H4.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerCVHiOVcW6WYkmyhkmpWQXj9YHCKDLwkuTSFoGcjWhw0VOBDtlJAB_7sIdNEN_jQT5x8aMvh-6-gRhJdfHeKR0SJ7pbfsfvmqmMe2yYxYNL0iFt8GvgjLQlN_Loc38mI1r71Ke=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.465221,
+      "longitude": 107.604614
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Menu giá hơi cao 1 xíu nhưng ngon nên chấp nhận được.\"",
+    "place_id": "8452451193338498475"
+  },
+  {
+    "title": "Quán cơm Huế O Én",
+    "address": "1 Trần Thúc Nhẫn",
+    "rating": 4.7,
+    "reviews": 409,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d918493882c59631a3dc89/images/Wuvr-iLZ9Co3IqZevUQRa9nhgO5Bgvp7gkO8UfsYT4o.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqnRO3QwlFugip22adZM9kpzHVngVvIz3Gw1zqFzfRVVe10si82NVaDYwhyM2Vlf7gbp6IFNBOb44an7RIAUAX4hbdRybCQ-ivREljt_hRDQ-t8jtnFDRhes8CCQSc6XDLl2EBW=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.45841,
+      "longitude": 107.58228
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 11:00 Thứ 7",
+    "price": "1-100.000 ₫",
+    "description": "\"Quán chỉ bán buổi trưa 70lk/1 mâm nhỏ xinh cho 2 người, trà đá free.\"",
+    "place_id": "12757708235425399689"
+  },
+  {
+    "title": "Nhà Hàng Gạo",
+    "address": "60 Hai Bà Trưng",
+    "rating": 4.4,
+    "reviews": 287,
+    "type": "Món ăn Việt Nam",
+    "thumbnail": "https://serpapi.com/searches/69d90cd6be918ae8e608079a/images/zT2UVYrm1pTH_1raczpH0O_CKONGkuXZw1hddYxeBRU.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerPVRIeas_eO9YA7WJ6tbt6bwafO15_RstYtiK937NmO2dZTTAVTTf59F5Yqgs_Thbm7w4O3meoWcvNMQ3aUX8Fjj6lFdLosWY35Cb_N66lCny6Tk3P7gXxfaIVAuxZHv65I5JiFA=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.459597,
+      "longitude": 107.58903
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Nhà hàng đẹp, nhân viên nhiệt tình, dễ thương.\"",
+    "place_id": "6371541799616789863"
+  },
+  {
+    "title": "Hương Ngự Restaurant",
+    "address": "33 Hai Bà Trưng",
+    "rating": 4.9,
+    "reviews": 183,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90cd6be918ae8e608079a/images/d-Yqz4oDHxkUCE1BPgvX8D8p29xNTCF3_9oYCWwPjxM.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep09YQn7EmCdrYIdWy2-pD5ebC1zqKVdqLuzPZicApftJgowxORsZE7Ev1jdsXzZh8FYR9kUoADEJKIPs5w2ZKlln0T37z6VSmaqhdpVatP5QKII55V07Vt1ThhAOmt0btsYxBmPJkm6T3A=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.460466,
+      "longitude": 107.58954
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": null,
+    "description": "\"nhân viên nhiệt tình thân thiện chu đáo đồ ăn ngon lắm ạ\"",
+    "place_id": "1402017033875625704"
+  },
+  {
+    "title": "Quán Cây Bàng",
+    "address": "23 Ngô Gia Tự",
+    "rating": 3.9,
+    "reviews": 176,
+    "type": "Nhà hàng",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweprCqR2aUlv0Dh-jtz1ilIErTfwI51hYfCc7v-fZ10ShNAmJ3rO8yLsZkIT4nF5HkqYlPpJgA0iw27AK1ngrYxrhl0yxgIQQ1Sc1-tEbZ5L83LxEUrLyulifChe-zTSJhol_08w-M1Kfs4=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweprCqR2aUlv0Dh-jtz1ilIErTfwI51hYfCc7v-fZ10ShNAmJ3rO8yLsZkIT4nF5HkqYlPpJgA0iw27AK1ngrYxrhl0yxgIQQ1Sc1-tEbZ5L83LxEUrLyulifChe-zTSJhol_08w-M1Kfs4=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.460485,
+      "longitude": 107.590355
+    },
+    "hours": "Sắp đóng cửa · 23:30",
+    "price": null,
+    "description": "\"Bún hến và cơm hến khá ngon, đậm đà đúng gu người Huế.\"",
+    "place_id": "1274324080675068274"
+  },
+  {
+    "title": "Nhà hàng Nếp",
+    "address": "15 Đội Cung",
+    "rating": 5,
+    "reviews": 154,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90cd6be918ae8e608079a/images/C1e-movrwqGpsUK2sFlMVykZdQggPiyoPCbXFCFhz5Q.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepY1cIDvczN0SY0EAFwdd513wXuzsroqir8DjUwO2UJizTqxxiZ8pmQaYT0itUy5LHCZkTBYCN7IX4CBT-jShPdDlLhFbgpGj6_lGp7CE4zDTFcPY89FVSUKtkKlgZu8G8IgY-Hvr1OmHzv=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.468916,
+      "longitude": 107.59397
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"đồ ăn ngon, nhân viên nhiệt tình, thân thiện, món ăn lên nhanh.\"",
+    "place_id": "1491454013465469447"
+  },
+  {
+    "title": "Nhà Hàng Thái Sơn",
+    "address": "66 Hai Bà Trưng",
+    "rating": 3.8,
+    "reviews": 150,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90cd6be918ae8e608079a/images/lDml_JBlHCTSXdhUZdTlnqUFS8ciKai44Fa7VZaEJ4Q.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqcyYwwm2suX5IP2tTagWs2404fX7QSP2FxfTCzasbIN7chwchOZWsn6oS0CiI_W8fC86Tqn8fC7cBBscedEDm9c1HiRZB00KvR_X4lFUoiMd7ttjDLU0MW0zaXVAwLAUnJIqOm_Q=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.4593,
+      "longitude": 107.58903
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Đồ nhắm được chế biến vừa miệng.\"",
+    "place_id": "1909759269138455620"
+  },
+  {
+    "title": "Quán A Sơn",
+    "address": "17 Lê Hồng Phong",
+    "rating": 3.7,
+    "reviews": 123,
+    "type": "Quán ăn nhỏ",
+    "thumbnail": "https://serpapi.com/searches/69d918493882c59631a3dc89/images/fZSl3dsmXl3pnRc5HX2z-BxwySUpV_dQd5gytboetQI.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerSEwotQ2-H54qMUK38spX_u-gVD3ZhFJ9CvgzTZZ624iUhjnVxK6YkO-I7IO8-x5Rd1N9QYwBkwZm_H-NKhrYGKl3tDKsvXCsJEgByp-v5S34ZDTezv0ke1pRiEn4AMWbk5N8s=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.460226,
+      "longitude": 107.59546
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Vui vẻ thân thiện đầu năm, view rất đẹp\"",
+    "place_id": "1535932107369715130"
+  },
+  {
+    "title": "Nhà Hàng Hi Boss",
+    "address": "Huế, 25 Lê Quý Đôn",
+    "rating": 4.9,
+    "reviews": 69,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90cd6be918ae8e608079a/images/QukHrxj--KRbR-LxbRR_6G9uHgQ2rU9j3EYNNP-0swg.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqMCUfljh2bHlzgrBAXh5XLcdw1jOML25Bpb6XuFG-poQ8oq3sFBWDdYKXHh4VJdXK9P6PMLsRslbzZUA-jgw3jqxSdSp8b_DtlM9r73b_Zp006rhZTQgHzHwm0llWJM7ngaVIErg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.465704,
+      "longitude": 107.59796
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": null,
+    "description": "\"Phải nói là mình rất bất ngờ với không gian của nhà hàng .\"",
+    "place_id": "390505756673217304"
+  },
+  {
+    "title": "Quán Ăn Hàn Quốc Trang Bùi",
+    "address": "63 Trần Thúc Nhẫn",
+    "rating": 3.9,
+    "reviews": 56,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d918493882c59631a3dc89/images/eP8iJht9mbyxl1AvFRFcArSdG9zk5FB2rlpPPiG-XPY.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep6VdfbE9-amnbsX3v94MHzsNBNQOR2YQ7p-kG8v-8lo5FR9ueUdcH6vxGVBHogK4TzMS_xuIgXYSaUTIMQ5PXc7hHllUFKOJk8_yqw5tOiWjQ9FpCyyx0qytT9Sm_EnkKnshOG=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.45608,
+      "longitude": 107.583496
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Ngon, nhiều combo nhân viên thân thiện, không gian để xe và quán hơi chật\"",
+    "place_id": "4329752992620029128"
+  },
+  {
+    "title": "Bánh canh hải sản Mụ Nị",
+    "address": "38 Trần Cao Vân",
+    "rating": 4.6,
+    "reviews": 52,
+    "type": "Quán ăn nhỏ",
+    "thumbnail": "https://serpapi.com/searches/69d918493882c59631a3dc89/images/uO4VZNyMq-nxxzBJnqBVJPLlfcuWmwm9VN98ZFEGt4g.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepCDxagJTeJVEBQl2BUGUkvwc5KEGDrI9Y5iRUBruLZszZp0dWk4QIJ2gxWeLnIyPEGM-YkPmjrjVekqc0FbONegiCEaCYVO78sm65RFIzpSc-Ih86y6jvLvmiUJlgS9dFk2jxX-eHN43j7=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.466099,
+      "longitude": 107.59255
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán đồ ăn ngon, sạch sẽ, mình lỡ quên đồ còn được ship về giúp tận nhà.\"",
+    "place_id": "18370220592739300624"
+  },
+  {
+    "title": "Mộc - Bánh tráng cuốn thịt heo",
+    "address": "29A Lê Hồng Phong",
+    "rating": 4.5,
+    "reviews": 39,
+    "type": "Món ăn Châu Á",
+    "thumbnail": "https://serpapi.com/searches/69d918493882c59631a3dc89/images/hFciqvA0CotWS1rVE2DyxlNku58ZNBNSAvf6YCoxpn0.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepfcieszD3YpRrJQYlWN9bZ-7OYDnl80HsV9Fbdnybgv5KmRhaGj1qZKOUc4frpCx4-TtEcoZEw-dKR8B-0aS2D6lBP5xwxSyRgol6xPjXn4fUfi4wR3BBaPGpcz0cMDdDljiPb=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.460535,
+      "longitude": 107.59427
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán nằm trong khu tập thể yên tĩnh, không gian nhỏ.\"",
+    "place_id": "4602644692490943802"
+  },
+  {
+    "title": "NHÀ HÀNG CUA CUA SIGNATURE",
+    "address": "36 Hai Bà Trưng",
+    "rating": 4.7,
+    "reviews": 31,
+    "type": "Đồ hải sản",
+    "thumbnail": "https://serpapi.com/searches/69d90cd6be918ae8e608079a/images/-tqvH7VLEZomHQ0nZQ9MTItxVSaLBlcqrfoji9WWqqo.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerVvEd7b0pp8Tz9pVJkuMgMFQblHVqSWcs1LDGDvpEQACaVKdKNgoI8xOzq9Z9t1LJHSLXbULnhR0XRgnIl2xfBN-Atmgiyf0lvvgs_1QYUJvuGW38izyDxcfwvxy9hSsvGCxG3TI0mAiI=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.460583,
+      "longitude": 107.589134
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Đồ ăn ngon, hải sản tươi, giá hợp lí, nhân viên nhiệt tình , chu đáo\"",
+    "place_id": "2565374016669752338"
+  },
+  {
+    "title": "Ăn sáng Cơm hến Trương Định",
+    "address": "28 Trương Định",
+    "rating": 4.2,
+    "reviews": 31,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d918493882c59631a3dc89/images/lDePJg-Cimco-Mz32BdHUjZ_NppdVRy5bTdADdnVaBM.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepY4KrAFKUoGgspWeTWHSrmZz9h0kGWwYDJ5JCtUfPzJ5IedOFNUsicZyEfnNI0Dvtsx5iMjcvK07bnCiGj0UHEbYUM2ijIO4ZGUZASuLQ_SYeTZjZjou4Z28E35j5Vw3ZQ-AER=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.464975,
+      "longitude": 107.589096
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Rất ngon gần đúng kiểu Huế.\"",
+    "place_id": "1168688849428815773"
+  },
+  {
+    "title": "Nhà hàng",
+    "address": "Huế",
+    "rating": 4.4,
+    "reviews": 20,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90cd6be918ae8e608079a/images/zCizT8g1riUwNjaMgo55GB8AAu1PqwpUqgWLDmchp28.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepAk5GipXrwm6GG2LXkRuDD2KFLRRWEQtfj7gNWfO_F6LV5rHHgeLax9vCN69h8BtQ9gDJajUCFmswofkt26DqfOPQ2vtiOMzbWnHw_VgFSD09wRZpkVW0TmRIdVcp_E5KD4EGi=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.472015,
+      "longitude": 107.59509
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Phục vụ rất tốt.sạch mát\"",
+    "place_id": "817225784346164270"
+  },
+  {
+    "title": "Cơm hến, bún hến Hương - 14 Ngô Gia Tự",
+    "address": "14 Ngô Gia Tự",
+    "rating": 3.9,
+    "reviews": 17,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d918493882c59631a3dc89/images/WhSIa3hGbNvfV5AACWEDX9MKhj1DMekiLtwoQ1A5KjU.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoac1e0ePNNzb_Z_PfkH8S4m6WbaBJmVcuuBL2DA7v8V-H5D487t9h0IMyK5iznDiO69rkxhm3ioLiPdQf0d5b06th5_Vbeu9cJUnWc-fG0PSsnrkFVV9GGkh6LoEYKlYXqKBQ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.460566,
+      "longitude": 107.590096
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán còn có tương ớt, mắm ớt, nước hến để ăn kèm.\"",
+    "place_id": "9720753137548614660"
+  },
+  {
+    "title": "Nhà hàng Sân vườn Duy Tân",
+    "address": "12 Hùng Vương",
+    "rating": 4.1,
+    "reviews": 14,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90cd6be918ae8e608079a/images/Ee8G8kkLxyN0t2l_9JVVzL96kVb5Q08l-kkOFNvbp4w.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwervK-qzaiMkcoPAyIJsD7umInGLzyPH5KdVDOSs7sT3XoCIRXx5SNjuxdcJ0SFm562Oyc4RBVt1ICEtsGleRb7mWdNx9A5NOS8E9Yf1cwWJpj31fRxR1eoB4nYdkwsu7g6PJ6pa=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.465254,
+      "longitude": 107.59248
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Nhà hàng giá cả phải chăng, thoáng mát, đồ ăn tương đối, nhân viên ok\"",
+    "place_id": "8613383053251300112"
+  },
+  {
+    "title": "NHÀ HÀNG 3BOYS",
+    "address": "103 Nguyễn Huệ",
+    "rating": 5,
+    "reviews": 14,
+    "type": "Nhà hàng",
+    "thumbnail": "https://serpapi.com/searches/69d90cd6be918ae8e608079a/images/3WEnjoZ6R04tr4p8BiZT7Ikvdq4W_1B-BLQaMcIcTFw.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo4UwItPO7Itot99wNvrJMpzVTzZ2n5SpXlYhucnSxezh3DT-PROqi-075KG79OhElO_BUvOWUL7WdcO24OjJwRc8nbFUZZCQfG22Griz_poWevCC2GZ_G9QLLuKP5xmj82pkjq2g=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.458334,
+      "longitude": 107.59642
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Nhân viên thân thiện, thực đơn đa dạng Đáng trải nghiệm\"",
+    "place_id": "17050610285045240656"
+  },
+  {
+    "title": "Quán Hương - Bia Lạnh - Nhậu Bình Dân",
+    "address": "22 Hai Bà Trưng",
+    "rating": 4.8,
+    "reviews": 8,
+    "type": "Quán ăn nhỏ",
+    "thumbnail": "https://serpapi.com/searches/69d918493882c59631a3dc89/images/bl16InSrNVcU7IgpJ2r4qzETGv6w0MY-p4HSY0N8kq8.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo9Bsu-F1RYPtWP0XvhbBuwt_DrqoQdECL8s2gTm3dYcgpVoLm06wf4KsLDFaKcKYwhn5gcliHXIbO0lZ4uSUs7YXz4V4X-mN1GVUt_z9X42qQhBe61DRsxjFP9Ttkiu-cxcCxdYQ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.460909,
+      "longitude": 107.58913
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"trứng lộn ngon,chủ quán trẻ,vui vẻ nhiệt tình.nên thử\"",
+    "place_id": "15056572687939460421"
+  },
+  {
+    "title": "QUÁN ĂN ĐÊM CHỊ LÙN",
+    "address": "Hoàng Hoa Thám",
+    "rating": 5,
+    "reviews": 1,
+    "type": "Quán ăn nhẹ",
+    "thumbnail": "https://serpapi.com/searches/69d918493882c59631a3dc89/images/SO_urwKOTvYK6k9GALNgA3kye65in3puFHQfmdlO5DU.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepfcFyFXl3cFaRGvZqtG1jN26Yab8lrQllCg2HYXDxPFfk4zVHNAhw16oedF40wJEEm-L7DGWRhwwShtLWQPcUlgTPkr98dzu9_P4e2LXq1RTkMida083UKDGmWmBqzqO0q28I=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 16.46535,
+      "longitude": 107.589485
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "9139228754102584759"
+  },
+  {
+    "title": "Bún Bò Huế O Xuân",
+    "address": "17 Lý Thường Kiệt, TP. Huế",
+    "rating": 4.2,
+    "reviews": 3200,
+    "type": "Bún bò Huế truyền thống",
+    "thumbnail": "https://images.unsplash.com/photo-1625398407796-82650a8c135f?q=80&w=800&auto=format&fit=crop",
+    "price": "40.000 - 65.000 VNĐ",
+    "description": "Quán bún bò nổi tiếng với hương vị đậm đà, chuẩn vị Huế xưa. Sợi bún to, chân giò ninh nhừ và nước dùng thơm mùi sả mắm ruốc.",
+    "place_id": "ChIJT_9T-fS-NTERpYq_Z6oT-U8"
+  },
+  {
+    "title": "Cơm Hến Vĩ Dạ",
+    "address": "64 Kiệt 7 Ưng Bình, Vĩ Dạ, TP. Huế",
+    "rating": 4.3,
+    "reviews": 2500,
+    "type": "Đặc sản cơm hến",
+    "thumbnail": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=800&auto=format&fit=crop",
+    "price": "15.000 - 30.000 VNĐ",
+    "description": "Nằm ở cồn Hến nổi tiếng, quán phục vụ món cơm hến, bún hến đúng điệu với vị cay nồng đặc trưng và nước hến ngọt thanh.",
+    "place_id": "ChIJT_9U-fS-NTERpYq_Z6oT-U8"
+  },
+  {
+    "title": "Bánh Khoái Hồng Mai",
+    "address": "110 Đinh Tiên Hoàng, TP. Huế",
+    "rating": 4.1,
+    "reviews": 1800,
+    "type": "Bánh khoái & Nem lụi",
+    "thumbnail": "https://images.unsplash.com/photo-1512058564366-18510be2db19?q=80&w=800&auto=format&fit=crop",
+    "price": "30.000 - 70.000 VNĐ",
+    "description": "Quán bánh khoái nổi tiếng với vỏ bánh vàng giòn, nhân tôm thịt tươi ngon và nước chấm bí truyền đậm đà đặc sắc.",
+    "place_id": "ChIJT_9V-fS-NTERpYq_Z6oT-U8"
+  }
+]

@@ -1,0 +1,563 @@
+[
+  {
+    "title": "Dinh Cậu",
+    "address": "Kiên Giang",
+    "rating": 4.5,
+    "reviews": 3400,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90e38dd2e160a9a3e1bfc/images/OBI_GTEW1xfz2kR3poVBt71XQpw2Rt7mp8Exf6D-sE4.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerD8UxpKsvbnFHcZj-d_Uj4U1UdMGeWdL_J73TwrhwWyT8_OejtAwRyOf8t7X_9rCSx4i1y9_c64FJQowwW0uHinqk9FAde8gIb3GA63oqx_nRVHhMtACjDJy1oNQeg_Pc2D3Y=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.217225,
+      "longitude": 103.95645
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": null,
+    "description": "\"Địa điểm tham quan nổi tiếng, ngắm cảnh biển hay ho, biết thêm về lịch sử\"",
+    "place_id": "14297459752237185512"
+  },
+  {
+    "title": "Vườn Tiêu Đức Thạnh",
+    "address": "An Giang",
+    "rating": 4,
+    "reviews": 1000,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90e38dd2e160a9a3e1bfc/images/3svWFKaTVCb4PpbDZ7VYuZLVZKSbmcudY9vfUrEaQw4.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer5WrCMhGVEBozLowMIql22uu51i41x5kIDyYNEhMnVPiMmn-4w_kBsgbMJ21gie3mVSwcIEa7zyDEu3LEBzt6ZsHCYX_1qo3IdtNbiGU5gS5-VayY2wOE-6jCsjhZZe2WuOlfJoGK7vamj=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.205922,
+      "longitude": 103.99057
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": null,
+    "description": "\"Một nơi để hướng dẫn viên du lịch có được tiền càfe thêm.\"",
+    "place_id": "479669124920725083"
+  },
+  {
+    "title": "Rượu Sim Bảy Gáo",
+    "address": "An Giang",
+    "rating": 4.1,
+    "reviews": 717,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90e38dd2e160a9a3e1bfc/images/mWW9S_fkiwEB-9AKitn816Q_uD250pXQSv2eQZEEHr0.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepW3fmNLQ6XYcjlyteBDeI47GYT6V3U-iBBy08szmmrfIbDxiIG_3O1nf4wnscMIfPMrl4zszIrZgfd6fVeJKIukq_QRdln2qwMm1ck1hbgRkc9C4wJxmi9Twz94NoVBEktVPn7=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.181384,
+      "longitude": 103.98772
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": null,
+    "description": "\"Có vườn sim, nhỏ nhỏ nhưng cũng đủ để tham quan.\"",
+    "place_id": "15367108136238128182"
+  },
+  {
+    "title": "Bãi Trường",
+    "address": "Đường Trần Hưng Đạo",
+    "rating": 4.3,
+    "reviews": 695,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90e38dd2e160a9a3e1bfc/images/nP9CwOs3amZP9o1Kf2HZ9Eoam82k45D4ahMW1mng_Ig.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoFWXDIlKLJj-Q86mRPPZXQmq3F1ELqbh5SiRPM0ryakAJAG2uwWLHsyTT44AUZmQgNgF4Qe6nNGdE_HHMU65IDe2aIvLPZXDCUIVL2-diBMiHkRw7w6sZFOm_lCN1Nv9E_3wZv=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.181387,
+      "longitude": 103.96704
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Bãi Trường là địa điểm đẹp nhất Phú Quốc để nhắm hoàn hôn\"",
+    "place_id": "15971680447936992515"
+  },
+  {
+    "title": "Bảo tàng Cội Nguồn Phú Quốc",
+    "address": "An Giang",
+    "rating": 3.8,
+    "reviews": 542,
+    "type": "Bảo tàng lịch sử",
+    "thumbnail": "https://serpapi.com/searches/69d90e38dd2e160a9a3e1bfc/images/aEnXAz_Mi4swoxecZ6fzkRQiAoR6FVDEQvFiS9xMlRU.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepN48dTSYwPtVgZbLW8eFdv_58Yt_NbcoAHN7umWORZWpoAAk2tcrrI1vtKxWrR8LbVG09ibKduv3BP2nMEnqfdFqHDmJDQN0o_FQgysVm7gYgcohSH5nHi3vuj-bsrGdjp5r9J=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.192477,
+      "longitude": 103.96718
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": null,
+    "description": "\"Nơi tốt nhất để tìm hiểu về văn hóa, lịch sử & địa lý của Phú Quốc\"",
+    "place_id": "6085362314968903587"
+  },
+  {
+    "title": "Khu du lịch sinh thái (Suối Đá Bàn)",
+    "address": "An Giang",
+    "rating": 4.1,
+    "reviews": 466,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90e38dd2e160a9a3e1bfc/images/px9DawWM_KZ4rw-MDo7Zy6cskeZv3MDKvKmjz44RDV0.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo4S1bgGFifePgs3vbBYTAXPxqGW7FLU7BANEI4PePwNL8OysUjL9S-U7-k55H8KphvMNun9FA9-Rg1YkikqCm6ufZ0S14HBwZ8j6DF2BeWQISGGt47z8Iw8MS6nFV7FYhEylGB=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.245445,
+      "longitude": 104.02703
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Đường rất dễ đi, đến được suối thì mới biết đi đúng mùa thuần đẹp.\"",
+    "place_id": "11849231034778678448"
+  },
+  {
+    "title": "Dinh Bà Thủy Long Thánh Mẫu",
+    "address": "An Giang",
+    "rating": 4.5,
+    "reviews": 265,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90e38dd2e160a9a3e1bfc/images/sNhxNG9mAobHXzt3EuKTdRUuH4qxWsg5lU7JvZgGVuw.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerbei9rKzJNQChrH-55jtnX9esHaH6d1C3srmwdcMnt3Y4PExWvp_EcbuJETix7ahMJe09YbghurrLlu1trWbwvTE4_bnVDtHJWvjCbVCLAW9C0SphjnkayeAu3gL-XHc1zaAN1CA=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.216802,
+      "longitude": 103.95725
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Một địa điểm nên đến viếng khi đến Phú Quốc.\"",
+    "place_id": "5973540752794850093"
+  },
+  {
+    "title": "Kimie's Tours - Snorkeling, diving, & hiking",
+    "address": "An Giang",
+    "rating": 5,
+    "reviews": 253,
+    "type": "Nhà điều hành du lịch",
+    "thumbnail": null,
+    "thumbnail_large": null,
+    "gps_coordinates": {
+      "latitude": 10.206696,
+      "longitude": 103.967705
+    },
+    "hours": "Mở cả ngày",
+    "price": null,
+    "description": "\"Tourgide dễ thương nhiệt tình có làn da nâu đen very đẹp nhaaaaa 👍👍👍👍👍👍\"",
+    "place_id": "7056383425785211273"
+  },
+  {
+    "title": "Quảng Trường Hồ Chí Minh",
+    "address": "An Giang",
+    "rating": 4.6,
+    "reviews": 198,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90e38dd2e160a9a3e1bfc/images/Z6b_a7qTjNIQko3nTXV0R3XK9tsQ5GSzemn_PCJixsw.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwermEfYJn9fhqNAQQUSiwgKQn84uvmN5YQLnRtni_RrvZDLWo_VoEOiHhWzoAZGp8QF4lZ8Hgx1WIUFpKa_EN50V1PhdEpD9fGFV3gbmLNjQtaM3i9lTQXE3merxhYXsk_xKQDPk0uBPNi6R=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.2287245,
+      "longitude": 103.9769
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"... đường sân bay cũ Một địa điểm checkin khi ghé thăm Phú Quốc\"",
+    "place_id": "3694772397883712836"
+  },
+  {
+    "title": "Khu du lịch Suối Tranh",
+    "address": "An Giang",
+    "rating": 4.3,
+    "reviews": 190,
+    "type": "Khu vực đi bộ",
+    "thumbnail": "https://serpapi.com/searches/69d90e38dd2e160a9a3e1bfc/images/otSprloowtsWE-tLzoosfGepPqkCfAfp72f2ZhE4jDQ.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerSNhtaFbrkbHB9MND6PRwkRSm_qjrkBsB18ir9UsnSgQUsKOdQDiYA7IE9fphUYrtvn9ITlau5PaI5I3RnJaWNj1Pj0GfsMfNhGQWadlWf_L-GcsvyIvoFUc8h9FOJu1IEnt1B=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.176657,
+      "longitude": 104.01252
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Đẹp, đường dễ đi và sạch sẽ\"",
+    "place_id": "17187631225685166667"
+  },
+  {
+    "title": "Điểm tham quan VQG Phú Quốc",
+    "address": "An Giang",
+    "rating": 3.9,
+    "reviews": 145,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90e38dd2e160a9a3e1bfc/images/lE6zrfuqpp70WUFhoCWmCWqoQhTAmC9CgxmWhq3weoo.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoLI8PvWRTP33czvJ-OcY6hOjltbJvIW9MuPkml5FidlWTF6NHg2jeTUtdQQM28ZLSQMda-16Ei74m2ZB0MtIA50wGBwdTIqhxm15sUUJRCmUOtoDQkEKgRGH-fsOIoksTWtTMFBw=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.364507,
+      "longitude": 103.99186
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Nhưng mà điểm cộng vẫn được bảo tồn rất hoang sơ\"",
+    "place_id": "15097629611403536661"
+  },
+  {
+    "title": "Sùng Hưng Cổ Tự",
+    "address": "An Giang",
+    "rating": 4.4,
+    "reviews": 112,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90e38dd2e160a9a3e1bfc/images/kpBToKTH0GVzDwtt8398mM_uzaICS1BeSoYJt8Fy5Z4.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqbCRUHA6Af7W34xjBJwRh7X0nCF7jIPNhaQpBz5zaGf6dzAyEeF1MYzb3SuejQD-5gIrzEMDRsQez2EXr-WmdCidI1eKF2MhJtjDBgFdEqP6SJ09yEkcsVshlnub8BSn7LdYsEsQ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.214881,
+      "longitude": 103.95979
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Khách du lịch nên đi thăm quan một lần cho biết\"",
+    "place_id": "3185590273364794606"
+  },
+  {
+    "title": "Chùa Hùng Long - Đảo Phú Quốc",
+    "address": "An Giang",
+    "rating": 4.5,
+    "reviews": 105,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90e38dd2e160a9a3e1bfc/images/rZQSevw1f0zCoO308kbH4NtQhr9fDZIJWJxwjoeQd5o.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweppA4wtjw2ZfibFzjkGCQxK7aPCFJW5V77nSwqGPDx6CpVinKcPNLx8Y0JDN-t2ak-xnLCzuk8ydckPMWGYnSSATn_HkBsbTgtsj4SO0c5AkxIzBP2DnWqxP06FAqFka1YTvzZc=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.1995735,
+      "longitude": 103.98593
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Chùa tựa núi Điện Tiên, có nhiều cây xanh, không khí mát mẻ\"",
+    "place_id": "15332771046743579430"
+  },
+  {
+    "title": "Vườn Tiêu Phú Quốc",
+    "address": "An Giang",
+    "rating": 4.1,
+    "reviews": 94,
+    "type": "Công viên sinh thái",
+    "thumbnail": "https://serpapi.com/searches/69d90e38dd2e160a9a3e1bfc/images/SE_UuVtTWk4bm5z4y5bxJgEk6Q6ewpZK8FZbqnOB6WY.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerE6uRgXURvxgJUDDSxmNq-bWzj0EL99_G5MRRFui2JkDGk9EMlczZeNsQrDOcpOURAr6zXiEquQbrvKoIl62sDRnqIl7wltDpmGdcKg8qjLohmXaWoHoC3Gm7Yb_Rqp41BbSR7jA=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.211258,
+      "longitude": 103.98306
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Đẹp, hạt tiêu hơi bị chất lượng\"",
+    "place_id": "6179949887109030947"
+  },
+  {
+    "title": "Eco Tour Thai Duong – Cua Can River Basket Boat Experience",
+    "address": "An Giang",
+    "rating": 4.2,
+    "reviews": 80,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90e38dd2e160a9a3e1bfc/images/tdTzUrE6YRn4pXN7SvnV0bFtvw0bzxeBN-3qoky_hjo.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweod38KZqHmDEXmLG-1oIc49tqqfvHgxPFgD-PWL3ew9Hgy7zyd2KliLfFXyZqA9KJpUip8IOtZDcsmHpwzBMDchIcg6mJ1hs7lNGlvWTgj4a8TjI4rrvs2_gpdEKePZVBMyZjGeNJrMz93Q=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.305707,
+      "longitude": 103.92556
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": null,
+    "description": null,
+    "place_id": "10578824937079563847"
+  },
+  {
+    "title": "Jerry's Jungle Tours",
+    "address": "An Giang",
+    "rating": 4.4,
+    "reviews": 69,
+    "type": "Đại lý du lịch tham quan",
+    "thumbnail": null,
+    "thumbnail_large": null,
+    "gps_coordinates": {
+      "latitude": 10.187001,
+      "longitude": 103.96958
+    },
+    "hours": "Mở cả ngày",
+    "price": null,
+    "description": null,
+    "place_id": "6833428264046024533"
+  },
+  {
+    "title": "Công Viên Bạch Đằng (Dinh Cậu )",
+    "address": "An Giang",
+    "rating": 4.5,
+    "reviews": 65,
+    "type": "Công viên",
+    "thumbnail": "https://serpapi.com/searches/69d90e38dd2e160a9a3e1bfc/images/iAfkaQ6ocXAyauoRAGi0f7_k3ES14SuRvgqpgVomA_g.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqdhd6G-SEYgCNoIbOto2DL3kRMT_JcDeGTN7xkBbK-6tvOSQmdGZSh6ROSS7KROFjur1osgpWF-3NcpTEQyT35Z9M8gfjTgEB3ObxaeGUJtuqUbEb9D0cBWF3WuoH4U-f45fbZGVzp5FQv=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.217353,
+      "longitude": 103.958084
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Địa điểm ăn chơi ngắm biển về đêm.\"",
+    "place_id": "1963723713482833519"
+  },
+  {
+    "title": "Vietravel Chi Nhánh Phú Quốc",
+    "address": "An Giang",
+    "rating": 4,
+    "reviews": 46,
+    "type": "Nhà điều hành du lịch",
+    "thumbnail": null,
+    "thumbnail_large": null,
+    "gps_coordinates": {
+      "latitude": 10.215335,
+      "longitude": 103.9614
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": null,
+    "description": "\"Dịch vụ tốt, nhân viên nhiệt tình\"",
+    "place_id": "8196216497871316594"
+  },
+  {
+    "title": "Vina Phu Quoc Travel - Daily Tour",
+    "address": "An Giang",
+    "rating": 4.9,
+    "reviews": 43,
+    "type": "Đại lý du lịch tham quan",
+    "thumbnail": null,
+    "thumbnail_large": null,
+    "gps_coordinates": {
+      "latitude": 10.202108,
+      "longitude": 103.96446
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": null,
+    "description": "\"Rất hài lòng về tour du lịch này.\"",
+    "place_id": "5931357480475969931"
+  },
+  {
+    "title": "Phú Quốc Seawalker",
+    "address": "An Giang",
+    "rating": 3.8,
+    "reviews": 38,
+    "type": "Đại lý du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90e38dd2e160a9a3e1bfc/images/3wWjxV0u_o3LrUuVpnWcDW-KcV6PSGICr9Bc6Bt280M.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqiCvMvnStkWnltuQXGoc20q7GlUlwJYe_2ZKgIGW1K9_TjIQXsnxhhxhAoxBsC40hzxaMxYWVK0tpTvSJa0InN_RoUSH1dmUeGz8tslK6gA8qV1d80-xPp77A2AI4OgTp8VlEW=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.226226,
+      "longitude": 103.95566
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": null,
+    "description": "\"Địa điểm mua đặc sản làm quà giá rẻ uy tín và chất lượng.\"",
+    "place_id": "11985693394134084886"
+  },
+  {
+    "title": "John's Tours booking office",
+    "address": "An Giang",
+    "rating": 3.5,
+    "reviews": 20,
+    "type": "Nhà điều hành du lịch",
+    "thumbnail": null,
+    "thumbnail_large": null,
+    "gps_coordinates": {
+      "latitude": 10.215099,
+      "longitude": 103.960045
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:30 Thứ 7",
+    "price": null,
+    "description": "\"Mình boook tour 3 đảo tại đây và được nhân viên tư vấn chi tiết luôn.\"",
+    "place_id": "3435460922602276276"
+  },
+  {
+    "title": "Điểm Luyện Công (Công Viên Bạch Đằng)",
+    "address": "An Giang",
+    "rating": 4.8,
+    "reviews": 12,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90e38dd2e160a9a3e1bfc/images/4_OvwTogvAYbMMtbcd8B6Gr7X-PKuWxpkDG9QQNmpgU.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoBnJpr2IRukxXIqtjFLMLPGuOfgc8kCnjhvjHYGc97SdKLuxVrTHwZrR_6dbbTMvtG87oAme3IFWUuz0D4Lf8UUB-wCEf19X1IG_SseCMzjxnNicb4s2fKlJmWpcK0QYqLIxg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.217597,
+      "longitude": 103.958115
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 3:30 Thứ 7",
+    "price": null,
+    "description": "\"Địa điểm tuyệt vời để tập các bài của Pháp Luân Công.\"",
+    "place_id": "10970711784121130525"
+  },
+  {
+    "title": "Hicanha | Đại Lý Vé Vinpearl Land | Safari | Cáp Treo Hòn Thơm Phú Quốc",
+    "address": "An Giang",
+    "rating": 4.5,
+    "reviews": 12,
+    "type": "Nhà điều hành du lịch",
+    "thumbnail": null,
+    "thumbnail_large": null,
+    "gps_coordinates": {
+      "latitude": 10.214614,
+      "longitude": 103.95936
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": null,
+    "description": null,
+    "place_id": "15286678984599218003"
+  },
+  {
+    "title": "Điểm Tham Quan Rừng Quốc Gia",
+    "address": "An Giang",
+    "rating": 4.3,
+    "reviews": 7,
+    "type": "Đại lý du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90e38dd2e160a9a3e1bfc/images/XbhDegyJHzAr4TPg8xXlPOvcTcNZ8KXu5lUiDDjzEGc.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerGw1mCXCvVy82ClSnTLftvDwmFiMf2mAsNlT9fobIBri_XLMMKkHwtGYzIY3j_x8DrqAzgk0gS1CEbsVoTeHsvHLnfNS1fTrfbhcJqG3aj9wafQOWHhV4abLdJPHds3szunmvo=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.364356,
+      "longitude": 103.99179
+    },
+    "hours": null,
+    "price": null,
+    "description": null,
+    "place_id": "4910045775134166058"
+  },
+  {
+    "title": "Đi Bộ Dưới Biển Phú Quốc - Seawalker Phú Quốc",
+    "address": "An Giang",
+    "rating": 5,
+    "reviews": 6,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": null,
+    "thumbnail_large": null,
+    "gps_coordinates": {
+      "latitude": 10.190276,
+      "longitude": 103.967705
+    },
+    "hours": "Mở cả ngày",
+    "price": null,
+    "description": "\"Gđ mình đi hồi tuần trước, dịch vụ và nhân viên rất chu đáo.\"",
+    "place_id": "15461436802592919375"
+  },
+  {
+    "title": "Khu du lịch Vườn chôm chôm",
+    "address": "An Giang",
+    "rating": 4,
+    "reviews": 4,
+    "type": "Điểm thu hút khách du lịch",
+    "thumbnail": "https://serpapi.com/searches/69d90e38dd2e160a9a3e1bfc/images/dmZQklLEIY8J8h8HJr0S2sorjQI9xyCyWd3BW9lKpWM.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq8YpAx8Iy2VlmT8DYTcbkiORud1VdRSQc8Gk0_Q_27HPeH2e5JIBkoE_XtxhWr7gs3dKiSbaJqdKBgzyPi-AMezlhV55-KZbRQQJohFjQOp7kOTacuuc-ZR97LdOgXA7WxiipPyg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 10.209023,
+      "longitude": 103.9872
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": null,
+    "description": null,
+    "place_id": "18443232637059391257"
+  },
+  {
+    "title": "Thuê Xe Phú Quốc Namtravel",
+    "address": "An Giang",
+    "rating": 5,
+    "reviews": 2,
+    "type": "Đại lý du lịch tham quan",
+    "thumbnail": null,
+    "thumbnail_large": null,
+    "gps_coordinates": {
+      "latitude": 10.226254,
+      "longitude": 103.97154
+    },
+    "hours": "Mở cả ngày",
+    "price": null,
+    "description": "\"Tài xế rất vui vẽ\"",
+    "place_id": "14049818479461785512"
+  },
+  {
+    "title": "TOUR DU LỊCH PHÚ QUỐC - PHU QUOC TRAVEL",
+    "address": "An Giang",
+    "rating": 4.5,
+    "reviews": 2,
+    "type": "Nhà điều hành du lịch",
+    "thumbnail": null,
+    "thumbnail_large": null,
+    "gps_coordinates": {
+      "latitude": 10.19638,
+      "longitude": 103.969
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": null,
+    "description": null,
+    "place_id": "11179514833511458364"
+  },
+  {
+    "title": "Du lịch Tận Hưởng Thiên Nhiên",
+    "address": "An Giang",
+    "rating": 5,
+    "reviews": 1,
+    "type": "Đại lý du lịch tham quan",
+    "thumbnail": "https://serpapi.com/searches/69d90e38dd2e160a9a3e1bfc/images/kPnjv_pRtQhLe4QiDMdTneiarGKm9Ym5HP-D9gJoBtM.webp",
+    "thumbnail_large": null,
+    "gps_coordinates": {
+      "latitude": 10.2026,
+      "longitude": 103.96818
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": null,
+    "description": null,
+    "place_id": "7943669017456589455"
+  },
+  {
+    "title": "Đảo Ngọc Tourist",
+    "address": "An Giang",
+    "rating": 5,
+    "reviews": 1,
+    "type": "Nhà điều hành du lịch",
+    "thumbnail": null,
+    "thumbnail_large": null,
+    "gps_coordinates": {
+      "latitude": 10.214807,
+      "longitude": 103.95956
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": null,
+    "description": null,
+    "place_id": "3936399313854592404"
+  },
+  {
+    "title": "DAOTINHYEU",
+    "address": "An Giang",
+    "rating": null,
+    "reviews": null,
+    "type": "Đại lý du lịch tham quan",
+    "thumbnail": null,
+    "thumbnail_large": null,
+    "gps_coordinates": {
+      "latitude": 10.220569,
+      "longitude": 103.96222
+    },
+    "hours": "Mở cả ngày",
+    "price": null,
+    "description": null,
+    "place_id": "503210749383145390"
+  },
+  {
+    "title": "Tàu Du Lịch ANH VY",
+    "address": "An Giang",
+    "rating": null,
+    "reviews": null,
+    "type": "Đại lý du lịch bằng thuyền",
+    "thumbnail": null,
+    "thumbnail_large": null,
+    "gps_coordinates": {
+      "latitude": 10.221205,
+      "longitude": 103.9652
+    },
+    "hours": "Mở cả ngày",
+    "price": null,
+    "description": null,
+    "place_id": "2963130691410984023"
+  },
+  {
+    "title": "CtyTNHH MTV Ảnh Trúc",
+    "address": "An Giang",
+    "rating": null,
+    "reviews": null,
+    "type": "Đại lý du lịch bằng thuyền",
+    "thumbnail": null,
+    "thumbnail_large": null,
+    "gps_coordinates": {
+      "latitude": 10.227334,
+      "longitude": 103.9553
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": null,
+    "description": null,
+    "place_id": "12801079361543085993"
+  }
+]

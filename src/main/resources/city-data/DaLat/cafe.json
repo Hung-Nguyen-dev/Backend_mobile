@@ -1,0 +1,478 @@
+[
+  {
+    "title": "Tiệm cà phê Bình Minh Ơi",
+    "address": "Lâm Đồng",
+    "rating": 4.4,
+    "reviews": 3900,
+    "type": "Quán cà phê",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqjJfVn2lKtNK7UPq1H3V_eEnxjum-h7MZv-WMLbwGMcdyxDqcQJMjIoWEq-BHhHEWThQD8Fsqhc7EDtR4bRjLN3kiLLZt0D9kDmnNAIbN6-Mdd2zkPYH0t_DskPzrjtN086vci=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqjJfVn2lKtNK7UPq1H3V_eEnxjum-h7MZv-WMLbwGMcdyxDqcQJMjIoWEq-BHhHEWThQD8Fsqhc7EDtR4bRjLN3kiLLZt0D9kDmnNAIbN6-Mdd2zkPYH0t_DskPzrjtN086vci=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.933628,
+      "longitude": 108.464775
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": "1-100.000 ₫",
+    "description": "\"Quán cafe đẹp, sạch sẽ, yên tĩnh, có nhiều phong cảnh đẹp.\"",
+    "place_id": "4958236222522326175"
+  },
+  {
+    "title": "Cà phê Tỏi Đen",
+    "address": "Lâm Đồng",
+    "rating": 4.6,
+    "reviews": 3300,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d9157071577f9873c288cb/images/SxLVvoG8Ltld6FYq-RrRzFLWu0wMxSOvW1-YysIx6s0.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoj4fkkyB0eRcJiiGQVJEcnWDogA322gioqzeCRVb7U3vopr1hB1cJ3sgjgcUbURfj9AdNLZbQzYtCCOYsDCc5oz5OeHkP-ME3yXwF2IlI1cMwu49I4H2bvmjsXFWGnwKsAG0Y=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.937987,
+      "longitude": 108.45118
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": "1-100.000 ₫",
+    "description": "\"Nhân viên thân thiện, nước uống ngon, view quán đẹp và thoáng\"",
+    "place_id": "7566721848115505915"
+  },
+  {
+    "title": "Tiệm Cà Phê Trứng Cô Ba - Đà Lạt",
+    "address": "Lâm Đồng",
+    "rating": 4.8,
+    "reviews": 2800,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90aee9df9ddcdbd095081/images/FkAV-h5IOPDK7_TPFLnWazgJfcK2bZi_dpKQ6OPgR0Y.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerDS1pRXHLI2dr07YeT_dxDTGTI-hB4aiQ1JU71PbnIgZmM_BLy7GYFbkhRKl-KYsyOeSGHO2qaREiNVGWou9hhFQ4Y9I-JzsHRCltxo_xafFw_5OwmpABhX2wkg-i9Uzxfn43Q=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.945054,
+      "longitude": 108.433105
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Cafe ngon đậm vị, không gian quán decor đẹp và yên tĩnh.\"",
+    "place_id": "18107971377289507803"
+  },
+  {
+    "title": "Quán Của Thời Thanh Xuân",
+    "address": "Lâm Đồng",
+    "rating": 4.9,
+    "reviews": 2600,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90aee9df9ddcdbd095081/images/4-qsKqfrg887PTYfvEdkmUcvqpZHl3bHRC_tShgSb-M.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerw7QV5mX3op4yz19eeW9-uQ0KBW_KIsh7bXeEbClWeQkhKJwjg_2ucXYm6-3B7qXlWPkBrd3X5mOsSSEcUIbmBHOXjssZdoKiCoRMPu_uIr_VyFtwsjN62MFFlwQn05oJDcF_nKFY9nXJx=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.930838,
+      "longitude": 108.42828
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": "1-100.000 ₫",
+    "description": "\"Trà sữa ngon,ấm vừa đủ,thơm béo không quá ngọt.Đường đến quán dễ tìm\"",
+    "place_id": "13494972904704002217"
+  },
+  {
+    "title": "Xuân Hương Garden Coffee",
+    "address": "Lâm Đồng",
+    "rating": 4.1,
+    "reviews": 2000,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90aee9df9ddcdbd095081/images/V3XjdiNpLWUvatwnqlFDkM4qMb4xYC1CCCWUfrS9LhQ.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer7k4Matyj_NPb6mUqsawCTf-Sb9Zr5dJtorTXtziq3oPPo5_5NSc9Q1-sH-2UA9pRSwoUKEHSb_Y4dZB7wK6CPZoyvzJSM10GdAKdfV4cMeV6GMH2C2ATHixYohbH_8pvLjXb9=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.943871,
+      "longitude": 108.44966
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": "1-100.000 ₫",
+    "description": "\"Quán cafe rộng, đẹp, view thoáng, nhân viên nhiệt tình\"",
+    "place_id": "17078195388765322945"
+  },
+  {
+    "title": "Coffee Em và Trịnh",
+    "address": "Lâm Đồng",
+    "rating": 4.9,
+    "reviews": 1600,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90aee9df9ddcdbd095081/images/pDsMn5DPZhmomKYXdt4ngtwVsESV8NNK6q63iYA39PA.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq7-UiSTRhQFsEKkA6Ja_CWBCAaT9A5Y7zkcsGvRl-2nW7-hT6ivJYfNwxjuynyXTWS3QTYQYIXj1g8hcgHWUfhtfUrkATHc5I1Xk-dUTuFY4TU4LYh2ER8l0NIjOzElXIr1_P_tpLRkCch=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.9375,
+      "longitude": 108.44842
+    },
+    "hours": "Sắp đóng cửa · 22:30",
+    "price": "1-100.000 ₫",
+    "description": "\"Quán Café wiu đẹp chủ quán đẹp trai lại còn nhiệt tình nữa\"",
+    "place_id": "1763141673427901402"
+  },
+  {
+    "title": "Nhà Lồng Coffee",
+    "address": "Lâm Đồng",
+    "rating": 4.7,
+    "reviews": 1600,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d9157071577f9873c288cb/images/y-WgIenh35dr3j52Qz_dMaWi8D1GOIYhY5QnKE7SGdo.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepME0iSSDwKyn5-gWQhgfJieT8yW0cIMPNnv9-a-Gwk9gU6JuwhgIBzmpCiw5bfdnRSv886j8bXR_N41KtPtQG6VZmkWRxjE4AswiR2VNwmaKdc0hepwYbo2Qrd3JWTaxpKJsvu=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.936125,
+      "longitude": 108.44422
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 6:00 Thứ 7",
+    "price": "1-100.000 ₫",
+    "description": "\"Quán yên tĩnh, nước uống khá ngon và nhân viên thân thiện, nhiệt tình\"",
+    "place_id": "3980319325347232263"
+  },
+  {
+    "title": "Chuyện của Mơ Coffee",
+    "address": "Lâm Đồng",
+    "rating": 4.7,
+    "reviews": 1500,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d9157071577f9873c288cb/images/N71-qx6wPnilX9DIq32i6lXk-udPtN3x7wMqAS09RHc.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepdirxM6n5zEAVW3gnnu3ZxLHlOlUar5deIsxA0V7aLljNs3waNCG4c-Qqe8QoJZuN306UFPr8ucdQIi-vKxdOmXpLH7hWWK4Rap6uW8IYkHJEZ_ZuIdSYjqpYfW5LidlKgzlhuGR0OSTwa=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.9363575,
+      "longitude": 108.45231
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": "1-100.000 ₫",
+    "description": "\"quán đồ uống ngon, chụp hình đẹp tuy nước chậm nhưng do quá đông\"",
+    "place_id": "10720243776019877820"
+  },
+  {
+    "title": "Tiệm cà phê Thênh Thang",
+    "address": "Lâm Đồng",
+    "rating": 4.9,
+    "reviews": 1100,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d9157071577f9873c288cb/images/wcqONd0PfaEIcBoYfgFrogx4XPqHPu6OU4S7_FKYPw8.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerOxRRTAl6HEdkq8PB5uMGTGOcC1sqAafqwvPo4KlpSnhsCaHzHtkbRYGDpiyFYCio9dqE1sDaCqTB6r58-xkcczNLaSrDyks6JtMZX_a933UCyWTRmyPY_q6RUwcqHZ-hilyYpYtw7H_lp=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.936993,
+      "longitude": 108.47913
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 6:00 Thứ 7",
+    "price": "1-100.000 ₫",
+    "description": "\"Quán đẹp nước ngon nhân viên nhiệt tình 100đ\"",
+    "place_id": "3279496195380191737"
+  },
+  {
+    "title": "Chốn Bình Yên Coffee - Đà Lạt",
+    "address": "Lâm Đồng",
+    "rating": 4.7,
+    "reviews": 998,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90aee9df9ddcdbd095081/images/hB5zLZWnpU5otXV5rse3M0LqdYgI7Bb-PojJ9J1jSb8.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepOthoJpx_wKHObE4BwGc17gESSlyL3riAofXh7M0kmx4GKMTr6O3ddEYLK_-AP7wdktc2gNj-M0fD3e88WOrXy0B_XmCehGEcXwn9Gl9dL2KQBE3Dx8HmodCjsVYm1eF63WiHZ=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.938526,
+      "longitude": 108.43804
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán trang trí đẹp, nhiều góc chụp, nước uống ok, bánh thì bình thường.\"",
+    "place_id": "9946024011189874330"
+  },
+  {
+    "title": "Cafe 24h GâuGarden",
+    "address": "Lâm Đồng",
+    "rating": 4.3,
+    "reviews": 940,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90aee9df9ddcdbd095081/images/WydXmswxYG2i4alZnylQY-V5OK7Do1sEq5e_U-kD1Q4.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoMnqjvoe-0TxICpLYz5ftIEECETc39UWXMSajETROGD4Nzz8i4RIBSSxzyNSyUFx7_15aBlMwyzddbZVjxaSpO2-pD1mEIkhz9JaYp2wGY6OExXQY_oK2Rdu95y7GuPDGQ4OeW=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.942057,
+      "longitude": 108.46697
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán đẹp, không gian thoáng mát, yên tĩnh Nhân viên nhiệt tình.\"",
+    "place_id": "7859226165300456102"
+  },
+  {
+    "title": "Cà phê Tiệm may Nhớ Hoài",
+    "address": "Lâm Đồng",
+    "rating": 4.8,
+    "reviews": 901,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90aee9df9ddcdbd095081/images/nnvo446cruG8Tl4wMJwrvxBpIlSjRQLb4FSJlhiU54s.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweor9iM_B4i4JubgdLju6EpCKHVBPxKMOisrtaLaP19U2mOcSQF-ZGa9sV13nQZdYmHGMCJY_Dgj3i8Ut9a0M1GzrZcb4k1hlFKXOIpUDwwIAKaHal5veb_Gb5HIeOq3-3IQoy3Xjvmp4m4a=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.937171,
+      "longitude": 108.44853
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": "1-100.000 ₫",
+    "description": "\"đồ uống ngon, không quá đắt, không gian quán đẹp, mở nhạc Trịnh chill\"",
+    "place_id": "14117330503577685421"
+  },
+  {
+    "title": "Quán cà phê Dưới Tán Anh Đào",
+    "address": "Lâm Đồng",
+    "rating": 4.5,
+    "reviews": 787,
+    "type": "Quán cà phê sô cô la",
+    "thumbnail": "https://serpapi.com/searches/69d90aee9df9ddcdbd095081/images/93oiVY32fkFd9YETPYxS_CmGuW0Y3M0axxxDYOgnlFs.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep3iU1C_azM_-vTp7-V2BwULbpMxFrjSaPPQaxIR9caY4EXiXKh1kk8Voqjjzb-7UWaLg5p_G2vwcML1PSM6bL_0pJan2NPe25pop-B94uTXcEd9yp8qvVZugYHpXAGhahHPKeV=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.9404545,
+      "longitude": 108.48455
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Bên cạnh view đẹp thì quán cũng có sự đầu tư chất lượng menu thì đa dạng.\"",
+    "place_id": "1036998768919035958"
+  },
+  {
+    "title": "Tiệm cà phê phía tây mặt trời - Specialty Coffee & Roastery",
+    "address": "Lâm Đồng",
+    "rating": 4.7,
+    "reviews": 754,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90aee9df9ddcdbd095081/images/3uDg8MGtkysVF4uSZv9JyD9sVtVfBK8QR2eqn9_Kaw4.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqyXgyiKM0A_O9DAhNHrWjKOQLFL4wDVnJyyffivE9IxXxltcuoFC5km9nms4PsLHzTyNxXPxSyQvHLdstBN11RFAF8sFUoiZaED0YWoZbriKDnAzdQDpB6Jiq_9M-n4m_yEXrKwg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.937178,
+      "longitude": 108.45443
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": "1-100.000 ₫",
+    "description": "\"Quán cafe yên tĩnh với view nhìn xuống thung lũng rất đẹp.\"",
+    "place_id": "6465525769905430132"
+  },
+  {
+    "title": "Kimochi coffee",
+    "address": "Lâm Đồng",
+    "rating": 4.4,
+    "reviews": 745,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90aee9df9ddcdbd095081/images/4sD4VQiF1JwBdVh_v6mehkWp09xPOkJU4UbetKtCKAQ.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepnAb-kIpclxnsf5wr18auk2CzT21cbWnOZ-Y4o0mv3cz2JcwIo1wFGFNxlVEdOt1vwj-s_4x8rUqNt1kmoIx49F_rjnYn2rmmUZ_37Db8BwS98zs_3Se1LuREL-cdkbELN1cy_-Ptoxftd=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.941983,
+      "longitude": 108.466805
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán cafe view đẹp, cảnh núi đồi rất mát, thức uống và giá tạm ổn\"",
+    "place_id": "11664827067334059409"
+  },
+  {
+    "title": "Tiệm Cafe Nàng Đà Lạt",
+    "address": "Lâm Đồng",
+    "rating": 4.6,
+    "reviews": 500,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90aee9df9ddcdbd095081/images/mgAM1SSWBgw8n56q6WV2J9ScEo8EBy2W0Q0-I4ma8mw.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoUmLsO84_Zx6q1ye05Fqmqivsv27wCfz_O2lfJVMt33xgNEMsWHJZFDKh1pVjuu_VVksC2smzx4IlrH-GQyJcODzk-XWYoy3ptAFi11IYR66OVHkAYhtjlLpVJ8c0nRH6tliQAq_wx5Or5=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.93472,
+      "longitude": 108.45078
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": null,
+    "description": "\"Không gian quán chill chill, nhiều góc đẹp để sống ảo.\"",
+    "place_id": "17204240059719331148"
+  },
+  {
+    "title": "Sitooterie - Coffee & Stories",
+    "address": "Lâm Đồng",
+    "rating": 4.6,
+    "reviews": 394,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90aee9df9ddcdbd095081/images/vV7oon_LR0YwttI5IwAETLVBF8c0iPtIQWHAHjxO5zc.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepRuDDnRaB8ko5oqsOOczE0P1fS8oqL5c-GzCPMk93F3rZauKTeZ6cX9OyFquqHQRSqr4-IGMvNnQF04I1M0RmuAjmI7zo8ZZjK2b7o3D9qBnwbqmHyGcYlWmW3XkLSYqPuAmw0=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.936822,
+      "longitude": 108.4536
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": "1-100.000 ₫",
+    "description": "\"Quán chill, đồ uống ngon, bánh ngon, service 10 điểm ko có nhưng\"",
+    "place_id": "18419449919135186225"
+  },
+  {
+    "title": "Tiệm cà phê Hoa hồng",
+    "address": "Lâm Đồng",
+    "rating": 4.8,
+    "reviews": 341,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90aee9df9ddcdbd095081/images/mxVLCVTvKGwp-G2S8vC5y5HersDtSrC3gzeyyiu-Mcw.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwervKmA_qYjGVgxX9tYsOcn4MBGzkLOpkyemd9eAov55hiWfobMlMou93WsS8--TMxA0ML3OTHjp1aa7Rj5O4hiNgNknJ8ClJfztcJJbTxZSk0OTz6z8-foox4by-XNns3TUEsM=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.949761,
+      "longitude": 108.45586
+    },
+    "hours": "Sắp đóng cửa · 22:00",
+    "price": "1-100.000 ₫",
+    "description": "\"Quán có bánh ngọt Không gian yên tĩnh, nhẹ nhàng\"",
+    "place_id": "3038260453706757011"
+  },
+  {
+    "title": "đo đo - quán nước trong rừng",
+    "address": "Lâm Đồng",
+    "rating": 4.9,
+    "reviews": 283,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d9157071577f9873c288cb/images/p80ki1d0baxabQ-6wcFueCdEXjTQd06ko5oSTsK60iM.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerKox6xafin8G_yFtC1sSQH08nKLN3hUCjBknisgjM4C9GoWo_eJmQ6KcxOv6fCrjfvjodPxkiaCouxPPGSZIklmIfXee_SuJAocHjTVWytJKqCWImtam0h0WKt8agzRg1QxxkIoS7qsU2F=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.92273,
+      "longitude": 108.44692
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:00 Thứ 7",
+    "price": "1-100.000 ₫",
+    "description": "\"Quán nước trong rừng, view đẹp, đường vào hơi dốc xíu nhưng cũng ổn.\"",
+    "place_id": "7194747479784940603"
+  },
+  {
+    "title": "Bliss coffee - Đà Lạt",
+    "address": "Lâm Đồng",
+    "rating": 5,
+    "reviews": 257,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90aee9df9ddcdbd095081/images/hVI4cIg8HSzSyHsbEF0Ag5d3pMR-2s6qouzAuI1HYws.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqCc5u-9R5nUfVUEEZrDLYyifSRvOiU4G452vD7oprvRFvhVYUIfITnPFkOS8fBu0TSAiRMcokZhpPM95mgYQO0HtjMkJvZMaPweG-n_EijWcTCxwypEN2gy-RXrObT0G665jeNWQA8wWs=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.942279,
+      "longitude": 108.48691
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán view đẹp, decor đẹp, thức uống 8/10.\"",
+    "place_id": "10464725178378218705"
+  },
+  {
+    "title": "TINH MƠ - CAFE BED 24H",
+    "address": "Lâm Đồng",
+    "rating": 4.2,
+    "reviews": 216,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90aee9df9ddcdbd095081/images/yCU_aP_v4hM9tZA4OZ20F54esR7AI3Q8WsdIUl9hYRY.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqKwfuS5HQKMcMEStddAzaAapampswHffjTDvPvbnowyGkg8SLdndwjkS3Ew2z9HwM5Ehpfse-Kb9GWCGPIYzu7EAxUDvTATGSvJzO3PWO1SMDEISjrmvI8x_T4UBSb-fde2eYaUA=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.94626,
+      "longitude": 108.46319
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán coffee bed 24h phù hợp cho mọi người để nghỉ ngơi nè.\"",
+    "place_id": "400680367974677719"
+  },
+  {
+    "title": "GÓI GHÉM Cà phê , Đặc sản & quà tặng thủ công",
+    "address": "Lâm Đồng",
+    "rating": 5,
+    "reviews": 180,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d9157071577f9873c288cb/images/gd3MUZ1RGQWk30wMW2yU6e3vN2K_3rHrs7_OsgsTdWk.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqjXIpwWB-_6-F3z5Hks1kzZTXJKCGgZdB5Lyc8YXdoQRSD4FtXcKwjDhj6LZhouluOLo0gqqkzZWvlcf47s5dpWbctVuuTW_0GbBBkccLrjFBK7gNvwyXHbcdEzgYzZA1RKuhrZC8AUYMP=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.944063,
+      "longitude": 108.44014
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 6:00 Thứ 7",
+    "price": "1-100.000 ₫",
+    "description": "\"Quán đẹp nước uống cũng ok nhân viên cx dễ thương\"",
+    "place_id": "18040672322927398797"
+  },
+  {
+    "title": "Hoa cafe",
+    "address": "Lâm Đồng",
+    "rating": 4.7,
+    "reviews": 144,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d9157071577f9873c288cb/images/iJsVuM1EewhISACeCsdCC5AvZGhK3_zpWGr_-s2fhkc.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqvotbzVZDQfi5Zb9Z6FmV9SEY8-enRvgMahH69t8uSQkzYkqPrvKq-862QGah5co6aWyxYpsDU8t4J9aWoNsFilCZO_Ru5acH0hp_9Erq6WmGmF6g8KTLNj2V8SpihVVFArOTdXg=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.943164,
+      "longitude": 108.45947
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 7:30 Thứ 7",
+    "price": "1-100.000 ₫",
+    "description": "\"Không gian xinh xỉu, đồ uống must try matcha latte siu ngon.\"",
+    "place_id": "8094086939841663831"
+  },
+  {
+    "title": "ToNgo Coffee",
+    "address": "Lâm Đồng",
+    "rating": 4.8,
+    "reviews": 113,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90aee9df9ddcdbd095081/images/sgm6KEOFQyq9uUceE1PrAbJQishzd4eKwQzhfwyPOwo.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoSwRdtUM3JEMTBCxwHN2pGTyhJvhL3pX0-9j_dgeSChNhjnRFG2gIC3U0PihTf89o833tCMS4ZU52U95WEiPZ7HdY7SsbCl-F2NFxSo1x_7PJ7-XHatT3ayi4EObPkGoo6PBqn=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.938621,
+      "longitude": 108.46257
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán đẹp, yên tĩnh giờ trưa...bánh ướt lòng gà ăn ổn.\"",
+    "place_id": "4038814588379783198"
+  },
+  {
+    "title": "El Soñador Coffee & Tea",
+    "address": "Lâm Đồng",
+    "rating": 4.1,
+    "reviews": 109,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90aee9df9ddcdbd095081/images/JNSJVOvXUgjktnU-OPSISZZ0J-M_Ce2BQaYT3EiZJL0.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepz1iuQHMEP8MllXLRUba-vJSUFDnCaJ9Wx2jq0490Q1UemEmlqo_CwFckI4rqCV1j3J5wmBRFd8s1wjkfFHWuHW0LPD2-sEqIqQZsoDjNNPRHJLOn2PQCJ_PS-lFXknyQYP6X1=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.94692,
+      "longitude": 108.46241
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán có cách bố trí hợp lý, nước uống ở mức tạm được.\"",
+    "place_id": "977143438480956496"
+  },
+  {
+    "title": "NÀO?",
+    "address": "Lâm Đồng",
+    "rating": 4.9,
+    "reviews": 88,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90aee9df9ddcdbd095081/images/k7AY9og9JKdu1C_VykhUWkvXgGZjEpniJ_6h0SqqtIc.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoXcVlpOu6yRLMplQsnQTnUKD3lDz4m2G-O1yYTC5KrSAdjvpHgygNSAE8A02sqe8ZN4WHPKZQt-B9ma9BAqX0jDwLaCmsiTuBMHsabmYvaT-znhqXpy_SmDMZAcd1gyRtsz95h8g=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.94112,
+      "longitude": 108.455345
+    },
+    "hours": null,
+    "price": null,
+    "description": "\"Nào một quán cafe mang phong cách đường phố, đậm chất Hiphop.\"",
+    "place_id": "15762327818157414349"
+  },
+  {
+    "title": "Nơi Bestis Coffee",
+    "address": "Lâm Đồng",
+    "rating": 4.9,
+    "reviews": 33,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d9157071577f9873c288cb/images/AwwZoMdoxoIBwaugfWwdbvElcZjo3H-fVtO9u1zT7Yg.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqkd5We-02K16VqLG2K6fr_OHGkyDzELfGyk1zi3GBInpiz27QWeY6ioY2SmUbxSi1N-UPDTO7Pmt7xge5Wxhy4RiH-6XgPrznZ085oMKFp3jBNc_RHJxnLZzeBpcFnVWMFP307ddvSUIzo=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.941598,
+      "longitude": 108.458176
+    },
+    "hours": "Đã đóng cửa · Mở cửa lúc 8:00 Thứ 7",
+    "price": "1-100.000 ₫",
+    "description": "\"Đồ uống vừa đẹp mắt lại ngon nữa rất chất lượng luôn.\"",
+    "place_id": "12354624278212096090"
+  },
+  {
+    "title": "MƯA Coffee",
+    "address": "Lâm Đồng",
+    "rating": 4.8,
+    "reviews": 13,
+    "type": "Quán cà phê",
+    "thumbnail": "https://serpapi.com/searches/69d90aee9df9ddcdbd095081/images/Cu6PwGprWr_tmU7P6jGskiNvYZ_70vOYIq-1xRZgLaI.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep8CIpKlj1JYZ-osYdHFgb5qBH-4cRatM6nUJ8D16i2MA_-ESp7azvsxF8EvYNmvezP6Widw0-05XCq-4jAZWuR1ioZizNIng4yILaX5swi7jHUATjXEtoUzU5uEKmxhqvKdiI=w800-h800-n-k-no",
+    "gps_coordinates": {
+      "latitude": 11.93634,
+      "longitude": 108.46638
+    },
+    "hours": null,
+    "price": "1-100.000 ₫",
+    "description": "\"Quán view đẹp, nước ngon, nhân viên dễ thương nhiệt tình\"",
+    "place_id": "16841908714075498063"
+  }
+]

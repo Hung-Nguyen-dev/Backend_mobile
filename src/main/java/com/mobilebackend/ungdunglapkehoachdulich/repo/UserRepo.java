@@ -13,12 +13,4 @@ public interface UserRepo extends JpaRepository<User, Integer> {
      * Tìm user theo email (dùng khi mời bằng email)
      */
     Optional<User> findByEmail(String email);
-
-    Optional<User> findByUsername(String username);
-
-    Optional<User> findByUsernameOrEmail(String username, String email);
-
-    boolean existsByUsername(String username);
-
-    boolean existsByEmail(String email);
 }
