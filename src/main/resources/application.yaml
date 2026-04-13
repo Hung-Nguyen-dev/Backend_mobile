@@ -25,6 +25,23 @@ spring:
       max-file-size: 20MB
       max-request-size: 25MB
 
+  mail:
+    host: ${MAIL_HOST:smtp.gmail.com}
+    port: ${MAIL_PORT:587}
+    username: ${MAIL_USERNAME:your-email@gmail.com}
+    password: ${MAIL_PASSWORD:your-app-password}
+    from: ${MAIL_FROM:noreply@travelapp.com}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+          connectiontimeout: 5000
+          timeout: 5000
+          writetimeout: 5000
+
 cloudinary:
   cloud-name: ${CLOUDINARY_CLOUD_NAME:dc819mlg2}
   api-key: ${CLOUDINARY_API_KEY:524732391566675}
@@ -35,3 +52,11 @@ server:
   tomcat:
     max-http-form-post-size: 25MB
     max-swallow-size: 25MB
+
+app:
+  otp:
+    length: 6
+    expiry-minutes: 10
+    resend-cooldown-seconds: 60
+  mail:
+    otp-template: "Mã xác thực của bạn là: %s. Mã này sẽ hết hạn trong 10 phút. Vui lòng không chia sẻ mã này với bất kỳ ai."
