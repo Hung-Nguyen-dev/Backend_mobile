@@ -1,6 +1,7 @@
 package com.mobilebackend.ungdunglapkehoachdulich.service;
 
 import com.mobilebackend.ungdunglapkehoachdulich.dto.auth.AuthRes;
+import com.mobilebackend.ungdunglapkehoachdulich.dto.auth.CompleteRegistrationReq;
 import com.mobilebackend.ungdunglapkehoachdulich.dto.auth.LoginReq;
 import com.mobilebackend.ungdunglapkehoachdulich.dto.auth.RegisterReq;
 import com.mobilebackend.ungdunglapkehoachdulich.model.User;
@@ -16,6 +17,7 @@ public class AuthService {
 
     private final UserRepo userRepo;
     private final PasswordEncoder passwordEncoder;
+    private final OTPService otpService;
 
     @Transactional
     public AuthRes register(RegisterReq req) {
@@ -36,6 +38,44 @@ public class AuthService {
                 .avatarUrl(req.getAvatarUrl())
                 .password(passwordEncoder.encode(req.getPassword()))
                 .role("USER")
+                .isEmailVerified(false)
+                .build();
+
+        return fromUser(userRepo.save(user));
+    }
+
+    @Transactional
+    public AuthRes completeRegistration(CompleteRegistrationReq req) throws Exception {
+        if (req == null || isBlank(req.getUsername()) || isBlank(req.getPassword()) ||
+            isBlank(req.getEmail())) {
+            throw new IllegalArgumentException("Thong tin dang ky khong hop le");
+        }
+
+        String normalizedEmail = req.getEmail().trim();
+
+        // Người dùng phải xác thực OTP trước khi hoàn tất đăng ký.
+        if (!otpService.hasRecentlyVerifiedOTP(normalizedEmail)) {
+            throw new IllegalArgumentException("Email chua duoc xac thuc OTP hoac ma da het han");
+        }
+
+        // Kiểm tra username và email đã tồn tại
+        if (userRepo.existsByUsername(req.getUsername().trim())) {
+            throw new IllegalArgumentException("Username da ton tai");
+        }
+        if (userRepo.existsByEmail(normalizedEmail)) {
+            throw new IllegalArgumentException("Email da ton tai");
+        }
+
+        // Tạo user mới
+        User user = User.builder()
+                .username(req.getUsername().trim())
+            .email(normalizedEmail)
+                .fullName(req.getFullName())
+                .avatarUrl(req.getAvatarUrl())
+                .password(passwordEncoder.encode(req.getPassword()))
+                .role("USER")
+                .isEmailVerified(true)
+                .emailVerifiedAt(System.currentTimeMillis())
                 .build();
 
         return fromUser(userRepo.save(user));
@@ -53,6 +93,11 @@ public class AuthService {
             throw new IllegalArgumentException("Sai tai khoan hoac mat khau");
         }
 
+        // Chỉ cho phép đăng nhập nếu email đã được xác thực
+        if (!user.getIsEmailVerified()) {
+            throw new IllegalArgumentException("Email chua duoc xac thuc. Vui long kiem tra email de xac thuc tai khoan.");
+        }
+
         return fromUser(user);
     }
 
@@ -65,6 +110,15 @@ public class AuthService {
                 .avatarUrl(user.getAvatarUrl())
                 .role(user.getRole())
                 .build();
+    }
+
+    public void validateEmailCanRegister(String email) {
+        if (isBlank(email)) {
+            throw new IllegalArgumentException("Email khong hop le");
+        }
+        if (userRepo.existsByEmail(email.trim())) {
+            throw new IllegalArgumentException("Email da ton tai");
+        }
     }
 
     private boolean isBlank(String value) {

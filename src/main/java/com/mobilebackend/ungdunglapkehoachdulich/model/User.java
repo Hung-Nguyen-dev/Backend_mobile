@@ -30,4 +30,11 @@ public class User {
     private String avatarUrl;
 
     private String role;
+
+    @Column(name = "is_email_verified", nullable = false)
+    @Builder.Default
+    private Boolean isEmailVerified = false;
+
+    @Column(name = "email_verified_at")
+    private Long emailVerifiedAt;
 }

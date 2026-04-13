@@ -20,3 +20,27 @@ cloudinary:
   cloud-name: YOUR_CLOUDINARY_CLOUD_NAME
   api-key: YOUR_CLOUDINARY_API_KEY
   api-secret: YOUR_CLOUDINARY_API_SECRET
+
+# Email Configuration (sử dụng Gmail hoặc các email service khác)
+# Để sử dụng Gmail, bạn cần:
+# 1. Bật 2-factor authentication trên tài khoản Gmail
+# 2. Tạo App Password: https://myaccount.google.com/apppasswords
+# 3. Sử dụng App Password làm MAIL_PASSWORD
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: your-email@gmail.com
+    password: your-app-password
+    from: noreply@travelapp.com
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+          connectiontimeout: 5000
+          timeout: 5000
+          writetimeout: 5000
+
