@@ -12,10 +12,11 @@ import org.springframework.web.bind.annotation.*;
 public class TripController {
     private final TripService tripService;
 
-    @PostMapping("/create-trip")
-    public void TripCreateController(@PathVariable("userId") Integer userId, @RequestBody TripReq tripReq){
+    @PostMapping("/create-trip/{userId}")
+    public ResponseEntity<Integer> TripCreateController(@PathVariable("userId") Integer userId, @RequestBody TripReq tripReq){
         try{
-            tripService.TripCreateService(userId,tripReq);
+            Integer tripId = tripService.TripCreateService(userId, tripReq);
+            return ResponseEntity.ok(tripId);
         } catch (Exception e) {
             throw new RuntimeException(e);
         }

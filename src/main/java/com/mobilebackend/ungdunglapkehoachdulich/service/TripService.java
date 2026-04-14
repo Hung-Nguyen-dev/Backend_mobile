@@ -24,7 +24,7 @@ public class TripService {
     private final PostItineraryDetailRepo postItineraryDetailRepo;
 
     @Transactional
-    public void TripCreateService(Integer userId, TripReq tripReq){
+    public Integer TripCreateService(Integer userId, TripReq tripReq){
 //        validate
         if(Objects.isNull(userId)){
            log.error("Thieu userid");
@@ -48,6 +48,7 @@ public class TripService {
                 .endDate(tripReq.getEndDate())
                 .build();
         tripRepo.save(trip);
+        Integer tripId = trip.getId();
 
 //        save itinerary
         long days = ChronoUnit.DAYS.between(trip.getStartDate(), trip.getEndDate()) + 1;
@@ -60,32 +61,37 @@ public class TripService {
             itineraryList.add(itineraryRepo.save(itinerary));
         }
 
-//        save itineraryDetail
-        for(int i=0;i < itineraryList.size(); i++){
-            for(int j=0; j<tripReq.getItineraryReqs().size(); j++){
-                ItineraryDetail itineraryDetail = ItineraryDetail.builder()
-                    .visitTime(tripReq.getItineraryReqs().get(j).getItineraryDetail().getVisitTime())
-                    .note(tripReq.getItineraryReqs().get(j).getItineraryDetail().getNote())
-                    .itineraryId(itineraryList.get(i).getId())
-                    .build();
-                itineraryDetail = itineraryDetailRepo.save(itineraryDetail);
+//        save itineraryDetail (chỉ nếu FE gửi itineraryReqs)
+        if (tripReq.getItineraryReqs() != null && !tripReq.getItineraryReqs().isEmpty()) {
+            for(int i=0;i < itineraryList.size(); i++){
+                for(int j=0; j<tripReq.getItineraryReqs().size(); j++){
+                    ItineraryDetail itineraryDetail = ItineraryDetail.builder()
+                        .visitTime(tripReq.getItineraryReqs().get(j).getItineraryDetail().getVisitTime())
+                        .note(tripReq.getItineraryReqs().get(j).getItineraryDetail().getNote())
+                        .itineraryId(itineraryList.get(i).getId())
+                        .build();
+                    itineraryDetail = itineraryDetailRepo.save(itineraryDetail);
 
-//                save PostItineraryDetail
-                for(Map.Entry<Integer, Integer> entry : tripReq.getPostId().entrySet()){
-                    Integer day = entry.getKey();
-                    if(day == itineraryList.get(i).getDayNumber()){
-                        PostItineraryDetail postItineraryDetail = PostItineraryDetail.builder()
-                                .itineraryDetailId(itineraryDetail.getId())
-                                .postId(entry.getValue())
-                                .status("0")
-                                .userId(userId)
-                                .build();
-                        postItineraryDetailRepo.save(postItineraryDetail);
+//                save PostItineraryDetail (chỉ nếu có postId)
+                    if (tripReq.getPostId() != null) {
+                        for(Map.Entry<Integer, Integer> entry : tripReq.getPostId().entrySet()){
+                            Integer day = entry.getKey();
+                            if(day.equals(itineraryList.get(i).getDayNumber())){
+                                PostItineraryDetail postItineraryDetail = PostItineraryDetail.builder()
+                                        .itineraryDetailId(itineraryDetail.getId())
+                                        .postId(entry.getValue())
+                                        .status("0")
+                                        .userId(userId)
+                                        .build();
+                                postItineraryDetailRepo.save(postItineraryDetail);
+                            }
+                        }
                     }
                 }
             }
         }
 
+        return tripId;
     }
 
 
