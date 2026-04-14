@@ -118,11 +118,11 @@ public class CommunityV2Service {
         if (!canManagePost(currentUserId, post)) {
             throw new SecurityException("Chi tac gia moi duoc sua bai");
         }
-        if (req == null || isBlank(req.getTitle())) {
+        if (req == null) {
             throw new IllegalArgumentException("Thong tin cap nhat khong hop le");
         }
 
-        post.setTitle(req.getTitle().trim());
+        post.setTitle(req.getTitle() != null ? req.getTitle().trim() : "");
         post.setContent(req.getContent());
         List<String> normalizedImages = normalizeImageUrls(req.getImageUrls(), req.getImageUrl());
         post.setImageUrl(normalizedImages.isEmpty() ? null : normalizedImages.get(0));
@@ -231,7 +231,7 @@ public class CommunityV2Service {
     }
 
     private void validateCreateReq(CommunityPostCreateReq req) {
-        if (req == null || isBlank(req.getTitle())) {
+        if (req == null) {
             throw new IllegalArgumentException("Thong tin bai viet khong hop le");
         }
     }
