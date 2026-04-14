@@ -25,5 +25,12 @@ public class Post {
 
     private String location;
 
+    private Double latitude;
+
+    private Double longitude;
+
     private Integer budget;
+
+    @Column(name = "image_url")
+    private String imageUrl;
 }

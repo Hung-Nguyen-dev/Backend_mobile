@@ -100,7 +100,7 @@ public class UserService {
 
     public List<Trip> getTrips(Integer currentUserId, Integer targetUserId) {
         authorizeSelfOrAdmin(currentUserId, targetUserId);
-        return tripRepo.findByUserIdOrderByIdDesc(targetUserId);
+        return tripRepo.findAllByOwnerOrMemberOrderByIdDesc(targetUserId);
     }
 
     public List<Post> getPosts(Integer currentUserId, Integer targetUserId) {

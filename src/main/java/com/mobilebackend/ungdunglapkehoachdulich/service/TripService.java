@@ -22,6 +22,8 @@ public class TripService {
     private final ItineraryRepo itineraryRepo;
     private final ItineraryDetailRepo itineraryDetailRepo;
     private final PostItineraryDetailRepo postItineraryDetailRepo;
+    private final TripMemberRepo tripMemberRepo;
+    private final PostRepo postRepo;
 
     @Transactional
     public Integer TripCreateService(Integer userId, TripReq tripReq){
@@ -61,31 +63,54 @@ public class TripService {
             itineraryList.add(itineraryRepo.save(itinerary));
         }
 
-//        save itineraryDetail (chỉ nếu FE gửi itineraryReqs)
-        if (tripReq.getItineraryReqs() != null && !tripReq.getItineraryReqs().isEmpty()) {
-            for(int i=0;i < itineraryList.size(); i++){
-                for(int j=0; j<tripReq.getItineraryReqs().size(); j++){
-                    ItineraryDetail itineraryDetail = ItineraryDetail.builder()
-                        .visitTime(tripReq.getItineraryReqs().get(j).getItineraryDetail().getVisitTime())
-                        .note(tripReq.getItineraryReqs().get(j).getItineraryDetail().getNote())
-                        .itineraryId(itineraryList.get(i).getId())
-                        .build();
-                    itineraryDetail = itineraryDetailRepo.save(itineraryDetail);
+//        save itineraryDetail and post
+        if (tripReq.getActiveDays() != null && !tripReq.getActiveDays().isEmpty()) {
+            for (TripReq.DailyPlan dailyPlan : tripReq.getActiveDays()) {
+                // Find itinerary created above for this dayIndex (assuming dayIndex 0 = dayNumber 1)
+                Itinerary matchingIti = itineraryList.stream()
+                        .filter(iti -> iti.getDayNumber() == (dailyPlan.getDayIndex() + 1))
+                        .findFirst()
+                        .orElse(null);
 
-//                save PostItineraryDetail (chỉ nếu có postId)
-                    if (tripReq.getPostId() != null) {
-                        for(Map.Entry<Integer, Integer> entry : tripReq.getPostId().entrySet()){
-                            Integer day = entry.getKey();
-                            if(day.equals(itineraryList.get(i).getDayNumber())){
-                                PostItineraryDetail postItineraryDetail = PostItineraryDetail.builder()
-                                        .itineraryDetailId(itineraryDetail.getId())
-                                        .postId(entry.getValue())
-                                        .status("0")
-                                        .userId(userId)
-                                        .build();
-                                postItineraryDetailRepo.save(postItineraryDetail);
+                if (matchingIti != null && dailyPlan.getPlaces() != null) {
+                    for (TripReq.PlaceDraft place : dailyPlan.getPlaces()) {
+                        // 1. Save new post for this location (since it comes from UI mocked places)
+                        Post post = Post.builder()
+                                .userId(userId)
+                                .title(place.getName())
+                                .content(place.getDescription())
+                                .location(trip.getDestination())
+                                .latitude(place.getLatitude())
+                                .longitude(place.getLongitude())
+                                .imageUrl(place.getImageUrl())
+                                .build();
+                        post = postRepo.save(post);
+
+                        java.time.LocalTime parsedTime = null;
+                        if (place.getSuggestTime() != null && !place.getSuggestTime().trim().isEmpty()) {
+                            try {
+                                parsedTime = java.time.LocalTime.parse(place.getSuggestTime().trim());
+                            } catch (Exception e) {
+                                log.warn("Không parse được thời gian: " + place.getSuggestTime());
                             }
                         }
+
+                        // 2. Save Itinerary Detail
+                        ItineraryDetail itineraryDetail = ItineraryDetail.builder()
+                                .visitTime(parsedTime)
+                                .note(place.getDescription())
+                                .itineraryId(matchingIti.getId())
+                                .build();
+                        itineraryDetail = itineraryDetailRepo.save(itineraryDetail);
+
+                        // 3. Save Post Itinerary Detail mapping
+                        PostItineraryDetail postItineraryDetail = PostItineraryDetail.builder()
+                                .itineraryDetailId(itineraryDetail.getId())
+                                .postId(post.getId())
+                                .status("0") // chua di
+                                .userId(userId)
+                                .build();
+                        postItineraryDetailRepo.save(postItineraryDetail);
                     }
                 }
             }
@@ -94,5 +119,111 @@ public class TripService {
         return tripId;
     }
 
+    @Transactional
+    public void deleteTrip(Integer tripId, Integer userId) {
+        Trip trip = tripRepo.findById(tripId)
+                .orElseThrow(() -> new RuntimeException("Trip không tồn tại"));
 
+        if (!trip.getUserId().equals(userId)) {
+            throw new RuntimeException("Bạn không có quyền xóa chuyến đi này");
+        }
+
+        // cascade delete TripMembers
+        tripMemberRepo.deleteAll(tripMemberRepo.findByTripId(tripId));
+
+        // cascade delete Itineraries -> ItineraryDetails -> PostItineraryDetails
+        List<Itinerary> itineraries = itineraryRepo.findByTripIdOrderByDayNumberAsc(tripId);
+        for (Itinerary iti : itineraries) {
+            List<ItineraryDetail> details = itineraryDetailRepo.findByItineraryIdOrderByVisitTimeAsc(iti.getId());
+            for (ItineraryDetail det : details) {
+                postItineraryDetailRepo.deleteAll(postItineraryDetailRepo.findByItineraryDetailId(det.getId()));
+            }
+            itineraryDetailRepo.deleteAll(details);
+        }
+        itineraryRepo.deleteAll(itineraries);
+
+        // Finally delete the trip itself
+        tripRepo.delete(trip);
+    }
+
+    public com.mobilebackend.ungdunglapkehoachdulich.dto.JournalRes getTripJournal(Integer tripId, Integer userId) {
+        Trip trip = tripRepo.findById(tripId)
+                .orElseThrow(() -> new RuntimeException("Trip không tồn tại"));
+
+        // Only allow members or owner
+        if (!trip.getUserId().equals(userId)) {
+            tripMemberRepo.findByTripIdAndUserId(tripId, userId)
+                .filter(tm -> tm.getStatus() == 1)
+                .orElseThrow(() -> new RuntimeException("Bạn không có quyền truy cập nhật ký chuyến đi này"));
+        }
+
+        List<com.mobilebackend.ungdunglapkehoachdulich.dto.JournalRes.DayJournal> dayJournals = new ArrayList<>();
+        List<Itinerary> itineraries = itineraryRepo.findByTripIdOrderByDayNumberAsc(tripId);
+
+        for (Itinerary iti : itineraries) {
+            List<ItineraryDetail> details = itineraryDetailRepo.findByItineraryIdOrderByVisitTimeAsc(iti.getId());
+            List<com.mobilebackend.ungdunglapkehoachdulich.dto.JournalRes.StopJournal> stops = new ArrayList<>();
+
+            for (ItineraryDetail det : details) {
+                List<PostItineraryDetail> postDetails = postItineraryDetailRepo.findByItineraryDetailId(det.getId());
+                if (!postDetails.isEmpty()) {
+                    // Usually there's only 1 mapped post per detail in typical mapping, but let's take the first
+                    PostItineraryDetail pid = postDetails.get(0);
+                    com.mobilebackend.ungdunglapkehoachdulich.model.Post post = postRepo.findById(pid.getPostId()).orElse(null);
+
+                    stops.add(com.mobilebackend.ungdunglapkehoachdulich.dto.JournalRes.StopJournal.builder()
+                            .itineraryDetailId(det.getId())
+                            .visitTime(det.getVisitTime() != null ? det.getVisitTime().toString() : null)
+                            .note(det.getNote())
+                            .postItineraryDetailId(pid.getId())
+                            .status(pid.getStatus())
+                            .post(post)
+                            .build());
+                } else {
+                    // Stop without a post linked
+                    stops.add(com.mobilebackend.ungdunglapkehoachdulich.dto.JournalRes.StopJournal.builder()
+                            .itineraryDetailId(det.getId())
+                            .visitTime(det.getVisitTime() != null ? det.getVisitTime().toString() : null)
+                            .note(det.getNote())
+                            .build());
+                }
+            }
+
+            dayJournals.add(com.mobilebackend.ungdunglapkehoachdulich.dto.JournalRes.DayJournal.builder()
+                    .itineraryId(iti.getId())
+                    .dayNumber(iti.getDayNumber())
+                    .date(iti.getDate() != null ? iti.getDate().toString() : null)
+                    .stops(stops)
+                    .build());
+        }
+
+        return com.mobilebackend.ungdunglapkehoachdulich.dto.JournalRes.builder()
+                .trip(trip)
+                .days(dayJournals)
+                .build();
+    }
+
+    @Transactional
+    public void checkInLocation(Integer postItineraryDetailId, Integer userId) {
+        PostItineraryDetail pid = postItineraryDetailRepo.findById(postItineraryDetailId)
+                .orElseThrow(() -> new RuntimeException("Điểm dừng không tồn tại"));
+
+        ItineraryDetail detail = itineraryDetailRepo.findById(pid.getItineraryDetailId())
+                .orElseThrow(() -> new RuntimeException("Chi tiết lịch trình không tồn tại"));
+
+        Itinerary iti = itineraryRepo.findById(detail.getItineraryId())
+                .orElseThrow(() -> new RuntimeException("Ngày lịch trình không tồn tại"));
+
+        Trip trip = tripRepo.findById(iti.getTripId())
+                .orElseThrow(() -> new RuntimeException("Chuyến đi không tồn tại"));
+
+        if (!trip.getUserId().equals(userId)) {
+            tripMemberRepo.findByTripIdAndUserId(trip.getId(), userId)
+                .filter(tm -> tm.getStatus() == 1)
+                .orElseThrow(() -> new RuntimeException("Bạn không có quyền check-in ở chuyến đi này"));
+        }
+
+        pid.setStatus("1");
+        postItineraryDetailRepo.save(pid);
+    }
 }

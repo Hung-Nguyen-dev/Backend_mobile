@@ -15,6 +15,23 @@ public class TripReq {
     private LocalDate endDate;
     private String status;
     private Integer userId;
-    private List<ItineraryReq> itineraryReqs;
-    private HashMap<Integer,Integer> postId;
+    
+    private List<DailyPlan> activeDays;
+
+    @Data
+    public static class DailyPlan {
+        private Integer dayIndex; 
+        private List<PlaceDraft> places;
+    }
+
+    @Data
+    public static class PlaceDraft {
+        private String name;
+        private String description;
+        private String category;
+        private Double latitude;
+        private Double longitude;
+        private String suggestTime;
+        private String imageUrl;
+    }
 }

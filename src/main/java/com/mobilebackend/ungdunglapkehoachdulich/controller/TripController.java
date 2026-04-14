@@ -21,6 +21,32 @@ public class TripController {
             throw new RuntimeException(e);
         }
     }
+    @DeleteMapping("/trips/{tripId}")
+    public ResponseEntity<Void> deleteTripController(@PathVariable("tripId") Integer tripId, @RequestHeader("X-User-Id") Integer userId) {
+        try {
+            tripService.deleteTrip(tripId, userId);
+            return ResponseEntity.noContent().build();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
 
+    @GetMapping("/trips/{tripId}/trip-journal")
+    public ResponseEntity<com.mobilebackend.ungdunglapkehoachdulich.dto.JournalRes> getTripJournal(@PathVariable("tripId") Integer tripId, @RequestHeader("X-User-Id") Integer userId) {
+        try {
+            return ResponseEntity.ok(tripService.getTripJournal(tripId, userId));
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
 
+    @PostMapping("/itinerary-details/{id}/check-in")
+    public ResponseEntity<Void> checkInLocation(@PathVariable("id") Integer postItineraryDetailId, @RequestHeader("X-User-Id") Integer userId) {
+        try {
+            tripService.checkInLocation(postItineraryDetailId, userId);
+            return ResponseEntity.ok().build();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
 }
