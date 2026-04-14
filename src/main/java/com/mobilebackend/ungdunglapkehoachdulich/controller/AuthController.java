@@ -106,6 +106,48 @@ public class AuthController {
         return ResponseEntity.ok(authService.login(req));
     }
 
+    @PostMapping("/forgot-password/send-otp")
+    public ResponseEntity<?> sendForgotPasswordOtp(@RequestBody ForgotPasswordReq req) {
+        try {
+            if (req == null || req.getEmail() == null || req.getEmail().trim().isEmpty()) {
+                return ResponseEntity.badRequest().body(new ErrorRes("Email khong duoc de trong"));
+            }
+
+            authService.sendForgotPasswordOtp(req.getEmail().trim());
+            return ResponseEntity.ok(OTPRes.builder()
+                    .message("OTP da duoc gui den email cua ban")
+                    .email(req.getEmail().trim())
+                    .expiryMinutes(otpExpiryMinutes)
+                    .build());
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().body(new ErrorRes(e.getMessage()));
+        }
+    }
+
+    @PostMapping("/forgot-password/verify-otp")
+    public ResponseEntity<?> verifyForgotPasswordOtp(@RequestBody VerifyOTPReq req) {
+        try {
+            if (req == null || req.getEmail() == null || req.getOtpCode() == null) {
+                return ResponseEntity.badRequest().body(new ErrorRes("Email hoac OTP khong duoc de trong"));
+            }
+
+            authService.verifyForgotPasswordOtp(req.getEmail().trim(), req.getOtpCode().trim());
+            return ResponseEntity.ok(new SuccessRes("OTP hop le"));
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().body(new ErrorRes(e.getMessage()));
+        }
+    }
+
+    @PostMapping("/forgot-password/reset")
+    public ResponseEntity<?> resetForgotPassword(@RequestBody ResetPasswordReq req) {
+        try {
+            authService.resetPassword(req);
+            return ResponseEntity.ok(new SuccessRes("Doi mat khau thanh cong"));
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().body(new ErrorRes(e.getMessage()));
+        }
+    }
+
     /**
      * Helper class for error response
      */

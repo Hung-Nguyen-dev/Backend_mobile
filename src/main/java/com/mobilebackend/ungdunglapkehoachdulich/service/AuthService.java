@@ -4,6 +4,7 @@ import com.mobilebackend.ungdunglapkehoachdulich.dto.auth.AuthRes;
 import com.mobilebackend.ungdunglapkehoachdulich.dto.auth.CompleteRegistrationReq;
 import com.mobilebackend.ungdunglapkehoachdulich.dto.auth.LoginReq;
 import com.mobilebackend.ungdunglapkehoachdulich.dto.auth.RegisterReq;
+import com.mobilebackend.ungdunglapkehoachdulich.dto.auth.ResetPasswordReq;
 import com.mobilebackend.ungdunglapkehoachdulich.model.User;
 import com.mobilebackend.ungdunglapkehoachdulich.repo.UserRepo;
 import lombok.RequiredArgsConstructor;
@@ -119,6 +120,60 @@ public class AuthService {
         if (userRepo.existsByEmail(email.trim())) {
             throw new IllegalArgumentException("Email da ton tai");
         }
+    }
+
+    @Transactional
+    public void sendForgotPasswordOtp(String email) throws Exception {
+        if (isBlank(email)) {
+            throw new IllegalArgumentException("Email khong hop le");
+        }
+
+        String normalizedEmail = email.trim();
+        if (!userRepo.existsByEmail(normalizedEmail)) {
+            throw new IllegalArgumentException("Email chua duoc dang ky");
+        }
+
+        otpService.generateAndSendOTP(normalizedEmail);
+    }
+
+    @Transactional
+    public void resetPassword(ResetPasswordReq req) throws Exception {
+        if (req == null || isBlank(req.getEmail()) || isBlank(req.getNewPassword())) {
+            throw new IllegalArgumentException("Thong tin khong hop le");
+        }
+
+        if (req.getNewPassword().trim().length() < 6) {
+            throw new IllegalArgumentException("Mat khau moi phai co it nhat 6 ky tu");
+        }
+
+        String normalizedEmail = req.getEmail().trim();
+        User user = userRepo.findByEmail(normalizedEmail)
+                .orElseThrow(() -> new IllegalArgumentException("Email chua duoc dang ky"));
+
+        if (!otpService.hasRecentlyVerifiedOTP(normalizedEmail)) {
+            throw new IllegalArgumentException("OTP chua duoc xac thuc hoac da het han");
+        }
+
+        user.setPassword(passwordEncoder.encode(req.getNewPassword().trim()));
+        if (!Boolean.TRUE.equals(user.getIsEmailVerified())) {
+            user.setIsEmailVerified(true);
+            user.setEmailVerifiedAt(System.currentTimeMillis());
+        }
+        userRepo.save(user);
+    }
+
+    @Transactional
+    public void verifyForgotPasswordOtp(String email, String otpCode) throws Exception {
+        if (isBlank(email) || isBlank(otpCode)) {
+            throw new IllegalArgumentException("Email hoac OTP khong hop le");
+        }
+
+        String normalizedEmail = email.trim();
+        if (!userRepo.existsByEmail(normalizedEmail)) {
+            throw new IllegalArgumentException("Email chua duoc dang ky");
+        }
+
+        otpService.verifyOTP(normalizedEmail, otpCode.trim());
     }
 
     private boolean isBlank(String value) {
