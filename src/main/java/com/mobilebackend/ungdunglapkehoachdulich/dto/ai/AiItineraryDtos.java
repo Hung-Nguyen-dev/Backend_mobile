@@ -11,6 +11,7 @@ public final class AiItineraryDtos {
         private int dayCount;
         private List<String> preferences;
         private String budgetTier;
+        private String activityLevel;
         private String startDate;
 
         public String getDestination() {
@@ -43,6 +44,14 @@ public final class AiItineraryDtos {
 
         public void setBudgetTier(String budgetTier) {
             this.budgetTier = budgetTier;
+        }
+
+        public String getActivityLevel() {
+            return activityLevel;
+        }
+
+        public void setActivityLevel(String activityLevel) {
+            this.activityLevel = activityLevel;
         }
 
         public String getStartDate() {

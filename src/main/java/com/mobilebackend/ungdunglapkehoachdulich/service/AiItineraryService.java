@@ -31,6 +31,20 @@ public class AiItineraryService {
         this.cityDataService = cityDataService;
     }
 
+    private String normalizeActivityLevel(String level) {
+        if (level == null) return "vua";
+        String value = level.trim().toLowerCase(Locale.ROOT);
+        if (value.equals("it") || value.equals("few") || value.equals("light")) return "it";
+        if (value.equals("nhieu") || value.equals("many") || value.equals("full")) return "vua";
+        return "vua";
+    }
+
+    private int activityTargetCount(String level) {
+        String normalized = normalizeActivityLevel(level);
+        if ("it".equals(normalized)) return 3;
+        return 5;
+    }
+
     public AiItineraryResponse generate(AiItineraryRequest req) {
         String destination = req.getDestination() == null ? "" : req.getDestination().trim();
         if (destination.isEmpty()) {
@@ -38,6 +52,7 @@ public class AiItineraryService {
         }
 
         int days = Math.max(1, Math.min(req.getDayCount(), 14));
+        int activityTarget = activityTargetCount(req.getActivityLevel());
         List<CityPlace> tourism = new ArrayList<>(cityDataService.getPlaces(destination, "tourism"));
         List<CityPlace> restaurants = new ArrayList<>(cityDataService.getPlaces(destination, "restaurant"));
         List<CityPlace> cafes = new ArrayList<>(cityDataService.getPlaces(destination, "cafe"));
@@ -58,19 +73,36 @@ public class AiItineraryService {
 
             Double currentLat = null;
             Double currentLon = null;
+            boolean wantsBeach = hasBeachPreference(req.getPreferences());
+            boolean wantsFood = hasFoodPreference(req.getPreferences());
+            CityPlace beachCandidate = wantsBeach ? findBeachCandidate(tourism) : null;
+            CityPlace foodCandidate = wantsFood ? findFoodCandidate(restaurants, cafes) : null;
 
             // 1. Morning 1 (Attraction)
-            CityPlace m1 = pickBestAvailable(tourism, usedPlaceIds, "08:30", req.getBudgetTier());
-            if (m1 != null) {
+            CityPlace m1 = null;
+            if (dayIndex == 1 && beachCandidate != null && !usedPlaceIds.contains(beachCandidate.placeId())) {
+                m1 = beachCandidate;
+            } else if (dayActivities.size() < activityTarget) {
+                m1 = pickBestAvailable(tourism, usedPlaceIds, "08:30", req.getBudgetTier());
+            }
+            if (m1 != null && dayActivities.size() < activityTarget) {
                 dayActivities.add(toActivity(m1, "act-" + dayIndex + "-1", "08:30", "1.5h"));
                 currentLat = m1.latitude();
                 currentLon = m1.longitude();
                 usedPlaceIds.add(m1.placeId());
             }
 
+            if (dayIndex == 1 && foodCandidate != null && !usedPlaceIds.contains(foodCandidate.placeId()) && dayActivities.size() < activityTarget) {
+                dayActivities.add(toActivityAsFood("food-" + dayIndex + "-0", foodCandidate, "Ẩm thực", "10:30", "1h"));
+                dayRestaurants.add(toRestaurant("food-" + dayIndex + "-0", foodCandidate, "Ẩm thực"));
+                currentLat = foodCandidate.latitude();
+                currentLon = foodCandidate.longitude();
+                usedPlaceIds.add(foodCandidate.placeId());
+            }
+
             // 2. Morning 2 (Attraction)
-            CityPlace m2 = pickNearest(currentLat, currentLon, tourism, usedPlaceIds, "10:30", req.getBudgetTier());
-            if (m2 != null) {
+            CityPlace m2 = dayActivities.size() < activityTarget ? pickNearest(currentLat, currentLon, tourism, usedPlaceIds, "10:30", req.getBudgetTier()) : null;
+            if (m2 != null && dayActivities.size() < activityTarget) {
                 dayActivities.add(toActivity(m2, "act-" + dayIndex + "-2", "10:30", "1.5h"));
                 currentLat = m2.latitude();
                 currentLon = m2.longitude();
@@ -78,8 +110,8 @@ public class AiItineraryService {
             }
 
             // 3. Lunch (Restaurant)
-            CityPlace lunch = pickNearest(currentLat, currentLon, restaurants, usedPlaceIds, "12:00", req.getBudgetTier());
-            if (lunch != null) {
+            CityPlace lunch = dayActivities.size() < activityTarget ? pickNearest(currentLat, currentLon, restaurants, usedPlaceIds, "12:00", req.getBudgetTier()) : null;
+            if (lunch != null && dayActivities.size() < activityTarget) {
                 dayActivities.add(toActivityAsFood("lunch-" + dayIndex, lunch, "Bữa trưa", "12:00", "1.5h"));
                 dayRestaurants.add(toRestaurant("rest-" + dayIndex + "-lunch", lunch, "Bữa trưa"));
                 currentLat = lunch.latitude();
@@ -88,8 +120,8 @@ public class AiItineraryService {
             }
 
             // 4. Afternoon 1 (Attraction)
-            CityPlace a1 = pickNearest(currentLat, currentLon, tourism, usedPlaceIds, "14:00", req.getBudgetTier());
-            if (a1 != null) {
+            CityPlace a1 = dayActivities.size() < activityTarget ? pickNearest(currentLat, currentLon, tourism, usedPlaceIds, "14:00", req.getBudgetTier()) : null;
+            if (a1 != null && dayActivities.size() < activityTarget) {
                 dayActivities.add(toActivity(a1, "act-" + dayIndex + "-3", "14:00", "2h"));
                 currentLat = a1.latitude();
                 currentLon = a1.longitude();
@@ -97,8 +129,8 @@ public class AiItineraryService {
             }
 
             // 5. Afternoon 2 (Attraction)
-            CityPlace a2 = pickNearest(currentLat, currentLon, tourism, usedPlaceIds, "16:15", req.getBudgetTier());
-            if (a2 != null) {
+            CityPlace a2 = dayActivities.size() < activityTarget ? pickNearest(currentLat, currentLon, tourism, usedPlaceIds, "16:15", req.getBudgetTier()) : null;
+            if (a2 != null && dayActivities.size() < activityTarget) {
                 dayActivities.add(toActivity(a2, "act-" + dayIndex + "-4", "16:15", "1.5h"));
                 currentLat = a2.latitude();
                 currentLon = a2.longitude();
@@ -106,8 +138,8 @@ public class AiItineraryService {
             }
 
             // 6. Cafe (Cafe)
-            CityPlace coffee = pickNearest(currentLat, currentLon, cafes, usedPlaceIds, "18:00", req.getBudgetTier());
-            if (coffee != null) {
+            CityPlace coffee = dayActivities.size() < activityTarget ? pickNearest(currentLat, currentLon, cafes, usedPlaceIds, "18:00", req.getBudgetTier()) : null;
+            if (coffee != null && dayActivities.size() < activityTarget) {
                 dayActivities.add(toActivityAsFood("cafe-" + dayIndex, coffee, "Thư giãn cafe", "18:00", "1h"));
                 dayRestaurants.add(toRestaurant("cafe-" + dayIndex + "-0", coffee, "Cafe"));
                 currentLat = coffee.latitude();
@@ -116,8 +148,8 @@ public class AiItineraryService {
             }
 
             // 7. Dinner (Restaurant)
-            CityPlace dinner = pickNearest(currentLat, currentLon, restaurants, usedPlaceIds, "19:30", req.getBudgetTier());
-            if (dinner != null) {
+            CityPlace dinner = dayActivities.size() < activityTarget ? pickNearest(currentLat, currentLon, restaurants, usedPlaceIds, "19:30", req.getBudgetTier()) : null;
+            if (dinner != null && dayActivities.size() < activityTarget) {
                 dayActivities.add(toActivityAsFood("dinner-" + dayIndex, dinner, "Bữa tối", "19:30", "1.5h"));
                 dayRestaurants.add(toRestaurant("rest-" + dayIndex + "-dinner", dinner, "Bữa tối"));
                 currentLat = dinner.latitude();
@@ -126,8 +158,8 @@ public class AiItineraryService {
             }
 
             // 8. Night (Attraction)
-            CityPlace night = pickNearest(currentLat, currentLon, tourism, usedPlaceIds, "21:15", req.getBudgetTier());
-            if (night != null) {
+            CityPlace night = dayActivities.size() < activityTarget ? pickNearest(currentLat, currentLon, tourism, usedPlaceIds, "21:15", req.getBudgetTier()) : null;
+            if (night != null && dayActivities.size() < activityTarget) {
                 dayActivities.add(toActivity(night, "act-" + dayIndex + "-5", "21:15", "1h"));
                 usedPlaceIds.add(night.placeId());
             }
@@ -177,7 +209,7 @@ public class AiItineraryService {
             } else if (pLower.equals("adventure") || pLower.equals("mạo hiểm")) {
                 if (containsAny(text, "đỉnh", "núi", "rừng", "thác", "trekking", "leo núi", "cáp treo", "hầm")) score += 10;
             } else if (pLower.equals("beach") || pLower.equals("biển")) {
-                if (containsAny(text, "biển", "beach", "cát", "vịnh", "đảo", "hải đăng")) score += 10;
+                if (containsAny(text, "biển", "beach", "cát", "vịnh", "đảo", "hải đăng", "sầm sơn", "sam son", "hải tiến", "hai tien", "hải hòa", "hai hoa", "hải thanh", "hai thanh")) score += 10;
             } else if (pLower.equals("family") || pLower.equals("gia đình")) {
                 if (containsAny(text, "công viên", "park", "thiếu nhi", "vui chơi", "giải trí", "sở thú", "sun world")) score += 10;
             } else if (pLower.equals("food") || pLower.equals("ẩm thực")) {
@@ -187,6 +219,50 @@ public class AiItineraryService {
             }
         }
         return score;
+    }
+
+    private boolean hasBeachPreference(List<String> prefs) {
+        if (prefs == null) return false;
+        for (String pref : prefs) {
+            String pLower = pref.toLowerCase(Locale.ROOT);
+            if (pLower.equals("beach") || pLower.equals("biển")) return true;
+        }
+        return false;
+    }
+
+    private boolean hasFoodPreference(List<String> prefs) {
+        if (prefs == null) return false;
+        for (String pref : prefs) {
+            String pLower = pref.toLowerCase(Locale.ROOT);
+            if (pLower.equals("food") || pLower.equals("ẩm thực")) return true;
+        }
+        return false;
+    }
+
+    private CityPlace findBeachCandidate(List<CityPlace> pool) {
+        for (CityPlace place : pool) {
+            String text = (place.title() + " " + place.type() + " " + place.description()).toLowerCase(Locale.ROOT);
+            if (containsAny(text, "biển", "beach", "cát", "vịnh", "đảo", "hải đăng", "sầm sơn", "sam son", "hải tiến", "hai tien", "hải hòa", "hai hoa", "hải thanh", "hai thanh")) {
+                return place;
+            }
+        }
+        return null;
+    }
+
+    private CityPlace findFoodCandidate(List<CityPlace> restaurants, List<CityPlace> cafes) {
+        for (CityPlace place : restaurants) {
+            String text = (place.title() + " " + place.type() + " " + place.description()).toLowerCase(Locale.ROOT);
+            if (containsAny(text, "chợ đêm", "ẩm thực", "ăn uống", "đặc sản", "street food", "nhà hàng", "quán ăn", "buffet")) {
+                return place;
+            }
+        }
+        for (CityPlace place : cafes) {
+            String text = (place.title() + " " + place.type() + " " + place.description()).toLowerCase(Locale.ROOT);
+            if (containsAny(text, "cafe", "cà phê", "coffee", "quán", "trà", "chill")) {
+                return place;
+            }
+        }
+        return null;
     }
 
     private boolean containsAny(String text, String... keywords) {
