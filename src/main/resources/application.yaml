@@ -1,11 +1,8 @@
 spring:
   application:
     name: ungdunglapkehoachdulich
-  # Khi chạy profile dev, luôn nạp thêm local → đọc application-local.yaml (Duffel/VNPAY, đã .gitignore).
-  profiles:
-    group:
-      dev:
-        - local
+  # Không tự nạp profile local khi chạy dev.
+  # Mục tiêu: cả team pull code về chạy bằng application-dev.yaml giống nhau.
   datasource:
     url: jdbc:mysql://localhost:3306/ung_dung_lap_ke_hoach_du_lich?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Ho_Chi_Minh
     username: root

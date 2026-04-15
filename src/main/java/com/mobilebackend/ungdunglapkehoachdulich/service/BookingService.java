@@ -11,6 +11,7 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.Locale;
 import java.util.Objects;
+import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
@@ -97,14 +98,20 @@ public class BookingService {
         return bookingMaster;
     }
 
+    /**
+     * Dat ban nha hang: chi luu yeu cau vao chuyen — khong thu tien qua app (coc/thanh toan tai quan).
+     */
     @Transactional
     public BookingMaster createRestaurantBooking(Integer tripId, RestaurantBookingReq req) {
-        validateCommonBooking(tripId, req.getUserId(), req.getTotalAmount());
         if (isBlank(req.getAddress()) || req.getReservationTime() == null || req.getNumberOfGuests() == null || req.getNumberOfGuests() <= 0) {
             throw new IllegalArgumentException("Thong tin nha hang khong hop le");
         }
-
-        BookingMaster bookingMaster = createBookingMaster(tripId, req.getUserId(), req.getTotalAmount(), req.getPaymentStatus());
+        if (req.getNumberOfGuests() > 99) {
+            throw new IllegalArgumentException("So khach toi da 99");
+        }
+        validateTripAndUser(tripId, req.getUserId());
+        req.setTotalAmount(0F);
+        BookingMaster bookingMaster = createBookingMaster(tripId, req.getUserId(), 0F, "NOT_REQUIRED");
 
         BookingRestaurant bookingRestaurant = BookingRestaurant.builder()
                 .address(req.getAddress())
@@ -118,11 +125,123 @@ public class BookingService {
         return bookingMaster;
     }
 
-    public List<BookingMaster> getTripBookings(Integer tripId) {
+    public List<BookingTicketRes> getTripBookings(Integer tripId) {
         if (tripId == null || !tripRepo.existsById(tripId)) {
             throw new IllegalArgumentException("Trip khong ton tai");
         }
-        return bookingMasterRepo.findByTripId(tripId);
+        return bookingMasterRepo.findByTripId(tripId).stream()
+                .map(this::toTicketRes)
+                .toList();
+    }
+
+    private BookingTicketRes toTicketRes(BookingMaster m) {
+        int mid = m.getId();
+        String suf = String.format("%08d", mid);
+
+        Optional<BookingFlight> flight = bookingFlightRepo.findByBookingMasterId(mid);
+        if (flight.isPresent()) {
+            BookingFlight f = flight.get();
+            String pnr = isBlank(f.getPnrCode()) ? "" : " · PNR " + f.getPnrCode().trim();
+            return BookingTicketRes.builder()
+                    .id(mid)
+                    .totalAmount(m.getTotalAmount())
+                    .paymentStatus(m.getPaymentStatus())
+                    .tripId(m.getTripId())
+                    .userId(m.getUserId())
+                    .category("FLIGHT")
+                    .verifyCode("ETKT-" + suf)
+                    .summaryTitle(flightRouteTitle(f))
+                    .summaryDetail("Chuyen " + dashIfBlank(f.getFlightNumber()) + pnr)
+                    .build();
+        }
+
+        Optional<BookingHotel> hotel = bookingHotelRepo.findByBookingMasterId(mid);
+        if (hotel.isPresent()) {
+            BookingHotel h = hotel.get();
+            return BookingTicketRes.builder()
+                    .id(mid)
+                    .totalAmount(m.getTotalAmount())
+                    .paymentStatus(m.getPaymentStatus())
+                    .tripId(m.getTripId())
+                    .userId(m.getUserId())
+                    .category("HOTEL")
+                    .verifyCode("HTL-" + suf)
+                    .summaryTitle(dashIfBlank(h.getRoomType()))
+                    .summaryDetail("Check-in " + Objects.toString(h.getCheckInDate(), "—")
+                            + " · Check-out " + Objects.toString(h.getCheckOutDate(), "—"))
+                    .build();
+        }
+
+        Optional<BookingRestaurant> rest = bookingRestaurantRepo.findByBookingMasterId(mid);
+        if (rest.isPresent()) {
+            BookingRestaurant r = rest.get();
+            String guests = r.getNumberOfGuests() == null ? "—" : r.getNumberOfGuests() + " khách";
+            return BookingTicketRes.builder()
+                    .id(mid)
+                    .totalAmount(m.getTotalAmount())
+                    .paymentStatus(m.getPaymentStatus())
+                    .tripId(m.getTripId())
+                    .userId(m.getUserId())
+                    .category("RESTAURANT")
+                    .verifyCode("RST-" + suf)
+                    .summaryTitle(truncate(r.getAddress(), 80))
+                    .summaryDetail("Giờ " + Objects.toString(r.getReservationTime(), "—") + " · " + guests
+                            + " · Chưa xác nhận còn bàn — liên hệ quán trước khi tới")
+                    .build();
+        }
+
+        Optional<BookingCoach> coach = bookingCoachRepo.findByBookingMasterId(mid);
+        if (coach.isPresent()) {
+            BookingCoach c = coach.get();
+            String plate = isBlank(c.getPlateNumber()) ? "" : " · BS " + c.getPlateNumber().trim();
+            return BookingTicketRes.builder()
+                    .id(mid)
+                    .totalAmount(m.getTotalAmount())
+                    .paymentStatus(m.getPaymentStatus())
+                    .tripId(m.getTripId())
+                    .userId(m.getUserId())
+                    .category("COACH")
+                    .verifyCode("BUS-" + suf)
+                    .summaryTitle(dashIfBlank(c.getName()))
+                    .summaryDetail(dashIfBlank(c.getPickUp()) + " → " + dashIfBlank(c.getDropOff())
+                            + " · " + Objects.toString(c.getDepartureDate(), "—") + " "
+                            + Objects.toString(c.getDepartureTime(), "—") + plate)
+                    .build();
+        }
+
+        return BookingTicketRes.builder()
+                .id(mid)
+                .totalAmount(m.getTotalAmount())
+                .paymentStatus(m.getPaymentStatus())
+                .tripId(m.getTripId())
+                .userId(m.getUserId())
+                .category("OTHER")
+                .verifyCode("BKG-" + suf)
+                .summaryTitle("Dat cho #" + mid)
+                .summaryDetail("")
+                .build();
+    }
+
+    private static String flightRouteTitle(BookingFlight f) {
+        String d = blankStatic(f.getDepartureAirport()) ? "?" : f.getDepartureAirport().trim();
+        String a = blankStatic(f.getArrivalAirport()) ? "?" : f.getArrivalAirport().trim();
+        return d + " → " + a;
+    }
+
+    private static boolean blankStatic(String s) {
+        return s == null || s.trim().isEmpty();
+    }
+
+    private static String dashIfBlank(String s) {
+        return (s == null || s.trim().isEmpty()) ? "—" : s.trim();
+    }
+
+    private static String truncate(String s, int max) {
+        if (s == null || s.isEmpty()) {
+            return "—";
+        }
+        String t = s.trim();
+        return t.length() <= max ? t : t.substring(0, max - 1) + "…";
     }
 
     @Transactional
@@ -141,13 +260,17 @@ public class BookingService {
         return bookingMasterRepo.save(bookingMaster);
     }
 
-    private void validateCommonBooking(Integer tripId, Integer userId, Float totalAmount) {
+    private void validateTripAndUser(Integer tripId, Integer userId) {
         if (tripId == null || !tripRepo.existsById(tripId)) {
             throw new IllegalArgumentException("Trip khong ton tai");
         }
         if (userId == null) {
             throw new IllegalArgumentException("Thieu userId");
         }
+    }
+
+    private void validateCommonBooking(Integer tripId, Integer userId, Float totalAmount) {
+        validateTripAndUser(tripId, userId);
         if (totalAmount == null || totalAmount <= 0F) {
             throw new IllegalArgumentException("totalAmount phai lon hon 0");
         }

@@ -3,6 +3,9 @@ package com.mobilebackend.ungdunglapkehoachdulich.repo;
 import com.mobilebackend.ungdunglapkehoachdulich.model.BookingCoach;
 import org.springframework.data.jpa.repository.JpaRepository;
 
+import java.util.Optional;
+
 public interface BookingCoachRepo extends JpaRepository<BookingCoach, Integer> {
+    Optional<BookingCoach> findByBookingMasterId(Integer bookingMasterId);
 }
 

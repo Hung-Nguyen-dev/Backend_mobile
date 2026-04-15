@@ -10,6 +10,10 @@ travel:
   flight:
     duffel:
       api-key: YOUR_DUFFEL_TEST_TOKEN
+  places:
+    serp-api:
+      # Hoặc đặt biến môi trường SERPAPI_API_KEY (không cần dòng này).
+      api-key: YOUR_SERPAPI_KEY
   payment:
     vnpay:
       tmn-code: YOUR_VNPAY_TMN
