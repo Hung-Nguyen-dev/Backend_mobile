@@ -13,8 +13,10 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
+import java.util.Set;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.regex.Pattern;
+import java.util.regex.Matcher;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.stereotype.Service;
@@ -69,6 +71,32 @@ public class CityDataService {
             }
         }
         return result;
+    }
+
+    public String getCityContext(String destination, String query) {
+        ensureLoaded();
+        String cityKey = normalizeCityKey(destination);
+        if (cityKey.isEmpty()) {
+            return "";
+        }
+
+        Map<String, List<CityPlace>> cityData = cache.get(cityKey);
+        if (cityData == null || cityData.isEmpty()) {
+            return "";
+        }
+
+        List<String> tokens = extractQueryTokens(query);
+        StringBuilder sb = new StringBuilder();
+        sb.append("Thành phố: ").append(cityKey).append('\n');
+        if (query != null && !query.isBlank()) {
+            sb.append("Câu hỏi người dùng: ").append(query.trim()).append('\n');
+        }
+
+        appendContextSection(sb, "tourism", "Điểm tham quan", cityData.get("tourism"), tokens);
+        appendContextSection(sb, "restaurant", "Nhà hàng", cityData.get("restaurant"), tokens);
+        appendContextSection(sb, "cafe", "Quán cà phê", cityData.get("cafe"), tokens);
+
+        return sb.toString().trim();
     }
 
     private void ensureLoaded() {
@@ -329,6 +357,133 @@ public class CityDataService {
 
     private boolean contains(String value, String needle) {
         return value != null && !value.isBlank() && value.toLowerCase(Locale.ROOT).contains(needle);
+    }
+
+    private void appendContextSection(StringBuilder sb, String categoryKey, String label, List<CityPlace> places, List<String> tokens) {
+        if (places == null || places.isEmpty()) {
+            return;
+        }
+
+        List<CityPlace> selected = selectRelevantPlaces(places, tokens, 4);
+        if (selected.isEmpty()) {
+            selected = places.subList(0, Math.min(4, places.size()));
+        }
+
+        sb.append('\n').append(label).append(':').append('\n');
+        for (CityPlace place : selected) {
+            sb.append("- ")
+                    .append(place.title());
+            if (place.address() != null && !place.address().isBlank()) {
+                sb.append(" | Địa chỉ: ").append(place.address());
+            }
+            if (place.type() != null && !place.type().isBlank()) {
+                sb.append(" | Loại: ").append(place.type());
+            }
+            if (place.rating() != null) {
+                sb.append(" | Rating: ").append(place.rating());
+            }
+            if (place.reviews() != null) {
+                sb.append(" | Reviews: ").append(place.reviews());
+            }
+            if (place.hours() != null && !place.hours().isBlank()) {
+                sb.append(" | Giờ mở cửa: ").append(place.hours());
+            }
+            if (place.priceRange() != null && !place.priceRange().isBlank()) {
+                sb.append(" | Giá: ").append(place.priceRange());
+            }
+            if (place.description() != null && !place.description().isBlank()) {
+                sb.append(" | Mô tả: ").append(place.description());
+            }
+            sb.append('\n');
+        }
+    }
+
+    private List<CityPlace> selectRelevantPlaces(List<CityPlace> places, List<String> tokens, int maxItems) {
+        if (places == null || places.isEmpty() || maxItems <= 0) {
+            return List.of();
+        }
+
+        List<ScoredPlace> scored = new ArrayList<>();
+        for (CityPlace place : places) {
+            int score = scorePlace(place, tokens);
+            scored.add(new ScoredPlace(place, score));
+        }
+
+        scored.sort(Comparator
+                .comparingInt(ScoredPlace::score).reversed()
+                .thenComparing(sp -> sp.place().rating(), Comparator.nullsLast(Comparator.reverseOrder()))
+                .thenComparing(sp -> sp.place().reviews(), Comparator.nullsLast(Comparator.reverseOrder()))
+                .thenComparing(sp -> sp.place().title()));
+
+        List<CityPlace> result = new ArrayList<>();
+        for (ScoredPlace item : scored) {
+            if (result.size() >= maxItems) {
+                break;
+            }
+            result.add(item.place());
+        }
+        return result;
+    }
+
+    private int scorePlace(CityPlace place, List<String> tokens) {
+        if (place == null) {
+            return 0;
+        }
+
+        String haystack = removeDiacritics(
+                (place.title() + " " + place.type() + " " + place.address() + " " + place.description())
+                        .toLowerCase(Locale.ROOT)
+        );
+
+        int score = 0;
+        if (tokens != null) {
+            for (String token : tokens) {
+                if (token.isBlank()) {
+                    continue;
+                }
+                if (haystack.contains(token)) {
+                    score += token.length() >= 5 ? 3 : 2;
+                }
+            }
+        }
+
+        if (place.rating() != null) {
+            score += Math.min(5, (int) Math.floor(place.rating()));
+        }
+        if (place.reviews() != null) {
+            score += Math.min(3, place.reviews() / 200);
+        }
+        return score;
+    }
+
+    private List<String> extractQueryTokens(String query) {
+        if (query == null || query.isBlank()) {
+            return List.of();
+        }
+
+        String normalized = removeDiacritics(query).toLowerCase(Locale.ROOT);
+        List<String> tokens = new ArrayList<>();
+        Matcher matcher = Pattern.compile("[a-z0-9]{3,}").matcher(normalized);
+        while (matcher.find()) {
+            String token = matcher.group();
+            if (!isStopWord(token)) {
+                tokens.add(token);
+            }
+        }
+        return tokens;
+    }
+
+    private boolean isStopWord(String token) {
+        Set<String> stopWords = Set.of(
+                "ban", "toi", "minh", "cho", "co", "the", "lam", "gi", "o", "tai",
+                "khi", "nay", "di", "den", "noi", "nao", "duoc", "khong",
+                "moi", "ngay", "ngan", "sach", "gio", "mua", "an", "u", "ve", "voi",
+                "mot", "hai", "ba", "bon", "nam", "sau", "bay", "tam", "chin", "muon"
+        );
+        return stopWords.contains(token);
+    }
+
+    private record ScoredPlace(CityPlace place, int score) {
     }
 
     public record CityPlace(
