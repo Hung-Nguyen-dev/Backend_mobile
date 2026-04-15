@@ -15,6 +15,10 @@ travel:
       tmn-code: YOUR_VNPAY_TMN
       # Phải trùng đúng chuỗi VNPAY gửi (không thừa dấu cách/xuống dòng). Email có 2 mã khác nhau → chỉ một là đúng sandbox.
       hash-secret: YOUR_VNPAY_HASH_SECRET
+  places:
+    serp-api:
+      enabled: true
+      api-key: YOUR_SERP_API_KEY
 
 cloudinary:
   cloud-name: YOUR_CLOUDINARY_CLOUD_NAME
@@ -50,3 +54,8 @@ spring:
           connectiontimeout: 5000
           timeout: 5000
           writetimeout: 5000
+
+google:
+  gemini:
+    api-key: YOUR_GEMINI_API_KEY
+    enabled: true

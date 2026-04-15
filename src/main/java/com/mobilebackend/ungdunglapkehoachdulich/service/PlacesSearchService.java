@@ -123,6 +123,10 @@ public class PlacesSearchService {
     }
 
     public List<PlaceNearRes> searchAttractions(String destination, Integer limit) throws IOException, InterruptedException {
+        return searchPlacesByCategory(destination, "địa điểm du lịch", limit);
+    }
+
+    public List<PlaceNearRes> searchPlacesByCategory(String destination, String category, Integer limit) throws IOException, InterruptedException {
         int max = limit != null && limit > 0 ? Math.min(limit, 50) : 25;
         TravelPlacesProperties.SerpApi serp = properties.getSerpApi();
         if (serp == null || !serp.isEnabled() || serp.getApiKey() == null || serp.getApiKey().isBlank()) {
@@ -134,7 +138,7 @@ public class PlacesSearchService {
             return List.of();
         }
 
-        String qKeyword = "địa điểm du lịch tại " + (destination == null ? "" : destination.trim());
+        String qKeyword = (category == null ? "địa điểm" : category.trim()) + " tại " + (destination == null ? "" : destination.trim());
         String url = base + "/search.json"
                 + "?engine=google_maps"
                 + "&type=search"
@@ -153,11 +157,11 @@ public class PlacesSearchService {
 
         HttpResponse<String> response = client().send(request, HttpResponse.BodyHandlers.ofString(StandardCharsets.UTF_8));
         if (response.statusCode() / 100 != 2) {
-            log.warn("SerpAPI attractions HTTP {}", response.statusCode());
+            log.warn("SerpAPI search HTTP {}", response.statusCode());
             return List.of();
         }
 
-        List<PlaceNearRes> raw = parseSerpGoogleMapsLocal(response.body(), "tourist_attraction");
+        List<PlaceNearRes> raw = parseSerpGoogleMapsLocal(response.body(), "place_search");
         if (raw.size() > max) {
             return raw.subList(0, max);
         }
