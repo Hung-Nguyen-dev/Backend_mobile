@@ -122,6 +122,48 @@ public class PlacesSearchService {
         return parseOverpass(json, k, max);
     }
 
+    public List<PlaceNearRes> searchAttractions(String destination, Integer limit) throws IOException, InterruptedException {
+        int max = limit != null && limit > 0 ? Math.min(limit, 50) : 25;
+        TravelPlacesProperties.SerpApi serp = properties.getSerpApi();
+        if (serp == null || !serp.isEnabled() || serp.getApiKey() == null || serp.getApiKey().isBlank()) {
+            log.warn("SerpAPI not enabled or configured");
+            return List.of();
+        }
+        String base = trimSlash(serp.getBaseUrl());
+        if (base.isEmpty()) {
+            return List.of();
+        }
+
+        String qKeyword = "địa điểm du lịch tại " + (destination == null ? "" : destination.trim());
+        String url = base + "/search.json"
+                + "?engine=google_maps"
+                + "&type=search"
+                + "&api_key=" + URLEncoder.encode(serp.getApiKey(), StandardCharsets.UTF_8)
+                + "&q=" + URLEncoder.encode(qKeyword, StandardCharsets.UTF_8)
+                + "&hl=" + URLEncoder.encode(Objects.toString(serp.getHl(), "vi"), StandardCharsets.UTF_8)
+                + "&gl=" + URLEncoder.encode(Objects.toString(serp.getGl(), "vn"), StandardCharsets.UTF_8)
+                + "&num=" + Math.max(max, 20);
+
+        HttpRequest request = HttpRequest.newBuilder(URI.create(url))
+                .timeout(Duration.ofSeconds(properties.getTimeoutSeconds()))
+                .header("Accept", "application/json")
+                .header("User-Agent", properties.getUserAgent())
+                .GET()
+                .build();
+
+        HttpResponse<String> response = client().send(request, HttpResponse.BodyHandlers.ofString(StandardCharsets.UTF_8));
+        if (response.statusCode() / 100 != 2) {
+            log.warn("SerpAPI attractions HTTP {}", response.statusCode());
+            return List.of();
+        }
+
+        List<PlaceNearRes> raw = parseSerpGoogleMapsLocal(response.body(), "tourist_attraction");
+        if (raw.size() > max) {
+            return raw.subList(0, max);
+        }
+        return raw;
+    }
+
     /**
      * Bo sung thong tin tu Google Maps (SerpAPI) khi client chi co OSM hoac thieu truong.
      * Khong nem exception — tra ve {@link PlaceMapsEnrichRes#empty()} khi loi / tat Serp.

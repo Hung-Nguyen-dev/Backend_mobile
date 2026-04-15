@@ -55,6 +55,19 @@ public class PlacesController {
         }
     }
 
+    @GetMapping("/attractions")
+    public ResponseEntity<?> getAttractions(
+            @RequestParam String destination,
+            @RequestParam(required = false) Integer limit
+    ) {
+        try {
+            return ResponseEntity.ok(placesSearchService.searchAttractions(destination, limit));
+        } catch (Exception e) {
+            log.warn("places/attractions failed: {}", e.toString(), e);
+            return ResponseEntity.status(503).body("Error fetching attractions: " + e.getMessage());
+        }
+    }
+
     /**
      * Bo sung SĐT, giờ mở cửa, đánh giá… từ Google Maps (SerpAPI). Trả JSON rỗng / null field nếu tắt Serp hoặc lỗi.
      */
