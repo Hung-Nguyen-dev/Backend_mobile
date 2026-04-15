@@ -28,4 +28,12 @@ public class AdminController {
             @RequestBody UpdateRoleReq req) {
         return ResponseEntity.ok(userService.updateRole(currentUserId, userId, req));
     }
+
+    @DeleteMapping("/users/{userId}")
+    public ResponseEntity<Void> deleteUser(
+            @RequestHeader("X-User-Id") Integer currentUserId,
+            @PathVariable Integer userId) {
+        userService.deleteUser(currentUserId, userId);
+        return ResponseEntity.noContent().build();
+    }
 }

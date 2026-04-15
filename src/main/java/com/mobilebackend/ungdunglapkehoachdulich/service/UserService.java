@@ -135,6 +135,13 @@ public class UserService {
         return userRepo.save(user);
     }
 
+    @Transactional
+    public void deleteUser(Integer currentUserId, Integer targetUserId) {
+        requireAdmin(currentUserId);
+        User user = getUser(targetUserId);
+        userRepo.delete(user);
+    }
+
     private void authorizeSelfOrAdmin(Integer currentUserId, Integer targetUserId) {
         if (currentUserId == null || targetUserId == null) {
             throw new IllegalArgumentException("userId khong duoc de trong");
