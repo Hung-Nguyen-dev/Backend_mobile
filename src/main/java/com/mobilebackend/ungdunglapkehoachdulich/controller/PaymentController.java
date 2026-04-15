@@ -31,6 +31,17 @@ public class PaymentController {
         return process(() -> paymentService.initiatePayment(tripId, bookingId, req, clientIp));
     }
 
+    @PostMapping("/users/{userId}/bookings/{bookingId}/payments/initiate")
+    public ResponseEntity<?> initiatePaymentWithoutTrip(
+            @PathVariable Integer userId,
+            @PathVariable Integer bookingId,
+            @RequestBody PaymentInitiateReq req,
+            HttpServletRequest httpServletRequest
+    ) {
+        String clientIp = resolveClientIp(httpServletRequest);
+        return process(() -> paymentService.initiatePaymentWithoutTrip(userId, bookingId, req, clientIp));
+    }
+
     @GetMapping("/payments/vnpay/callback")
     public ResponseEntity<?> vnpayReturn(@RequestParam Map<String, String> params) {
         try {

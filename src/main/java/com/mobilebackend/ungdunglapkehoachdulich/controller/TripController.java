@@ -1,6 +1,7 @@
 package com.mobilebackend.ungdunglapkehoachdulich.controller;
 
 import com.mobilebackend.ungdunglapkehoachdulich.dto.TripReq;
+import com.mobilebackend.ungdunglapkehoachdulich.dto.UpdateTripStopReq;
 import com.mobilebackend.ungdunglapkehoachdulich.service.TripService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -45,6 +46,33 @@ public class TripController {
         try {
             tripService.checkInLocation(postItineraryDetailId, userId);
             return ResponseEntity.ok().build();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    @PutMapping("/trips/journal/stops/{itineraryDetailId}")
+    public ResponseEntity<Void> updateTripStop(
+            @PathVariable Integer itineraryDetailId,
+            @RequestHeader("X-User-Id") Integer userId,
+            @RequestBody UpdateTripStopReq req
+    ) {
+        try {
+            tripService.updateTripStop(itineraryDetailId, userId, req);
+            return ResponseEntity.ok().build();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    @DeleteMapping("/trips/journal/stops/{itineraryDetailId}")
+    public ResponseEntity<Void> deleteTripStop(
+            @PathVariable Integer itineraryDetailId,
+            @RequestHeader("X-User-Id") Integer userId
+    ) {
+        try {
+            tripService.deleteTripStop(itineraryDetailId, userId);
+            return ResponseEntity.noContent().build();
         } catch (Exception e) {
             throw new RuntimeException(e);
         }

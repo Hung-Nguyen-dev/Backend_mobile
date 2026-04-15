@@ -1,6 +1,7 @@
 package com.mobilebackend.ungdunglapkehoachdulich.service;
 
 import com.mobilebackend.ungdunglapkehoachdulich.dto.TripReq;
+import com.mobilebackend.ungdunglapkehoachdulich.dto.UpdateTripStopReq;
 import com.mobilebackend.ungdunglapkehoachdulich.model.*;
 import com.mobilebackend.ungdunglapkehoachdulich.repo.*;
 import jakarta.transaction.Transactional;
@@ -11,8 +12,8 @@ import org.springframework.stereotype.Service;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import java.util.Objects;
+import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -24,6 +25,16 @@ public class TripService {
     private final PostItineraryDetailRepo postItineraryDetailRepo;
     private final TripMemberRepo tripMemberRepo;
     private final PostRepo postRepo;
+    private final ItineraryItemRepo itineraryItemRepo;
+    private final BudgetRepo budgetRepo;
+    private final ExpenseRepo expenseRepo;
+    private final ExpenseSplitRepo expenseSplitRepo;
+    private final BookingMasterRepo bookingMasterRepo;
+    private final BookingFlightRepo bookingFlightRepo;
+    private final BookingHotelRepo bookingHotelRepo;
+    private final BookingCoachRepo bookingCoachRepo;
+    private final BookingRestaurantRepo bookingRestaurantRepo;
+    private final PaymentRepo paymentRepo;
 
     @Transactional
     public Integer TripCreateService(Integer userId, TripReq tripReq){
@@ -128,6 +139,31 @@ public class TripService {
             throw new RuntimeException("Bạn không có quyền xóa chuyến đi này");
         }
 
+        // clear itinerary_items (new place detail add-to-trip feature)
+        itineraryItemRepo.deleteByTripId(tripId);
+
+        // clear finance data
+        List<Expense> expenses = expenseRepo.findByTripId(tripId);
+        List<Integer> expenseIds = expenses.stream().map(Expense::getId).filter(Objects::nonNull).collect(Collectors.toList());
+        if (!expenseIds.isEmpty()) {
+            expenseSplitRepo.deleteByExpenseIdIn(expenseIds);
+        }
+        expenseRepo.deleteByTripId(tripId);
+        budgetRepo.deleteByTripId(tripId);
+
+        // clear bookings + payments by booking_master
+        List<BookingMaster> bookingMasters = bookingMasterRepo.findByTripId(tripId);
+        for (BookingMaster bookingMaster : bookingMasters) {
+            Integer bookingMasterId = bookingMaster.getId();
+            if (bookingMasterId == null) continue;
+            paymentRepo.deleteByBookingMasterId(bookingMasterId);
+            bookingFlightRepo.deleteByBookingMasterId(bookingMasterId);
+            bookingHotelRepo.deleteByBookingMasterId(bookingMasterId);
+            bookingCoachRepo.deleteByBookingMasterId(bookingMasterId);
+            bookingRestaurantRepo.deleteByBookingMasterId(bookingMasterId);
+        }
+        bookingMasterRepo.deleteAll(bookingMasters);
+
         // cascade delete TripMembers
         tripMemberRepo.deleteAll(tripMemberRepo.findByTripId(tripId));
 
@@ -225,5 +261,54 @@ public class TripService {
 
         pid.setStatus("1");
         postItineraryDetailRepo.save(pid);
+    }
+
+    private Trip validateTripAccessByDetail(Integer itineraryDetailId, Integer userId) {
+        ItineraryDetail detail = itineraryDetailRepo.findById(itineraryDetailId)
+                .orElseThrow(() -> new RuntimeException("Chi tiết lịch trình không tồn tại"));
+        Itinerary iti = itineraryRepo.findById(detail.getItineraryId())
+                .orElseThrow(() -> new RuntimeException("Ngày lịch trình không tồn tại"));
+        Trip trip = tripRepo.findById(iti.getTripId())
+                .orElseThrow(() -> new RuntimeException("Chuyến đi không tồn tại"));
+
+        if (!trip.getUserId().equals(userId)) {
+            tripMemberRepo.findByTripIdAndUserId(trip.getId(), userId)
+                    .filter(tm -> tm.getStatus() == 1)
+                    .orElseThrow(() -> new RuntimeException("Bạn không có quyền sửa lịch trình chuyến đi này"));
+        }
+        return trip;
+    }
+
+    @Transactional
+    public void updateTripStop(Integer itineraryDetailId, Integer userId, UpdateTripStopReq req) {
+        validateTripAccessByDetail(itineraryDetailId, userId);
+        ItineraryDetail detail = itineraryDetailRepo.findById(itineraryDetailId)
+                .orElseThrow(() -> new RuntimeException("Chi tiết lịch trình không tồn tại"));
+
+        if (req != null) {
+            String timeRaw = req.getVisitTime();
+            if (timeRaw != null) {
+                String normalized = timeRaw.trim();
+                if (normalized.isEmpty()) {
+                    detail.setVisitTime(null);
+                } else {
+                    try {
+                        detail.setVisitTime(java.time.LocalTime.parse(normalized));
+                    } catch (Exception e) {
+                        throw new RuntimeException("Giờ không hợp lệ, định dạng đúng là HH:mm");
+                    }
+                }
+            }
+            detail.setNote(req.getNote());
+        }
+        itineraryDetailRepo.save(detail);
+    }
+
+    @Transactional
+    public void deleteTripStop(Integer itineraryDetailId, Integer userId) {
+        validateTripAccessByDetail(itineraryDetailId, userId);
+        List<PostItineraryDetail> mappings = postItineraryDetailRepo.findByItineraryDetailId(itineraryDetailId);
+        postItineraryDetailRepo.deleteAll(mappings);
+        itineraryDetailRepo.deleteById(itineraryDetailId);
     }
 }

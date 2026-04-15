@@ -7,5 +7,6 @@ import java.util.Optional;
 
 public interface PaymentRepo extends JpaRepository<Payment, Integer> {
     Optional<Payment> findByTransactionNoAndProvider(String transactionNo, String provider);
+    void deleteByBookingMasterId(Integer bookingMasterId);
 }
 

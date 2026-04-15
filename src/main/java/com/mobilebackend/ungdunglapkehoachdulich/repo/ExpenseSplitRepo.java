@@ -7,5 +7,6 @@ import java.util.List;
 
 public interface ExpenseSplitRepo extends JpaRepository<ExpenseSplit, Integer> {
     List<ExpenseSplit> findByExpenseId(Integer expenseId);
+    void deleteByExpenseIdIn(List<Integer> expenseIds);
 }
 
