@@ -3,6 +3,7 @@ package com.mobilebackend.ungdunglapkehoachdulich.controller;
 import com.mobilebackend.ungdunglapkehoachdulich.dto.finance.BudgetUpsertReq;
 import com.mobilebackend.ungdunglapkehoachdulich.dto.finance.ExpenseCreateReq;
 import com.mobilebackend.ungdunglapkehoachdulich.dto.finance.ExpenseSplitReq;
+import com.mobilebackend.ungdunglapkehoachdulich.dto.finance.ExpenseUpdateReq;
 import com.mobilebackend.ungdunglapkehoachdulich.service.FinanceService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -33,8 +34,29 @@ public class FinanceController {
     }
 
     @GetMapping("/expenses")
-    public ResponseEntity<?> getTripExpenses(@PathVariable Integer tripId) {
-        return process(() -> financeService.getTripExpenses(tripId));
+    public ResponseEntity<?> getTripExpenses(
+            @PathVariable Integer tripId,
+            @RequestParam(name = "fromDate", required = false) String fromDate,
+            @RequestParam(name = "toDate", required = false) String toDate
+    ) {
+        return process(() -> financeService.getTripExpenses(tripId, fromDate, toDate));
+    }
+
+    @PutMapping("/expenses/{expenseId}")
+    public ResponseEntity<?> updateExpense(
+            @PathVariable Integer tripId,
+            @PathVariable Integer expenseId,
+            @RequestBody ExpenseUpdateReq req
+    ) {
+        return process(() -> financeService.updateExpense(tripId, expenseId, req));
+    }
+
+    @DeleteMapping("/expenses/{expenseId}")
+    public ResponseEntity<?> deleteExpense(
+            @PathVariable Integer tripId,
+            @PathVariable Integer expenseId
+    ) {
+        return process(() -> financeService.deleteExpense(tripId, expenseId));
     }
 
     @PostMapping("/expenses/{expenseId}/splits")

@@ -9,6 +9,8 @@ import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeParseException;
 import java.util.*;
 
 @Service
@@ -56,9 +58,54 @@ public class FinanceService {
         return expenseRepo.save(expense);
     }
 
-    public List<Expense> getTripExpenses(Integer tripId) {
+    public List<Expense> getTripExpenses(Integer tripId, String fromDate, String toDate) {
         validateTrip(tripId);
-        return expenseRepo.findByTripId(tripId);
+        List<Expense> expenses = expenseRepo.findByTripId(tripId);
+        LocalDate from = parseDateOptional(fromDate);
+        LocalDate to = parseDateOptional(toDate);
+        if (from == null && to == null) {
+            return expenses;
+        }
+        return expenses.stream()
+                .filter(exp -> exp.getCreatedAt() != null)
+                .filter(exp -> {
+                    LocalDate d = exp.getCreatedAt().toLocalDate();
+                    boolean afterFrom = from == null || !d.isBefore(from);
+                    boolean beforeTo = to == null || !d.isAfter(to);
+                    return afterFrom && beforeTo;
+                })
+                .toList();
+    }
+
+    @Transactional
+    public Expense updateExpense(Integer tripId, Integer expenseId, ExpenseUpdateReq req) {
+        validateTrip(tripId);
+        Expense expense = expenseRepo.findById(expenseId)
+                .orElseThrow(() -> new IllegalArgumentException("Expense khong ton tai"));
+        if (!Objects.equals(expense.getTripId(), tripId)) {
+            throw new IllegalArgumentException("Expense khong thuoc trip nay");
+        }
+        if (req == null || req.getAmount() == null || req.getAmount() <= 0F || isBlank(req.getCategory())) {
+            throw new IllegalArgumentException("Thong tin cap nhat chi tieu khong hop le");
+        }
+
+        expense.setAmount(req.getAmount());
+        expense.setCategory(req.getCategory().trim());
+        expense.setDescription(req.getDescription());
+        return expenseRepo.save(expense);
+    }
+
+    @Transactional
+    public String deleteExpense(Integer tripId, Integer expenseId) {
+        validateTrip(tripId);
+        Expense expense = expenseRepo.findById(expenseId)
+                .orElseThrow(() -> new IllegalArgumentException("Expense khong ton tai"));
+        if (!Objects.equals(expense.getTripId(), tripId)) {
+            throw new IllegalArgumentException("Expense khong thuoc trip nay");
+        }
+        expenseSplitRepo.deleteAll(expenseSplitRepo.findByExpenseId(expenseId));
+        expenseRepo.delete(expense);
+        return "Da xoa chi tieu";
     }
 
     @Transactional
@@ -171,6 +218,15 @@ public class FinanceService {
 
     private boolean isBlank(String value) {
         return value == null || value.trim().isEmpty();
+    }
+
+    private LocalDate parseDateOptional(String raw) {
+        if (isBlank(raw)) return null;
+        try {
+            return LocalDate.parse(raw.trim());
+        } catch (DateTimeParseException ex) {
+            throw new IllegalArgumentException("Ngay loc khong hop le, dung dinh dang YYYY-MM-DD");
+        }
     }
 }
 
