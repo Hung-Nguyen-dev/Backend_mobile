@@ -12,6 +12,9 @@ public final class AiItineraryDtos {
         private List<String> preferences;
         private String budgetTier;
         private String startDate;
+        private Boolean hasChildren;
+        private Boolean hasElderly;
+        private Boolean accessibilityNeeded;
 
         public String getDestination() {
             return destination;
@@ -51,6 +54,30 @@ public final class AiItineraryDtos {
 
         public void setStartDate(String startDate) {
             this.startDate = startDate;
+        }
+
+        public Boolean getHasChildren() {
+            return hasChildren;
+        }
+
+        public void setHasChildren(Boolean hasChildren) {
+            this.hasChildren = hasChildren;
+        }
+
+        public Boolean getHasElderly() {
+            return hasElderly;
+        }
+
+        public void setHasElderly(Boolean hasElderly) {
+            this.hasElderly = hasElderly;
+        }
+
+        public Boolean getAccessibilityNeeded() {
+            return accessibilityNeeded;
+        }
+
+        public void setAccessibilityNeeded(Boolean accessibilityNeeded) {
+            this.accessibilityNeeded = accessibilityNeeded;
         }
     }
 

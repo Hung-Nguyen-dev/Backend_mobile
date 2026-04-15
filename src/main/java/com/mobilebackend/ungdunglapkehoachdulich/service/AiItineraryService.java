@@ -37,15 +37,20 @@ public class AiItineraryService {
             throw new IllegalArgumentException("destination is required");
         }
 
+        boolean hasChildren = isTrue(req.getHasChildren()) || matchesAnyPreference(req.getPreferences(), "family", "gia đình", "kids", "child", "children", "tre em", "trẻ em");
+        boolean hasElderly = isTrue(req.getHasElderly()) || matchesAnyPreference(req.getPreferences(), "elderly", "senior", "nguoi gia", "người già", "cao tuổi", "grandparent", "ong ba");
+        boolean accessibilityNeeded = isTrue(req.getAccessibilityNeeded()) || matchesAnyPreference(req.getPreferences(), "accessible", "accessibility", "wheelchair", "khong bậc", "khong bac", "ít đi bộ", "it di bo");
+        boolean gentlePace = hasChildren || hasElderly || accessibilityNeeded;
+
         int days = Math.max(1, Math.min(req.getDayCount(), 14));
         List<CityPlace> tourism = new ArrayList<>(cityDataService.getPlaces(destination, "tourism"));
         List<CityPlace> restaurants = new ArrayList<>(cityDataService.getPlaces(destination, "restaurant"));
         List<CityPlace> cafes = new ArrayList<>(cityDataService.getPlaces(destination, "cafe"));
 
         // Sort by preference score
-        sortPlacesByPreference(tourism, req.getPreferences());
-        sortPlacesByPreference(restaurants, req.getPreferences());
-        sortPlacesByPreference(cafes, req.getPreferences());
+        sortPlacesByPreference(tourism, req.getPreferences(), hasChildren, hasElderly, accessibilityNeeded, req.getBudgetTier());
+        sortPlacesByPreference(restaurants, req.getPreferences(), hasChildren, hasElderly, accessibilityNeeded, req.getBudgetTier());
+        sortPlacesByPreference(cafes, req.getPreferences(), hasChildren, hasElderly, accessibilityNeeded, req.getBudgetTier());
 
         List<SuggestedDay> dayList = new ArrayList<>();
         
@@ -126,10 +131,12 @@ public class AiItineraryService {
             }
 
             // 8. Night (Attraction)
-            CityPlace night = pickNearest(currentLat, currentLon, tourism, usedPlaceIds, "21:15", req.getBudgetTier());
-            if (night != null) {
-                dayActivities.add(toActivity(night, "act-" + dayIndex + "-5", "21:15", "1h"));
-                usedPlaceIds.add(night.placeId());
+            if (!gentlePace) {
+                CityPlace night = pickNearest(currentLat, currentLon, tourism, usedPlaceIds, "21:15", req.getBudgetTier());
+                if (night != null) {
+                    dayActivities.add(toActivity(night, "act-" + dayIndex + "-5", "21:15", "1h"));
+                    usedPlaceIds.add(night.placeId());
+                }
             }
 
             if (!dayActivities.isEmpty()) {
@@ -166,6 +173,53 @@ public class AiItineraryService {
         });
     }
 
+    private void sortPlacesByPreference(
+            List<CityPlace> places,
+            List<String> prefs,
+            boolean hasChildren,
+            boolean hasElderly,
+            boolean accessibilityNeeded,
+            String budgetTier
+    ) {
+        if (places.isEmpty()) {
+            return;
+        }
+
+        if (prefs == null || prefs.isEmpty()) {
+            Collections.shuffle(places);
+        }
+
+        places.sort((a, b) -> {
+            int scoreA = calculateScore(a, prefs, hasChildren, hasElderly, accessibilityNeeded);
+            int scoreB = calculateScore(b, prefs, hasChildren, hasElderly, accessibilityNeeded);
+            if (scoreA != scoreB) return scoreB - scoreA;
+
+            double weightedRatingA = weightedRating(a, budgetTier);
+            double weightedRatingB = weightedRating(b, budgetTier);
+            if (Double.compare(weightedRatingA, weightedRatingB) != 0) {
+                return Double.compare(weightedRatingB, weightedRatingA);
+            }
+
+            Integer reviewsA = a.reviews() != null ? a.reviews() : 0;
+            Integer reviewsB = b.reviews() != null ? b.reviews() : 0;
+            return Integer.compare(reviewsB, reviewsA);
+        });
+    }
+
+    private double weightedRating(CityPlace place, String budgetTier) {
+        double rating = place.rating() != null ? place.rating() : 0.0;
+        String tier = safeLower(budgetTier);
+        double weight = 1.0;
+        if ("low".equals(tier)) {
+            weight = 1.35;
+        } else if ("medium".equals(tier) || tier.isEmpty()) {
+            weight = 1.20;
+        } else if ("high".equals(tier)) {
+            weight = 1.10;
+        }
+        return rating * weight;
+    }
+
     private int calculateScore(CityPlace p, List<String> prefs) {
         int score = 0;
         String text = (p.title() + " " + p.type() + " " + p.description()).toLowerCase(Locale.ROOT);
@@ -186,6 +240,37 @@ public class AiItineraryService {
                 if (containsAny(text, "chay", "vegan", "vegetarian", "thanh tịnh")) score += 10;
             }
         }
+        return score;
+    }
+
+    private int calculateScore(
+            CityPlace p,
+            List<String> prefs,
+            boolean hasChildren,
+            boolean hasElderly,
+            boolean accessibilityNeeded
+    ) {
+        int score = calculateScore(p, prefs);
+        String text = removeDiacritics((p.title() + " " + p.type() + " " + p.description() + " " + p.address()).toLowerCase(Locale.ROOT));
+
+        if (hasChildren) {
+            if (containsAny(text, "công viên", "cong vien", "zoo", "safari", "thủy cung", "thuy cung", "bảo tàng", "bao tang", "khu vui chơi", "phố đi bộ", "pho di bo", "cáp treo", "cap treo")) {
+                score += 12;
+            }
+        }
+
+        if (hasElderly) {
+            if (containsAny(text, "chùa", "chua", "bảo tàng", "bao tang", "công viên", "cong vien", "vườn", "vuon", "du thuyền", "du thuyen", "view", "ngắm cảnh", "ngam canh", "đi bộ nhẹ", "di bo nhe")) {
+                score += 12;
+            }
+        }
+
+        if (accessibilityNeeded) {
+            if (containsAny(text, "trung tâm", "trung tam", "công viên", "cong vien", "bảo tàng", "bao tang", "quảng trường", "quang truong", "du thuyền", "du thuyen", "ít bậc", "it bac", "dễ đi", "de di")) {
+                score += 10;
+            }
+        }
+
         return score;
     }
 
@@ -403,11 +488,26 @@ public class AiItineraryService {
         String budgetKey = safeLower(req.getBudgetTier());
         String budgetVi = "low".equals(budgetKey) ? "tiết kiệm" : "high".equals(budgetKey) ? "thoải mái" : "vừa phải";
         String prefLine = (req.getPreferences() == null || req.getPreferences().isEmpty()) ? "đa dạng" : String.join(", ", req.getPreferences());
+        String ageLine = buildAgeLine(req);
         
         return String.format("Dưới đây là lịch trình %d ngày tại %s được thiết kế riêng cho bạn. " +
                 "Chúng mình đã ưu tiên các địa điểm phù hợp với sở thích '%s' và ngân sách %s của bạn, " +
-                "kết hợp hài hòa giữa tham quan và trải nghiệm ẩm thực địa phương.", 
-                days, destination, prefLine, budgetVi);
+                "kết hợp hài hòa giữa tham quan và trải nghiệm ẩm thực địa phương. %s",
+                days, destination, prefLine, budgetVi, ageLine);
+    }
+
+    private String buildAgeLine(AiItineraryRequest req) {
+        List<String> parts = new ArrayList<>();
+        if (isTrue(req.getHasChildren())) {
+            parts.add("Lịch trình được tinh chỉnh để phù hợp hơn cho trẻ em: ưu tiên điểm vui chơi, ít di chuyển và hạn chế khung giờ quá muộn.");
+        }
+        if (isTrue(req.getHasElderly())) {
+            parts.add("Lịch trình được tinh chỉnh để phù hợp hơn cho người cao tuổi: ưu tiên điểm nhẹ nhàng, có thời gian nghỉ và hạn chế đi bộ nhiều.");
+        }
+        if (isTrue(req.getAccessibilityNeeded())) {
+            parts.add("Lịch trình cũng ưu tiên các điểm dễ đi lại, ít bậc thang và thuận tiện tiếp cận hơn.");
+        }
+        return parts.isEmpty() ? "" : String.join(" ", parts);
     }
 
     private CityPlace pickCyclic(List<CityPlace> list, int index) {
@@ -424,4 +524,34 @@ public class AiItineraryService {
 
     private String safeLower(String v) { return v == null ? "" : v.trim().toLowerCase(Locale.ROOT); }
     private boolean hasText(String v) { return v != null && !v.trim().isEmpty(); }
+    private boolean isTrue(Boolean value) { return Boolean.TRUE.equals(value); }
+
+    private boolean matchesAnyPreference(List<String> prefs, String... needles) {
+        if (prefs == null || prefs.isEmpty() || needles == null || needles.length == 0) {
+            return false;
+        }
+        for (String pref : prefs) {
+            if (pref == null) {
+                continue;
+            }
+            String normalized = removeDiacritics(pref).toLowerCase(Locale.ROOT);
+            for (String needle : needles) {
+                if (normalized.contains(removeDiacritics(needle).toLowerCase(Locale.ROOT))) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    private String removeDiacritics(String str) {
+        if (str == null) {
+            return "";
+        }
+        String nfdNormalizedString = java.text.Normalizer.normalize(str, java.text.Normalizer.Form.NFD);
+        return nfdNormalizedString
+                .replaceAll("\\p{InCombiningDiacriticalMarks}+", "")
+                .replace('đ', 'd')
+                .replace('Đ', 'D');
+    }
 }
