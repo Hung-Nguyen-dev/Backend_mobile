@@ -10,5 +10,6 @@ public interface BudgetRepo extends JpaRepository<Budget, Integer> {
     List<Budget> findByTripId(Integer tripId);
 
     Optional<Budget> findByTripIdAndCategory(Integer tripId, String category);
+    void deleteByTripId(Integer tripId);
 }
 

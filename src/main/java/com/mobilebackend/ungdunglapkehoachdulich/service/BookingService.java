@@ -49,6 +49,38 @@ public class BookingService {
     }
 
     @Transactional
+    public BookingMaster createFlightBookingWithoutTrip(FlightBookingReq req) {
+        if (req == null) {
+            throw new IllegalArgumentException("Thong tin dat ve khong hop le");
+        }
+        if (req.getUserId() == null) {
+            throw new IllegalArgumentException("Thieu userId");
+        }
+        if (req.getTotalAmount() == null || req.getTotalAmount() <= 0F) {
+            throw new IllegalArgumentException("totalAmount phai lon hon 0");
+        }
+        if (isBlank(req.getFlightNumber()) || isBlank(req.getDepartureAirport()) || isBlank(req.getArrivalAirport())) {
+            throw new IllegalArgumentException("Thong tin chuyen bay khong hop le");
+        }
+
+        BookingMaster bookingMaster = createBookingMaster(null, req.getUserId(), req.getTotalAmount(), req.getPaymentStatus());
+
+        BookingFlight bookingFlight = BookingFlight.builder()
+                .pnrCode(req.getPnrCode())
+                .flightNumber(req.getFlightNumber())
+                .departureAirport(req.getDepartureAirport())
+                .arrivalAirport(req.getArrivalAirport())
+                .departureTime(req.getDepartureTime())
+                .arrivalTime(req.getArrivalTime())
+                .bookingMasterId(bookingMaster.getId())
+                .build();
+        bookingFlightRepo.save(bookingFlight);
+
+        savePaymentIfProvided(bookingMaster.getId(), req.getPayment(), req.getTotalAmount());
+        return bookingMaster;
+    }
+
+    @Transactional
     public BookingMaster createHotelBooking(Integer tripId, HotelBookingReq req) {
         validateCommonBooking(tripId, req.getUserId(), req.getTotalAmount());
         if (isBlank(req.getRoomType()) || req.getCheckInDate() == null || req.getCheckOutDate() == null) {
@@ -130,6 +162,15 @@ public class BookingService {
             throw new IllegalArgumentException("Trip khong ton tai");
         }
         return bookingMasterRepo.findByTripId(tripId).stream()
+                .map(this::toTicketRes)
+                .toList();
+    }
+
+    public List<BookingTicketRes> getUserBookings(Integer userId) {
+        if (userId == null) {
+            throw new IllegalArgumentException("Thieu userId");
+        }
+        return bookingMasterRepo.findByUserIdOrderByIdDesc(userId).stream()
                 .map(this::toTicketRes)
                 .toList();
     }

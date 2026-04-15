@@ -7,5 +7,6 @@ import java.util.Optional;
 
 public interface BookingCoachRepo extends JpaRepository<BookingCoach, Integer> {
     Optional<BookingCoach> findByBookingMasterId(Integer bookingMasterId);
+    void deleteByBookingMasterId(Integer bookingMasterId);
 }
 

@@ -8,6 +8,7 @@ import java.util.Optional;
 
 public interface BookingMasterRepo extends JpaRepository<BookingMaster, Integer> {
     List<BookingMaster> findByTripId(Integer tripId);
+    List<BookingMaster> findByUserIdOrderByIdDesc(Integer userId);
 
     Optional<BookingMaster> findByIdAndTripId(Integer id, Integer tripId);
 }

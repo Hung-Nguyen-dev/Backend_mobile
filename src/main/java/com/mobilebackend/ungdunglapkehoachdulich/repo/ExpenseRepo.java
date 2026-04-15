@@ -7,5 +7,6 @@ import java.util.List;
 
 public interface ExpenseRepo extends JpaRepository<Expense, Integer> {
     List<Expense> findByTripId(Integer tripId);
+    void deleteByTripId(Integer tripId);
 }
 

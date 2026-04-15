@@ -51,7 +51,20 @@ public class PaymentService {
     public PaymentInitiateRes initiatePayment(Integer tripId, Integer bookingId, PaymentInitiateReq req, String clientIp) {
         BookingMaster booking = bookingMasterRepo.findByIdAndTripId(bookingId, tripId)
                 .orElseThrow(() -> new IllegalArgumentException("Booking khong ton tai hoac khong thuoc trip"));
+        return initiatePaymentForBooking(bookingId, req, clientIp, booking);
+    }
 
+    @Transactional
+    public PaymentInitiateRes initiatePaymentWithoutTrip(Integer userId, Integer bookingId, PaymentInitiateReq req, String clientIp) {
+        BookingMaster booking = bookingMasterRepo.findById(bookingId)
+                .orElseThrow(() -> new IllegalArgumentException("Booking khong ton tai"));
+        if (userId == null || !Objects.equals(booking.getUserId(), userId)) {
+            throw new IllegalArgumentException("Booking khong thuoc nguoi dung nay");
+        }
+        return initiatePaymentForBooking(bookingId, req, clientIp, booking);
+    }
+
+    private PaymentInitiateRes initiatePaymentForBooking(Integer bookingId, PaymentInitiateReq req, String clientIp, BookingMaster booking) {
         String provider = normalizeProvider(req == null ? null : req.getProvider());
         float amount = resolveAmount(req == null ? null : req.getAmount(), booking.getTotalAmount());
         String transactionNo = generateTransactionNo(provider);

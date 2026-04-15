@@ -14,6 +14,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
+import java.util.Collections;
 import java.util.List;
 
 @Service
@@ -53,6 +54,19 @@ public class ItineraryItemService {
                 .build();
         ItineraryItem saved = itineraryItemRepo.save(item);
         return map(saved);
+    }
+
+    @Transactional(readOnly = true)
+    public List<ItineraryItemRes> listByTrip(Integer userId, Integer tripId) {
+        if (tripId == null) {
+            throw new IllegalArgumentException("Trip id khong hop le");
+        }
+        validateTripAccess(userId, tripId);
+        List<ItineraryItem> items = itineraryItemRepo.findByTripIdOrderByCreatedAtDesc(tripId);
+        if (items == null || items.isEmpty()) {
+            return Collections.emptyList();
+        }
+        return items.stream().map(this::map).toList();
     }
 
     private void validateTripAccess(Integer userId, Integer tripId) {
