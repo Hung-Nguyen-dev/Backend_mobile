@@ -40,3 +40,4 @@ uploads/
 
 ### Local secrets (Duffel / VNPAY) — never commit ###
 src/main/resources/application-local.yaml
+src/main/resources/application-dev.yaml

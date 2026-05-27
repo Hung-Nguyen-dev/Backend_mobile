@@ -1,0 +1,87 @@
+spring:
+  application:
+    name: ungdunglapkehoachdulich
+  datasource:
+    url: jdbc:mysql://localhost:3306/ung_dung_lap_ke_hoach_du_lich_test?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Ho_Chi_Minh
+    username: REPLACE_ME
+    password: REPLACE_ME
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 25MB
+
+  mail:
+    host: ${MAIL_HOST:smtp.gmail.com}
+    port: ${MAIL_PORT:587}
+    username: REPLACE_ME
+    password: REPLACE_ME
+    from: ${MAIL_FROM:your-email@example.com}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+          connectiontimeout: 5000
+          timeout: 5000
+          writetimeout: 5000
+
+server:
+  port: 8080
+  tomcat:
+    max-http-form-post-size: 25MB
+    max-swallow-size: 25MB
+
+travel:
+  flight:
+    provider: ${FLIGHT_PROVIDER:duffel}
+    duffel:
+      api-key: REPLACE_ME
+      base-url: ${DUFFEL_BASE_URL:https://api.duffel.com}
+      timeout-seconds: ${DUFFEL_TIMEOUT_SECONDS:30}
+  payment:
+    vnpay:
+      base-url: ${VNPAY_BASE_URL:https://sandbox.vnpayment.vn/paymentv2/vpcpay.html}
+      tmn-code: REPLACE_ME
+      hash-secret: REPLACE_ME
+      return-url: ${VNPAY_RETURN_URL:http://localhost:8080/api/v1/payments/vnpay/callback}
+      locale: ${VNPAY_LOCALE:vn}
+      order-type: ${VNPAY_ORDER_TYPE:other}
+    momo:
+      base-url: ${MOMO_BASE_URL:https://test-payment.momo.vn}
+      partner-code: REPLACE_ME
+      access-key: REPLACE_ME
+      secret-key: REPLACE_ME
+      redirect-url: ${MOMO_REDIRECT_URL:http://localhost:8080/api/v1/payments/momo/redirect}
+      ipn-url: ${MOMO_IPN_URL:http://localhost:8080/api/v1/payments/momo/webhook}
+      request-type: ${MOMO_REQUEST_TYPE:captureWallet}
+      lang: ${MOMO_LANG:vi}
+  places:
+    user-agent: ${NOMINATIM_USER_AGENT:UngDungLapKeHoachDuLich/1.0 (+https://github.com/mobilebackend)}
+    nominatim-from-email: ${NOMINATIM_FROM_EMAIL:}
+    nominatim-base-url: ${NOMINATIM_BASE_URL:https://nominatim.openstreetmap.org}
+    photon-base-url: ${PHOTON_BASE_URL:https://photon.komoot.io}
+    overpass-interpreter-url: ${OVERPASS_URL:https://overpass-api.de/api/interpreter}
+    overpass-fallback-urls:
+      - https://overpass.kumi.systems/api/interpreter
+      - https://overpass.openstreetmap.ru/cgi/interpreter
+    timeout-seconds: ${PLACES_TIMEOUT_SECONDS:45}
+    default-radius-meters: ${PLACES_DEFAULT_RADIUS_METERS:4000}
+    serp-api:
+      enabled: ${SERPAPI_PLACES_ENABLED:true}
+      api-key: REPLACE_ME
+      hl: vi
+      gl: vn
+      map-zoom: 14
+      fallback-to-osm: true
