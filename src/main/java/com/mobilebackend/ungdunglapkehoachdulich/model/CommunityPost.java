@@ -5,6 +5,9 @@ import lombok.*;
 
 import java.time.LocalDateTime;
 
+/**
+ * Community post entity for user-generated content.
+ */
 @Entity
 @Table(name = "community_posts")
 @Data

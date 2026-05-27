@@ -16,11 +16,17 @@ public class AdminController {
 
     private final UserService userService;
 
+    /**
+     * Admin: list all users.
+     */
     @GetMapping("/users")
     public ResponseEntity<List<User>> getUsers(@RequestHeader("X-User-Id") Integer currentUserId) {
         return ResponseEntity.ok(userService.getAllUsers(currentUserId));
     }
 
+    /**
+     * Admin: update a user's role.
+     */
     @PatchMapping("/users/{userId}/role")
     public ResponseEntity<User> updateRole(
             @RequestHeader("X-User-Id") Integer currentUserId,
@@ -29,6 +35,9 @@ public class AdminController {
         return ResponseEntity.ok(userService.updateRole(currentUserId, userId, req));
     }
 
+    /**
+     * Admin: delete a user by id.
+     */
     @DeleteMapping("/users/{userId}")
     public ResponseEntity<Void> deleteUser(
             @RequestHeader("X-User-Id") Integer currentUserId,

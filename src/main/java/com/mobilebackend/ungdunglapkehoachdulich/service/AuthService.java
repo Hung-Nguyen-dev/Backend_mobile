@@ -20,6 +20,9 @@ public class AuthService {
     private final PasswordEncoder passwordEncoder;
     private final OTPService otpService;
 
+    /**
+     * Register a new user without OTP verification (step 1).
+     */
     @Transactional
     public AuthRes register(RegisterReq req) {
         if (req == null || isBlank(req.getUsername()) || isBlank(req.getPassword()) || isBlank(req.getEmail())) {
@@ -45,6 +48,9 @@ public class AuthService {
         return fromUser(userRepo.save(user));
     }
 
+    /**
+     * Complete registration after OTP verification (step 2).
+     */
     @Transactional
     public AuthRes completeRegistration(CompleteRegistrationReq req) throws Exception {
         if (req == null || isBlank(req.getUsername()) || isBlank(req.getPassword()) ||
@@ -82,6 +88,9 @@ public class AuthService {
         return fromUser(userRepo.save(user));
     }
 
+    /**
+     * Authenticate user by username/email and password.
+     */
     public AuthRes login(LoginReq req) {
         if (req == null || isBlank(req.getIdentifier()) || isBlank(req.getPassword())) {
             throw new IllegalArgumentException("Thong tin dang nhap khong hop le");
@@ -102,6 +111,9 @@ public class AuthService {
         return fromUser(user);
     }
 
+    /**
+     * Map User entity to AuthRes DTO.
+     */
     private AuthRes fromUser(User user) {
         return AuthRes.builder()
                 .id(user.getId())
@@ -113,6 +125,9 @@ public class AuthService {
                 .build();
     }
 
+    /**
+     * Validate email is present and not already registered.
+     */
     public void validateEmailCanRegister(String email) {
         if (isBlank(email)) {
             throw new IllegalArgumentException("Email khong hop le");
@@ -122,6 +137,9 @@ public class AuthService {
         }
     }
 
+    /**
+     * Send OTP for forgot-password flow.
+     */
     @Transactional
     public void sendForgotPasswordOtp(String email) throws Exception {
         if (isBlank(email)) {
@@ -136,6 +154,9 @@ public class AuthService {
         otpService.generateAndSendOTP(normalizedEmail);
     }
 
+    /**
+     * Reset password after OTP verification.
+     */
     @Transactional
     public void resetPassword(ResetPasswordReq req) throws Exception {
         if (req == null || isBlank(req.getEmail()) || isBlank(req.getNewPassword())) {
@@ -162,6 +183,9 @@ public class AuthService {
         userRepo.save(user);
     }
 
+    /**
+     * Verify OTP in forgot-password flow.
+     */
     @Transactional
     public void verifyForgotPasswordOtp(String email, String otpCode) throws Exception {
         if (isBlank(email) || isBlank(otpCode)) {
@@ -176,6 +200,9 @@ public class AuthService {
         otpService.verifyOTP(normalizedEmail, otpCode.trim());
     }
 
+    /**
+     * Null/blank check helper.
+     */
     private boolean isBlank(String value) {
         return value == null || value.trim().isEmpty();
     }

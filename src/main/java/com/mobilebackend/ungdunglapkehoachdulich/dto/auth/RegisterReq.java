@@ -2,6 +2,9 @@ package com.mobilebackend.ungdunglapkehoachdulich.dto.auth;
 
 import lombok.Data;
 
+/**
+ * Request payload for user registration.
+ */
 @Data
 public class RegisterReq {
     private String username;

@@ -4,6 +4,9 @@ import lombok.Data;
 
 import java.util.List;
 
+/**
+ * Request payload for creating a community post.
+ */
 @Data
 public class CommunityPostCreateReq {
     private Integer tripId;

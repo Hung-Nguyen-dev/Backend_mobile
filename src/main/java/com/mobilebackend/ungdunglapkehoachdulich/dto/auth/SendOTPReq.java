@@ -3,7 +3,7 @@ package com.mobilebackend.ungdunglapkehoachdulich.dto.auth;
 import lombok.Data;
 
 /**
- * Request để gửi OTP đến email
+ * Request payload for sending OTP to an email address.
  */
 @Data
 public class SendOTPReq {

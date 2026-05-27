@@ -33,6 +33,9 @@ public class CommunityV2Service {
     private final TripRepo tripRepo;
     private final TripMemberRepo tripMemberRepo;
 
+    /**
+     * Create a new community post, optionally linked to a trip.
+     */
     @Transactional
     public CommunityPostRes createPost(Integer currentUserId, CommunityPostCreateReq req) {
         validateUserExists(currentUserId);
@@ -74,16 +77,25 @@ public class CommunityV2Service {
         return toRes(saved, currentUserId);
     }
 
+    /**
+     * Get feed of all community posts.
+     */
     public List<CommunityPostRes> getFeed(Integer currentUserId) {
         List<CommunityPost> posts = communityPostRepo.findAllByOrderByCreatedAtDesc();
         return posts.stream().map(post -> toRes(post, currentUserId)).toList();
     }
 
+    /**
+     * Get single community post by id.
+     */
     public CommunityPostRes getPost(Integer currentUserId, Integer postId) {
         CommunityPost post = findPost(postId);
         return toRes(post, currentUserId);
     }
 
+    /**
+     * List community posts by trip.
+     */
     public List<CommunityPostRes> getPostsByTrip(Integer currentUserId, Integer tripId) {
         if (!tripRepo.existsById(tripId)) {
             throw new IllegalArgumentException("Trip khong ton tai");
@@ -92,12 +104,18 @@ public class CommunityV2Service {
         return posts.stream().map(post -> toRes(post, currentUserId)).toList();
     }
 
+    /**
+     * List community posts by author.
+     */
     public List<CommunityPostRes> getPostsByUser(Integer currentUserId, Integer userId) {
         validateUserExists(userId);
         List<CommunityPost> posts = communityPostRepo.findByUserIdOrderByCreatedAtDesc(userId);
         return posts.stream().map(post -> toRes(post, currentUserId)).toList();
     }
 
+    /**
+     * List posts saved by a user (only self).
+     */
     public List<CommunityPostRes> getSavedPosts(Integer currentUserId, Integer userId) {
         if (currentUserId != null && !currentUserId.equals(userId)) {
             throw new SecurityException("Chi duoc xem saved post cua chinh minh");
@@ -112,6 +130,9 @@ public class CommunityV2Service {
                 .toList();
     }
 
+    /**
+     * Update a post if user is owner or admin.
+     */
     @Transactional
     public CommunityPostRes updatePost(Integer currentUserId, Integer postId, CommunityPostUpdateReq req) {
         CommunityPost post = findPost(postId);
@@ -134,6 +155,9 @@ public class CommunityV2Service {
         return toRes(post, currentUserId);
     }
 
+    /**
+     * Delete a post if user is owner or admin.
+     */
     @Transactional
     public void deletePost(Integer currentUserId, Integer postId) {
         CommunityPost post = findPost(postId);
@@ -143,16 +167,25 @@ public class CommunityV2Service {
         communityPostRepo.delete(post);
     }
 
+    /**
+     * Toggle like for a post.
+     */
     @Transactional
     public CommunityToggleRes toggleLike(Integer currentUserId, Integer postId) {
         return togglePostAction(currentUserId, postId, ACTION_LIKE);
     }
 
+    /**
+     * Toggle save for a post.
+     */
     @Transactional
     public CommunityToggleRes toggleSave(Integer currentUserId, Integer postId) {
         return togglePostAction(currentUserId, postId, ACTION_SAVE);
     }
 
+    /**
+     * Toggle follow/unfollow a user.
+     */
     @Transactional
     public CommunityToggleRes toggleFollowUser(Integer currentUserId, Integer targetUserId) {
         validateUserExists(currentUserId);
@@ -188,6 +221,9 @@ public class CommunityV2Service {
                 .build();
     }
 
+    /**
+     * Shared handler for like/save actions.
+     */
     private CommunityToggleRes togglePostAction(Integer currentUserId, Integer postId, String actionType) {
         validateUserExists(currentUserId);
         findPost(postId);
@@ -219,27 +255,42 @@ public class CommunityV2Service {
                 .build();
     }
 
+    /**
+     * Load post or throw if missing.
+     */
     private CommunityPost findPost(Integer postId) {
         return communityPostRepo.findById(postId)
                 .orElseThrow(() -> new IllegalArgumentException("Community post khong ton tai"));
     }
 
+    /**
+     * Validate user exists by id.
+     */
     private void validateUserExists(Integer userId) {
         if (userId == null || !userRepo.existsById(userId)) {
             throw new IllegalArgumentException("User khong ton tai");
         }
     }
 
+    /**
+     * Validate create request is not null.
+     */
     private void validateCreateReq(CommunityPostCreateReq req) {
         if (req == null) {
             throw new IllegalArgumentException("Thong tin bai viet khong hop le");
         }
     }
 
+    /**
+     * Null/blank check helper.
+     */
     private boolean isBlank(String value) {
         return value == null || value.trim().isEmpty();
     }
 
+    /**
+     * Map CommunityPost entity to response DTO with like/save metadata.
+     */
     private CommunityPostRes toRes(CommunityPost post, Integer currentUserId) {
         long likeCount = communityPostInteractionRepo.countByPostIdAndActionType(post.getId(), ACTION_LIKE);
         long saveCount = communityPostInteractionRepo.countByPostIdAndActionType(post.getId(), ACTION_SAVE);
@@ -279,6 +330,9 @@ public class CommunityV2Service {
                 .build();
     }
 
+    /**
+     * Check if user can update/delete the post.
+     */
     private boolean canManagePost(Integer currentUserId, CommunityPost post) {
         if (currentUserId == null) {
             return false;
@@ -290,6 +344,9 @@ public class CommunityV2Service {
         return user != null && "ADMIN".equalsIgnoreCase(user.getRole());
     }
 
+    /**
+     * Join image URL list to storage string.
+     */
     private String joinImageUrls(List<String> imageUrls) {
         if (imageUrls == null || imageUrls.isEmpty()) {
             return null;
@@ -297,6 +354,9 @@ public class CommunityV2Service {
         return String.join(",", imageUrls);
     }
 
+    /**
+     * Split stored image URL string to list.
+     */
     private List<String> splitImageUrls(String value) {
         if (isBlank(value)) {
             return List.of();
@@ -310,6 +370,9 @@ public class CommunityV2Service {
                 .toList();
     }
 
+    /**
+     * Normalize image URL inputs and remove duplicates.
+     */
     private List<String> normalizeImageUrls(List<String> imageUrls, String fallbackImageUrl) {
         List<String> normalized = new ArrayList<>();
 

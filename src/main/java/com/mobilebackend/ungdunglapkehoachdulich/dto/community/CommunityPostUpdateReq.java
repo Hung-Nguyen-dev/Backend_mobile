@@ -4,6 +4,9 @@ import lombok.Data;
 
 import java.util.List;
 
+/**
+ * Request payload for updating a community post.
+ */
 @Data
 public class CommunityPostUpdateReq {
     private String title;

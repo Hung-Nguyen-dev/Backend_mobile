@@ -3,6 +3,9 @@ package com.mobilebackend.ungdunglapkehoachdulich.model;
 import jakarta.persistence.*;
 import lombok.*;
 
+/**
+ * Email OTP entity for registration and password reset flows.
+ */
 @Entity
 @Table(name = "email_otps")
 @Data

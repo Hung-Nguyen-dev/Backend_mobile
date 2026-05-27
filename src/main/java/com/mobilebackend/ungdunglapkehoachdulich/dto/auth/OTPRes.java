@@ -5,7 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 
 /**
- * Response sau khi gửi OTP thành công
+ * Response payload after sending OTP.
  */
 @Data
 @Builder

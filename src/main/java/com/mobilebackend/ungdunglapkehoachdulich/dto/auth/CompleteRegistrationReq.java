@@ -3,7 +3,7 @@ package com.mobilebackend.ungdunglapkehoachdulich.dto.auth;
 import lombok.Data;
 
 /**
- * Request để hoàn tất đăng ký sau khi xác thực OTP
+ * Request payload to complete registration after OTP verification.
  */
 @Data
 public class CompleteRegistrationReq {

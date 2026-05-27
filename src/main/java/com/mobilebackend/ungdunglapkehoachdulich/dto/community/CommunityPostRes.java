@@ -6,6 +6,9 @@ import lombok.Data;
 import java.time.LocalDateTime;
 import java.util.List;
 
+/**
+ * Response payload for community post with interaction metadata.
+ */
 @Data
 @Builder
 public class CommunityPostRes {
