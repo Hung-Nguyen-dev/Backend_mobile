@@ -3,6 +3,9 @@ package com.mobilebackend.ungdunglapkehoachdulich.model;
 import jakarta.persistence.*;
 import lombok.*;
 
+/**
+ * Interaction entity for user actions on legacy posts.
+ */
 @Entity
 @Table(name = "user_interactions")
 @Data

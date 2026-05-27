@@ -5,6 +5,9 @@ import lombok.*;
 
 import java.time.LocalDateTime;
 
+/**
+ * Follow relationship entity for community users.
+ */
 @Entity
 @Table(name = "community_follows")
 @Data

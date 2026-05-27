@@ -7,6 +7,9 @@ import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
 
+/**
+ * Repository for email OTP lookups.
+ */
 @Repository
 public interface EmailOTPRepo extends JpaRepository<EmailOTP, Long> {
     

@@ -3,6 +3,9 @@ package com.mobilebackend.ungdunglapkehoachdulich.model;
 import jakarta.persistence.*;
 import lombok.*;
 
+/**
+ * Legacy post entity used for user profile listing.
+ */
 @Entity
 @Table(name = "posts")
 @Data

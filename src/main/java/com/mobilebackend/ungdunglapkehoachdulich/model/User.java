@@ -3,6 +3,9 @@ package com.mobilebackend.ungdunglapkehoachdulich.model;
 import jakarta.persistence.*;
 import lombok.*;
 
+/**
+ * User entity for authentication, profile, and role management.
+ */
 @Entity
 @Table(name = "users")
 @Data

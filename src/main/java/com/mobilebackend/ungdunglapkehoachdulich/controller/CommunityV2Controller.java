@@ -22,6 +22,9 @@ public class CommunityV2Controller {
     private final CommunityV2Service communityV2Service;
     private final CloudinaryStorageService cloudinaryStorageService;
 
+    /**
+     * Upload image for community posts.
+     */
     @PostMapping(value = "/uploads/image", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     public ResponseEntity<Map<String, String>> uploadImage(
             @RequestHeader("X-User-Id") Integer currentUserId,
@@ -43,6 +46,9 @@ public class CommunityV2Controller {
         return ResponseEntity.ok(Map.of("imageUrl", imageUrl));
     }
 
+    /**
+     * Create a new community post.
+     */
     @PostMapping("/posts")
     public ResponseEntity<CommunityPostRes> createPost(
             @RequestHeader("X-User-Id") Integer currentUserId,
@@ -50,12 +56,18 @@ public class CommunityV2Controller {
         return ResponseEntity.ok(communityV2Service.createPost(currentUserId, req));
     }
 
+    /**
+     * Get community feed.
+     */
     @GetMapping("/posts")
     public ResponseEntity<List<CommunityPostRes>> getFeed(
             @RequestHeader(value = "X-User-Id", required = false) Integer currentUserId) {
         return ResponseEntity.ok(communityV2Service.getFeed(currentUserId));
     }
 
+    /**
+     * Get a single community post.
+     */
     @GetMapping("/posts/{postId}")
     public ResponseEntity<CommunityPostRes> getPost(
             @RequestHeader(value = "X-User-Id", required = false) Integer currentUserId,
@@ -63,6 +75,9 @@ public class CommunityV2Controller {
         return ResponseEntity.ok(communityV2Service.getPost(currentUserId, postId));
     }
 
+    /**
+     * Update a community post.
+     */
     @PutMapping("/posts/{postId}")
     public ResponseEntity<CommunityPostRes> updatePost(
             @RequestHeader("X-User-Id") Integer currentUserId,
@@ -71,6 +86,9 @@ public class CommunityV2Controller {
         return ResponseEntity.ok(communityV2Service.updatePost(currentUserId, postId, req));
     }
 
+    /**
+     * Delete a community post.
+     */
     @DeleteMapping("/posts/{postId}")
     public ResponseEntity<Void> deletePost(
             @RequestHeader("X-User-Id") Integer currentUserId,
@@ -79,6 +97,9 @@ public class CommunityV2Controller {
         return ResponseEntity.noContent().build();
     }
 
+    /**
+     * Get posts linked to a trip.
+     */
     @GetMapping("/trips/{tripId}/posts")
     public ResponseEntity<List<CommunityPostRes>> getPostsByTrip(
             @RequestHeader(value = "X-User-Id", required = false) Integer currentUserId,
@@ -86,6 +107,9 @@ public class CommunityV2Controller {
         return ResponseEntity.ok(communityV2Service.getPostsByTrip(currentUserId, tripId));
     }
 
+    /**
+     * Get posts by user.
+     */
     @GetMapping("/users/{userId}/posts")
     public ResponseEntity<List<CommunityPostRes>> getPostsByUser(
             @RequestHeader(value = "X-User-Id", required = false) Integer currentUserId,
@@ -93,6 +117,9 @@ public class CommunityV2Controller {
         return ResponseEntity.ok(communityV2Service.getPostsByUser(currentUserId, userId));
     }
 
+    /**
+     * Get saved posts of a user (self only).
+     */
     @GetMapping("/users/{userId}/saved")
     public ResponseEntity<List<CommunityPostRes>> getSavedPosts(
             @RequestHeader(value = "X-User-Id", required = false) Integer currentUserId,
@@ -100,6 +127,9 @@ public class CommunityV2Controller {
         return ResponseEntity.ok(communityV2Service.getSavedPosts(currentUserId, userId));
     }
 
+    /**
+     * Toggle like for a post.
+     */
     @PostMapping("/posts/{postId}/likes/toggle")
     public ResponseEntity<CommunityToggleRes> toggleLike(
             @RequestHeader("X-User-Id") Integer currentUserId,
@@ -107,6 +137,9 @@ public class CommunityV2Controller {
         return ResponseEntity.ok(communityV2Service.toggleLike(currentUserId, postId));
     }
 
+    /**
+     * Toggle save for a post.
+     */
     @PostMapping("/posts/{postId}/saves/toggle")
     public ResponseEntity<CommunityToggleRes> toggleSave(
             @RequestHeader("X-User-Id") Integer currentUserId,
@@ -114,6 +147,9 @@ public class CommunityV2Controller {
         return ResponseEntity.ok(communityV2Service.toggleSave(currentUserId, postId));
     }
 
+    /**
+     * Toggle follow/unfollow a user.
+     */
     @PostMapping("/users/{targetUserId}/follow/toggle")
     public ResponseEntity<CommunityToggleRes> toggleFollow(
             @RequestHeader("X-User-Id") Integer currentUserId,

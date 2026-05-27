@@ -21,16 +21,25 @@ public class UserController {
 
     private final UserService userService;
 
+    /**
+     * Get current user profile.
+     */
     @GetMapping("/me")
     public ResponseEntity<User> getMe(@RequestHeader("X-User-Id") Integer currentUserId) {
         return ResponseEntity.ok(userService.getUser(currentUserId));
     }
 
+    /**
+     * Get user profile by id.
+     */
     @GetMapping("/{userId}")
     public ResponseEntity<User> getUser(@PathVariable Integer userId) {
         return ResponseEntity.ok(userService.getUser(userId));
     }
 
+    /**
+     * Update profile for self or admin.
+     */
     @PutMapping("/{userId}")
     public ResponseEntity<User> updateProfile(
             @RequestHeader("X-User-Id") Integer currentUserId,
@@ -39,6 +48,9 @@ public class UserController {
         return ResponseEntity.ok(userService.updateProfile(currentUserId, userId, req));
     }
 
+    /**
+     * Upload and update user avatar.
+     */
     @PostMapping(value = "/{userId}/avatar", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     public ResponseEntity<Map<String, String>> uploadAvatar(
             @RequestHeader("X-User-Id") Integer currentUserId,
@@ -47,6 +59,9 @@ public class UserController {
         return ResponseEntity.ok(Map.of("avatarUrl", userService.uploadAvatar(currentUserId, userId, image)));
     }
 
+    /**
+     * Get trips for a user.
+     */
     @GetMapping("/{userId}/trips")
     public ResponseEntity<List<Trip>> getTrips(
             @RequestHeader("X-User-Id") Integer currentUserId,
@@ -54,6 +69,9 @@ public class UserController {
         return ResponseEntity.ok(userService.getTrips(currentUserId, userId));
     }
 
+    /**
+     * Get posts authored by a user.
+     */
     @GetMapping("/{userId}/posts")
     public ResponseEntity<List<Post>> getPosts(
             @RequestHeader("X-User-Id") Integer currentUserId,
@@ -61,6 +79,9 @@ public class UserController {
         return ResponseEntity.ok(userService.getPosts(currentUserId, userId));
     }
 
+    /**
+     * Get posts by interaction type (LIKE/SAVE).
+     */
     @GetMapping("/{userId}/posts/{actionType}")
     public ResponseEntity<List<Post>> getPostsByAction(
             @RequestHeader("X-User-Id") Integer currentUserId,

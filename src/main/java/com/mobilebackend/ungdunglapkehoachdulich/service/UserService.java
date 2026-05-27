@@ -30,11 +30,17 @@ public class UserService {
     private final PasswordEncoder passwordEncoder;
     private final CloudinaryStorageService cloudinaryStorageService;
 
+    /**
+     * Load a user by id or throw if not found.
+     */
     public User getUser(Integer userId) {
         return userRepo.findById(userId)
                 .orElseThrow(() -> new IllegalArgumentException("User khong ton tai"));
     }
 
+    /**
+     * Update profile information for a user (self or admin).
+     */
     @Transactional
     public User updateProfile(Integer currentUserId, Integer targetUserId, UpdateProfileReq req) {
         authorizeSelfOrAdmin(currentUserId, targetUserId);
@@ -78,6 +84,9 @@ public class UserService {
         return userRepo.save(user);
     }
 
+    /**
+     * Upload avatar image and update profile (self or admin).
+     */
     @Transactional
     public String uploadAvatar(Integer currentUserId, Integer targetUserId, MultipartFile image) throws Exception {
         authorizeSelfOrAdmin(currentUserId, targetUserId);
@@ -98,16 +107,25 @@ public class UserService {
         return avatarUrl;
     }
 
+    /**
+     * Get trips owned by or joined by a user.
+     */
     public List<Trip> getTrips(Integer currentUserId, Integer targetUserId) {
         authorizeSelfOrAdmin(currentUserId, targetUserId);
         return tripRepo.findAllByOwnerOrMemberOrderByIdDesc(targetUserId);
     }
 
+    /**
+     * Get posts authored by a user.
+     */
     public List<Post> getPosts(Integer currentUserId, Integer targetUserId) {
         authorizeSelfOrAdmin(currentUserId, targetUserId);
         return postRepo.findByUserIdOrderByIdDesc(targetUserId);
     }
 
+    /**
+     * Get posts by interaction type (LIKE/SAVE).
+     */
     public List<Post> getPostsByAction(Integer currentUserId, Integer targetUserId, String actionType) {
         authorizeSelfOrAdmin(currentUserId, targetUserId);
 
@@ -118,11 +136,17 @@ public class UserService {
                 .collect(Collectors.toList());
     }
 
+    /**
+     * Admin: list all users.
+     */
     public List<User> getAllUsers(Integer currentUserId) {
         requireAdmin(currentUserId);
         return userRepo.findAll();
     }
 
+    /**
+     * Admin: update user role.
+     */
     @Transactional
     public User updateRole(Integer currentUserId, Integer targetUserId, UpdateRoleReq req) {
         requireAdmin(currentUserId);
@@ -135,6 +159,9 @@ public class UserService {
         return userRepo.save(user);
     }
 
+    /**
+     * Admin: delete user by id.
+     */
     @Transactional
     public void deleteUser(Integer currentUserId, Integer targetUserId) {
         requireAdmin(currentUserId);
@@ -142,6 +169,9 @@ public class UserService {
         userRepo.delete(user);
     }
 
+    /**
+     * Guard that allows self or admin only.
+     */
     private void authorizeSelfOrAdmin(Integer currentUserId, Integer targetUserId) {
         if (currentUserId == null || targetUserId == null) {
             throw new IllegalArgumentException("userId khong duoc de trong");
@@ -152,6 +182,9 @@ public class UserService {
         requireAdmin(currentUserId);
     }
 
+    /**
+     * Ensure current user is admin.
+     */
     private void requireAdmin(Integer currentUserId) {
         User currentUser = getUser(currentUserId);
         if (!"ADMIN".equalsIgnoreCase(currentUser.getRole())) {
@@ -159,6 +192,9 @@ public class UserService {
         }
     }
 
+    /**
+     * Normalize action type input.
+     */
     private String normalizeActionType(String actionType) {
         if (actionType == null || actionType.trim().isEmpty()) {
             throw new IllegalArgumentException("actionType khong hop le");

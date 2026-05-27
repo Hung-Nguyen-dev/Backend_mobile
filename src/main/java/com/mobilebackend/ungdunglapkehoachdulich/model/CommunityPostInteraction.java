@@ -5,6 +5,9 @@ import lombok.*;
 
 import java.time.LocalDateTime;
 
+/**
+ * Like/save interaction entity for community posts.
+ */
 @Entity
 @Table(name = "community_post_interactions")
 @Data

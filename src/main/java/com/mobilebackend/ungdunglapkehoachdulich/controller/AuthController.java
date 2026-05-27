@@ -23,7 +23,7 @@ public class AuthController {
     private int otpExpiryMinutes;
 
     /**
-     * Đăng ký - Bước 1: Tạo user account (chưa xác thực email)
+     * Register step 1: create user account without OTP verification.
      */
     @PostMapping("/register")
     public ResponseEntity<AuthRes> register(@RequestBody RegisterReq req) {
@@ -31,7 +31,7 @@ public class AuthController {
     }
 
     /**
-     * Gửi OTP đến email của người dùng
+     * Send OTP to user email for registration.
      */
     @PostMapping("/send-otp")
     public ResponseEntity<OTPRes> sendOTP(@RequestBody SendOTPReq req) {
@@ -63,7 +63,7 @@ public class AuthController {
     }
 
     /**
-     * Xác thực OTP
+     * Verify OTP for registration.
      */
     @PostMapping("/verify-otp")
     public ResponseEntity<?> verifyOTP(@RequestBody VerifyOTPReq req) {
@@ -85,7 +85,7 @@ public class AuthController {
     }
 
     /**
-     * Hoàn tất đăng ký - Bước 2: Tạo user sau khi xác thực OTP
+     * Complete registration after OTP verification.
      */
     @PostMapping("/complete-registration")
     public ResponseEntity<?> completeRegistration(@RequestBody CompleteRegistrationReq req) {
@@ -99,13 +99,16 @@ public class AuthController {
     }
 
     /**
-     * Đăng nhập
+     * Login by username/email and password.
      */
     @PostMapping("/login")
     public ResponseEntity<AuthRes> login(@RequestBody LoginReq req) {
         return ResponseEntity.ok(authService.login(req));
     }
 
+    /**
+     * Send OTP for forgot-password flow.
+     */
     @PostMapping("/forgot-password/send-otp")
     public ResponseEntity<?> sendForgotPasswordOtp(@RequestBody ForgotPasswordReq req) {
         try {
@@ -124,6 +127,9 @@ public class AuthController {
         }
     }
 
+    /**
+     * Verify OTP for forgot-password flow.
+     */
     @PostMapping("/forgot-password/verify-otp")
     public ResponseEntity<?> verifyForgotPasswordOtp(@RequestBody VerifyOTPReq req) {
         try {
@@ -138,6 +144,9 @@ public class AuthController {
         }
     }
 
+    /**
+     * Reset password after OTP verification.
+     */
     @PostMapping("/forgot-password/reset")
     public ResponseEntity<?> resetForgotPassword(@RequestBody ResetPasswordReq req) {
         try {
@@ -149,7 +158,7 @@ public class AuthController {
     }
 
     /**
-     * Helper class for error response
+     * Error response wrapper for simple messages.
      */
     public static class ErrorRes {
         public String message;
@@ -168,7 +177,7 @@ public class AuthController {
     }
 
     /**
-     * Helper class for success response
+     * Success response wrapper for simple messages.
      */
     public static class SuccessRes {
         public String message;
