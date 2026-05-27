@@ -23,6 +23,10 @@ import com.mobilebackend.ungdunglapkehoachdulich.util.GeoUtils;
 import org.springframework.stereotype.Service;
 
 @Service
+/**
+ * Service sinh lịch trình AI theo tham số người dùng.
+ * Lớp này chịu trách nhiệm chọn địa điểm, sắp xếp theo thời gian, ngân sách và sở thích.
+ */
 public class AiItineraryService {
 
     private final CityDataService cityDataService;
@@ -31,6 +35,7 @@ public class AiItineraryService {
         this.cityDataService = cityDataService;
     }
 
+    /** Chuẩn hóa mức hoạt động về các giá trị nội bộ cố định. */
     private String normalizeActivityLevel(String level) {
         if (level == null) return "vua";
         String value = level.trim().toLowerCase(Locale.ROOT);
@@ -39,12 +44,14 @@ public class AiItineraryService {
         return "vua";
     }
 
+    /** Xác định số lượng hoạt động mục tiêu cho mỗi ngày dựa trên mức hoạt động. */
     private int activityTargetCount(String level) {
         String normalized = normalizeActivityLevel(level);
         if ("it".equals(normalized)) return 3;
         return 5;
     }
 
+    /** Sinh lịch trình hoàn chỉnh từ request đầu vào của người dùng. */
     public AiItineraryResponse generate(AiItineraryRequest req) {
         String destination = req.getDestination() == null ? "" : req.getDestination().trim();
         if (destination.isEmpty()) {
@@ -57,14 +64,14 @@ public class AiItineraryService {
         List<CityPlace> restaurants = new ArrayList<>(cityDataService.getPlaces(destination, "restaurant"));
         List<CityPlace> cafes = new ArrayList<>(cityDataService.getPlaces(destination, "cafe"));
 
-        // Sort by preference score
+        // Sắp xếp địa điểm theo mức phù hợp với sở thích người dùng.
         sortPlacesByPreference(tourism, req.getPreferences());
         sortPlacesByPreference(restaurants, req.getPreferences());
         sortPlacesByPreference(cafes, req.getPreferences());
 
         List<SuggestedDay> dayList = new ArrayList<>();
         
-        // Track used IDs across the whole trip to avoid duplicates
+        // Theo dõi địa điểm đã dùng để tránh lặp lại trong cùng một chuyến đi.
         Set<String> usedPlaceIds = new HashSet<>();
 
         for (int dayIndex = 1; dayIndex <= days; dayIndex++) {
@@ -78,7 +85,7 @@ public class AiItineraryService {
             CityPlace beachCandidate = wantsBeach ? findBeachCandidate(tourism) : null;
             CityPlace foodCandidate = wantsFood ? findFoodCandidate(restaurants, cafes) : null;
 
-            // 1. Morning 1 (Attraction)
+            // Buổi sáng: ưu tiên điểm tham quan đầu tiên hoặc bãi biển nếu người dùng thích biển.
             CityPlace m1 = null;
             if (dayIndex == 1 && beachCandidate != null && !usedPlaceIds.contains(beachCandidate.placeId())) {
                 m1 = beachCandidate;
@@ -100,7 +107,7 @@ public class AiItineraryService {
                 usedPlaceIds.add(foodCandidate.placeId());
             }
 
-            // 2. Morning 2 (Attraction)
+            // Buổi sáng tiếp theo: chọn địa điểm gần vị trí hiện tại để giảm di chuyển.
             CityPlace m2 = dayActivities.size() < activityTarget ? pickNearest(currentLat, currentLon, tourism, usedPlaceIds, "10:30", req.getBudgetTier()) : null;
             if (m2 != null && dayActivities.size() < activityTarget) {
                 dayActivities.add(toActivity(m2, "act-" + dayIndex + "-2", "10:30", "1.5h"));
@@ -109,7 +116,7 @@ public class AiItineraryService {
                 usedPlaceIds.add(m2.placeId());
             }
 
-            // 3. Lunch (Restaurant)
+            // Buổi trưa: chèn nhà hàng để cân bằng giữa tham quan và ăn uống.
             CityPlace lunch = dayActivities.size() < activityTarget ? pickNearest(currentLat, currentLon, restaurants, usedPlaceIds, "12:00", req.getBudgetTier()) : null;
             if (lunch != null && dayActivities.size() < activityTarget) {
                 dayActivities.add(toActivityAsFood("lunch-" + dayIndex, lunch, "Bữa trưa", "12:00", "1.5h"));
@@ -119,7 +126,7 @@ public class AiItineraryService {
                 usedPlaceIds.add(lunch.placeId());
             }
 
-            // 4. Afternoon 1 (Attraction)
+            // Buổi chiều: tiếp tục chọn điểm tham quan theo vị trí và ngân sách.
             CityPlace a1 = dayActivities.size() < activityTarget ? pickNearest(currentLat, currentLon, tourism, usedPlaceIds, "14:00", req.getBudgetTier()) : null;
             if (a1 != null && dayActivities.size() < activityTarget) {
                 dayActivities.add(toActivity(a1, "act-" + dayIndex + "-3", "14:00", "2h"));
@@ -128,7 +135,7 @@ public class AiItineraryService {
                 usedPlaceIds.add(a1.placeId());
             }
 
-            // 5. Afternoon 2 (Attraction)
+            // Buổi chiều muộn: bổ sung thêm một hoạt động nếu lịch còn chỗ.
             CityPlace a2 = dayActivities.size() < activityTarget ? pickNearest(currentLat, currentLon, tourism, usedPlaceIds, "16:15", req.getBudgetTier()) : null;
             if (a2 != null && dayActivities.size() < activityTarget) {
                 dayActivities.add(toActivity(a2, "act-" + dayIndex + "-4", "16:15", "1.5h"));
@@ -137,7 +144,7 @@ public class AiItineraryService {
                 usedPlaceIds.add(a2.placeId());
             }
 
-            // 6. Cafe (Cafe)
+            // Cuối buổi chiều: chèn quán cafe để lịch trình tự nhiên và có khoảng nghỉ.
             CityPlace coffee = dayActivities.size() < activityTarget ? pickNearest(currentLat, currentLon, cafes, usedPlaceIds, "18:00", req.getBudgetTier()) : null;
             if (coffee != null && dayActivities.size() < activityTarget) {
                 dayActivities.add(toActivityAsFood("cafe-" + dayIndex, coffee, "Thư giãn cafe", "18:00", "1h"));
@@ -147,7 +154,7 @@ public class AiItineraryService {
                 usedPlaceIds.add(coffee.placeId());
             }
 
-            // 7. Dinner (Restaurant)
+            // Buổi tối: thêm bữa tối hoặc nhà hàng phù hợp.
             CityPlace dinner = dayActivities.size() < activityTarget ? pickNearest(currentLat, currentLon, restaurants, usedPlaceIds, "19:30", req.getBudgetTier()) : null;
             if (dinner != null && dayActivities.size() < activityTarget) {
                 dayActivities.add(toActivityAsFood("dinner-" + dayIndex, dinner, "Bữa tối", "19:30", "1.5h"));
@@ -157,7 +164,7 @@ public class AiItineraryService {
                 usedPlaceIds.add(dinner.placeId());
             }
 
-            // 8. Night (Attraction)
+            // Buổi tối muộn: thêm một điểm tham quan cuối ngày nếu vẫn còn slot.
             CityPlace night = dayActivities.size() < activityTarget ? pickNearest(currentLat, currentLon, tourism, usedPlaceIds, "21:15", req.getBudgetTier()) : null;
             if (night != null && dayActivities.size() < activityTarget) {
                 dayActivities.add(toActivity(night, "act-" + dayIndex + "-5", "21:15", "1h"));
@@ -180,6 +187,7 @@ public class AiItineraryService {
         return new AiItineraryResponse(summary, totalEmpty ? Collections.emptyList() : dayList, Instant.now().toString());
     }
 
+    /** Sắp xếp danh sách địa điểm theo độ khớp sở thích, sau đó ưu tiên đánh giá cao. */
     private void sortPlacesByPreference(List<CityPlace> places, List<String> prefs) {
         if (places.isEmpty() || prefs == null || prefs.isEmpty()) {
             Collections.shuffle(places);
@@ -198,6 +206,7 @@ public class AiItineraryService {
         });
     }
 
+    /** Tính điểm ưu tiên cho một địa điểm dựa trên từ khóa sở thích của người dùng. */
     private int calculateScore(CityPlace p, List<String> prefs) {
         int score = 0;
         String text = (p.title() + " " + p.type() + " " + p.description()).toLowerCase(Locale.ROOT);

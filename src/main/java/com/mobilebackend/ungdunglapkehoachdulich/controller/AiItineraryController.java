@@ -17,6 +17,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/v1/ai")
 @CrossOrigin(origins = "*")
+/**
+ * Controller xử lý các API liên quan đến chatbot sinh lịch trình AI.
+ * Lớp này chỉ nhận request từ client và chuyển xuống service để xử lý nghiệp vụ.
+ */
 public class AiItineraryController {
 
     private final AiItineraryService aiItineraryService;
@@ -27,11 +31,13 @@ public class AiItineraryController {
         this.cityDataService = cityDataService;
     }
 
+    /** Nhận yêu cầu sinh lịch trình từ frontend và trả về kết quả gợi ý theo ngày. */
     @PostMapping("/itinerary")
     public AiItineraryResponse suggest(@RequestBody AiItineraryRequest req) {
         return aiItineraryService.generate(req);
     }
 
+    /** Cung cấp dữ liệu địa điểm theo thành phố và danh mục để chatbot tra cứu nhanh. */
     @GetMapping("/city-data")
     public List<CityPlace> cityData(
             @RequestParam String destination,
